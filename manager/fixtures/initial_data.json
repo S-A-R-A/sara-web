@@ -1,38 +1,38 @@
 [
     {
         "model": "manager.Institution",
-        "fields":  {
-                "id": 1,
-                "acronym": "IFBA",
-                "name": "Instituto Federal de Educação Ciência e Tecnologia"
+        "fields": {
+            "id": 1,
+            "acronym": "IFBA",
+            "name": "Instituto Federal de Educação Ciência e Tecnologia"
         }
     },
     {
         "model": "manager.Campus",
-        "fields":  {
-                "id": 1,
-                "name": "Salvador",
-                "address": "R. Emídio dos Santos, s/n - Barbalho",
-                "institution": 1
+        "fields": {
+            "id": 1,
+            "name": "Salvador",
+            "address": "R. Emídio dos Santos, s/n - Barbalho",
+            "institution": 1
         }
     },
     {
         "model": "manager.RequirementType",
-        "fields":  {
-                "id": 1,
-                "name": "Equipamento"
+        "fields": {
+            "id": 1,
+            "name": "Equipamento"
         }
     },
     {
         "model": "manager.RequirementType",
-        "fields":  {
-                "id": 2,
-                "name": "Acessibilidade"
+        "fields": {
+            "id": 2,
+            "name": "Acessibilidade"
         }
     },
     {
         "model": "manager.Requirement",
-        "fields":  {
+        "fields": {
             "id": "1",
             "description": "DataShow",
             "type": 1
@@ -40,7 +40,7 @@
     },
     {
         "model": "manager.Requirement",
-        "fields":  {
+        "fields": {
             "id": "2",
             "description": "Rampa de Acesso",
             "type": 2
@@ -48,7 +48,7 @@
     },
     {
         "model": "manager.Requirement",
-        "fields":  {
+        "fields": {
             "id": "3",
             "description": "Elevador",
             "type": 2
@@ -56,8 +56,8 @@
     },
     {
         "model": "manager.Area",
-        "fields":  {
-            "id":1,
+        "fields": {
+            "id": 1,
             "code": "Bloco A",
             "description": "Prédio Administrativo",
             "campus": 1
@@ -65,8 +65,8 @@
     },
     {
         "model": "manager.Area",
-        "fields":  {
-            "id":2,
+        "fields": {
+            "id": 2,
             "code": "Bloco B",
             "description": "Antigo Pav 1",
             "campus": 1
@@ -74,8 +74,8 @@
     },
     {
         "model": "manager.Area",
-        "fields":  {
-            "id":3,
+        "fields": {
+            "id": 3,
             "code": "Bloco D",
             "description": "Antigo Pav 2",
             "campus": 1
@@ -83,8 +83,8 @@
     },
     {
         "model": "manager.Area",
-        "fields":  {
-            "id":4,
+        "fields": {
+            "id": 4,
             "code": "Bloco E",
             "description": "Eletrotécnica",
             "campus": 1
@@ -92,8 +92,8 @@
     },
     {
         "model": "manager.Area",
-        "fields":  {
-            "id":5,
+        "fields": {
+            "id": 5,
             "code": "Bloco F",
             "description": "Prédio Física",
             "campus": 1
@@ -101,8 +101,8 @@
     },
     {
         "model": "manager.Area",
-        "fields":  {
-            "id":6,
+        "fields": {
+            "id": 6,
             "code": "Bloco G",
             "description": "Canteiro de Obras",
             "campus": 1
@@ -110,8 +110,8 @@
     },
     {
         "model": "manager.Area",
-        "fields":  {
-            "id":7,
+        "fields": {
+            "id": 7,
             "code": "Bloco H",
             "description": "Prédio Física",
             "campus": 1
@@ -119,8 +119,8 @@
     },
     {
         "model": "manager.Area",
-        "fields":  {
-            "id":8,
+        "fields": {
+            "id": 8,
             "code": "Bloco K",
             "description": "Biblioteca",
             "campus": 1
@@ -128,8 +128,8 @@
     },
     {
         "model": "manager.Area",
-        "fields":  {
-            "id":9,
+        "fields": {
+            "id": 9,
             "code": "Bloco L",
             "description": "Metalurgia",
             "campus": 1
@@ -137,8 +137,8 @@
     },
     {
         "model": "manager.Area",
-        "fields":  {
-            "id":10,
+        "fields": {
+            "id": 10,
             "code": "Bloco O",
             "description": "Antigo Pav 7",
             "campus": 1
@@ -146,8 +146,8 @@
     },
     {
         "model": "manager.Area",
-        "fields":  {
-            "id":11,
+        "fields": {
+            "id": 11,
             "code": "Bloco P",
             "description": "Antigo Pav 8",
             "campus": 1
@@ -155,8 +155,8 @@
     },
     {
         "model": "manager.Area",
-        "fields":  {
-            "id":12,
+        "fields": {
+            "id": 12,
             "code": "Labs Automação",
             "description": "",
             "campus": 1
@@ -164,8 +164,8 @@
     },
     {
         "model": "manager.Area",
-        "fields":  {
-            "id":13,
+        "fields": {
+            "id": 13,
             "code": "Labs Física",
             "description": "",
             "campus": 1
@@ -173,8 +173,8 @@
     },
     {
         "model": "manager.Area",
-        "fields":  {
-            "id":14,
+        "fields": {
+            "id": 14,
             "code": "Labs Informática (1 - 4)",
             "description": "",
             "campus": 1
@@ -182,8 +182,8 @@
     },
     {
         "model": "manager.Area",
-        "fields":  {
-            "id":15,
+        "fields": {
+            "id": 15,
             "code": "Labs Química",
             "description": "",
             "campus": 1
@@ -191,8 +191,8 @@
     },
     {
         "model": "manager.Area",
-        "fields":  {
-            "id":16,
+        "fields": {
+            "id": 16,
             "code": "LAFIR",
             "description": "",
             "campus": 1
@@ -200,31 +200,31 @@
     },
     {
         "model": "manager.RoomType",
-        "fields":  {
-                "id": 1,
-                "name": "Sala de Aula"
+        "fields": {
+            "id": 1,
+            "name": "Sala de Aula"
         }
     },
     {
         "model": "manager.RoomType",
-        "fields":  {
-                "id": 2,
-                "name": "Auditório"
+        "fields": {
+            "id": 2,
+            "name": "Auditório"
         }
     },
     {
         "model": "manager.RoomType",
-        "fields":  {
-                "id": 3,
-                "name": "Laboratório de Informática"
+        "fields": {
+            "id": 3,
+            "name": "Laboratório de Informática"
         }
     },
     {
         "model": "manager.Room",
-        "fields":  {
-            "id":1,
-            "code":"LAB 01",
-            "description":"Laboratório de Informática I",
+        "fields": {
+            "id": 1,
+            "code": "LAB 01",
+            "description": "Laboratório de Informática I",
             "capacity": 20,
             "type": 3,
             "area": 14
@@ -232,10 +232,10 @@
     },
     {
         "model": "manager.Room",
-        "fields":  {
-            "id":2,
-            "code":"LAB 02",
-            "description":"Laboratório de Informática II",
+        "fields": {
+            "id": 2,
+            "code": "LAB 02",
+            "description": "Laboratório de Informática II",
             "capacity": 40,
             "type": 3,
             "area": 14
@@ -243,10 +243,10 @@
     },
     {
         "model": "manager.Room",
-        "fields":  {
-            "id":3,
-            "code":"LAB 03",
-            "description":"Laboratório de Informática III",
+        "fields": {
+            "id": 3,
+            "code": "LAB 03",
+            "description": "Laboratório de Informática III",
             "capacity": 40,
             "type": 3,
             "area": 14
@@ -254,10 +254,10 @@
     },
     {
         "model": "manager.Room",
-        "fields":  {
-            "id":4,
-            "code":"LAB 04",
-            "description":"Laboratório de Informática IV",
+        "fields": {
+            "id": 4,
+            "code": "LAB 04",
+            "description": "Laboratório de Informática IV",
             "capacity": 40,
             "type": 3,
             "area": 14
@@ -265,10 +265,10 @@
     },
     {
         "model": "manager.Room",
-        "fields":  {
-            "id":5,
-            "code":"O-120",
-            "description":"ITCP",
+        "fields": {
+            "id": 5,
+            "code": "O-120",
+            "description": "ITCP",
             "capacity": 30,
             "type": 1,
             "area": 10
@@ -276,10 +276,10 @@
     },
     {
         "model": "manager.Room",
-        "fields":  {
-            "id":6,
-            "code":"O-203",
-            "description":"S 06",
+        "fields": {
+            "id": 6,
+            "code": "O-203",
+            "description": "S 06",
             "capacity": 50,
             "type": 1,
             "area": 10
@@ -287,10 +287,10 @@
     },
     {
         "model": "manager.Room",
-        "fields":  {
-            "id":7,
-            "code":"O-205",
-            "description":"S 08",
+        "fields": {
+            "id": 7,
+            "code": "O-205",
+            "description": "S 08",
             "capacity": 40,
             "type": 1,
             "area": 10
@@ -298,10 +298,10 @@
     },
     {
         "model": "manager.Room",
-        "fields":  {
-            "id":8,
-            "code":"O-207",
-            "description":"S 10",
+        "fields": {
+            "id": 8,
+            "code": "O-207",
+            "description": "S 10",
             "capacity": 40,
             "type": 1,
             "area": 10
@@ -309,10 +309,10 @@
     },
     {
         "model": "manager.Room",
-        "fields":  {
-            "id":9,
-            "code":"O-209",
-            "description":"S 12",
+        "fields": {
+            "id": 9,
+            "code": "O-209",
+            "description": "S 12",
             "capacity": 60,
             "type": 1,
             "area": 10
@@ -320,10 +320,10 @@
     },
     {
         "model": "manager.Room",
-        "fields":  {
-            "id":10,
-            "code":"L-003",
-            "description":"Áudio 03",
+        "fields": {
+            "id": 10,
+            "code": "L-003",
+            "description": "Áudio 03",
             "capacity": 45,
             "type": 2,
             "area": 9
@@ -331,10 +331,10 @@
     },
     {
         "model": "manager.Room",
-        "fields":  {
-            "id":11,
-            "code":"L-101",
-            "description":"Sala L-101",
+        "fields": {
+            "id": 11,
+            "code": "L-101",
+            "description": "Sala L-101",
             "capacity": 45,
             "type": 1,
             "area": 9
@@ -342,10 +342,10 @@
     },
     {
         "model": "manager.Room",
-        "fields":  {
-            "id":12,
-            "code":"L-102",
-            "description":"Sala L-102",
+        "fields": {
+            "id": 12,
+            "code": "L-102",
+            "description": "Sala L-102",
             "capacity": 50,
             "type": 1,
             "area": 9
@@ -353,10 +353,10 @@
     },
     {
         "model": "manager.Room",
-        "fields":  {
-            "id":13,
-            "code":"L-103",
-            "description":"Sala L-103",
+        "fields": {
+            "id": 13,
+            "code": "L-103",
+            "description": "Sala L-103",
             "capacity": 50,
             "type": 1,
             "area": 9
@@ -364,10 +364,10 @@
     },
     {
         "model": "manager.Room",
-        "fields":  {
-            "id":14,
-            "code":"L-104",
-            "description":"Laboratório Informática V",
+        "fields": {
+            "id": 14,
+            "code": "L-104",
+            "description": "Laboratório Informática V",
             "capacity": 40,
             "type": 3,
             "area": 9
@@ -375,10 +375,10 @@
     },
     {
         "model": "manager.Room",
-        "fields":  {
-            "id":15,
-            "code":"L-105",
-            "description":"Sala L-105",
+        "fields": {
+            "id": 15,
+            "code": "L-105",
+            "description": "Sala L-105",
             "capacity": 40,
             "type": 1,
             "area": 9
@@ -386,10 +386,10 @@
     },
     {
         "model": "manager.Room",
-        "fields":  {
-            "id":16,
-            "code":"L-106",
-            "description":"Sala L-106",
+        "fields": {
+            "id": 16,
+            "code": "L-106",
+            "description": "Sala L-106",
             "capacity": 30,
             "type": 1,
             "area": 9
@@ -397,10 +397,10 @@
     },
     {
         "model": "manager.Room",
-        "fields":  {
-            "id":17,
-            "code":"D-102",
-            "description":"Sala 01",
+        "fields": {
+            "id": 17,
+            "code": "D-102",
+            "description": "Sala 01",
             "capacity": 35,
             "type": 1,
             "area": 3
@@ -408,10 +408,10 @@
     },
     {
         "model": "manager.Room",
-        "fields":  {
-            "id":18,
-            "code":"D-105",
-            "description":"Sala 02",
+        "fields": {
+            "id": 18,
+            "code": "D-105",
+            "description": "Sala 02",
             "capacity": 35,
             "type": 1,
             "area": 3
@@ -419,10 +419,10 @@
     },
     {
         "model": "manager.Room",
-        "fields":  {
-            "id":19,
-            "code":"D-108",
-            "description":"Sala 05",
+        "fields": {
+            "id": 19,
+            "code": "D-108",
+            "description": "Sala 05",
             "capacity": 40,
             "type": 1,
             "area": 3
@@ -430,10 +430,10 @@
     },
     {
         "model": "manager.Room",
-        "fields":  {
-            "id":20,
-            "code":"D-109",
-            "description":"Sala 06",
+        "fields": {
+            "id": 20,
+            "code": "D-109",
+            "description": "Sala 06",
             "capacity": 40,
             "type": 1,
             "area": 3
@@ -441,10 +441,10 @@
     },
     {
         "model": "manager.Room",
-        "fields":  {
-            "id":21,
-            "code":"D-111",
-            "description":"Sala 08",
+        "fields": {
+            "id": 21,
+            "code": "D-111",
+            "description": "Sala 08",
             "capacity": 35,
             "type": 1,
             "area": 3
@@ -452,10 +452,10 @@
     },
     {
         "model": "manager.Room",
-        "fields":  {
-            "id":22,
-            "code":"D-112",
-            "description":"Sala 09",
+        "fields": {
+            "id": 22,
+            "code": "D-112",
+            "description": "Sala 09",
             "capacity": 35,
             "type": 1,
             "area": 3
@@ -463,10 +463,10 @@
     },
     {
         "model": "manager.Room",
-        "fields":  {
-            "id":23,
-            "code":"D-202",
-            "description":"Sala 11",
+        "fields": {
+            "id": 23,
+            "code": "D-202",
+            "description": "Sala 11",
             "capacity": 40,
             "type": 1,
             "area": 3
@@ -474,10 +474,10 @@
     },
     {
         "model": "manager.Room",
-        "fields":  {
-            "id":24,
-            "code":"F-005",
-            "description":"Sala de Fisica",
+        "fields": {
+            "id": 24,
+            "code": "F-005",
+            "description": "Sala de Fisica",
             "capacity": 45,
             "type": 1,
             "area": 5
@@ -638,330 +638,776 @@
         }
     },
     {
-      "model": "manager.Program",
-      "fields": {
-          "acronym":"ADS",
-          "name":"Análise e Desenvolvimento de Sistemas"
-      }
-    },
-    {
-      "model": "manager.Course",
-      "fields": {
-          "id": 1,
-          "code": "ADM500",
-          "name": "Introdução a Administração",
-          "workload": 60,
-          "semester_number": 1
-      }
-    },
-    {
-      "model": "manager.Course",
-      "fields": {
-          "id": 2,
-          "code": "INF026",
-          "name": "Introdução a Computação",
-          "workload": 60,
-          "semester_number": 1
-      }
-    },
-    {
-      "model": "manager.Course",
-      "fields": {
-          "id": 3,
-          "code": "INF027",
-          "name": "Introdução à Lógica",
-          "workload": 60,
-          "semester_number": 1
-      }
-    },
-    {
-      "model": "manager.Course",
-      "fields": {
-          "id": 4,
-          "code": "LET100",
-          "name": "Língua Portuguesa",
-          "workload": 60,
-          "semester_number": 1
-      }
-    },
-    {
-      "model": "manager.Course",
-      "fields": {
-          "id": 5,
-          "code": "MAT222",
-          "name": "Matemática I",
-          "workload": 90,
-          "semester_number": 1
-      }
-    },
-    {
-      "model": "manager.Course",
-      "fields": {
-          "id": 6,
-          "code": "INF031",
-          "name": "Metodologia de Pesquisa",
-          "workload": 60,
-          "semester_number": 2
-      }
-    },
-    {
-      "model": "manager.Course",
-      "fields": {
-          "id": 7,
-          "code": "INF006",
-          "name": "Estrutura de Dados e Algoritmos",
-          "workload": 90,
-          "semester_number": 2
-      }
-    },
-    {
-      "model": "manager.Course",
-      "fields": {
-          "id": 8,
-            "code": "INF028",
-          "name": "Arquitetura de Computadores e Software Básico",
-          "workload": 60,
-          "semester_number": 2
-      }
-    },
-    {
-      "model": "manager.Course",
-      "fields": {
-          "id": 9,
-          "code": "INF029",
-          "name": "Laboratório de Programação",
-          "workload": 60,
-          "semester_number": 2
-      }
-    },
-    {
-      "model": "manager.Course",
-      "fields": {
-          "id": 10,
-          "code": "LET102",
-          "name": "Inglês",
-          "workload": 60,
-          "semester_number": 3
-      }
-    },
-    {
-      "model": "manager.Course",
-      "fields": {
-          "id": 11,
-          "code": "INF007",
-          "name": "Banco de Dados I",
-          "workload": 90,
-          "semester_number": 3
-      }
-    },
-    {
-      "model": "manager.Course",
-      "fields": {
-          "id": 12,
-          "code": "INF009",
-          "name": "Sistemas Operacionais",
-          "workload": 90,
-          "semester_number": 3
-      }
-    },
-    {
-      "model": "manager.Course",
-      "fields": {
-          "id": 13,
-          "code": "INF021",
-          "name": "Estágio Supervisionado",
-          "workload": 300,
-          "semester_number": 3
+        "model": "manager.Teacher",
+        "fields": {
+            "id": 23,
+            "name": "André Luis"
         }
     },
     {
-      "model": "manager.Course",
-      "fields": {
-          "id": 14,
-          "code": "INF008",
-          "name": "Programação Orientada a Objetos",
-          "workload": 90,
-          "semester_number": 3
-      }
+        "model": "manager.Teacher",
+        "fields": {
+            "id": 24,
+            "name": "José Rubens"
+        }
     },
     {
-      "model": "manager.Course",
-      "fields": {
-          "id": 15,
-          "code": "INF011",
-          "name": "Padrões de Projeto",
-          "workload": 90,
-          "semester_number": 4
-      }
+        "model": "manager.Program",
+        "fields": {
+            "acronym": "ADS",
+            "name": "Análise e Desenvolvimento de Sistemas"
+        }
     },
     {
-      "model": "manager.Course",
-      "fields": {
-          "id": 16,
-          "code": "INF012",
-          "name": "Programação Web",
-          "workload": 90,
-          "semester_number": 4
-      }
+        "model": "manager.Course",
+        "fields": {
+            "id": 1,
+            "code": "ADM500",
+            "name": "Introdução a Administração",
+            "workload": 60,
+            "semester_number": 1
+        }
     },
     {
-      "model": "manager.Course",
-      "fields": {
-          "id": 17,
-          "code": "INF010",
-          "name": "Banco de Dados II",
-          "workload": 90,
-          "semester_number": 4
-      }
+        "model": "manager.Course",
+        "fields": {
+            "id": 2,
+            "code": "INF026",
+            "name": "Introdução a Computação",
+            "workload": 60,
+            "semester_number": 1
+        }
     },
     {
-      "model": "manager.Course",
-      "fields": {
-          "id": 18,
-          "code": "INF015",
-          "name": "Rede de Computadores I",
-          "workload": 60,
-          "semester_number": 4
-      }
+        "model": "manager.Course",
+        "fields": {
+            "id": 3,
+            "code": "INF027",
+            "name": "Introdução à Lógica",
+            "workload": 60,
+            "semester_number": 1
+        }
     },
     {
-      "model": "manager.Course",
-      "fields": {
-          "id": 19,
-          "code": "INF030",
-          "name": "Métodos Científicos em Computação",
-          "workload": 30,
-          "semester_number": 5
-      }
+        "model": "manager.Course",
+        "fields": {
+            "id": 4,
+            "code": "LET100",
+            "name": "Língua Portuguesa",
+            "workload": 60,
+            "semester_number": 1
+        }
     },
     {
-      "model": "manager.Course",
-      "fields": {
-          "id": 20,
-          "code": "INF014",
-          "name": "Engenharia de Software",
-          "workload": 90,
-          "semester_number": 5
-      }
+        "model": "manager.Course",
+        "fields": {
+            "id": 5,
+            "code": "MAT222",
+            "name": "Matemática I",
+            "workload": 90,
+            "semester_number": 1
+        }
     },
     {
-      "model": "manager.Course",
-      "fields": {
-          "id": 21,
-          "code": "INF017",
-          "name": "Rede de Computadores II",
-          "workload": 60,
-          "semester_number": 5
-      }
+        "model": "manager.Course",
+        "fields": {
+            "id": 6,
+            "code": "INF031",
+            "name": "Metodologia de Pesquisa",
+            "workload": 60,
+            "semester_number": 2
+        }
     },
     {
-      "model": "manager.Course",
-      "fields": {
-          "id": 22,
-          "code": "INF022",
-          "name": "Tópicos Avançados",
-          "workload": 60,
-          "semester_number": 5
-      }
+        "model": "manager.Course",
+        "fields": {
+            "id": 7,
+            "code": "INF006",
+            "name": "Estrutura de Dados e Algoritmos",
+            "workload": 90,
+            "semester_number": 2
+        }
     },
     {
-      "model": "manager.Course",
-      "fields": {
-          "id": 23,
-          "code": "ADM550",
-          "name": "Empreendedorismo",
-          "workload": 60,
-          "semester_number": 5
-      }
+        "model": "manager.Course",
+        "fields": {
+            "id": 8,
+            "code": "INF028",
+            "name": "Arquitetura de Computadores e Software Básico",
+            "workload": 60,
+            "semester_number": 2
+        }
     },
     {
-      "model": "manager.Course",
-      "fields": {
-          "id": 24,
-          "code": "HUM100",
-          "name": "Filosofia",
-          "workload": 60,
-          "semester_number": 5
-      }
+        "model": "manager.Course",
+        "fields": {
+            "id": 9,
+            "code": "INF029",
+            "name": "Laboratório de Programação",
+            "workload": 60,
+            "semester_number": 2
+        }
     },
     {
-      "model": "manager.Course",
-      "fields": {
-          "id": 25,
-          "code": "INF018",
-          "name": "Auditoria e Segurança de Sistemas",
-          "workload": 60,
-          "semester_number": 6
-      }
+        "model": "manager.Course",
+        "fields": {
+            "id": 10,
+            "code": "LET102",
+            "name": "Inglês",
+            "workload": 60,
+            "semester_number": 3
+        }
     },
     {
-      "model": "manager.Course",
-      "fields": {
-          "id": 26,
-          "code": "INF019",
-          "name": "Gerência de Projetos",
-          "workload": 60,
-          "semester_number": 6
-      }
+        "model": "manager.Course",
+        "fields": {
+            "id": 11,
+            "code": "INF007",
+            "name": "Banco de Dados I",
+            "workload": 90,
+            "semester_number": 3
+        }
     },
     {
-      "model": "manager.Course",
-      "fields": {
-          "id": 27,
-          "code": "INF016",
-          "name": "Arquitetura de Software",
-          "workload": 90,
-          "semester_number": 6
-      }
+        "model": "manager.Course",
+        "fields": {
+            "id": 12,
+            "code": "INF009",
+            "name": "Sistemas Operacionais",
+            "workload": 90,
+            "semester_number": 3
+        }
     },
     {
-      "model": "manager.Course",
-      "fields": {
-          "id": 28,
-          "code": "INF020",
-          "name": "Sistemas Distribuídos",
-          "workload": 60,
-          "semester_number": 6
-      }
+        "model": "manager.Course",
+        "fields": {
+            "id": 13,
+            "code": "INF021",
+            "name": "Estágio Supervisionado",
+            "workload": 300,
+            "semester_number": 3
+        }
     },
     {
-      "model": "manager.Course",
-      "fields": {
-          "id": 29,
-          "code": "INF023",
-          "name": "Trabalho de Conclusão de Curso",
-          "workload": 60,
-          "semester_number": 6
-      }
+        "model": "manager.Course",
+        "fields": {
+            "id": 14,
+            "code": "INF008",
+            "name": "Programação Orientada a Objetos",
+            "workload": 90,
+            "semester_number": 3
+        }
     },
     {
-      "model": "manager.Course",
-      "fields": {
-          "id": 30,
-          "code": "ADM504",
-          "name": "Contabilidade Geral",
-          "workload": 60,
-          "semester_number": 1
-      }
+        "model": "manager.Course",
+        "fields": {
+            "id": 15,
+            "code": "INF011",
+            "name": "Padrões de Projeto",
+            "workload": 90,
+            "semester_number": 4
+        }
     },
     {
-      "model": "manager.Course",
-      "fields": {
-          "id": 31,
-          "code": "HUM102",
-          "name": "Psicologia Aplicada ao Trabalho",
-          "workload": 60,
-          "semester_number": 1
-      }
+        "model": "manager.Course",
+        "fields": {
+            "id": 16,
+            "code": "INF012",
+            "name": "Programação Web",
+            "workload": 90,
+            "semester_number": 4
+        }
     },
     {
-      "model": "manager.Course",
-      "fields": {
-          "id": 32,
-          "code": "ADM545",
-          "name": "Legislação em Informática",
-          "workload": 60,
-          "semester_number": 1
-      }
+        "model": "manager.Course",
+        "fields": {
+            "id": 17,
+            "code": "INF010",
+            "name": "Banco de Dados II",
+            "workload": 90,
+            "semester_number": 4
+        }
+    },
+    {
+        "model": "manager.Course",
+        "fields": {
+            "id": 18,
+            "code": "INF015",
+            "name": "Rede de Computadores I",
+            "workload": 60,
+            "semester_number": 4
+        }
+    },
+    {
+        "model": "manager.Course",
+        "fields": {
+            "id": 19,
+            "code": "INF030",
+            "name": "Métodos Científicos em Computação",
+            "workload": 30,
+            "semester_number": 5
+        }
+    },
+    {
+        "model": "manager.Course",
+        "fields": {
+            "id": 20,
+            "code": "INF014",
+            "name": "Engenharia de Software",
+            "workload": 90,
+            "semester_number": 5
+        }
+    },
+    {
+        "model": "manager.Course",
+        "fields": {
+            "id": 21,
+            "code": "INF017",
+            "name": "Rede de Computadores II",
+            "workload": 60,
+            "semester_number": 5
+        }
+    },
+    {
+        "model": "manager.Course",
+        "fields": {
+            "id": 22,
+            "code": "INF022",
+            "name": "Tópicos Avançados",
+            "workload": 60,
+            "semester_number": 5
+        }
+    },
+    {
+        "model": "manager.Course",
+        "fields": {
+            "id": 23,
+            "code": "ADM550",
+            "name": "Empreendedorismo",
+            "workload": 60,
+            "semester_number": 5
+        }
+    },
+    {
+        "model": "manager.Course",
+        "fields": {
+            "id": 24,
+            "code": "HUM100",
+            "name": "Filosofia",
+            "workload": 60,
+            "semester_number": 5
+        }
+    },
+    {
+        "model": "manager.Course",
+        "fields": {
+            "id": 25,
+            "code": "INF018",
+            "name": "Auditoria e Segurança de Sistemas",
+            "workload": 60,
+            "semester_number": 6
+        }
+    },
+    {
+        "model": "manager.Course",
+        "fields": {
+            "id": 26,
+            "code": "INF019",
+            "name": "Gerência de Projetos",
+            "workload": 60,
+            "semester_number": 6
+        }
+    },
+    {
+        "model": "manager.Course",
+        "fields": {
+            "id": 27,
+            "code": "INF016",
+            "name": "Arquitetura de Software",
+            "workload": 90,
+            "semester_number": 6
+        }
+    },
+    {
+        "model": "manager.Course",
+        "fields": {
+            "id": 28,
+            "code": "INF020",
+            "name": "Sistemas Distribuídos",
+            "workload": 60,
+            "semester_number": 6
+        }
+    },
+    {
+        "model": "manager.Course",
+        "fields": {
+            "id": 29,
+            "code": "INF023",
+            "name": "Trabalho de Conclusão de Curso",
+            "workload": 60,
+            "semester_number": 6
+        }
+    },
+    {
+        "model": "manager.Course",
+        "fields": {
+            "id": 30,
+            "code": "ADM504",
+            "name": "Contabilidade Geral",
+            "workload": 60,
+            "semester_number": 1
+        }
+    },
+    {
+        "model": "manager.Course",
+        "fields": {
+            "id": 31,
+            "code": "HUM102",
+            "name": "Psicologia Aplicada ao Trabalho",
+            "workload": 60,
+            "semester_number": 1
+        }
+    },
+    {
+        "model": "manager.Course",
+        "fields": {
+            "id": 32,
+            "code": "ADM545",
+            "name": "Legislação em Informática",
+            "workload": 60,
+            "semester_number": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 1,
+            "course": 1,
+            "code": "T03",
+            "teacher": 1,
+            "size": 20,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 2,
+            "course": 32,
+            "code": "T01",
+            "teacher": 1,
+            "size": 40,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 3,
+            "course": 30,
+            "code": "T01",
+            "teacher": 23,
+            "size": 2,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 4,
+            "course": 24,
+            "code": "T01",
+            "teacher": 3,
+            "size": 20,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 5,
+            "course": 31,
+            "code": "T01",
+            "teacher": 4,
+            "size": 20,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 6,
+            "course": 7,
+            "code": "T01",
+            "teacher": 5,
+            "size": 40,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 7,
+            "course": 11,
+            "code": "T01",
+            "teacher": 21,
+            "size": 40,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 8,
+            "course": 14,
+            "code": "T01",
+            "teacher": 22,
+            "size": 40,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 9,
+            "course": 12,
+            "code": "T01",
+            "teacher": 6,
+            "size": 40,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 10,
+            "course": 17,
+            "code": "T01",
+            "teacher": 7,
+            "size": 40,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 11,
+            "course": 15,
+            "code": "T01",
+            "teacher": 8,
+            "size": 40,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 12,
+            "course": 16,
+            "code": "T01",
+            "teacher": 9,
+            "size": 40,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 13,
+            "course": 20,
+            "code": "T01",
+            "teacher": 10,
+            "size": 40,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 14,
+            "course": 18,
+            "code": "T01",
+            "teacher": 21,
+            "size": 40,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 15,
+            "course": 27,
+            "code": "T01",
+            "teacher": 8,
+            "size": 40,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 16,
+            "course": 21,
+            "code": "T01",
+            "teacher": 11,
+            "size": 40,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 17,
+            "course": 25,
+            "code": "T01",
+            "teacher": 12,
+            "size": 40,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 18,
+            "course": 26,
+            "code": "T01",
+            "teacher": 6,
+            "size": 20,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 19,
+            "course": 28,
+            "code": "T01",
+            "teacher": 5,
+            "size": 40,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 20,
+            "course": 13,
+            "code": "T01",
+            "teacher": 13,
+            "size": 40,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 21,
+            "course": 22,
+            "code": "T01",
+            "teacher": 14,
+            "size": 40,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 22,
+            "course": 29,
+            "code": "T01",
+            "teacher": 9,
+            "size": 40,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 23,
+            "course": 29,
+            "code": "T02",
+            "teacher": 9,
+            "size": 40,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 24,
+            "course": 2,
+            "code": "T01",
+            "teacher": 11,
+            "size": 50,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 25,
+            "course": 3,
+            "code": "T01",
+            "teacher": 22,
+            "size": 25,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 26,
+            "course": 3,
+            "code": "T03",
+            "teacher": 15,
+            "size": 25,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 27,
+            "course": 3,
+            "code": "T02",
+            "teacher": 16,
+            "size": 25,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 28,
+            "course": 8,
+            "code": "T01",
+            "teacher": 11,
+            "size": 40,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 29,
+            "course": 9,
+            "code": "T01",
+            "teacher": 14,
+            "size": 40,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 30,
+            "course": 19,
+            "code": "T01",
+            "teacher": 14,
+            "size": 30,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 31,
+            "course": 6,
+            "code": "T01",
+            "teacher": 16,
+            "size": 30,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 32,
+            "course": 4,
+            "code": "T04",
+            "teacher": 17,
+            "size": 50,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 33,
+            "course": 10,
+            "code": "T01",
+            "teacher": 18,
+            "size": 10,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 34,
+            "course": 10,
+            "code": "T02",
+            "teacher": 19,
+            "size": 20,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+      "model": "manager.Class",
+        "fields": {
+          "id": 35,
+          "course": 5,
+          "code": "T01",
+          "teacher": 20,
+          "size": 50,
+          "year": 2017,
+          "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 37,
+            "course": 1,
+            "code": "T02",
+            "teacher": 24,
+            "size": 4,
+            "year": 2017,
+            "semester": 1
+        }
     }
 ]
