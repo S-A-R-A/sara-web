@@ -9,6 +9,7 @@ from .models import Room
 from .models import Teacher
 from .models import Program
 from .models import Course
+from .models import Class
 
 admin.site.register(Institution)
 admin.site.register(Campus)
@@ -20,3 +21,4 @@ admin.site.register(Room)
 admin.site.register(Teacher)
 admin.site.register(Program)
 admin.site.register(Course)
+admin.site.register(Class)

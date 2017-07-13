@@ -124,3 +124,19 @@ class Course(models.Model):
     class Meta:
         verbose_name = 'Disciplina'
         verbose_name_plural = 'Disciplinas'
+
+class Class(models.Model):
+    id = models.IntegerField
+    course = models.ForeignKey('Course')
+    code = models.CharField(max_length=200, blank=False, null=False)
+    teacher = models.ForeignKey('Teacher')
+    size = models.PositiveSmallIntegerField(default=0)
+    year = models.PositiveSmallIntegerField(default=0)
+    semester = models.PositiveSmallIntegerField(default=0)
+
+    def __str__(self):
+        return self.course + " - " + code
+
+    class Meta:
+        verbose_name = 'Turma'
+        verbose_name_plural = 'Turmas'
