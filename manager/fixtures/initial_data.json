@@ -668,7 +668,7 @@
       "model": "manager.Course",
       "fields": {
           "id": 3,
-          "code": "INF026",
+          "code": "INF027",
           "name": "Introdução à Lógica",
           "workload": 60,
           "semester_number": 1
@@ -698,7 +698,7 @@
       "model": "manager.Course",
       "fields": {
           "id": 6,
-          "code": "HUM103",
+          "code": "INF031",
           "name": "Metodologia de Pesquisa",
           "workload": 60,
           "semester_number": 2
@@ -708,7 +708,7 @@
       "model": "manager.Course",
       "fields": {
           "id": 7,
-          "code": "HUM103",
+          "code": "INF006",
           "name": "Estrutura de Dados e Algoritmos",
           "workload": 90,
           "semester_number": 2
@@ -788,7 +788,7 @@
       "model": "manager.Course",
       "fields": {
           "id": 15,
-          "code": "INF0011",
+          "code": "INF011",
           "name": "Padrões de Projeto",
           "workload": 90,
           "semester_number": 4
@@ -932,6 +932,36 @@
           "name": "Trabalho de Conclusão de Curso",
           "workload": 60,
           "semester_number": 6
+      }
+    },
+    {
+      "model": "manager.Course",
+      "fields": {
+          "id": 30,
+          "code": "ADM504",
+          "name": "Contabilidade Geral",
+          "workload": 60,
+          "semester_number": 1
+      }
+    },
+    {
+      "model": "manager.Course",
+      "fields": {
+          "id": 31,
+          "code": "HUM102",
+          "name": "Psicologia Aplicada ao Trabalho",
+          "workload": 60,
+          "semester_number": 1
+      }
+    },
+    {
+      "model": "manager.Course",
+      "fields": {
+          "id": 32,
+          "code": "ADM545",
+          "name": "Legislação em Informática",
+          "workload": 60,
+          "semester_number": 1
       }
     }
 ]
