@@ -153,3 +153,16 @@ class Period(models.Model):
     class Meta:
         verbose_name = 'Turno'
         verbose_name_plural = 'Turnos'
+
+class TimeSlot(models.Model):
+    id = models.IntegerField
+    period = models.ForeignKey('Period')
+    start_time = models.TimeField(blank=False, null=False)
+    end_time = models.TimeField(blank=False, null=False)
+
+    def __str__(self):
+        return "{:%H:%M}".format(self.start_time) + " - " + "{:%H:%M}".format(self.end_time)
+
+    class Meta:
+        verbose_name = 'Intervalo de Tempo'
+        verbose_name_plural = 'Intervalos de Tempo'

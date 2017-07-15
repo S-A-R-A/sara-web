@@ -11,6 +11,7 @@ from .models import Program
 from .models import Course
 from .models import Class
 from .models import Period
+from .models import TimeSlot
 
 admin.site.register(Institution)
 admin.site.register(Campus)
@@ -24,3 +25,4 @@ admin.site.register(Program)
 admin.site.register(Course)
 admin.site.register(Class)
 admin.site.register(Period)
+admin.site.register(TimeSlot)
