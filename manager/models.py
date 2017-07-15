@@ -140,3 +140,16 @@ class Class(models.Model):
     class Meta:
         verbose_name = 'Turma'
         verbose_name_plural = 'Turmas'
+
+class Period(models.Model):
+    id = models.IntegerField
+    name = models.CharField(max_length=100, blank=False, null=False)
+    start_time = models.TimeField(blank=False, null=False)
+    end_time = models.TimeField(blank=False, null=False)
+
+    def __str__(self):
+        return self.name
+
+    class Meta:
+        verbose_name = 'Turno'
+        verbose_name_plural = 'Turnos'

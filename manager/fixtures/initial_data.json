@@ -1409,5 +1409,32 @@
             "year": 2017,
             "semester": 1
         }
+    },
+    {
+        "model": "manager.Period",
+        "fields": {
+            "id": 1,
+            "name": "Matutino",
+            "start_time": "07:00:00",
+            "end_time": "12:00:00"
+        }
+    },
+    {
+        "model": "manager.Period",
+        "fields": {
+            "id": 2,
+            "name": "Vespertino",
+            "start_time": "12:00:00",
+            "end_time": "17:00:00"
+        }
+    },
+    {
+        "model": "manager.Period",
+        "fields": {
+            "id": 3,
+            "name": "Noturno",
+            "start_time": "17:00:00",
+            "end_time": "22:00:00"
+        }
     }
 ]
