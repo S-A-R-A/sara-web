@@ -166,3 +166,17 @@ class TimeSlot(models.Model):
     class Meta:
         verbose_name = 'Intervalo de Tempo'
         verbose_name_plural = 'Intervalos de Tempo'
+
+class ClassRoomAllocation(models.Model):
+    id = models.IntegerField
+    day = models.ForeignKey('Day')
+    time_slot = models.ForeignKey('TimeSlot')
+    room = models.ForeignKey('Room')
+	class_ = models.ForeignKey('Class')
+
+    def __str__(self):
+        return day + " - " + time_slot + ": " +  class_ + " em " + room
+
+    class Meta:
+        verbose_name = 'Alocação da turma em sala'
+        verbose_name_plural = 'Alocações das turmas em salas'
