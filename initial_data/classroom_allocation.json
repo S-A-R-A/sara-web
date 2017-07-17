@@ -1,0 +1,502 @@
+[
+	#1 semestre - segunda
+	{
+		"day": 1,
+		"time_slot": 14,
+		"room": LAB04,
+		"class": 26,
+	},
+	{
+		"day": 1,
+		"time_slot": 15,
+		"room": LAB04,
+		"class":26,
+	},
+	{
+		"day": 1,
+		"time_slot": 16,
+		"room": L102,
+		"class": 35,
+	},
+	{
+		"day": 1,
+		"time_slot": 17,
+		"room": L102,
+		"class": 35,
+	},
+	{
+		"day": 1,
+		"time_slot": 18,
+		"room": L105,
+		"class": 32,
+	},
+	{
+		"day": 1,
+		"time_slot": 19,
+		"room": L105,
+		"class": 32,
+	},
+	
+	#1 semestre - terça
+	{
+		"day": 2,
+		"time_slot": 16,
+		"room": Lab03,
+		"class": 25,
+	},
+	{
+		"day": 2,
+		"time_slot": 17,
+		"room": Lab03,
+		"class": 25,
+	},
+	{
+		"day": 2,
+		"time_slot": 16,
+		"room": Lab02,
+		"class": 27,
+	},
+	{
+		"day": 2,
+		"time_slot": 17,
+		"room": Lab02,
+		"class": 27,
+	},
+	{
+		"day": 2,
+		"time_slot": 18,
+		"room": L103,
+		"class": 4,
+	},
+	{
+		"day": 2,
+		"time_slot": 19,
+		"room": L103,
+		"class": 4,
+	},
+	
+	#1 semestre - quarta
+	{
+		"day": 3,
+		"time_slot": 14,
+		"room": B107,
+		"class": ,
+	},
+	{
+		"day": 3,
+		"time_slot": 15,
+		"room": B107,
+		"class": ,
+	},
+	{
+		"day": 3,
+		"time_slot": 14,
+		"room": LAB04,
+		"class": 34,
+	},
+	{
+		"day": 3,
+		"time_slot": 15,
+		"room": LAB04,
+		"class": 34,
+	},
+	{
+		"day": 3,
+		"time_slot": 16,
+		"room": L102,
+		"class": 35,
+	},
+	{
+		"day": 3,
+		"time_slot": 17,
+		"room": L102,
+		"class": 35,
+	},
+	{
+		"day": 3,
+		"time_slot": 18,
+		"room": L105,
+		"class": 25,
+	},
+	{
+		"day": 3,
+		"time_slot": 19,
+		"room": L105,
+		"class": 25,
+	},
+	{
+		"day": 3,
+		"time_slot": 18,
+		"room": LAB04,
+		"class": 26,
+	},
+	{
+		"day": 3,
+		"time_slot": 19,
+		"room": LAB04,
+		"class": 26,
+	},
+	
+	#1 semestre - quinta
+	{
+		"day": 4,
+		"time_slot": 14,
+		"room": L105,
+		"class": 32,
+	},
+	{
+		"day": 4,
+		"time_slot": 15,
+		"room": L105,
+		"class": 32,
+	},
+	{
+		"day": 4,
+		"time_slot": 16,
+		"room": B105,
+		"class": 33,
+	},
+	{
+		"day": 4,
+		"time_slot": 17,
+		"room": B105,
+		"class": 33,
+	},
+	{
+		"day": 4,
+		"time_slot": 16,
+		"room": L106,
+		"class": 34,
+	},
+	{
+		"day": 4,
+		"time_slot": 17,
+		"room": L106,
+		"class": 34,
+	},
+	{
+		"day": 4,
+		"time_slot": 18,
+		"room": LAB03,
+		"class": 4,
+	},
+	{
+		"day": 4,
+		"time_slot": 19,
+		"room": LAB03,
+		"class": 4,
+	},
+	
+	#1 semestre - sexta
+	{
+		"day": 5,
+		"time_slot": 16,
+		"room": L102,
+		"class": 35,
+	},
+	{
+		"day": 5,
+		"time_slot": 17,
+		"room": L102,
+		"class": 35,
+	},
+	{
+		"day": 5,
+		"time_slot": 18,
+		"room": L106,
+		"class": 33,
+	},
+	{
+		"day": 5,
+		"time_slot": 19,
+		"room": L106,
+		"class": 33,
+	},
+	
+	
+	##
+	#2 semestre - segunda
+	{
+		"day": 1,
+		"time_slot": 16,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 1,
+		"time_slot": 17,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 1,
+		"time_slot": 18,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 1,
+		"time_slot": 19,
+		"room": ,
+		"class": ,
+	},
+	
+	#2 semestre - terça
+	{
+		"day": 2,
+		"time_slot": 14,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 2,
+		"time_slot": 15,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 2,
+		"time_slot": 16,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 2,
+		"time_slot": 17,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 2,
+		"time_slot": 18,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 2,
+		"time_slot": 19,
+		"room": ,
+		"class": ,
+	},
+	
+	#2 semestre - quarta
+	{
+		"day": 3,
+		"time_slot": 16,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 3,
+		"time_slot": 17,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 3,
+		"time_slot": 18,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 3,
+		"time_slot": 19,
+		"room": ,
+		"class": ,
+	},
+	
+	#2 semestre - quinta
+	{
+		"day": 4,
+		"time_slot": 16,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 4,
+		"time_slot": 17,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 4,
+		"time_slot": 18,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 4,
+		"time_slot": 19,
+		"room": ,
+		"class": ,
+	},
+	
+	#2 semestre - sexta
+	{
+		"day": 5,
+		"time_slot": 16,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 5,
+		"time_slot": 17,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 5,
+		"time_slot": 18,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 5,
+		"time_slot": 19,
+		"room": ,
+		"class": ,
+	},	
+	
+	##
+	#2 semestre - segunda
+	{
+		"day": 1,
+		"time_slot": 16,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 1,
+		"time_slot": 17,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 1,
+		"time_slot": 18,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 1,
+		"time_slot": 19,
+		"room": ,
+		"class": ,
+	},
+	
+	#2 semestre - terça
+	{
+		"day": 2,
+		"time_slot": 14,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 2,
+		"time_slot": 15,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 2,
+		"time_slot": 16,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 2,
+		"time_slot": 17,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 2,
+		"time_slot": 18,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 2,
+		"time_slot": 19,
+		"room": ,
+		"class": ,
+	},
+	
+	#2 semestre - quarta
+	{
+		"day": 3,
+		"time_slot": 16,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 3,
+		"time_slot": 17,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 3,
+		"time_slot": 18,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 3,
+		"time_slot": 19,
+		"room": ,
+		"class": ,
+	},
+	
+	#2 semestre - quinta
+	{
+		"day": 4,
+		"time_slot": 16,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 4,
+		"time_slot": 17,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 4,
+		"time_slot": 18,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 4,
+		"time_slot": 19,
+		"room": ,
+		"class": ,
+	},
+	
+	#2 semestre - sexta
+	{
+		"day": 5,
+		"time_slot": 16,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 5,
+		"time_slot": 17,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 5,
+		"time_slot": 18,
+		"room": ,
+		"class": ,
+	},
+	{
+		"day": 5,
+		"time_slot": 19,
+		"room": ,
+		"class": ,
+	},
+]
