@@ -167,6 +167,10 @@ class TimeInterval(models.Model):
         verbose_name = 'Intervalo de Tempo'
         verbose_name_plural = 'Intervalos de Tempo'
 
+class Day(models.Model):
+    id = models.IntegerField
+    name = models.CharField(max_length=100, blank=False, null=False)
+
 class Slot(models.Model):
     id = models.IntegerField
     day = models.ForeignKey('Day')
