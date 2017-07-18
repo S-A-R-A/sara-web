@@ -1,502 +1,1007 @@
 [
-	#1 semestre - segunda
-	{
-		"day": 1,
-		"time_slot": 14,
-		"room": LAB04,
-		"class": 26,
-	},
-	{
-		"day": 1,
-		"time_slot": 15,
-		"room": LAB04,
-		"class":26,
-	},
-	{
-		"day": 1,
-		"time_slot": 16,
-		"room": L102,
-		"class": 35,
-	},
-	{
-		"day": 1,
-		"time_slot": 17,
-		"room": L102,
-		"class": 35,
-	},
-	{
-		"day": 1,
-		"time_slot": 18,
-		"room": L105,
-		"class": 32,
-	},
-	{
-		"day": 1,
-		"time_slot": 19,
-		"room": L105,
-		"class": 32,
-	},
-	
-	#1 semestre - terça
-	{
-		"day": 2,
-		"time_slot": 16,
-		"room": Lab03,
-		"class": 25,
-	},
-	{
-		"day": 2,
-		"time_slot": 17,
-		"room": Lab03,
-		"class": 25,
-	},
-	{
-		"day": 2,
-		"time_slot": 16,
-		"room": Lab02,
-		"class": 27,
-	},
-	{
-		"day": 2,
-		"time_slot": 17,
-		"room": Lab02,
-		"class": 27,
-	},
-	{
-		"day": 2,
-		"time_slot": 18,
-		"room": L103,
-		"class": 4,
-	},
-	{
-		"day": 2,
-		"time_slot": 19,
-		"room": L103,
-		"class": 4,
-	},
-	
-	#1 semestre - quarta
-	{
-		"day": 3,
-		"time_slot": 14,
-		"room": B107,
-		"class": ,
-	},
-	{
-		"day": 3,
-		"time_slot": 15,
-		"room": B107,
-		"class": ,
-	},
-	{
-		"day": 3,
-		"time_slot": 14,
-		"room": LAB04,
-		"class": 34,
-	},
-	{
-		"day": 3,
-		"time_slot": 15,
-		"room": LAB04,
-		"class": 34,
-	},
-	{
-		"day": 3,
-		"time_slot": 16,
-		"room": L102,
-		"class": 35,
-	},
-	{
-		"day": 3,
-		"time_slot": 17,
-		"room": L102,
-		"class": 35,
-	},
-	{
-		"day": 3,
-		"time_slot": 18,
-		"room": L105,
-		"class": 25,
-	},
-	{
-		"day": 3,
-		"time_slot": 19,
-		"room": L105,
-		"class": 25,
-	},
-	{
-		"day": 3,
-		"time_slot": 18,
-		"room": LAB04,
-		"class": 26,
-	},
-	{
-		"day": 3,
-		"time_slot": 19,
-		"room": LAB04,
-		"class": 26,
-	},
-	
-	#1 semestre - quinta
-	{
-		"day": 4,
-		"time_slot": 14,
-		"room": L105,
-		"class": 32,
-	},
-	{
-		"day": 4,
-		"time_slot": 15,
-		"room": L105,
-		"class": 32,
-	},
-	{
-		"day": 4,
-		"time_slot": 16,
-		"room": B105,
-		"class": 33,
-	},
-	{
-		"day": 4,
-		"time_slot": 17,
-		"room": B105,
-		"class": 33,
-	},
-	{
-		"day": 4,
-		"time_slot": 16,
-		"room": L106,
-		"class": 34,
-	},
-	{
-		"day": 4,
-		"time_slot": 17,
-		"room": L106,
-		"class": 34,
-	},
-	{
-		"day": 4,
-		"time_slot": 18,
-		"room": LAB03,
-		"class": 4,
-	},
-	{
-		"day": 4,
-		"time_slot": 19,
-		"room": LAB03,
-		"class": 4,
-	},
-	
-	#1 semestre - sexta
-	{
-		"day": 5,
-		"time_slot": 16,
-		"room": L102,
-		"class": 35,
-	},
-	{
-		"day": 5,
-		"time_slot": 17,
-		"room": L102,
-		"class": 35,
-	},
-	{
-		"day": 5,
-		"time_slot": 18,
-		"room": L106,
-		"class": 33,
-	},
-	{
-		"day": 5,
-		"time_slot": 19,
-		"room": L106,
-		"class": 33,
-	},
-	
-	
-	##
-	#2 semestre - segunda
-	{
-		"day": 1,
-		"time_slot": 16,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 1,
-		"time_slot": 17,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 1,
-		"time_slot": 18,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 1,
-		"time_slot": 19,
-		"room": ,
-		"class": ,
-	},
-	
-	#2 semestre - terça
-	{
-		"day": 2,
-		"time_slot": 14,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 2,
-		"time_slot": 15,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 2,
-		"time_slot": 16,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 2,
-		"time_slot": 17,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 2,
-		"time_slot": 18,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 2,
-		"time_slot": 19,
-		"room": ,
-		"class": ,
-	},
-	
-	#2 semestre - quarta
-	{
-		"day": 3,
-		"time_slot": 16,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 3,
-		"time_slot": 17,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 3,
-		"time_slot": 18,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 3,
-		"time_slot": 19,
-		"room": ,
-		"class": ,
-	},
-	
-	#2 semestre - quinta
-	{
-		"day": 4,
-		"time_slot": 16,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 4,
-		"time_slot": 17,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 4,
-		"time_slot": 18,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 4,
-		"time_slot": 19,
-		"room": ,
-		"class": ,
-	},
-	
-	#2 semestre - sexta
-	{
-		"day": 5,
-		"time_slot": 16,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 5,
-		"time_slot": 17,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 5,
-		"time_slot": 18,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 5,
-		"time_slot": 19,
-		"room": ,
-		"class": ,
-	},	
-	
-	##
-	#2 semestre - segunda
-	{
-		"day": 1,
-		"time_slot": 16,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 1,
-		"time_slot": 17,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 1,
-		"time_slot": 18,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 1,
-		"time_slot": 19,
-		"room": ,
-		"class": ,
-	},
-	
-	#2 semestre - terça
-	{
-		"day": 2,
-		"time_slot": 14,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 2,
-		"time_slot": 15,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 2,
-		"time_slot": 16,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 2,
-		"time_slot": 17,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 2,
-		"time_slot": 18,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 2,
-		"time_slot": 19,
-		"room": ,
-		"class": ,
-	},
-	
-	#2 semestre - quarta
-	{
-		"day": 3,
-		"time_slot": 16,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 3,
-		"time_slot": 17,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 3,
-		"time_slot": 18,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 3,
-		"time_slot": 19,
-		"room": ,
-		"class": ,
-	},
-	
-	#2 semestre - quinta
-	{
-		"day": 4,
-		"time_slot": 16,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 4,
-		"time_slot": 17,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 4,
-		"time_slot": 18,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 4,
-		"time_slot": 19,
-		"room": ,
-		"class": ,
-	},
-	
-	#2 semestre - sexta
-	{
-		"day": 5,
-		"time_slot": 16,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 5,
-		"time_slot": 17,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 5,
-		"time_slot": 18,
-		"room": ,
-		"class": ,
-	},
-	{
-		"day": 5,
-		"time_slot": 19,
-		"room": ,
-		"class": ,
-	},
+    {
+        "model": "manager.Slot",
+        "fields": {
+			"id": 1,
+			"day": 1,
+			"time_interval": 14,
+			"room": "LAB04",
+			"class": 26
+		}
+    },
+    {
+        "model": "manager.Slot",
+        "fields": {
+			"id": 2,
+			"day": 1,
+			"time_interval": 15,
+			"room": "LAB04",
+			"class":26 
+		}
+	},
+    {
+        "model": "manager.Slot",
+        "fields": {
+			"id": 3,
+			"day": 1,
+			"time_interval": 16,
+			"room": "L102",
+			"class": 35}
+		},
+    {
+        "model": "manager.Slot",
+        "fields": {
+        "id": 3,
+        "day": 1,
+        "time_interval": 17,
+        "room": "L102",
+        "class": 35  } },
+    {
+        "model": "manager.Slot",
+        "fields": {
+        "id": 4,
+        "day": 1,
+        "time_interval": 18,
+        "room": "L105",
+        "class": 32  } },
+    {
+        "model": "manager.Slot",
+        "fields": {
+        "id": 5,
+        "day": 1,
+        "time_interval": 19,
+        "room": "L105",
+        "class": 32  } },
+    {
+        "model": "manager.Slot",
+        "fields": {
+        "id": 6,
+        "day": 2,
+        "time_interval": 16,
+        "room": "LAB03",
+        "class": 25  } },
+    {
+        "model": "manager.Slot",
+        "fields": {
+        "id": 7,
+        "day": 2,
+        "time_interval": 17,
+        "room": "LAB03",
+        "class": 25  } },
+    {
+        "model": "manager.Slot",
+        "fields": {
+        "id": 8,
+        "day": 2,
+        "time_interval": 16,
+        "room": "LAB02",
+        "class": 27  } },
+    {
+        "model": "manager.Slot",
+        "fields": {
+        "id": 8,
+        "day": 2,
+        "time_interval": 17,
+        "room": "LAB02",
+        "class": 27  } },
+    {
+        "model": "manager.Slot",
+        "fields": {
+        "id": 8,
+        "day": 2,
+        "time_interval": 18,
+        "room": "L103",
+        "class": 4  } },
+    {
+        "model": "manager.Slot",
+        "fields": {
+        "id": 8,
+        "day": 2,
+        "time_interval": 19,
+        "room": "L103",
+        "class": 4  } },
+    {
+        "model": "manager.Slot",
+        "fields": {
+        "id": 8,
+        "day": 3,
+        "time_interval": 14,
+        "room": "B107",
+        "class":   ""} },
+    {
+        "model": "manager.Slot",
+        "fields": {
+        "id": 8,
+        "day": 3,
+        "time_interval": 15,
+        "room": "B107",
+        "class":   ""} },
+    {
+        "model": "manager.Slot",
+        "fields": {
+        "id": 8,
+        "day": 3,
+        "time_interval": 14,
+        "room": "LAB04",
+        "class": 34  } },
+    {
+        "model": "manager.Slot",
+        "fields": {
+        "id": 8,
+        "day": 3,
+        "time_interval": 15,
+        "room": "LAB04",
+        "class": 34,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 3,
+        "time_interval": 16,
+        "room": "L102",
+        "class": 35,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 3,
+        "time_interval": 17,
+        "room": "L102",
+        "class": 35,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 3,
+        "time_interval": 18,
+        "room": "L105",
+        "class": 25,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 3,
+        "time_interval": 19,
+        "room": "L105",
+        "class": 25,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 3,
+        "time_interval": 18,
+        "room": "LAB04",
+        "class": 26,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 3,
+        "time_interval": 19,
+        "room": "LAB04",
+        "class": 26,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 4,
+        "time_interval": 14,
+        "room": "L105",
+        "class": 32,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 4,
+        "time_interval": 15,
+        "room": "L105",
+        "class": 32,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 4,
+        "time_interval": 16,
+        "room": "B105",
+        "class": 33,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 4,
+        "time_interval": 17,
+        "room": "B105",
+        "class": 33,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 4,
+        "time_interval": 16,
+        "room": "L106",
+        "class": 34,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 4,
+        "time_interval": 17,
+        "room": "L106",
+        "class": 34,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 4,
+        "time_interval": 18,
+        "room": "LAB03",
+        "class": 4,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 4,
+        "time_interval": 19,
+        "room": "LAB03",
+        "class": 4  } },
+    
+    {
+        "id": 8,
+        "day": 5,
+        "time_interval": 16,
+        "room": "L102",
+        "class": 35,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 5,
+        "time_interval": 17,
+        "room": "L102",
+        "class": 35,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 5,
+        "time_interval": 18,
+        "room": "L106",
+        "class": 33,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 5,
+        "time_interval": 19,
+        "room": "L106",
+        "class": 33  } },
+
+    {
+        "id": 8,
+        "day": 1,
+        "time_interval": 16,
+        "room": "LAB05",
+        "class": 28,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 1,
+        "time_interval": 17,
+        "room": "LAB05",
+        "class": 28,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 1,
+        "time_interval": 18,
+        "room": "F006",
+        "class": 6,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 1,
+        "time_interval": 19,
+        "room": "F006",
+        "class": 6  } },
+
+    {
+        "id": 8,
+        "day": 2,
+        "time_interval": 14,
+        "room": "LAB02",
+        "class": 31,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 2,
+        "time_interval": 15,
+        "room": "LAB02",
+        "class": 31,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 2,
+        "time_interval": 16,
+        "room": "B106",
+        "class": 28,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 2,
+        "time_interval": 17,
+        "room": "B106",
+        "class": 28,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 2,
+        "time_interval": 18,
+        "room": "B209",
+        "class": 5,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 2,
+        "time_interval": 19,
+        "room": "B209",
+        "class": 5  } },
+    
+    {
+        "id": 8,
+        "day": 3,
+        "time_interval": 16,
+        "room": "LAB02",
+        "class": 29,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 3,
+        "time_interval": 17,
+        "room": "LAB02",
+        "class": 29,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 3,
+        "time_interval": 18,
+        "room": "LAB02",
+        "class": 6,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 3,
+        "time_interval": 19,
+        "room": "LAB02",
+        "class": 6  } },
+    
+    {
+        "id": 8,
+        "day": 4,
+        "time_interval": 16,
+        "room": "B107",
+        "class": 5,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 4,
+        "time_interval": 17,
+        "room": "B107",
+        "class": 5,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 4,
+        "time_interval": 18,
+        "room": "LAB04",
+        "class": 6,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 4,
+        "time_interval": 19,
+        "room": "LAB04",
+        "class": 6  } },
+    
+
+    {
+        "id": 8,
+        "day": 5,
+        "time_interval": 16,
+        "room": "LAB04",
+        "class": 29,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 5,
+        "time_interval": 17,
+        "room": "LAB04",
+        "class": 29,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 5,
+        "time_interval": 18,
+        "room": "LAB02",
+        "class": 31,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 5,
+        "time_interval": 19,
+        "room": "LAB02",
+        "class": 31  } },    
+    
+    {
+        "id": 8,
+        "day": 1,
+        "time_interval": 16,
+        "room": "LAB03",
+        "class": 8,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 1,
+        "time_interval": 17,
+        "room": "LAB03",
+        "class": 8,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 1,
+        "time_interval": 18,
+        "room": ,
+        "class": 9,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 1,
+        "time_interval": 19,
+        "room": ,
+        "class": 9  } },
+    
+    {
+        "id": 8,
+        "day": 2,
+        "time_interval": 14,
+        "room": "L105",
+        "class": 1,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 2,
+        "time_interval": 15,
+        "room": "L105",
+        "class": 1,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 2,
+        "time_interval": 16,
+        "room": "D202",
+        "class": 7,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 2,
+        "time_interval": 17,
+        "room": "D202",
+        "class": 7,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 2,
+        "time_interval": 18,
+        "room": "LAB03",
+        "class": 8,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 2,
+        "time_interval": 19,
+        "room": "LAB03",
+        "class": 8  } },
+    
+
+    {
+        "id": 8,
+        "day": 3,
+        "time_interval": 16,
+        "room": "LAB03",
+        "class": 8,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 3,
+        "time_interval": 17,
+        "room": "LAB03",
+        "class": 8,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 3,
+        "time_interval": 18,
+        "room": "O205",
+        "class": 1,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 3,
+        "time_interval": 19,
+        "room": "O205",
+        "class": 1  } },
+    
+
+    {
+        "id": 8,
+        "day": 4,
+        "time_interval": 16,
+        "room": "LAB03",
+        "class": 7,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 4,
+        "time_interval": 17,
+        "room": "LAB03",
+        "class": 7,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 4,
+        "time_interval": 18,
+        "room": "D108",
+        "class": 9,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 4,
+        "time_interval": 19,
+        "room": "D108",
+        "class": 9  } },
+    
+
+    {
+        "id": 8,
+        "day": 5,
+        "time_interval": 16,
+        "room": "LAB05",
+        "class": 9,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 5,
+        "time_interval": 17,
+        "room": "LAB05",
+        "class": 9,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 5,
+        "time_interval": 18,
+        "room": "LAB02",
+        "class": 7,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 5,
+        "time_interval": 19,
+        "room": "LAB02",
+        "class": 7  } },
+
+    {
+        "id": 8,
+        "day": 1,
+        "time_interval": 16,
+        "room": "LAB04",
+        "class": 11,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 1,
+        "time_interval": 17,
+        "room": "LAB04",
+        "class": 11,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 1,
+        "time_interval": 18,
+        "room": "LAB04",
+        "class": 16,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 1,
+        "time_interval": 19,
+        "room": "LAB04",
+        "class": 16  } },
+	{
+        "id": 8,
+        "day": 2,
+        "time_interval": 15,
+        "room": ,
+        "class": ,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 2,
+        "time_interval": 16,
+        "room": "LAB04",
+        "class": 11,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 2,
+        "time_interval": 17,
+        "room": "LAB04",
+        "class": 11,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 2,
+        "time_interval": 18,
+        "room": "LAB04",
+        "class": 16,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 2,
+        "time_interval": 19,
+        "room": "LAB04",
+        "class": 16  } },
+    
+
+    {
+        "id": 8,
+        "day": 3,
+        "time_interval": 14,
+        "room": "LAB04",
+        "class": 10,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 3,
+        "time_interval": 15,
+        "room": "LAB04",
+        "class": 10,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 3,
+        "time_interval": 16,
+        "room": "LAB04",
+        "class": 11,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 3,
+        "time_interval": 17,
+        "room": "LAB04",
+        "class": 11,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 3,
+        "time_interval": 18,
+        "room": "LAB05",
+        "class": 16,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 3,
+        "time_interval": 19,
+        "room": "LAB05",
+        "class": 16  } },
+    
+
+    {
+        "id": 8,
+        "day": 4,
+        "time_interval": 16,
+        "room": "LAB02",
+        "class": 10,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 4,
+        "time_interval": 17,
+        "room": "LAB02",
+        "class": 10,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 4,
+        "time_interval": 18,
+        "room": "LAB05",
+        "class": 7,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 4,
+        "time_interval": 19,
+        "room": "LAB05",
+        "class": 7  } },
+    
+
+    {
+        "id": 8,
+        "day": 5,
+        "time_interval": 16,
+        "room": "K115",
+        "class": 7,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 5,
+        "time_interval": 17,
+        "room": "K115",
+        "class": 7,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 5,
+        "time_interval": 18,
+        "room": "D102",
+        "class": 10,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 5,
+        "time_interval": 19,
+        "room": "D102",
+        "class": 10  } },
+    
+    ##
+    #5 semestre - segunda
+    {
+        "id": 8,
+        "day": 1,
+        "time_interval": 16,
+        "room": ,
+        "class": ,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 1,
+        "time_interval": 17,
+        "room": ,
+        "class": ,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 1,
+        "time_interval": 18,
+        "room": ,
+        "class": 16,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 1,
+        "time_interval": 19,
+        "room": ,
+        "class": 16  } },
+    
+    #5 semestre - terça
+    {
+        "id": 8,
+        "day": 2,
+        "time_interval": 16,
+        "room": ,
+        "class": ,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 2,
+        "time_interval": 17,
+        "room": ,
+        "class": ,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 2,
+        "time_interval": 18,
+        "room": ,
+        "class": 4,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 2,
+        "time_interval": 19,
+        "room": ,
+        "class": 4  } },
+    
+    #5 semestre - quarta
+    {
+        "id": 8,
+        "day": 3,
+        "time_interval": 14,
+        "room": ,
+        "class": 13,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 3,
+        "time_interval": 15,
+        "room": ,
+        "class": 13,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 3,
+        "time_interval": 16,
+        "room": ,
+        "class": 4,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 3,
+        "time_interval": 17,
+        "room": ,
+        "class": 4,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 3,
+        "time_interval": 18,
+        "room": ,
+        "class": 21,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 3,
+        "time_interval": 19,
+        "room": ,
+        "class": 21  } },
+    
+    #5 semestre - quinta
+    {
+        "id": 8,
+        "day": 4,
+        "time_interval": 14,
+        "room": ,
+        "class": 30,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 4,
+        "time_interval": 15,
+        "room": ,
+        "class": 30,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 4,
+        "time_interval": 16,
+        "room": ,
+        "class": 16,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 4,
+        "time_interval": 17,
+        "room": ,
+        "class": 16,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 4,
+        "time_interval": 18,
+        "room": ,
+        "class": 13,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 4,
+        "time_interval": 19,
+        "room": ,
+        "class": 13  } },
+    
+    #5 semestre - sexta
+    {
+        "id": 8,
+        "day": 5,
+        "time_interval": 16,
+        "room": ,
+        "class": 13,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 5,
+        "time_interval": 17,
+        "room": ,
+        "class": 13,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 5,
+        "time_interval": 18,
+        "room": ,
+        "class": 21,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 5,
+        "time_interval": 19,
+        "room": ,
+        "class": 21  } },
+    
+    ##
+    #6 semestre - segunda
+    {
+        "id": 8,
+        "day": 1,
+        "time_interval": 14,
+        "room": ,
+        "class": 17,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 1,
+        "time_interval": 15,
+        "room": ,
+        "class": 17,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 1,
+        "time_interval": 16,
+        "room": ,
+        "class": 18,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 1,
+        "time_interval": 17,
+        "room": ,
+        "class": 18,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 1,
+        "time_interval": 18,
+        "room": ,
+        "class": 15,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 1,
+        "time_interval": 19,
+        "room": ,
+        "class": 15  } },
+    
+    #6 semestre - terça
+    {
+        "id": 8,
+        "day": 2,
+        "time_interval": 14,
+        "room": ,
+        "class": 22,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 2,
+        "time_interval": 15,
+        "room": ,
+        "class": 22,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 2,
+        "time_interval": 16,
+        "room": ,
+        "class": 17,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 2,
+        "time_interval": 17,
+        "room": ,
+        "class": 17,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 2,
+        "time_interval": 18,
+        "room": ,
+        "class": 15,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 2,
+        "time_interval": 19,
+        "room": ,
+        "class": 15  } },
+    
+    #6 semestre - quarta
+    {
+        "id": 8,
+        "day": 3,
+        "time_interval": 16,
+        "room": ,
+        "class": 19,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 3,
+        "time_interval": 17,
+        "room": ,
+        "class": 19,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 3,
+        "time_interval": 18,
+        "room": ,
+        "class": 15,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 3,
+        "time_interval": 19,
+        "room": ,
+        "class": 15  } },
+    
+    #6 semestre - quinta
+    {
+        "id": 8,
+        "day": 4,
+        "time_interval": 16,
+        "room": ,
+        "class": 19,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 4,
+        "time_interval": 17,
+        "room": ,
+        "class": 19,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 4,
+        "time_interval": 18,
+        "room": ,
+        "class": 23,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 4,
+        "time_interval": 19,
+        "room": ,
+        "class": 23  } },
+    
+    #6 semestre - sexta
+	{
+        "id": 8,
+        "day": 5,
+        "time_interval": 17,
+        "room": ,
+        "class": ,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 5,
+        "time_interval": 18,
+        "room": ,
+        "class": 18,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 5,
+        "time_interval": 19,
+        "room": ,
+        "class": 18  } },
+
+    ##
+    #LIVRE - segunda
+	{
+        "id": 8,
+        "day": 1,
+        "time_interval": 17,
+        "room": ,
+        "class": ,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 1,
+        "time_interval": 18,
+        "room": ,
+        "class": 2,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 1,
+        "time_interval": 19,
+        "room": ,
+        "class": 2  } },
+
+    #LIVRE - quarta
+    {
+        "id": 8,
+        "day": 3,
+        "time_interval": 18,
+        "room": ,
+        "class": 13,
+},        {            "model": "manager.Slot",            "fields": {            
+        "id": 8,
+        "day": 3,
+        "time_interval": 19,
+        "room": ,
+        "class": 13,
+    }
 ]
