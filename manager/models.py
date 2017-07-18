@@ -176,7 +176,7 @@ class Slot(models.Model):
     day = models.ForeignKey('Day')
     time_interval = models.ForeignKey('TimeInterval')
     room = models.ForeignKey('Room')
-    class_ = models.ForeignKey('Class')
+    _class = models.ForeignKey('Class')
 
     def __str__(self):
         return day + " - " + time_interval + ": " +  class_ + " em " + room
