@@ -154,7 +154,7 @@ class Period(models.Model):
         verbose_name = 'Turno'
         verbose_name_plural = 'Turnos'
 
-class TimeSlot(models.Model):
+class TimeInterval(models.Model):
     id = models.IntegerField
     period = models.ForeignKey('Period')
     start_time = models.TimeField(blank=False, null=False)
@@ -170,12 +170,12 @@ class TimeSlot(models.Model):
 class ClassRoomAllocation(models.Model):
     id = models.IntegerField
     day = models.ForeignKey('Day')
-    time_slot = models.ForeignKey('TimeSlot')
+    time_interval = models.ForeignKey('TimeInterval')
     room = models.ForeignKey('Room')
 	class_ = models.ForeignKey('Class')
 
     def __str__(self):
-        return day + " - " + time_slot + ": " +  class_ + " em " + room
+        return day + " - " + time_interval + ": " +  class_ + " em " + room
 
     class Meta:
         verbose_name = 'Alocação da turma em sala'

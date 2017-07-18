@@ -1438,7 +1438,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 1,
             "start_time": "07:00",
@@ -1447,7 +1447,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 2,
             "start_time": "07:50",
@@ -1456,7 +1456,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 3,
             "start_time": "08:40",
@@ -1465,7 +1465,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 4,
             "start_time": "09:30",
@@ -1474,7 +1474,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 5,
             "start_time": "10:20",
@@ -1483,7 +1483,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 6,
             "start_time": "11:10",
@@ -1492,7 +1492,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
             "fields": {
             "id": 7,
             "start_time": "12:00",
@@ -1501,7 +1501,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 8,
             "start_time": "12:50",
@@ -1510,7 +1510,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 9,
             "start_time": "13:40",
@@ -1519,7 +1519,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 10,
             "start_time": "14:30",
@@ -1528,7 +1528,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 11,
             "start_time": "15:20",
@@ -1537,7 +1537,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 12,
             "start_time": "16:10",
@@ -1546,7 +1546,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 13,
             "start_time": "16:10",
@@ -1555,7 +1555,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 14,
             "start_time": "17:00",
@@ -1564,7 +1564,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 15,
             "start_time": "17:50",
@@ -1573,7 +1573,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 16,
             "start_time": "18:40",
@@ -1582,7 +1582,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 17,
             "start_time": "19:30",
@@ -1591,7 +1591,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 18,
             "start_time": "20:20",
@@ -1600,7 +1600,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 19,
             "start_time": "21:10",
