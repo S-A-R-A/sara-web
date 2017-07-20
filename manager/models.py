@@ -135,7 +135,7 @@ class Class(models.Model):
     semester = models.PositiveSmallIntegerField(default=0)
 
     def __str__(self):
-        return self.course + " - " + code
+        return "{0} - {1}".format(self.course, self.code)
 
     class Meta:
         verbose_name = 'Turma'
@@ -171,15 +171,22 @@ class Day(models.Model):
     id = models.IntegerField
     name = models.CharField(max_length=100, blank=False, null=False)
 
+    def __str__(self):
+        return self.name
+
+    class Meta:
+        verbose_name = 'Dia'
+        verbose_name_plural = 'Dias'
+
 class Slot(models.Model):
     id = models.IntegerField
-    day = models.ForeignKey('Day')
+    day = models.ForeignKey('Day', on_delete=models.CASCADE)
     time_interval = models.ForeignKey('TimeInterval')
     room = models.ForeignKey('Room')
-    _class = models.ForeignKey('Class')
+    _class = models.ForeignKey('Class', blank=True, null=True)
 
     def __str__(self):
-        return day + " - " + time_interval + ": " +  class_ + " em " + room
+        return "{0} - {1} : {2} em {3}".format(self.day, self.time_interval, self._class, self.room)
 
     class Meta:
         verbose_name = 'Alocação da turma em sala'
