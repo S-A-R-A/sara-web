@@ -17,7 +17,7 @@ class Campus(models.Model):
     id = models.IntegerField
     name = models.CharField(max_length=200, blank=False, null=False)
     address = models.CharField(max_length=200, blank=False, null=False)
-    institution = models.ForeignKey('Institution')
+    institution = models.ForeignKey('Institution', on_delete=models.CASCADE)
 
     def __str__(self):
         return self.name
@@ -39,7 +39,7 @@ class RequirementType(models.Model):
 
 class Requirement(models.Model):
     id = models.IntegerField
-    type = models.ForeignKey('RequirementType')
+    type = models.ForeignKey('RequirementType', on_delete=models.CASCADE)
     description = models.CharField(max_length=100, blank=False, null=False)
 
     def __str__(self):
@@ -53,10 +53,10 @@ class Area(models.Model):
     id = models.IntegerField
     code = models.CharField(max_length=20, blank=False, null=False)
     description = models.CharField(max_length=100, blank=False, null=False)
-    campus = models.ForeignKey('Campus')
+    campus = models.ForeignKey('Campus', on_delete=models.CASCADE)
 
     def __str__(self):
-        return self.code +' - ' + self.description
+        return "{0} - {1}".format(self.code, self.description)
 
     class Meta:
         verbose_name = 'Área'
@@ -127,9 +127,9 @@ class Course(models.Model):
 
 class Class(models.Model):
     id = models.IntegerField
-    course = models.ForeignKey('Course')
+    course = models.ForeignKey('Course', on_delete=models.CASCADE)
     code = models.CharField(max_length=200, blank=False, null=False)
-    teacher = models.ForeignKey('Teacher')
+    teacher = models.ForeignKey('Teacher', on_delete=models.CASCADE)
     size = models.PositiveSmallIntegerField(default=0)
     year = models.PositiveSmallIntegerField(default=0)
     semester = models.PositiveSmallIntegerField(default=0)
@@ -156,7 +156,7 @@ class Period(models.Model):
 
 class TimeInterval(models.Model):
     id = models.IntegerField
-    period = models.ForeignKey('Period')
+    period = models.ForeignKey('Period', on_delete=models.CASCADE)
     start_time = models.TimeField(blank=False, null=False)
     end_time = models.TimeField(blank=False, null=False)
 
@@ -181,12 +181,12 @@ class Day(models.Model):
 class Slot(models.Model):
     id = models.IntegerField
     day = models.ForeignKey('Day', on_delete=models.CASCADE)
-    time_interval = models.ForeignKey('TimeInterval')
-    room = models.ForeignKey('Room')
+    time_interval = models.ForeignKey('TimeInterval', on_delete=models.CASCADE)
+    room = models.ForeignKey('Room', on_delete=models.CASCADE)
     _class = models.ForeignKey('Class', blank=True, null=True)
 
     def __str__(self):
-        return "{0} - {1} : {2} em {3}".format(self.day, self.time_interval, self._class, self.room)
+        return "{0} - {1} : {2} em {3}".format(self.day, self.time_interval, "Espaço vago" if self._class is None else self._class, self.room)
 
     class Meta:
         verbose_name = 'Alocação da turma em sala'
