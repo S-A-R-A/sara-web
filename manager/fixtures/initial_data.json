@@ -1,4 +1,14 @@
 [
+    { "model": "auth.user",
+          "pk": 1,
+          "fields": {
+              "username": "admin",
+              "password": "pbkdf2_sha256$36000$oYX9d6mfx4aC$a4omZr6ZsWiGcxptNf2HFTPWgDeqz+RMc4vvj/+Y25w=",
+              "is_superuser": true,
+              "is_staff": true,
+              "is_active": true
+          }
+    },
     {
         "model": "manager.Institution",
         "fields": {
@@ -481,6 +491,61 @@
             "capacity": 45,
             "type": 1,
             "area": 5
+        }
+    },
+    {
+        "model": "manager.Room",
+        "fields": {
+            "id": 25,
+            "code": "B-107",
+            "description": "Sala 107",
+            "capacity": 45,
+            "type": 1,
+            "area": 2
+        }
+    },
+    {
+        "model": "manager.Room",
+        "fields": {
+            "id": 26,
+            "code": "B-106",
+            "description": "Sala 106",
+            "capacity": 45,
+            "type": 1,
+            "area": 2
+        }
+    },
+    {
+        "model": "manager.Room",
+        "fields": {
+            "id": 27,
+            "code": "B-209",
+            "description": "Sala 209",
+            "capacity": 40,
+            "type": 1,
+            "area": 2
+        }
+    },
+        {
+        "model": "manager.Room",
+        "fields": {
+            "id": 28,
+            "code": "D-202",
+            "description": "Sala 202",
+            "capacity": 40,
+            "type": 1,
+            "area":  3
+        }
+    },
+    {
+        "model": "manager.Room",
+        "fields": {
+            "id": 29,
+            "code": "B-105",
+            "description": "Sala 105",
+            "capacity": 40,
+            "type": 1,
+            "area":  2
         }
     },
     {
@@ -1438,7 +1503,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 1,
             "start_time": "07:00",
@@ -1447,7 +1512,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 2,
             "start_time": "07:50",
@@ -1456,7 +1521,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 3,
             "start_time": "08:40",
@@ -1465,7 +1530,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 4,
             "start_time": "09:30",
@@ -1474,7 +1539,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 5,
             "start_time": "10:20",
@@ -1483,7 +1548,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 6,
             "start_time": "11:10",
@@ -1492,7 +1557,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
             "fields": {
             "id": 7,
             "start_time": "12:00",
@@ -1501,7 +1566,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 8,
             "start_time": "12:50",
@@ -1510,7 +1575,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 9,
             "start_time": "13:40",
@@ -1519,7 +1584,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 10,
             "start_time": "14:30",
@@ -1528,7 +1593,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 11,
             "start_time": "15:20",
@@ -1537,7 +1602,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 12,
             "start_time": "16:10",
@@ -1546,7 +1611,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 13,
             "start_time": "16:10",
@@ -1555,7 +1620,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 14,
             "start_time": "17:00",
@@ -1564,7 +1629,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 15,
             "start_time": "17:50",
@@ -1573,7 +1638,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 16,
             "start_time": "18:40",
@@ -1582,7 +1647,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 17,
             "start_time": "19:30",
@@ -1591,7 +1656,7 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 18,
             "start_time": "20:20",
@@ -1600,12 +1665,54 @@
         }
     },
     {
-        "model": "manager.TimeSlot",
+        "model": "manager.TimeInterval",
         "fields": {
             "id": 19,
             "start_time": "21:10",
             "end_time": "22:00",
             "period": 3
+        }
+    },
+    {
+        "model": "manager.Day",
+        "fields": {
+            "id": 1,
+            "name": "Segunda"
+        }
+    },
+    {
+        "model": "manager.Day",
+        "fields": {
+            "id": 2,
+            "name": "Terça"
+        }
+    },
+    {
+        "model": "manager.Day",
+        "fields": {
+            "id": 3,
+            "name": "Quarta"
+        }
+    },
+    {
+        "model": "manager.Day",
+        "fields": {
+            "id": 4,
+            "name": "Quinta"
+        }
+    },
+    {
+        "model": "manager.Day",
+        "fields": {
+            "id": 5,
+            "name": "Sexta"
+        }
+    },
+    {
+        "model": "manager.Day",
+        "fields": {
+            "id": 6,
+            "name": "Sábado"
         }
     }
 ]
