@@ -191,3 +191,4 @@ class Slot(models.Model):
     class Meta:
         verbose_name = 'Alocação da turma em sala'
         verbose_name_plural = 'Alocações das turmas em salas'
+        unique_together = (('day', 'time_interval', 'room'),)
