@@ -2,7 +2,7 @@
 from django.db import models
 
 class Institution(models.Model):
-    id = models.IntegerField
+    id = models.IntegerField(unique=True, blank=True, null=True)
     acronym = models.CharField(max_length=50, blank=False, null=False)
     name = models.CharField(max_length=500, blank=False, null=False)
 
@@ -14,7 +14,7 @@ class Institution(models.Model):
         verbose_name_plural = 'Instituições'
 
 class Campus(models.Model):
-    id = models.IntegerField
+    id = models.IntegerField(unique=True, blank=True, null=True)
     name = models.CharField(max_length=500, blank=False, null=False)
     address = models.CharField(max_length=500, blank=False, null=False)
     institution = models.ForeignKey('Institution', on_delete=models.CASCADE)
@@ -27,7 +27,7 @@ class Campus(models.Model):
         verbose_name_plural = 'Campi'
 
 class RequirementType(models.Model):
-    id = models.IntegerField
+    id = models.IntegerField(unique=True, blank=True, null=True)
     name = models.CharField(max_length=50, blank=False, null=False)
 
     def __str__(self):
@@ -38,7 +38,7 @@ class RequirementType(models.Model):
         verbose_name_plural = 'Tipos dos Requisitos'
 
 class Requirement(models.Model):
-    id = models.IntegerField
+    id = models.IntegerField(unique=True, blank=True, null=True)
     type = models.ForeignKey('RequirementType', on_delete=models.CASCADE)
     description = models.CharField(max_length=100, blank=False, null=False)
 
@@ -50,7 +50,7 @@ class Requirement(models.Model):
         verbose_name_plural = 'Requisitos'
 
 class Area(models.Model):
-    id = models.IntegerField
+    id = models.IntegerField(unique=True, blank=True, null=True)
     code = models.CharField(max_length=50, blank=False, null=False)
     description = models.CharField(max_length=100, blank=False, null=False)
     campus = models.ForeignKey('Campus', on_delete=models.CASCADE)
@@ -63,7 +63,7 @@ class Area(models.Model):
         verbose_name_plural = 'Áreas'
 
 class RoomType(models.Model):
-    id = models.IntegerField
+    id = models.IntegerField(unique=True, blank=True, null=True)
     name = models.CharField(max_length=50, blank=False, null=False)
 
     def __str__(self):
@@ -74,7 +74,7 @@ class RoomType(models.Model):
         verbose_name_plural = 'Tipos das Salas'
 
 class Room(models.Model):
-    id = models.IntegerField
+    id = models.IntegerField(unique=True, blank=True, null=True)
     code = models.CharField(max_length=50, blank=False, null=False)
     description = models.CharField(max_length=100, blank=False, null=False)
     capacity = models.PositiveSmallIntegerField(default=0)
@@ -89,7 +89,7 @@ class Room(models.Model):
         verbose_name_plural = 'Salas'
 
 class Teacher(models.Model):
-    id = models.IntegerField
+    id = models.IntegerField(unique=True, blank=True, null=True)
     name = models.CharField(max_length=100, blank=False, null=False)
 
     def __str__(self):
@@ -100,7 +100,7 @@ class Teacher(models.Model):
         verbose_name_plural = 'Professores'
 
 class Program(models.Model):
-    id = models.IntegerField
+    id = models.IntegerField(unique=True, blank=True, null=True)
     acronym = models.CharField(max_length=50, blank=False, null=False)
     name = models.CharField(max_length=500, blank=False, null=False)
 
@@ -112,7 +112,7 @@ class Program(models.Model):
         verbose_name_plural = 'Cursos'
 
 class Course(models.Model):
-    id = models.IntegerField
+    id = models.IntegerField(unique=True, blank=True, null=True)
     code = models.CharField(max_length=50, blank=False, null=False)
     name = models.CharField(max_length=500, blank=False, null=False)
     workload = models.PositiveSmallIntegerField(default=0)
@@ -126,7 +126,7 @@ class Course(models.Model):
         verbose_name_plural = 'Disciplinas'
 
 class Class(models.Model):
-    id = models.IntegerField
+    id = models.IntegerField(unique=True, blank=True, null=True)
     course = models.ForeignKey('Course', on_delete=models.CASCADE)
     code = models.CharField(max_length=500, blank=False, null=False)
     teacher = models.ForeignKey('Teacher', on_delete=models.CASCADE)
@@ -142,7 +142,7 @@ class Class(models.Model):
         verbose_name_plural = 'Turmas'
 
 class Period(models.Model):
-    id = models.IntegerField
+    id = models.IntegerField(unique=True, blank=True, null=True)
     name = models.CharField(max_length=100, blank=False, null=False)
     start_time = models.TimeField(blank=False, null=False)
     end_time = models.TimeField(blank=False, null=False)
@@ -155,7 +155,7 @@ class Period(models.Model):
         verbose_name_plural = 'Turnos'
 
 class TimeInterval(models.Model):
-    id = models.IntegerField
+    id = models.IntegerField(unique=True, blank=True, null=True)
     period = models.ForeignKey('Period', on_delete=models.CASCADE)
     start_time = models.TimeField(blank=False, null=False)
     end_time = models.TimeField(blank=False, null=False)
@@ -168,8 +168,9 @@ class TimeInterval(models.Model):
         verbose_name_plural = 'Intervalos de Tempo'
 
 class Day(models.Model):
-    id = models.IntegerField
+    id = models.IntegerField(unique=True, blank=True, null=True)
     name = models.CharField(max_length=100, blank=False, null=False)
+    time_intervals = models.ManyToManyField('TimeInterval')
 
     def __str__(self):
         return self.name
@@ -179,7 +180,7 @@ class Day(models.Model):
         verbose_name_plural = 'Dias'
 
 class Slot(models.Model):
-    id = models.IntegerField
+    id = models.IntegerField(unique=True, blank=True, null=True)
     day = models.ForeignKey('Day', on_delete=models.CASCADE)
     time_interval = models.ForeignKey('TimeInterval', on_delete=models.CASCADE)
     room = models.ForeignKey('Room', on_delete=models.CASCADE)

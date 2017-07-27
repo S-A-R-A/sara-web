@@ -1677,42 +1677,48 @@
         "model": "manager.Day",
         "fields": {
             "id": 1,
-            "name": "Segunda"
+            "name": "Segunda",
+            "time_intervals": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
         }
     },
     {
         "model": "manager.Day",
         "fields": {
             "id": 2,
-            "name": "Terça"
+            "name": "Terça",
+            "time_intervals": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
         }
     },
     {
         "model": "manager.Day",
         "fields": {
             "id": 3,
-            "name": "Quarta"
+            "name": "Quarta",
+            "time_intervals": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
         }
     },
     {
         "model": "manager.Day",
         "fields": {
             "id": 4,
-            "name": "Quinta"
+            "name": "Quinta",
+            "time_intervals": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
         }
     },
     {
         "model": "manager.Day",
         "fields": {
             "id": 5,
-            "name": "Sexta"
+            "name": "Sexta",
+            "time_intervals": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
         }
     },
     {
         "model": "manager.Day",
         "fields": {
             "id": 6,
-            "name": "Sábado"
+            "name": "Sábado",
+            "time_intervals": [1, 2, 3, 4, 5, 6]
         }
     }
 ]
