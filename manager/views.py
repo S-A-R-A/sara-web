@@ -6,11 +6,11 @@ from .models import Slot
 from .models import Class
 
 def show_timetabling(request):
+    tables = []
     days = Day.objects.all()
-    slots_data_set = []
-    rooms = Room.objects.all()
-
     for day in days:
-        slots_data_set.append(Slot.objects.filter(day = day))
+        table = dict(day = day, time_intervals = day.time_intervals.all(),
+                     rooms = Room.objects.all(), slots = Slot.objects.filter(day = day))
+        tables.append(table)
 
-    return render(request, 'manager/show_timetabling.html', {'days': days, 'rooms': rooms, 'slots_data_set': slots_data_set})
+    return render(request, 'manager/show_timetabling.html', {'tables': tables})

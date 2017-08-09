@@ -13,25 +13,58 @@
 <div class="container">
   <h3>Tabs</h3>
   <ul class="nav nav-tabs">
-    {% for day in days %}
-      <li><a href="#{{ day }}" >{{ day }}</a></li>
+    {% for table in tables %}
+      <li><a href="#{{ table.day }}" >{{ table.day }}</a></li>
     {% endfor %}
   </ul>
   <br>
 </div>
-    {% for slots in slots_data_set %}
+
+  {% for table in tables %}
+    <div id="#{{ table.day }}">
+      <h2>{{ table.day }}</h2>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Horário</th>
+              {% for room in table.rooms %}
+                  <th>{{ room.code }}</th>
+              {% endfor %}
+            </tr>
+          </thead>
+          <tbody>
+            {% for time_interval in table.time_intervals %}
+              <tr>
+                <td scope="row">{{ time_interval }}</td>
+                {% for slot in table.slots %}
+                    <td scope="row">
+                      {% if slot.s_class %}
+                        {{ slot.s_class }}
+                      {% else %}
+                        ---
+                      {% endif %}
+                    </td>
+                {% endfor %}
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+    </div>
+  {% endfor %}
+
+    <!-- {% for slots in slots_data_set %}
             <h2> {{ slots.0.day }}</h2>
             <table id="{{ slots.0.day }}" class="table table-striped">
               <thead>
                 <tr>
                 <th>Horário</th>
                 {% for room in rooms %}
-                      <th>{{ room }}</th>
+                      <th>{{ room.code }}</th>
                 {% endfor %}
                 </tr>
               </thead>
                 <tbody>
-                  <!--<th scope="row">{{ slot.time_interval }}</th>-->
+                     <th scope="row">{{ slot.time_interval }}</th>
                   <tr>
                   {% for slot in slots %}
                       <td>{{ slot.s_class }}</td>
@@ -41,7 +74,7 @@
             </table>
               <hr/>
               <br/>
-    {% endfor %}
+    {% endfor %} -->
 </body>
 </html>
 <!--{% for slots in slots_data_set %}
