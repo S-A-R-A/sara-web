@@ -20,7 +20,6 @@ default-data:
 	$(language) $(manage) loaddata $(initial_data)
 run:
 	$(activate)
-	source $(environment)/bin/activate
 	$(language) $(manage) createsuperuser
 	$(language) $(manage) runserver
 
