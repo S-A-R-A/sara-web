@@ -2,25 +2,25 @@ language = python
 environment = myvenv
 initial_data = manager/fixtures/initial_data.json
 manage = manage.py
-activate = source $(environment)/bin/activate
+activate = . $(environment)/bin/activate
 
 venv:
-	pip install virtualenv
+	myvenv/bin/pip install virtualenv
 	virtualenv $(environment)
 	$(activate)
 
 migrate:
 	$(activate)
-	pip install -r requirements.txt
-	$(language) $(manage) makemigrations manager
-	$(language) $(manage) migrate
+	myvenv/bin/pip install -r requirements.txt
+	myvenv/bin/$(language) $(manage) makemigrations manager
+	myvenv/bin/$(language) $(manage) migrate
 
 default-data:
 	$(activate)
-	$(language) $(manage) loaddata $(initial_data)
+	myvenv/bin/$(language) $(manage) loaddata $(initial_data)
 run:
 	$(activate)
-	$(language) $(manage) createsuperuser
-	$(language) $(manage) runserver
+	myvenv/bin/$(language) $(manage) createsuperuser
+	myvenv/bin/$(language) $(manage) runserver
 
 install: venv migrate default-data
