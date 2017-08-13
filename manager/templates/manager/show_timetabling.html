@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>S.A.R.A - Web :: ADS - IFBA, campus Salvador</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h3>Tabs</h3>
+  <ul class="nav nav-tabs">
+    {% for table in tables %}
+      <li><a href="#{{ table.day }}" >{{ table.day }}</a></li>
+    {% endfor %}
+  </ul>
+  <br>
+</div>
+
+  {% for table in tables %}
+    <div id="#{{ table.day }}">
+      <h2>{{ table.day }}</h2>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Horário</th>
+              {% for room in table.rooms %}
+                  <th>{{ room.code }}</th>
+              {% endfor %}
+            </tr>
+          </thead>
+          <tbody>
+            {% for time_interval in table.time_intervals %}
+              <tr>
+                <td scope="row">{{ time_interval }}</td>
+                {% for slot in table.slots %}
+                    <td scope="row">
+                      {% if slot.s_class %}
+                        {{ slot.s_class }}
+                      {% else %}
+                        ---
+                      {% endif %}
+                    </td>
+                {% endfor %}
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+    </div>
+  {% endfor %}
+
+    <!-- {% for slots in slots_data_set %}
+            <h2> {{ slots.0.day }}</h2>
+            <table id="{{ slots.0.day }}" class="table table-striped">
+              <thead>
+                <tr>
+                <th>Horário</th>
+                {% for room in rooms %}
+                      <th>{{ room.code }}</th>
+                {% endfor %}
+                </tr>
+              </thead>
+                <tbody>
+                     <th scope="row">{{ slot.time_interval }}</th>
+                  <tr>
+                  {% for slot in slots %}
+                      <td>{{ slot.s_class }}</td>
+                  {% endfor %}
+                  </tr>
+                </tbody>
+            </table>
+              <hr/>
+              <br/>
+    {% endfor %} -->
+</body>
+</html>
+<!--{% for slots in slots_data_set %}
+    {% for slot in slots %}
+        <h2> {{ slot.day }}</h2>
+        <table id="{{ slot.day }}" class="table table-striped">
+          <thead>
+            <tr>
+            <th>Horário</th>
+            <th>Sala</th>
+            <th>Turma</th>
+          </tr>
+          </thead>
+          <tbody>
+
+              <tr>
+              <th scope="row">{{ slot.time_interval }}</th>
+              <td>{{ slot.room }}</td>
+              <td>{{ slot.s_class }}</td>
+              </tr>
+
+          </tbody>
+        </table>
+        <hr/>
+        <br/>
+    {% endfor %}
+{% endfor %}-->

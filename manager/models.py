@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from django.db import models
+from manager import managers
 
 class Institution(models.Model):
     id = models.AutoField(primary_key=True)
@@ -175,6 +176,9 @@ class Day(models.Model):
     def __str__(self):
         return self.name
 
+    def get_day_time_intervals(self):
+        return self.time_intervals
+
     class Meta:
         verbose_name = 'Dia'
         verbose_name_plural = 'Dias'
@@ -184,10 +188,11 @@ class Slot(models.Model):
     day = models.ForeignKey('Day', on_delete=models.CASCADE)
     time_interval = models.ForeignKey('TimeInterval', on_delete=models.CASCADE)
     room = models.ForeignKey('Room', on_delete=models.CASCADE)
-    _class = models.ForeignKey('Class', blank=True, null=True)
+    s_class = models.ForeignKey('Class', blank=True, null=True)
+    objects = managers.SlotManager()
 
     def __str__(self):
-        return "{0} - {1} : {2} em {3}".format(self.day, self.time_interval, "Espaço vago" if self._class is None else self._class, self.room)
+        return "{0} - {1} : {2} em {3}".format(self.day, self.time_interval, "Espaço vago" if self.s_class is None else self._class, self.room)
 
     class Meta:
         verbose_name = 'Alocação da turma em sala'
