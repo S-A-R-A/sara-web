@@ -4,8 +4,8 @@ from manager import managers
 
 class Institution(models.Model):
     id = models.AutoField(primary_key=True)
-    acronym = models.CharField(max_length=50, blank=False, null=False)
-    name = models.CharField(max_length=500, blank=False, null=False)
+    acronym = models.CharField(max_length=50, blank=False, null=False, verbose_name="abreviação")
+    name = models.CharField(max_length=500, blank=False, null=False, verbose_name="nome")
 
     def __str__(self):
         return self.name
@@ -16,9 +16,9 @@ class Institution(models.Model):
 
 class Campus(models.Model):
     id = models.AutoField(primary_key=True)
-    name = models.CharField(max_length=500, blank=False, null=False)
-    address = models.CharField(max_length=500, blank=False, null=False)
-    institution = models.ForeignKey('Institution', on_delete=models.CASCADE)
+    name = models.CharField(max_length=500, blank=False, null=False, verbose_name="nome")
+    address = models.CharField(max_length=500, blank=False, null=False, verbose_name="endereço")
+    institution = models.ForeignKey('Institution', on_delete=models.CASCADE, verbose_name=Institution._meta.verbose_name)
 
     def __str__(self):
         return self.name
@@ -29,7 +29,7 @@ class Campus(models.Model):
 
 class RequirementType(models.Model):
     id = models.AutoField(primary_key=True)
-    name = models.CharField(max_length=50, blank=False, null=False)
+    name = models.CharField(max_length=50, blank=False, null=False, verbose_name="nome")
 
     def __str__(self):
         return self.name
@@ -40,8 +40,8 @@ class RequirementType(models.Model):
 
 class Requirement(models.Model):
     id = models.AutoField(primary_key=True)
-    type = models.ForeignKey('RequirementType', on_delete=models.CASCADE)
-    description = models.CharField(max_length=100, blank=False, null=False)
+    type = models.ForeignKey('RequirementType', on_delete=models.CASCADE, verbose_name="tipo")
+    description = models.CharField(max_length=100, blank=False, null=False, verbose_name="descrição")
 
     def __str__(self):
         return self.description
@@ -52,9 +52,9 @@ class Requirement(models.Model):
 
 class Area(models.Model):
     id = models.AutoField(primary_key=True)
-    code = models.CharField(max_length=50, blank=False, null=False)
-    description = models.CharField(max_length=100, blank=False, null=False)
-    campus = models.ForeignKey('Campus', on_delete=models.CASCADE)
+    code = models.CharField(max_length=50, blank=False, null=False, verbose_name="código")
+    description = models.CharField(max_length=100, blank=False, null=False, verbose_name="descrição")
+    campus = models.ForeignKey('Campus', on_delete=models.CASCADE, verbose_name=Campus._meta.verbose_name)
 
     def __str__(self):
         return "{0} - {1}".format(self.code, self.description)
@@ -65,7 +65,7 @@ class Area(models.Model):
 
 class RoomType(models.Model):
     id = models.AutoField(primary_key=True)
-    name = models.CharField(max_length=50, blank=False, null=False)
+    name = models.CharField(max_length=50, blank=False, null=False, verbose_name="nome")
 
     def __str__(self):
         return self.name
@@ -76,11 +76,11 @@ class RoomType(models.Model):
 
 class Room(models.Model):
     id = models.AutoField(primary_key=True)
-    code = models.CharField(max_length=50, blank=False, null=False)
-    description = models.CharField(max_length=100, blank=False, null=False)
-    capacity = models.PositiveSmallIntegerField(default=0)
-    type = models.ForeignKey('RoomType')
-    area = models.ForeignKey('Area')
+    code = models.CharField(max_length=50, blank=False, null=False, verbose_name="código")
+    description = models.CharField(max_length=100, blank=False, null=False, verbose_name="descrição")
+    capacity = models.PositiveSmallIntegerField(default=0, verbose_name="capacidade")
+    type = models.ForeignKey('RoomType', verbose_name=RoomType._meta.verbose_name)
+    area = models.ForeignKey('Area', verbose_name=Area._meta.verbose_name)
 
     def __str__(self):
         return self.description
@@ -91,7 +91,7 @@ class Room(models.Model):
 
 class Teacher(models.Model):
     id = models.AutoField(primary_key=True)
-    name = models.CharField(max_length=100, blank=False, null=False)
+    name = models.CharField(max_length=100, blank=False, null=False, verbose_name="nome")
 
     def __str__(self):
         return self.name
@@ -102,8 +102,8 @@ class Teacher(models.Model):
 
 class Program(models.Model):
     id = models.AutoField(primary_key=True)
-    acronym = models.CharField(max_length=50, blank=False, null=False)
-    name = models.CharField(max_length=500, blank=False, null=False)
+    acronym = models.CharField(max_length=50, blank=False, null=False, verbose_name="abreviação")
+    name = models.CharField(max_length=500, blank=False, null=False, verbose_name="nome")
 
     def __str__(self):
         return self.name
@@ -114,10 +114,10 @@ class Program(models.Model):
 
 class Course(models.Model):
     id = models.AutoField(primary_key=True)
-    code = models.CharField(max_length=50, blank=False, null=False)
-    name = models.CharField(max_length=500, blank=False, null=False)
-    workload = models.PositiveSmallIntegerField(default=0)
-    semester_number = models.PositiveSmallIntegerField(default=0)
+    code = models.CharField(max_length=50, blank=False, null=False, verbose_name="código")
+    name = models.CharField(max_length=500, blank=False, null=False, verbose_name="nome")
+    workload = models.PositiveSmallIntegerField(default=0, verbose_name="carga horária")
+    semester_number = models.PositiveSmallIntegerField(default=0, verbose_name="semestre")
 
     def __str__(self):
         return self.name
@@ -126,10 +126,65 @@ class Course(models.Model):
         verbose_name = 'Disciplina'
         verbose_name_plural = 'Disciplinas'
 
+class Period(models.Model):
+    id = models.AutoField(primary_key=True)
+    name = models.CharField(max_length=100, blank=False, null=False, verbose_name="nome")
+    start_time = models.TimeField(blank=False, null=False, verbose_name="hora inicial")
+    end_time = models.TimeField(blank=False, null=False, verbose_name="hora final")
+
+    def __str__(self):
+        return self.name
+
+    class Meta:
+        verbose_name = 'Turno'
+        verbose_name_plural = 'Turnos'
+
+class TimeInterval(models.Model):
+    id = models.AutoField(primary_key=True)
+    period = models.ForeignKey('Period', on_delete=models.CASCADE)
+    start_time = models.TimeField(blank=False, null=False, verbose_name="hora inicial")
+    end_time = models.TimeField(blank=False, null=False, verbose_name="hora final")
+
+    def __str__(self):
+        return "{:%H:%M}".format(self.start_time) + " - " + "{:%H:%M}".format(self.end_time)
+
+    class Meta:
+        verbose_name = 'Intervalo de Tempo'
+        verbose_name_plural = 'Intervalos de Tempo'
+
+class Day(models.Model):
+    id = models.AutoField(primary_key=True)
+    name = models.CharField(max_length=100, blank=False, null=False, verbose_name="nome")
+    time_intervals = models.ManyToManyField('TimeInterval', verbose_name=TimeInterval._meta.verbose_name_plural)
+
+    def __str__(self):
+        return self.name
+
+    def get_day_time_intervals(self):
+        return self.time_intervals
+
+    class Meta:
+        verbose_name = 'Dia'
+        verbose_name_plural = 'Dias'
+
+class Schedule(models.Model):
+    id = models.AutoField(primary_key=True)
+    day = models.ForeignKey('Day', on_delete=models.CASCADE,  verbose_name=Day._meta.verbose_name)
+    time_interval = models.ForeignKey('TimeInterval', on_delete=models.CASCADE, verbose_name=TimeInterval._meta.verbose_name_plural)
+    objects = managers.ScheduleManager()
+
+    def __str__(self):
+        return "{0} - {1}".format(self.day, self.time_interval)
+
+    class Meta:
+        verbose_name = 'Cronograma'
+        verbose_name_plural = 'Cronogramas'
+        unique_together = (('day', 'time_interval'),)
+
 class Class(models.Model):
     id = models.AutoField(primary_key=True)
     course = models.ForeignKey('Course', on_delete=models.CASCADE)
-    code = models.CharField(max_length=500, blank=False, null=False)
+    code = models.CharField(max_length=500, blank=False, null=False, verbose_name="código")
     teacher = models.ForeignKey('Teacher', on_delete=models.CASCADE)
     size = models.PositiveSmallIntegerField(default=0)
     year = models.PositiveSmallIntegerField(default=0)
@@ -143,53 +198,12 @@ class Class(models.Model):
         verbose_name = 'Turma'
         verbose_name_plural = 'Turmas'
 
-class Period(models.Model):
-    id = models.AutoField(primary_key=True)
-    name = models.CharField(max_length=100, blank=False, null=False)
-    start_time = models.TimeField(blank=False, null=False)
-    end_time = models.TimeField(blank=False, null=False)
-
-    def __str__(self):
-        return self.name
-
-    class Meta:
-        verbose_name = 'Turno'
-        verbose_name_plural = 'Turnos'
-
-class TimeInterval(models.Model):
-    id = models.AutoField(primary_key=True)
-    period = models.ForeignKey('Period', on_delete=models.CASCADE)
-    start_time = models.TimeField(blank=False, null=False)
-    end_time = models.TimeField(blank=False, null=False)
-
-    def __str__(self):
-        return "{:%H:%M}".format(self.start_time) + " - " + "{:%H:%M}".format(self.end_time)
-
-    class Meta:
-        verbose_name = 'Intervalo de Tempo'
-        verbose_name_plural = 'Intervalos de Tempo'
-
-class Day(models.Model):
-    id = models.AutoField(primary_key=True)
-    name = models.CharField(max_length=100, blank=False, null=False)
-    time_intervals = models.ManyToManyField('TimeInterval')
-
-    def __str__(self):
-        return self.name
-
-    def get_day_time_intervals(self):
-        return self.time_intervals
-
-    class Meta:
-        verbose_name = 'Dia'
-        verbose_name_plural = 'Dias'
-
 class Slot(models.Model):
     id = models.AutoField(primary_key=True)
-    day = models.ForeignKey('Day', on_delete=models.CASCADE)
-    time_interval = models.ForeignKey('TimeInterval', on_delete=models.CASCADE)
-    room = models.ForeignKey('Room', on_delete=models.CASCADE)
-    s_class = models.ForeignKey('Class', blank=True, null=True)
+    day = models.ForeignKey('Day', on_delete=models.CASCADE, verbose_name="dia")
+    time_interval = models.ForeignKey('TimeInterval', on_delete=models.CASCADE, verbose_name=TimeInterval._meta.verbose_name)
+    room = models.ForeignKey('Room', on_delete=models.CASCADE, verbose_name=Room._meta.verbose_name)
+    s_class = models.ForeignKey('Class', blank=True, null=True, verbose_name=Class._meta.verbose_name)
     objects = managers.SlotManager()
 
     def __str__(self):
@@ -199,17 +213,3 @@ class Slot(models.Model):
         verbose_name = 'Alocação da turma em sala'
         verbose_name_plural = 'Alocações das turmas em salas'
         unique_together = (('day', 'time_interval', 'room'),)
-
-class Schedule(models.Model):
-    id = models.AutoField(primary_key=True)
-    day = models.ForeignKey('Day', on_delete=models.CASCADE)
-    time_interval = models.ForeignKey('TimeInterval', on_delete=models.CASCADE)
-    objects = managers.ScheduleManager()
-
-    def __str__(self):
-        return "{0} - {1}".format(self.day, self.time_interval)
-
-    class Meta:
-        verbose_name = 'Cronograma'
-        verbose_name_plural = 'Cronogramas'
-        unique_together = (('day', 'time_interval'),)
