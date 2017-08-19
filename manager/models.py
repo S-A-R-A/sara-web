@@ -171,7 +171,6 @@ class Schedule(models.Model):
     id = models.AutoField(primary_key=True)
     day = models.ForeignKey('Day', on_delete=models.CASCADE,  verbose_name=Day._meta.verbose_name)
     time_interval = models.ForeignKey('TimeInterval', on_delete=models.CASCADE, verbose_name=TimeInterval._meta.verbose_name_plural)
-    objects = managers.ScheduleManager()
 
     def __str__(self):
         return "{0} - {1}".format(self.day, self.time_interval)
@@ -193,6 +192,25 @@ class Class(models.Model):
 
     def __str__(self):
         return "{0} - {1}".format(self.course, self.code)
+
+    @classmethod
+    def reset_all_schedules(self):
+        for s_class in Class.objects.all():
+            s_class.schedules.through.objects.all().delete()
+
+    def reset_schedules_by_day(self, day):
+        for s_class in self.objects.all():
+            for schedule in s_class.schedules.get(day = day):
+                s_class.schedules.remove(schedule)
+
+    def reset_schedules_by_course(self, course):
+        for s_class in self.objects.get(course = course):
+            s_class.schedules.through.objects.all().delete()
+
+    def reset_class_schedules(self, id):
+        s_class = self.objects.get(id = id)
+        if s_class:
+            s_class.schedules.through.objects.all().delete()
 
     class Meta:
         verbose_name = 'Turma'
