@@ -5,12 +5,15 @@ from .models import TimeInterval
 from .models import Slot
 from .models import Class
 
-def show_timetabling(request):
-    tables = []
+def show_timetabling(request, dayid=0):
     days = Day.objects.all()
-    for day in days:
-        table = dict(day = day, time_intervals = day.time_intervals.all(),
-                     rooms = Room.objects.all(), slots = Slot.objects.filter(day = day))
-        tables.append(table)
 
-    return render(request, 'manager/show_timetabling.html', {'tables': tables})
+    if int(dayid) == 0:
+        day = Day.objects.first()
+    else:
+        day = Day.objects.get(id = int(dayid))
+
+    table = dict(day = day, time_intervals = day.time_intervals.all(),
+                 rooms = Room.objects.all(), slots = Slot.objects.filter(day = day))
+
+    return render(request, 'manager/show_timetabling.html', {'days': days, 'table': table})
