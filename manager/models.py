@@ -134,6 +134,7 @@ class Class(models.Model):
     size = models.PositiveSmallIntegerField(default=0)
     year = models.PositiveSmallIntegerField(default=0)
     semester = models.PositiveSmallIntegerField(default=0)
+    schedules = models.ManyToManyField('Schedule', blank=True, null=True)
 
     def __str__(self):
         return "{0} - {1}".format(self.course, self.code)
@@ -198,3 +199,17 @@ class Slot(models.Model):
         verbose_name = 'Alocação da turma em sala'
         verbose_name_plural = 'Alocações das turmas em salas'
         unique_together = (('day', 'time_interval', 'room'),)
+
+class Schedule(models.Model):
+    id = models.AutoField(primary_key=True)
+    day = models.ForeignKey('Day', on_delete=models.CASCADE)
+    time_interval = models.ForeignKey('TimeInterval', on_delete=models.CASCADE)
+    objects = managers.ScheduleManager()
+
+    def __str__(self):
+        return "{0} - {1}".format(self.day, self.time_interval)
+
+    class Meta:
+        verbose_name = 'Cronograma'
+        verbose_name_plural = 'Cronogramas'
+        unique_together = (('day', 'time_interval'),)
