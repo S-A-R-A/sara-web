@@ -184,11 +184,11 @@ class Class(models.Model):
     id = models.AutoField(primary_key=True)
     course = models.ForeignKey('Course', on_delete=models.CASCADE)
     code = models.CharField(max_length=500, blank=False, null=False, verbose_name="código")
-    teacher = models.ForeignKey('Teacher', on_delete=models.CASCADE)
-    size = models.PositiveSmallIntegerField(default=0)
-    year = models.PositiveSmallIntegerField(default=0)
-    semester = models.PositiveSmallIntegerField(default=0)
-    schedules = models.ManyToManyField('Schedule', blank=True, null=True)
+    teacher = models.ForeignKey('Teacher', on_delete=models.CASCADE, verbose_name=Teacher._meta.verbose_name)
+    size = models.PositiveSmallIntegerField(default=0, verbose_name="tamanho")
+    year = models.PositiveSmallIntegerField(default=0, verbose_name="ano letivo")
+    semester = models.PositiveSmallIntegerField(default=0, verbose_name="semestre")
+    schedules = models.ManyToManyField('Schedule', verbose_name=Schedule._meta.verbose_name_plural)
 
     def __str__(self):
         return "{0} - {1}".format(self.course, self.code)
