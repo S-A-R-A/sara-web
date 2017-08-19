@@ -10,95 +10,55 @@
 </head>
 <body>
 
-<div class="container">
-  <h3>Tabs</h3>
-  <ul class="nav nav-tabs">
-    {% for table in tables %}
-      <li><a href="#{{ table.day }}" >{{ table.day }}</a></li>
-    {% endfor %}
-  </ul>
-  <br>
-</div>
+  <div class="container">
+    <h3>Tabs</h3>
+    <ul id="myTab" class="nav nav-tabs">
+      {% for day in days %}
+      <li><a href="../timetabling/{{ day.id }}" >{{ day }}</a></li>
+      {% endfor %}
+    </ul>
+    <br>
+  </div>
 
-  {% for table in tables %}
-    <div id="#{{ table.day }}">
-      <h2>{{ table.day }}</h2>
-        <table class="table table-striped">
-          <thead>
-            <tr>
-              <th>Horário</th>
-              {% for room in table.rooms %}
-                  <th>{{ room.code }}</th>
-              {% endfor %}
-            </tr>
-          </thead>
-          <tbody>
-            {% for time_interval in table.time_intervals %}
-              <tr>
-                <td scope="row">{{ time_interval }}</td>
-                {% for slot in table.slots %}
-                    <td scope="row">
-                      {% if slot.s_class %}
-                        {{ slot.s_class }}
-                      {% else %}
-                        ---
-                      {% endif %}
-                    </td>
-                {% endfor %}
-              </tr>
-            {% endfor %}
-          </tbody>
-        </table>
-    </div>
-  {% endfor %}
-
-    <!-- {% for slots in slots_data_set %}
-            <h2> {{ slots.0.day }}</h2>
-            <table id="{{ slots.0.day }}" class="table table-striped">
-              <thead>
-                <tr>
-                <th>Horário</th>
-                {% for room in rooms %}
-                      <th>{{ room.code }}</th>
-                {% endfor %}
-                </tr>
-              </thead>
-                <tbody>
-                     <th scope="row">{{ slot.time_interval }}</th>
-                  <tr>
-                  {% for slot in slots %}
-                      <td>{{ slot.s_class }}</td>
-                  {% endfor %}
-                  </tr>
-                </tbody>
-            </table>
-              <hr/>
-              <br/>
-    {% endfor %} -->
+  <div id="#{{ table.day.id }}">
+    <h2>{{ table.day }}</h2>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Horário</th>
+          {% for room in table.rooms %}
+          <th>{{ room.code }} - {{ room.description }}</th>
+          {% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        {% for time_interval in table.time_intervals %}
+        <tr>
+          <td scope="row">{{ time_interval }}</td>
+          {% for slot in table.slots %}
+          <td scope="row">
+            {% if slot.s_class %}
+            {{ slot.s_class }}
+            {% else %}
+            ---
+            {% endif %}
+          </td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
 </body>
+<script>
+$('#myTab li a').click(function (e) {
+  var tab = $(this);
+  if(tab.parent('li').hasClass('active')){
+    window.setTimeout(function(){
+      $(".tab-pane").removeClass('active');
+      tab.parent('li').removeClass('active');
+    },1);
+  } else { tab.tab('show'); }
+});
+</script>
 </html>
-<!--{% for slots in slots_data_set %}
-    {% for slot in slots %}
-        <h2> {{ slot.day }}</h2>
-        <table id="{{ slot.day }}" class="table table-striped">
-          <thead>
-            <tr>
-            <th>Horário</th>
-            <th>Sala</th>
-            <th>Turma</th>
-          </tr>
-          </thead>
-          <tbody>
-
-              <tr>
-              <th scope="row">{{ slot.time_interval }}</th>
-              <td>{{ slot.room }}</td>
-              <td>{{ slot.s_class }}</td>
-              </tr>
-
-          </tbody>
-        </table>
-        <hr/>
-        <br/>
-    {% endfor %}
-{% endfor %}-->
