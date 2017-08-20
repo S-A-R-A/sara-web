@@ -36,13 +36,15 @@
         <tr>
           <td scope="row">{{ time_interval }}</td>
           {% for slot in table.slots %}
-          <td scope="row">
-            {% if slot.s_class %}
-            {{ slot.s_class }}
-            {% else %}
-            ---
-            {% endif %}
-          </td>
+            {% if slot.time_interval == time_interval %}
+              <td scope="row">
+                {% if slot.s_class %}
+                  {{ slot.s_class }}
+                {% else %}
+                  ---
+                {% endif %}
+              </td>
+          {% endif %}
           {% endfor %}
         </tr>
         {% endfor %}

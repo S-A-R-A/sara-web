@@ -14,6 +14,6 @@ def show_timetabling(request, dayid=0):
         day = Day.objects.get(id = int(dayid))
 
     table = dict(day = day, time_intervals = day.time_intervals.all(),
-                 rooms = Room.objects.all(), slots = Slot.objects.filter(day = day))
+                 rooms = Room.objects.all(), slots = list(Slot.objects.filter(day = day)))
 
     return render(request, 'manager/show_timetabling.html', {'days': days, 'table': table})
