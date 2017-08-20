@@ -1,26 +1,28 @@
 language = python
+project_name = saraweb
 environment = myvenv
 initial_data = manager/fixtures/initial_data.json
 manage = manage.py
 activate = . $(environment)/bin/activate
+local_settings = local_settings.py
 
 venv:
-	myvenv/bin/pip install virtualenv
-	virtualenv $(environment)
+	$(language) -m venv $(environment)
 	$(activate)
 
 migrate:
 	$(activate)
-	myvenv/bin/pip install -r requirements.txt
-	myvenv/bin/$(language) $(manage) makemigrations manager
-	myvenv/bin/$(language) $(manage) migrate
+	$(environment)/bin/pip install -r requirements.txt
+	cp $(project_name)/.$(local_settings) $(project_name)/$(local_settings)
+	$(environment)/bin/$(language) $(manage) makemigrations manager
+	$(environment)/bin/$(language) $(manage) migrate
 
 default-data:
 	$(activate)
-	myvenv/bin/$(language) $(manage) loaddata $(initial_data)
+	$(environment)/bin/$(language) $(manage) loaddata $(initial_data)
 run:
 	$(activate)
-	myvenv/bin/$(language) $(manage) createsuperuser
-	myvenv/bin/$(language) $(manage) runserver
+	$(environment)/bin/$(language) $(manage) createsuperuser
+	$(environment)/bin/$(language) $(manage) runserver
 
 install: venv migrate default-data
