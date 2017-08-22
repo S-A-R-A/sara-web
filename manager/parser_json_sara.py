@@ -8,8 +8,8 @@ import json
 class LoadModelClasses(object):
     FILE_NAME = "manager/allocation_data.json"
 
-    def open_allocation_file(self):
-        with open(self.FILE_NAME) as data_file:
+    def open_allocation_file(self, file_name = self.FILE_NAME):
+        with open(file_name) as data_file:
             data = json.load(data_file)
         return data
 
@@ -17,7 +17,7 @@ class LoadModelClasses(object):
         with open(file_name_arg, 'w') as file:
             file.write(str(data))
 
-    def prepare_allocation_file(self):
+    def prepare_allocation_file(self, file_name = self.FILE_NAME):
         list_models=[]
         for slot in Slot.objects.all():
             dict_model = {
@@ -26,4 +26,4 @@ class LoadModelClasses(object):
                 "requirements": []
             }
             list_models.append(dict_model)
-        self.generate_allocation_file(self.FILE_NAME, json.dumps(list_models, indent=4, sort_keys=True))
+        self.generate_allocation_file(file_name, json.dumps(list_models, indent=4, sort_keys=True))
