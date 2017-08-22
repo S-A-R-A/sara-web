@@ -1044,6 +1044,252 @@
         }
     },
     {
+        "model": "manager.Period",
+        "fields": {
+            "id": 1,
+            "name": "Matutino",
+            "start_time": "07:00:00",
+            "end_time": "12:00:00"
+        }
+    },
+    {
+        "model": "manager.Period",
+        "fields": {
+            "id": 2,
+            "name": "Vespertino",
+            "start_time": "12:00:00",
+            "end_time": "17:00:00"
+        }
+    },
+    {
+        "model": "manager.Period",
+        "fields": {
+            "id": 3,
+            "name": "Noturno",
+            "start_time": "17:00:00",
+            "end_time": "22:00:00"
+        }
+    },
+    {
+        "model": "manager.TimeInterval",
+        "fields": {
+            "id": 1,
+            "start_time": "07:00",
+            "end_time": "07:50",
+            "period": 1
+        }
+    },
+    {
+        "model": "manager.TimeInterval",
+        "fields": {
+            "id": 2,
+            "start_time": "07:50",
+            "end_time": "08:40",
+            "period": 1
+        }
+    },
+    {
+        "model": "manager.TimeInterval",
+        "fields": {
+            "id": 3,
+            "start_time": "08:40",
+            "end_time": "09:30",
+            "period": 1
+        }
+    },
+    {
+        "model": "manager.TimeInterval",
+        "fields": {
+            "id": 4,
+            "start_time": "09:30",
+            "end_time": "10:20",
+            "period": 1
+        }
+    },
+    {
+        "model": "manager.TimeInterval",
+        "fields": {
+            "id": 5,
+            "start_time": "10:20",
+            "end_time": "11:10",
+            "period": 1
+        }
+    },
+    {
+        "model": "manager.TimeInterval",
+        "fields": {
+            "id": 6,
+            "start_time": "11:10",
+            "end_time": "12:00",
+            "period": 1
+        }
+    },
+    {
+        "model": "manager.TimeInterval",
+            "fields": {
+            "id": 7,
+            "start_time": "12:00",
+            "end_time": "12:50",
+            "period": 2
+        }
+    },
+    {
+        "model": "manager.TimeInterval",
+        "fields": {
+            "id": 8,
+            "start_time": "12:50",
+            "end_time": "13:40",
+            "period": 2
+        }
+    },
+    {
+        "model": "manager.TimeInterval",
+        "fields": {
+            "id": 9,
+            "start_time": "13:40",
+            "end_time": "14:30",
+            "period": 2
+        }
+    },
+    {
+        "model": "manager.TimeInterval",
+        "fields": {
+            "id": 10,
+            "start_time": "14:30",
+            "end_time": "15:20",
+            "period": 2
+        }
+    },
+    {
+        "model": "manager.TimeInterval",
+        "fields": {
+            "id": 11,
+            "start_time": "15:20",
+            "end_time": "16:10",
+            "period": 2
+        }
+    },
+    {
+        "model": "manager.TimeInterval",
+        "fields": {
+            "id": 12,
+            "start_time": "16:10",
+            "end_time": "17:00",
+            "period": 2
+        }
+    },
+    {
+        "model": "manager.TimeInterval",
+        "fields": {
+            "id": 13,
+            "start_time": "16:10",
+            "end_time": "17:00",
+            "period": 2
+        }
+    },
+    {
+        "model": "manager.TimeInterval",
+        "fields": {
+            "id": 14,
+            "start_time": "17:00",
+            "end_time": "17:50",
+            "period": 3
+        }
+    },
+    {
+        "model": "manager.TimeInterval",
+        "fields": {
+            "id": 15,
+            "start_time": "17:50",
+            "end_time": "18:40",
+            "period": 3
+        }
+    },
+    {
+        "model": "manager.TimeInterval",
+        "fields": {
+            "id": 16,
+            "start_time": "18:40",
+            "end_time": "19:30",
+            "period": 3
+        }
+    },
+    {
+        "model": "manager.TimeInterval",
+        "fields": {
+            "id": 17,
+            "start_time": "19:30",
+            "end_time": "20:20",
+            "period": 3
+        }
+    },
+    {
+        "model": "manager.TimeInterval",
+        "fields": {
+            "id": 18,
+            "start_time": "20:20",
+            "end_time": "21:10",
+            "period": 3
+        }
+    },
+    {
+        "model": "manager.TimeInterval",
+        "fields": {
+            "id": 19,
+            "start_time": "21:10",
+            "end_time": "22:00",
+            "period": 3
+        }
+    },
+    {
+        "model": "manager.Day",
+        "fields": {
+            "id": 1,
+            "name": "Segunda",
+            "time_intervals": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+        }
+    },
+    {
+        "model": "manager.Day",
+        "fields": {
+            "id": 2,
+            "name": "Terça",
+            "time_intervals": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+        }
+    },
+    {
+        "model": "manager.Day",
+        "fields": {
+            "id": 3,
+            "name": "Quarta",
+            "time_intervals": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+        }
+    },
+    {
+        "model": "manager.Day",
+        "fields": {
+            "id": 4,
+            "name": "Quinta",
+            "time_intervals": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+        }
+    },
+    {
+        "model": "manager.Day",
+        "fields": {
+            "id": 5,
+            "name": "Sexta",
+            "time_intervals": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+        }
+    },
+    {
+        "model": "manager.Day",
+        "fields": {
+            "id": 6,
+            "name": "Sábado",
+            "time_intervals": [1, 2, 3, 4, 5, 6]
+        }
+    },
+    {
         "model": "manager.Class",
         "fields": {
             "id": 1,
@@ -1476,249 +1722,15 @@
         }
     },
     {
-        "model": "manager.Period",
+        "model": "manager.Class",
         "fields": {
-            "id": 1,
-            "name": "Matutino",
-            "start_time": "07:00:00",
-            "end_time": "12:00:00"
-        }
-    },
-    {
-        "model": "manager.Period",
-        "fields": {
-            "id": 2,
-            "name": "Vespertino",
-            "start_time": "12:00:00",
-            "end_time": "17:00:00"
-        }
-    },
-    {
-        "model": "manager.Period",
-        "fields": {
-            "id": 3,
-            "name": "Noturno",
-            "start_time": "17:00:00",
-            "end_time": "22:00:00"
-        }
-    },
-    {
-        "model": "manager.TimeInterval",
-        "fields": {
-            "id": 1,
-            "start_time": "07:00",
-            "end_time": "07:50",
-            "period": 1
-        }
-    },
-    {
-        "model": "manager.TimeInterval",
-        "fields": {
-            "id": 2,
-            "start_time": "07:50",
-            "end_time": "08:40",
-            "period": 1
-        }
-    },
-    {
-        "model": "manager.TimeInterval",
-        "fields": {
-            "id": 3,
-            "start_time": "08:40",
-            "end_time": "09:30",
-            "period": 1
-        }
-    },
-    {
-        "model": "manager.TimeInterval",
-        "fields": {
-            "id": 4,
-            "start_time": "09:30",
-            "end_time": "10:20",
-            "period": 1
-        }
-    },
-    {
-        "model": "manager.TimeInterval",
-        "fields": {
-            "id": 5,
-            "start_time": "10:20",
-            "end_time": "11:10",
-            "period": 1
-        }
-    },
-    {
-        "model": "manager.TimeInterval",
-        "fields": {
-            "id": 6,
-            "start_time": "11:10",
-            "end_time": "12:00",
-            "period": 1
-        }
-    },
-    {
-        "model": "manager.TimeInterval",
-            "fields": {
-            "id": 7,
-            "start_time": "12:00",
-            "end_time": "12:50",
-            "period": 2
-        }
-    },
-    {
-        "model": "manager.TimeInterval",
-        "fields": {
-            "id": 8,
-            "start_time": "12:50",
-            "end_time": "13:40",
-            "period": 2
-        }
-    },
-    {
-        "model": "manager.TimeInterval",
-        "fields": {
-            "id": 9,
-            "start_time": "13:40",
-            "end_time": "14:30",
-            "period": 2
-        }
-    },
-    {
-        "model": "manager.TimeInterval",
-        "fields": {
-            "id": 10,
-            "start_time": "14:30",
-            "end_time": "15:20",
-            "period": 2
-        }
-    },
-    {
-        "model": "manager.TimeInterval",
-        "fields": {
-            "id": 11,
-            "start_time": "15:20",
-            "end_time": "16:10",
-            "period": 2
-        }
-    },
-    {
-        "model": "manager.TimeInterval",
-        "fields": {
-            "id": 12,
-            "start_time": "16:10",
-            "end_time": "17:00",
-            "period": 2
-        }
-    },
-    {
-        "model": "manager.TimeInterval",
-        "fields": {
-            "id": 13,
-            "start_time": "16:10",
-            "end_time": "17:00",
-            "period": 2
-        }
-    },
-    {
-        "model": "manager.TimeInterval",
-        "fields": {
-            "id": 14,
-            "start_time": "17:00",
-            "end_time": "17:50",
-            "period": 3
-        }
-    },
-    {
-        "model": "manager.TimeInterval",
-        "fields": {
-            "id": 15,
-            "start_time": "17:50",
-            "end_time": "18:40",
-            "period": 3
-        }
-    },
-    {
-        "model": "manager.TimeInterval",
-        "fields": {
-            "id": 16,
-            "start_time": "18:40",
-            "end_time": "19:30",
-            "period": 3
-        }
-    },
-    {
-        "model": "manager.TimeInterval",
-        "fields": {
-            "id": 17,
-            "start_time": "19:30",
-            "end_time": "20:20",
-            "period": 3
-        }
-    },
-    {
-        "model": "manager.TimeInterval",
-        "fields": {
-            "id": 18,
-            "start_time": "20:20",
-            "end_time": "21:10",
-            "period": 3
-        }
-    },
-    {
-        "model": "manager.TimeInterval",
-        "fields": {
-            "id": 19,
-            "start_time": "21:10",
-            "end_time": "22:00",
-            "period": 3
-        }
-    },
-    {
-        "model": "manager.Day",
-        "fields": {
-            "id": 1,
-            "name": "Segunda",
-            "time_intervals": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
-        }
-    },
-    {
-        "model": "manager.Day",
-        "fields": {
-            "id": 2,
-            "name": "Terça",
-            "time_intervals": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
-        }
-    },
-    {
-        "model": "manager.Day",
-        "fields": {
-            "id": 3,
-            "name": "Quarta",
-            "time_intervals": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
-        }
-    },
-    {
-        "model": "manager.Day",
-        "fields": {
-            "id": 4,
-            "name": "Quinta",
-            "time_intervals": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
-        }
-    },
-    {
-        "model": "manager.Day",
-        "fields": {
-            "id": 5,
-            "name": "Sexta",
-            "time_intervals": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
-        }
-    },
-    {
-        "model": "manager.Day",
-        "fields": {
-            "id": 6,
-            "name": "Sábado",
-            "time_intervals": [1, 2, 3, 4, 5, 6]
+            "id": 38,
+            "course": 23,
+            "code": "T01",
+            "teacher": 2,
+            "size": 40,
+            "year": 2017,
+            "semester": 5
         }
     }
 ]
