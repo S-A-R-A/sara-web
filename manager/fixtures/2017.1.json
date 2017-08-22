@@ -1,109 +1,785 @@
 [
   {
-    "s_class": "INF027 T01",
+    "s_class": 25,
     "schedules": [
-      "TER - 18:40-19:30",
-      "TER - 19:30-20:20",
-      "QUA - 20:20-21:20",
-      "QUA - 21:20-22:00"
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      },
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      }
     ]
   },
   {
-    "s_class": "INF027 T02",
+    "s_class": 27,
     "schedules": [
-      "TER - 18:40-19:30",
-      "TER - 19:30-20:20",
-      "QUA - 17:00-17:50",
-      "QUA - 17:50-18:40"
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      },
+      {
+        "day": 3,
+        "time_interval": 14
+      },
+      {
+        "day": 3,
+        "time_interval": 15
+      }
     ]
   },
   {
-    "s_class": "INF027 T03",
+    "s_class": 26,
     "schedules": [
-      "SEG - 17:00-17:50",
-      "SEG - 17:50-18:40",
-      "QUA - 20:20-21:20",
-      "QUA - 21:20-22:00"
+      {
+        "day": 1,
+        "time_interval": 14
+      },
+      {
+        "day": 1,
+        "time_interval": 15
+      },
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      }
     ]
   },
   {
-    "s_class": "MAT222 T01",
+    "s_class": 35,
     "schedules": [
-      "SEG - 18:40-19:30",
-      "SEG - 19:30-20:20",
-      "QUA - 18:40-19:30",
-      "QUA - 19:30-20:20",
-      "SEX - 18:40-19:30",
-      "SEX - 19:30-20:20"
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
     ]
   },
   {
-    "s_class": "LET102 T2",
+    "s_class": 34,
     "schedules": [
-      "QUA - 17:00-17:50",
-      "QUA - 17:50-18:40",
-      "QUI - 18:40-19:30",
-      "QUI - 19:30-20:20"
+      {
+        "day": 3,
+        "time_interval": 14
+      },
+      {
+        "day": 3,
+        "time_interval": 15
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
     ]
   },
   {
-    "s_class": "LET100 T4",
+    "s_class": 32,
     "schedules": [
-      "SEG - 20:20-21:20",
-      "SEG - 21:20-22:00",
-      "QUI - 17:00-17:50",
-      "QUI - 17:50-18:40"
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 14
+      },
+      {
+        "day": 4,
+        "time_interval": 15
+      }
     ]
   },
   {
-    "s_class": "LET102 T1",
+    "s_class": 33,
     "schedules": [
-      "QUI - 18:40-19:30",
-      "QUI - 19:30-20:20",
-      "SEX - 20:20-21:20",
-      "SEX - 21:20-22:00"
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
     ]
   },
   {
-    "s_class": "INF026",
+    "s_class": 24,
     "schedules": [
-      "TER - 20:20-21:20",
-      "TER - 21:20-22:00",
-      "QUI - 20:20-21:20",
-      "QUI - 21:20-22:00"
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      }
     ]
   },
-
-  {"INF028": ["SEG - 18:40-19:30", "SEG - 19:30-20:20", "TER - 18:40-19:30", "TER - 19:30-20:20"]},
-  {"INF006": ["SEG - 20:20-21:20", "SEG - 21:20-22:00", "QUA - 20:20-21:20", "QUA - 21:20-22:00", "QUI - 20:20-21:20", "QUI - 21:20-22:00"]},
-  {"INF031": ["TER - 17:00-17:50", "TER - 17:50-18:40",  "SEX - 20:20-21:20", "SEX - 21:20-22:00"]},
-  {"HUM102 T01": ["TER - 20:20-21:20", "TER - 21:20-22:00", "QUI - 18:40-19:30", "QUI - 19:30-20:20"]},
-  {"INF029":  ["QUA - 18:40-19:30", "QUA - 19:30-20:20", "SEX - 18:40-19:30", "QUA - 19:30-20:20"]},
-
-  {"INF008": ["SEG - 18:40-19:30", "SEG - 19:30-20:20", "TER - 20:20-21:20", "TER - 21:20-22:00", "QUA - 18:40-19:30", "QUA - 19:30-20:20"]},
-  {"INF009": ["SEG - 20:20-21:20", "SEG - 21:20-22:00", "QUI - 20:20-21:20", "QUI - 21:20-22:00", "SEX - 20:20-21:20", "SEX - 21:20-22:00"]},
-  {"ADM500 T03": ["TER - 17:00-17:50", "TER - 17:50-18:40",  "QUA - 20:20-21:20", "QUA - 21:20-22:00"]},
-  {"INF007": ["TER - 18:40-19:30", "TER - 19:30-20:20", "QUI - 18:40-19:30", "QUI - 19:30-20:20", "SEX - 20:20-21:20", "SEX - 21:20-22:00"]},
-
-  {"INF011": ["SEG - 18:40-19:30", "SEG - 19:30-20:20", "TER - 18:40-19:30", "TER - 19:30-20:20", "QUA - 18:40-19:30", "QUA - 19:30-20:20"]},
-  {"INF012": ["SEG - 20:20-21:20", "SEG - 21:20-22:00", "TER - 20:20-21:20", "TER - 21:20-22:00", "QUA - 20:20-21:20", "QUA - 21:20-22:00"]},
-  {"INF010": ["QUA - 17:00-17:50", "QUA - 17:50-18:40", "QUI - 18:40-19:30", "QUI - 19:30-20:20", "SEX - 20:20-21:20", "SEX - 21:20-22:00"]},
-  {"INF015": ["QUI - 20:20-21:20", "QUI - 21:20-22:00", "SEX - 18:40-19:30", "SEX - 19:30-20:20"]},
-
-  {"ADM550 T01": ["SEG - 18:40-19:30", "SEG - 19:30-20:20", "TER - 18:40-19:30", "TER - 19:30-20:20"]},
-  {"INF017": ["SEG - 20:20-21:20", "SEG - 21:20-22:00", "QUI - 18:40-19:30", "QUI - 19:30-20:20"]},
-  {"HUM100 T01": ["TER - 20:20-21:20", "TER - 21:20-22:00", "QUA - 18:40-19:30", "QUA - 19:30-20:20"]},
-  {"INF014": ["QUA - 17:00-17:50", "QUA - 17:50-18:40", "QUI - 20:20-21:20", "QUI - 21:20-22:00", "SEX - 18:40-19:30", "SEX - 19:30-20:20"]},
-  {"INF022": ["QUA - 20:20-21:20", "QUA - 21:20-22:00", "SEX - 20:20-21:20", "SEX - 21:20-22:00"]},
-  {"INF030": ["QUI - 17:00-17:50", "QUI - 17:50-18:40"]},
-
-  {"INF018": ["SEG - 17:00-17:50", "SEG - 17:50-18:40", "TER - 18:40-19:30", "TER - 19:30-20:20"]},
-  {"INF019": ["SEG - 18:40-19:30", "SEG - 19:30-20:20", "SEX - 20:20-21:20", "SEX - 21:20-22:00"]},
-  {"INF016": ["SEG - 20:20-21:20", "SEG - 21:20-22:00", "TER - 20:20-21:20", "TER - 21:20-22:00", "QUA - 20:20-21:20", "QUA - 21:20-22:00"]},
-  {"INF023- T01": ["TER - 17:00-17:50", "TER - 17:50-18:40"]},
-  {"INF023- T02": ["QUI - 20:20-21:20", "QUI - 21:20-22:00"]},
-  {"INF020": ["QUA - 18:40-19:30", "QUA - 19:30-20:20", "QUI - 18:40-19:30", "QUI - 19:30-20:20"]},
-
-  {"ADM545 T01": ["SEG - 18:40-19:30", "SEG - 19:30-20:20", "TER - 18:40-19:30", "TER - 19:30-20:20"]},
-  {"INF021": ["QUA - 20:20-21:20", "QUA - 21:20-22:00"]},
+  {
+    "s_class": 28,
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 6,
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      }
+    ]
+  },
+  {
+    "s_class": 31,
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 14
+      },
+      {
+        "day": 2,
+        "time_interval": 15
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
+  },
+  {
+    "s_class": 5,
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 29,
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 8,
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      },
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 9,
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
+  },
+  {
+    "s_class": 1,
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 14
+      },
+      {
+        "day": 2,
+        "time_interval": 15
+      },
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      }
+    ]
+  },
+  {
+    "s_class": 7,
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
+  },
+  {
+    "s_class": 11,
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      },
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 12,
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      },
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      }
+    ]
+  },
+  {
+    "s_class": 10,
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 14
+      },
+      {
+        "day": 3,
+        "time_interval": 15
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
+  },
+  {
+    "s_class": 14,
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      },
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 38,
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 16,
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 4,
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      },
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 13,
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 14
+      },
+      {
+        "day": 3,
+        "time_interval": 15
+      },
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      },
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 21,
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
+  },
+  {
+    "s_class": 30,
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 14
+      },
+      {
+        "day": 4,
+        "time_interval": 15
+      }
+    ]
+  },
+  {
+    "s_class": 17,
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 14
+      },
+      {
+        "day": 1,
+        "time_interval": 15
+      },
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 18,
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
+  },
+  {
+    "s_class": 15,
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      },
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      }
+    ]
+  },
+  {
+    "s_class": 22,
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 14
+      },
+      {
+        "day": 2,
+        "time_interval": 15
+      }
+    ]
+  },
+  {
+    "s_class": 23,
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      }
+    ]
+  },
+  {
+    "s_class": 19,
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 2,
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 20,
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      }
+    ]
+  }
 ]
