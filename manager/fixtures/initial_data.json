@@ -549,6 +549,17 @@
         }
     },
     {
+        "model": "manager.Room",
+        "fields": {
+            "id": 30,
+            "code": "F-006",
+            "description": "Sala de Fisica",
+            "capacity": 40,
+            "type": 1,
+            "area": 5
+        }
+    },
+    {
         "model": "manager.Teacher",
         "fields": {
             "id": 1,
