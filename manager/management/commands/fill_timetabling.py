@@ -14,17 +14,20 @@ class Command(BaseCommand):
         return f_json
 
     def fill_timetabling(self, data):
-        pass
-        #for j in data:
-        #    print(j)
-        #print(Class.objects.get(id=1))
-        #print(Schedule.objects.get(day=1, time_interval=14))
+        for element in data:
+            for schedule in element["schedules"]:
+                saved_class = Class.objects.get(id = element["s_class"])
+                if saved_class:
+                    saved_schedule = Schedule.objects.get(day = schedule["day"], time_interval = schedule["time_interval"])
+                    if saved_schedule:
+                        saved_class.schedules.add(saved_schedule)
 
     def add_arguments(self, parser):
         parser.add_argument('file_name', type=str)
 
     def handle(self, *args, **options):
         file_name = options['file_name']
+        print("processing request...")
 
         self.reset_timetabling()
         print("schedules were deleted...")
@@ -33,4 +36,4 @@ class Command(BaseCommand):
         print("json file was loaded...")
 
         self.fill_timetabling(data)
-        print("schedules were deleted...")
+        print("request completed successfully...")
