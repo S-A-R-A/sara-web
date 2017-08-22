@@ -227,6 +227,11 @@ class Slot(models.Model):
     def __str__(self):
         return "{0} - {1} : {2} em {3}".format(self.day, self.time_interval, "Espaço vago" if self.s_class is None else self._class, self.room)
 
+    @classmethod
+    def reset_all(self):
+        for slot in Slot.objects.all():
+            slot.s_class = None
+
     class Meta:
         verbose_name = 'Alocação da turma em sala'
         verbose_name_plural = 'Alocações das turmas em salas'
