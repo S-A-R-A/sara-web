@@ -592,7 +592,6 @@
             "area": 8
         }
     },
-    ,
     {
         "model": "manager.Room",
         "fields": {
