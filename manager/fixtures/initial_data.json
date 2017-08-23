@@ -564,8 +564,8 @@
         "fields": {
             "id": 31,
             "code": "O-113",
-            "description": "Sala 113",
-            "capacity": 0,
+            "description": "Sala 01",
+            "capacity": 40,
             "type": 1,
             "area": 10
         }
@@ -575,8 +575,8 @@
         "fields": {
             "id": 32,
             "code": "O-204",
-            "description": "Sala 204",
-            "capacity": 0,
+            "description": "Sala 07",
+            "capacity": 40,
             "type": 1,
             "area": 10
         }
@@ -587,9 +587,32 @@
             "id": 33,
             "code": "K-115",
             "description": "Sala 115",
-            "capacity": 0,
+            "capacity": 20,
             "type": 1,
             "area": 8
+        }
+    },
+    ,
+    {
+        "model": "manager.Room",
+        "fields": {
+            "id": 34,
+            "code": "K-110",
+            "description": "Sala 110",
+            "capacity": 20,
+            "type": 1,
+            "area": 8
+        }
+    },
+    {
+        "model": "manager.Room",
+        "fields": {
+            "id": 35,
+            "code": "O-118",
+            "description": "LAMMC",
+            "capacity": 30,
+            "type": 1,
+            "area": 10
         }
     },
     {
