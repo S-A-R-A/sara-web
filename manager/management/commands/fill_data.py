@@ -21,9 +21,10 @@ class Command(BaseCommand):
         for element in data:
             for slot in element["slots"]:
                 saved_class = Class.objects.get(id = element["s_class"])
-                saved_slot = Slot.objects.get(day = slot["day"], time_interval = slot["time_interval"])
+                saved_slot = Slot.objects.get(day = slot["day"], time_interval = slot["time_interval"], room = slot["room"])
                 if saved_slot and saved_class:
                     saved_slot.s_class = saved_class
+                    saved_slot.save()
 
     def fill_timetabling(self, data):
         for element in data:
@@ -46,17 +47,17 @@ class Command(BaseCommand):
         data = self.load_json_data(file_name)
         print("json file was loaded...")
 
-        if type_request = "timetabling":
+        if type_request == "timetabling":
             self.reset_timetabling()
             print("schedules were deleted...")
             self.fill_timetabling(data)
             print("request \"fill timetabling\" completed successfully...")
 
-        elif type_request = "timetabling":
+        elif type_request == "class_assignment":
             self.reset_slots()
             print("slots were reseted...")
             self.fill_class_assignment(data)
             print("request \"fill  class assignment\" completed successfully...")
 
-        else
+        else:
             print("type request invalid!")
