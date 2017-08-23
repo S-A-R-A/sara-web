@@ -560,6 +560,39 @@
         }
     },
     {
+        "model": "manager.Room",
+        "fields": {
+            "id": 31,
+            "code": "O-113",
+            "description": "Sala 113",
+            "capacity": 0,
+            "type": 1,
+            "area": 10
+        }
+    },
+    {
+        "model": "manager.Room",
+        "fields": {
+            "id": 32,
+            "code": "O-204",
+            "description": "Sala 204",
+            "capacity": 0,
+            "type": 1,
+            "area": 10
+        }
+    },
+    {
+        "model": "manager.Room",
+        "fields": {
+            "id": 33,
+            "code": "K-115",
+            "description": "Sala 115",
+            "capacity": 0,
+            "type": 1,
+            "area": 8
+        }
+    },
+    {
         "model": "manager.Teacher",
         "fields": {
             "id": 1,
