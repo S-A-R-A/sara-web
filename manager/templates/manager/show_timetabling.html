@@ -14,11 +14,28 @@
     <h3>Tabs</h3>
     <ul id="myTab" class="nav nav-tabs">
       {% for day in days %}
-      <li><a href="../timetabling/{{ day.id }}" >{{ day }}</a></li>
+      <li><a onclick="location.pathname='/timetabling/{{ day.id }}/0'" >{{ day }}</a></li>
       {% endfor %}
     </ul>
     <br>
   </div>
+
+  {% if periods %}
+    <div>
+      <div>
+        <input name="period" type="radio" id="p0" checked="{% if periodid == 0 %} true {% else %} false {% endif %}"  onclick="location.pathname= 'timetabling/{{ table.day.id }}/'"/>
+        <label for="p0">Todos</label>
+      </div>
+      {% for period in periods %}
+        <div>
+          <input name="period" type="radio" id="p{{ period.id }}"
+                 {% if period.id == periodid %} checked="true" {% endif %}
+                 onclick="location.pathname= 'timetabling/{{ table.day.id }}/{{ period.id }}'"/>
+          <label for="p{{ period.id }}">{{ period }}</label>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
 
   <div id="#{{ table.day.id }}">
     <h2>{{ table.day }}</h2>
@@ -33,20 +50,22 @@
       </thead>
       <tbody>
         {% for time_interval in table.time_intervals %}
-        <tr>
-          <td scope="row">{{ time_interval }}</td>
-          {% for slot in table.slots %}
-            {% if slot.time_interval == time_interval %}
-              <td scope="row">
-                {% if slot.s_class %}
-                  {{ slot.s_class }}
-                {% else %}
-                  ---
-                {% endif %}
-              </td>
+          {% if periodid == 0 or time_interval.period.id == periodid %}
+            <tr>
+              <td scope="row">{{ time_interval }}</td>
+              {% for slot in table.slots %}
+                {% if slot.time_interval == time_interval %}
+                  <td scope="row">
+                    {% if slot.s_class %}
+                      {{ slot.s_class }}
+                    {% else %}
+                      ---
+                    {% endif %}
+                  </td>
+              {% endif %}
+              {% endfor %}
+            </tr>
           {% endif %}
-          {% endfor %}
-        </tr>
         {% endfor %}
       </tbody>
     </table>
