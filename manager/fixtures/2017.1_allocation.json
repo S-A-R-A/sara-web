@@ -40,12 +40,12 @@
       {
         "day": 3,
         "time_interval": 14,
-                "room": "None"
+        "room": 4
       },
       {
         "day": 3,
         "time_interval": 15,
-                "room": "None"
+        "room": 4
       }
     ]
   },
@@ -720,22 +720,22 @@
       {
         "day": 3,
         "time_interval": 18,
-        "room": "None"
+        "room": 3
       },
       {
         "day": 3,
         "time_interval": 19,
-        "room": "None"
+        "room": 3
       },
       {
         "day": 5,
         "time_interval": 18,
-        "room": "None"
+        "room": 3
       },
       {
         "day": 5,
         "time_interval": 19,
-        "room": "None"
+        "room": 3
       }
     ]
   },
@@ -745,12 +745,12 @@
       {
         "day": 4,
         "time_interval": 14,
-        "room": "None"
+        "room": 35
       },
       {
         "day": 4,
         "time_interval": 15,
-        "room": "None"
+        "room": 35
       }
     ]
   },
@@ -760,22 +760,22 @@
       {
         "day": 1,
         "time_interval": 14,
-        "room": "None"
+        "room": 1
       },
       {
         "day": 1,
         "time_interval": 15,
-        "room": "None"
+        "room": 1
       },
       {
         "day": 2,
         "time_interval": 16,
-        "room": "None"
+        "room": 1
       },
       {
         "day": 2,
         "time_interval": 17,
-        "room": "None"
+        "room": 1
       }
     ]
   },
@@ -785,22 +785,22 @@
       {
         "day": 1,
         "time_interval": 16,
-        "room": "None"
+        "room": 1
       },
       {
         "day": 1,
         "time_interval": 17,
-        "room": "None"
+        "room": 1
       },
       {
         "day": 5,
         "time_interval": 18,
-        "room": "None"
+        "room": 30
       },
       {
         "day": 5,
         "time_interval": 19,
-        "room": "None"
+        "room": 30
       }
     ]
   },
@@ -810,32 +810,32 @@
       {
         "day": 1,
         "time_interval": 18,
-        "room": "None"
+        "room": 1
       },
       {
         "day": 1,
         "time_interval": 19,
-        "room": "None"
+        "room": 1
       },
       {
         "day": 2,
         "time_interval": 18,
-        "room": "None"
+        "room": 1
       },
       {
         "day": 2,
         "time_interval": 19,
-        "room": "None"
+        "room": 1
       },
       {
         "day": 3,
         "time_interval": 18,
-        "room": "None"
+        "room": 1
       },
       {
         "day": 3,
         "time_interval": 19,
-        "room": "None"
+        "room": 1
       }
     ]
   },
@@ -845,12 +845,12 @@
       {
         "day": 2,
         "time_interval": 14,
-        "room": "None"
+        "room": 33
       },
       {
         "day": 2,
         "time_interval": 15,
-        "room": "None"
+        "room": 33
       }
     ]
   },
@@ -860,12 +860,12 @@
       {
         "day": 4,
         "time_interval": 18,
-        "room": "None"
+        "room": 18
       },
       {
         "day": 4,
         "time_interval": 19,
-        "room": "None"
+        "room": 18
       }
     ]
   },
@@ -875,22 +875,22 @@
       {
         "day": 3,
         "time_interval": 16,
-        "room": "None"
+        "room": 4
       },
       {
         "day": 3,
         "time_interval": 17,
-        "room": "None"
+        "room": 4
       },
       {
         "day": 4,
         "time_interval": 16,
-        "room": "None"
+        "room": 4
       },
       {
         "day": 4,
         "time_interval": 17,
-        "room": "None"
+        "room": 4
       }
     ]
   },
@@ -900,22 +900,22 @@
       {
         "day": 1,
         "time_interval": 16,
-        "room": "None"
+        "room": 34
       },
       {
         "day": 1,
         "time_interval": 17,
-        "room": "None"
+        "room": 34
       },
       {
         "day": 2,
         "time_interval": 16,
-        "room": "None"
+        "room": 33
       },
       {
         "day": 2,
         "time_interval": 17,
-        "room": "None"
+        "room": 33
       }
     ]
   },
@@ -925,12 +925,12 @@
       {
         "day": 3,
         "time_interval": 18,
-        "room": "None"
+        "room": 1
       },
       {
         "day": 3,
         "time_interval": 19,
-        "room": "None"
+        "room": 1
       }
     ]
   }
