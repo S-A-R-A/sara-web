@@ -111,20 +111,14 @@
   });
 
   $(document).ready(function() {
-    $('#dropdown-areas').val({{ areaid }}).change()
+    $('#dropdown-areas').val({{ areaid }}).change();
   });
 
   $('#dropdown-areas').on("change", function() {
-
       var selectedArea = document.getElementById("dropdown-areas").value;
-
-      if(selectedArea == "0")
-        selectedArea = ""
-
-      var path = "/timetabling/0/{{ table.day.id }}/" + selectedArea
-
-      if(window.location.pathname != path)
-        window.location.pathname = path
+      
+      if(selectedArea != {{ areaid }})
+        window.location.pathname = "/timetabling/{{ table.day.id }}/{{ periodid }}/" + selectedArea;
   });
 </script>
 </html>
