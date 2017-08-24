@@ -7,24 +7,43 @@
 
   {% load staticfiles %}
   <link href="{% static "css/bootstrap.min.css" %}" rel="stylesheet">
+  <link href="{% static "css/font-awesome.min.css" %}" rel="stylesheet">
+  <link href="{% static "css/bootstrap-select.min.css" %}" rel="stylesheet">
   <link href="{% static "css/custom.css" %}" rel="stylesheet">
-  <script src="% static "js/jquery.min.js" %}"></script>
-  <script src="% static "js/bootstrap.min.js" %}"></script>
+  <script src="{% static "js/jquery.min.js" %}"></script>
+  <script src="{% static "js/bootstrap.min.js" %}"></script>
+  <script src="{% static "js/bootstrap-select.min.js" %}"></script>
+
 </head>
 <body>
 
-  <div class="container">
-    <h3>Tabs</h3>
-    <ul id="myTab" class="nav nav-tabs">
-      {% for day in days %}
-      <li><a onclick="location.pathname='/timetabling/{{ day.id }}'" >{{ day }}</a></li>
-      {% endfor %}
-    </ul>
-    <br>
-  </div>
+  {% if days %}
+    <div class="container">
+      <h3>Tabs</h3>
+      <ul id="myTab" class="nav nav-tabs">
+        {% for day in days %}
+        <li><a onclick="location.pathname='/timetabling/{{ day.id }}'" >{{ day }}</a></li>
+        {% endfor %}
+      </ul>
+      <br>
+    </div>
+  {% endif %}
+
+  {% if areas %}
+    <div class="container">
+      <div class="btn-group bootstrap-select show-tick">
+        <select id="dropdown-areas" class="selectpicker" data-live-search="true">
+          <option value="0"  data-tokens="">Todas</option>
+          {% for area in areas %}
+            <option value="{{area.id}}" data-tokens="{{ area }}">{{ area }}</option>
+          {% endfor %}
+        </select>
+      </div>
+    </div>
+  {% endif %}
 
   {% if periods %}
-    <div>
+    <div class="container">
       <div>
         <input name="period" type="radio" id="p0" checked="{% if periodid == 0 %} true {% else %} false {% endif %}"  onclick="location.pathname= 'timetabling/{{ table.day.id }}'"/>
         <label for="p0">Todos</label>
@@ -40,14 +59,17 @@
     </div>
   {% endif %}
 
-  <div id="#{{ table.day.id }}">
+ {% if table %}
+  <div id="#{{ table.day.id }}" class="container">
     <h2>{{ table.day }}</h2>
     <table class="table table-striped">
       <thead>
         <tr>
           <th>Horário</th>
           {% for room in table.rooms %}
-          <th>{{ room.code }} - {{ room.description }}</th>
+            {% if areaid == 0 or room.area.id == areaid %}
+              <th>{{ room.code }} - {{ room.description }}</th>
+            {% endif %}
           {% endfor %}
         </tr>
       </thead>
@@ -58,14 +80,16 @@
               <td scope="row">{{ time_interval }}</td>
               {% for slot in table.slots %}
                 {% if slot.time_interval == time_interval %}
-                  <td scope="row">
-                    {% if slot.s_class %}
-                      {{ slot.s_class }}
-                    {% else %}
-                      ---
-                    {% endif %}
-                  </td>
-              {% endif %}
+                  {% if slot.room.area.id == areaid or areaid == 0 %}
+                    <td scope="row">
+                      {% if slot.s_class %}
+                        {{ slot.s_class }}
+                      {% else %}
+                        ---
+                      {% endif %}
+                    </td>
+                  {% endif %}
+                {% endif %}
               {% endfor %}
             </tr>
           {% endif %}
@@ -73,16 +97,34 @@
       </tbody>
     </table>
   </div>
+ {% endif %}
 </body>
 <script>
-$('#myTab li a').click(function (e) {
-  var tab = $(this);
-  if(tab.parent('li').hasClass('active')){
-    window.setTimeout(function(){
-      $(".tab-pane").removeClass('active');
-      tab.parent('li').removeClass('active');
-    },1);
-  } else { tab.tab('show'); }
-});
+  $('#myTab li a').click(function (e) {
+    var tab = $(this);
+    if(tab.parent('li').hasClass('active')){
+      window.setTimeout(function(){
+        $(".tab-pane").removeClass('active');
+        tab.parent('li').removeClass('active');
+      },1);
+    } else { tab.tab('show'); }
+  });
+
+  $(document).ready(function() {
+    $('#dropdown-areas').val({{ areaid }}).change()
+  });
+
+  $('#dropdown-areas').on("change", function() {
+
+      var selectedArea = document.getElementById("dropdown-areas").value;
+
+      if(selectedArea == "0")
+        selectedArea = ""
+
+      var path = "/timetabling/0/{{ table.day.id }}/" + selectedArea
+
+      if(window.location.pathname != path)
+        window.location.pathname = path
+  });
 </script>
 </html>
