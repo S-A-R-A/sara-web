@@ -110,6 +110,7 @@
 
   $(document).ready(function() {
     $('#dropdown-areas').val({{ areaid }}).change();
+    joinClasses();
   });
 
   $('#dropdown-areas').on("change", function() {
@@ -117,8 +118,6 @@
 
       if(selectedArea != {{ areaid }})
         window.location.pathname = "/timetabling/{{ table.day.id }}/{{ periodid }}/" + selectedArea;
-
-      joinClasses();
   });
 
   function joinClasses(){
