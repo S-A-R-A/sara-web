@@ -21,4 +21,5 @@ def show_timetabling(request, dayid=0, periodid=0, areaid=0):
                  rooms = Room.objects.all(), slots = list(Slot.objects.filter(day = day)))
 
     return render(request, 'manager/show_timetabling.html', {'days': days, 'areas': areas, 'areaid': int(areaid),
-                                                             'periods': periods, 'periodid': int(periodid), 'table': table})
+                                                             'periods': periods, 'periodid': int(periodid),
+                                                             'table': table, 'rooms_count': len(table["rooms"]) + 1})
