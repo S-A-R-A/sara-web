@@ -225,7 +225,7 @@ class Slot(models.Model):
     objects = managers.SlotManager()
 
     def __str__(self):
-        return "{0} - {1} : {2} em {3}".format(self.day, self.time_interval, "Espaço vago" if self.s_class is None else self._class, self.room)
+        return "{0} - {1} : {2} em {3}".format(self.day, self.time_interval, "Espaço vago" if self.s_class is None else self.s_class, self.room)
 
     @classmethod
     def reset_all(self):
