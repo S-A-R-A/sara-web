@@ -726,23 +726,3 @@ footer .scroll-to-top a:hover, footer .scroll-to-top a:focus, footer .scroll-to-
     box-shadow: 0 1px 10px 4px #ffd42a;
 	background: none;
 }
-
-.table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th {
-    border-top: 0;
-    min-width: 150px;
-}
-
-.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
-    padding: 8px;
-    line-height: 1.42857143;
-    vertical-align: top;
-    border-top: 1px solid #ddd;
-    border-left: 1px solid #cecece;
-    border-right: 1px solid #cecece;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.navbar-fixed-bottom, .navbar-fixed-top {
-  position: static !important;
-}
