@@ -1,65 +1,8 @@
-<!DOCTYPE html>
-<html lang="pt_BR">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>S.A.R.A - Web</title>
+{% extends "manager/base.html" %}
 
-  {% load staticfiles %}
-  <link href="{% static "ico/favicon.ico" %}" rel="shortcut icon">
-  <link href="{% static "css/bootstrap.min.css" %}" rel="stylesheet">
-  <link href="{% static "css/bootstrap-select.min.css" %}" rel="stylesheet">
-  <link href="{% static "css/font-awesome.min.css" %}" rel="stylesheet">
-  <link href="{% static "css/animate.css" %}" rel="stylesheet">
-  <link href="{% static "css/magnific-popup.css" %}" rel="stylesheet">
-  <link href="{% static "css/form-elements.css" %}" rel="stylesheet">
-  <link href="{% static "css/style.css" %}" rel="stylesheet">
-  <link href="{% static "css/media-queries.css" %}" rel="stylesheet">
-  <link href="{% static "css/custom.css" %}" rel="stylesheet">
-  <style>
+{% block title %}S.A.R.A - Web{% endblock %}
 
-    table {
-      border-collapse: separate;
-      border-spacing: 0;
-    }
-
-    .search-table{margin:40px auto 0px auto; }
-    .search-table, td, th{border-collapse:collapse;}
-
-    .search-table-outter { overflow-x: scroll;  overflow-y: visible; padding: 0;}
-
-    th, td { min-width: 200px;}
-    td {height: 34px}
-    .fixed, tbody tr > :first-child {
-      position: absolute;
-      left: 190px;
-      border-top-width: 1px;
-      /*only relevant for first row
-      margin-top: -1px;
-      compensate for top border*/
-    }
-  </style>
-
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
-  <script src="{% static "js/jquery.min.js" %}"></script>
-  <script src="{% static "js/bootstrap.min.js" %}"></script>
-  <script src="{% static "js/bootstrap-select.min.js" %}"></script>
-
-</head>
-
-<body>
-  <!-- Loader -->
-  <!-- <div class="loader">
-    <div class="loader-img"></div>
-  </div> -->
-
-  <!-- Top menu -->
+{% block header %}
   <nav class="navbar navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
@@ -82,9 +25,10 @@
     </div>
     {% endif %}
   </nav>
+{% endblock %}
 
-
-  <div class="container">
+{% block first-content %}
+<div class="container">
 {% if periods %}
     <div class="col-sm-6">
       <input name="period" type="radio" id="p0" checked="{% if periodid == 0 %} true {% else %} false {% endif %}" onclick="location.pathname= 'timetabling/{{ table.day.id }}'" />
@@ -156,7 +100,9 @@
   </div>
   {% endif %}
 </div>
-</body>
+{% endblock %}
+
+{% block third-content %}
 <script>
   $('#myTab li a').click(function(e) {
     var tab = $(this);
@@ -169,24 +115,19 @@
       tab.tab('show');
     }
   });
-
   $(document).ready(function() {
     $('#dropdown-areas').val({{areaid}}).change();
     joinClasses();
   });
-
   $('#dropdown-areas').on("change", function() {
     var selectedArea = document.getElementById("dropdown-areas").value;
-
     if (selectedArea != {{areaid}})
       window.location.pathname = "/timetabling/{{ table.day.id }}/{{ periodid }}/" + selectedArea;
   });
-
   function joinClasses() {
     var table = document.getElementById("timetabling")
     var rows_count = table.tBodies[0].rows.length - 1;
     var cells_count = table.tBodies[0].rows[0].cells.length;
-
     for (var i = 0; i < rows_count; ++i)
       for (var j = 1; j < cells_count; ++j)
         if (table.tBodies[0].rows[i].cells[j].innerText != "")
@@ -197,5 +138,4 @@
             }
   }
 </script>
-
-</html>
+{% endblock %}
