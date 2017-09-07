@@ -212,6 +212,15 @@ class Class(models.Model):
         if s_class:
             s_class.schedules.through.objects.all().delete()
 
+    @classmethod
+    def get_filled_schedules(self):
+        filled_schedules = []
+        for s_class in self.objects.all():
+            for schedule in s_class.schedules.all():
+                if schedule not in filled_schedules:
+                    filled_schedules.append(schedule)
+        return filled_schedules
+
     class Meta:
         verbose_name = 'Turma'
         verbose_name_plural = 'Turmas'
@@ -231,6 +240,16 @@ class Slot(models.Model):
     def reset_all(self):
         for slot in Slot.objects.all():
             slot.s_class = None
+
+    @classmethod
+    def get_slots_to_schedules(self):
+        slots = []
+        for schedule in Class.get_filled_schedules():
+            slots_by_schedule = list(self.objects.filter(day = schedule.day, time_interval = schedule.time_interval))
+            for current in slots_by_schedule:
+                if not current not in slots:
+                    slots.append(current)
+        return slots
 
     class Meta:
         verbose_name = 'Alocação da turma em sala'
