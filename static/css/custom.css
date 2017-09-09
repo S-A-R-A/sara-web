@@ -734,13 +734,12 @@ footer .scroll-to-top a:hover, footer .scroll-to-top a:focus, footer .scroll-to-
 
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
     padding: 8px;
-    line-height: 1.42857143;
+    line-height: 2;
     vertical-align: top;
-    border-top: 1px solid #ddd;
-    border-left: 1px solid #cecece;
-    border-right: 1px solid #cecece;
+    border: 1px solid #ddd !important;
     text-align: center;
     vertical-align: middle;
+    min-width: 100px;
 }
 
 .navbar-fixed-bottom, .navbar-fixed-top {
