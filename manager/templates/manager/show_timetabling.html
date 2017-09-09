@@ -62,7 +62,7 @@
           <th colspan="{{rooms_count}}"></th>
         </tr>
         <tr>
-          <th class="fixed">Horário</th>
+          <th>Horário</th>
           {% for room in table.rooms %}
             {% if areaid == 0 or room.area.id == areaid %}
               <th>{{ room.code }} - {{ room.description }}</th>
