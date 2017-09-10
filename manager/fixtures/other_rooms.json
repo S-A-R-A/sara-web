@@ -1,26 +1,5 @@
 [
   {
-    "model": "manager.RoomType",
-    "fields": {
-      "id": 4,
-      "name": "Sala de Reuniões"
-    }
-  },
-  {
-    "model": "manager.RoomType",
-    "fields": {
-      "id": 5,
-      "name": "Laboratório"
-    }
-  },
-  {
-    "model": "manager.RoomType",
-    "fields": {
-      "id": 6,
-      "name": "Sala de Desenho"
-    }
-  },
-  {
     "model": "manager.Room",
     "fields": {
       "code": "A-207",
