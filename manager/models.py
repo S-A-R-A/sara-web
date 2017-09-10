@@ -100,6 +100,29 @@ class Teacher(models.Model):
         verbose_name = 'Professor'
         verbose_name_plural = 'Professores'
 
+class ProgramLevel(models.Model):
+    id = models.AutoField(primary_key=True)
+    description = models.CharField(max_length=20, blank=False, null=False, verbose_name="descrição")
+
+    def __str__(self):
+        return self.description
+
+    class Meta:
+        verbose_name = 'Nível do Curso'
+        verbose_name_plural = 'Níveis dos Cursos'
+
+class ProgramType(models.Model):
+    id = models.AutoField(primary_key=True)
+    description = models.CharField(max_length=20, blank=False, null=False, verbose_name="descrição")
+    level = models.ForeignKey('ProgramLevel', on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.description
+
+    class Meta:
+        verbose_name = 'Nível do Curso'
+        verbose_name_plural = 'Níveis dos Cursos'
+
 class Program(models.Model):
     id = models.AutoField(primary_key=True)
     acronym = models.CharField(max_length=50, blank=False, null=False, verbose_name="abreviação")
