@@ -1,0 +1,806 @@
+[
+  {
+    "s_class": 25,
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      },
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      }
+    ]
+  },
+  {
+    "s_class": 27,
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      },
+      {
+        "day": 3,
+        "time_interval": 14
+      },
+      {
+        "day": 3,
+        "time_interval": 15
+      }
+    ]
+  },
+  {
+    "s_class": 26,
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 14
+      },
+      {
+        "day": 1,
+        "time_interval": 15
+      },
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      }
+    ]
+  },
+  {
+    "s_class": 35,
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 34,
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 14
+      },
+      {
+        "day": 3,
+        "time_interval": 15
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 32,
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 14
+      },
+      {
+        "day": 4,
+        "time_interval": 15
+      }
+    ]
+  },
+  {
+    "s_class": 33,
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
+  },
+  {
+    "s_class": 24,
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      }
+    ]
+  },
+  {
+    "s_class": 28,
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 6,
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      }
+    ]
+  },
+  {
+    "s_class": 31,
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 14
+      },
+      {
+        "day": 2,
+        "time_interval": 15
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
+  },
+  {
+    "s_class": 5,
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 29,
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 8,
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      },
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 9,
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
+  },
+  {
+    "s_class": 1,
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 14
+      },
+      {
+        "day": 2,
+        "time_interval": 15
+      },
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      }
+    ]
+  },
+  {
+    "s_class": 37,
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 14
+      },
+      {
+        "day": 4,
+        "time_interval": 15
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
+  },
+  {
+    "s_class": 7,
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
+  },
+  {
+    "s_class": 11,
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      },
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 12,
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      },
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      }
+    ]
+  },
+  {
+    "s_class": 10,
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 14
+      },
+      {
+        "day": 3,
+        "time_interval": 15
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
+  },
+  {
+    "s_class": 14,
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      },
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 38,
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 16,
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 4,
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      },
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 13,
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 14
+      },
+      {
+        "day": 3,
+        "time_interval": 15
+      },
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      },
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 21,
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
+  },
+  {
+    "s_class": 30,
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 14
+      },
+      {
+        "day": 4,
+        "time_interval": 15
+      }
+    ]
+  },
+  {
+    "s_class": 17,
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 14
+      },
+      {
+        "day": 1,
+        "time_interval": 15
+      },
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 18,
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
+  },
+  {
+    "s_class": 15,
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      },
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      }
+    ]
+  },
+  {
+    "s_class": 22,
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 14
+      },
+      {
+        "day": 2,
+        "time_interval": 15
+      }
+    ]
+  },
+  {
+    "s_class": 23,
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      }
+    ]
+  },
+  {
+    "s_class": 19,
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 2,
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      }
+    ]
+  },
+  {
+    "s_class": 20,
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      }
+    ]
+  }
+]
