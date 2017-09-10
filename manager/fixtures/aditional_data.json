@@ -1,0 +1,713 @@
+[
+  {
+    "model": "manager.RoomType",
+    "fields": {
+      "id": 4,
+      "name": "Sala de Reuniões"
+    }
+  },
+  {
+    "model": "manager.RoomType",
+    "fields": {
+      "id": 5,
+      "name": "Laboratório"
+    }
+  },
+  {
+    "model": "manager.RoomType",
+    "fields": {
+      "id": 6,
+      "name": "Sala de Desenho"
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "A-207",
+      "description": "LAPEG",
+      "capacity": 10,
+      "type": 1,
+      "area": 1
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "A-308",
+      "description": "Sala de aula",
+      "capacity": 0,
+      "type": 1,
+      "area": 1
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "Sala Reuniões DG",
+      "description": "Sala de reuniões",
+      "capacity": 0,
+      "type": 4,
+      "area": 1
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "B-003",
+      "description": "LEMAT",
+      "capacity": 10,
+      "type": 1,
+      "area": 2
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "Lab de Cartografia",
+      "description": "Laboratório de cartografia",
+      "capacity": 0,
+      "type": 5,
+      "area": 2
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "Lab de Geografia Física",
+      "description": "Laboratório de Geografia Física",
+      "capacity": 0,
+      "type": 5,
+      "area": 2
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "Lab de Geotecnologia",
+      "description": "Laboratório de Geotecnologia",
+      "capacity": 0,
+      "type": 5,
+      "area": 2
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "B-108",
+      "description": "Sala 03",
+      "capacity": 35,
+      "type": 1,
+      "area": 2
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "B-109",
+      "description": "Sala 04",
+      "capacity": 35,
+      "type": 1,
+      "area": 2
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "B-110",
+      "description": "Sala 05",
+      "capacity": 50,
+      "type": 1,
+      "area": 2
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "B-205",
+      "description": "Sala 06",
+      "capacity": 45,
+      "type": 1,
+      "area": 2
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "B-206",
+      "description": "Sala 07",
+      "capacity": 30,
+      "type": 1,
+      "area": 2
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "B-207",
+      "description": "Sala 08",
+      "capacity": 50,
+      "type": 1,
+      "area": 2
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "B-208",
+      "description": "Sala 09",
+      "capacity": 50,
+      "type": 1,
+      "area": 2
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "D-007",
+      "description": "Laboratório Topografia",
+      "capacity": 0,
+      "type": 5,
+      "area": 3
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "D-008",
+      "description": "Laboratório Solos",
+      "capacity": 0,
+      "type": 5,
+      "area": 3
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "D-010",
+      "description": "Laboratório Ensaios",
+      "capacity": 0,
+      "type": 5,
+      "area": 3
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "D-101",
+      "description": "Audio 1",
+      "capacity": 0,
+      "type": 2,
+      "area": 3
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "D-106",
+      "description": "Sala 03",
+      "capacity": 40,
+      "type": 1,
+      "area": 3
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "D-107",
+      "description": "Sala 04",
+      "capacity": 40,
+      "type": 1,
+      "area": 3
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "D-110",
+      "description": "Sala 07",
+      "capacity": 40,
+      "type": 1,
+      "area": 3
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "D-201",
+      "description": "Sala 10",
+      "capacity": 60,
+      "type": 1,
+      "area": 3
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "D-205",
+      "description": "Desenho",
+      "capacity": 40,
+      "type": 6,
+      "area": 3
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "D-206",
+      "description": "Desenho",
+      "capacity": 25,
+      "type": 6,
+      "area": 3
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "D-207",
+      "description": "Desenho",
+      "capacity": 25,
+      "type": 6,
+      "area": 3
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "D-208",
+      "description": "Desenho",
+      "capacity": 24,
+      "type": 6,
+      "area": 3
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "D-209",
+      "description": "Desenho",
+      "capacity": 30,
+      "type": 6,
+      "area": 3
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "D-210",
+      "description": "Laboratório de Anatomia e Biologia",
+      "capacity": 0,
+      "type": 6,
+      "area": 3
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "E-005",
+      "description": "Laboratório Manutenção Elétrica",
+      "capacity": 0,
+      "type": 5,
+      "area": 4
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "E-006",
+      "description": "Laboratório Instalações Elétricas",
+      "capacity": 0,
+      "type": 5,
+      "area": 4
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "E-007",
+      "description": "Laboratório Com. Elétricos",
+      "capacity": 0,
+      "type": 5,
+      "area": 4
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "E-008",
+      "description": "Laboratório Máquinas Elétricas",
+      "capacity": 0,
+      "type": 5,
+      "area": 4
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "E-009",
+      "description": "Laboratório Tec. Elétrica",
+      "capacity": 0,
+      "type": 5,
+      "area": 4
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "E-010",
+      "description": "Laboratório Medidas Elétricas",
+      "capacity": 0,
+      "type": 5,
+      "area": 4
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "E-011",
+      "description": "Laboratório de Automação",
+      "capacity": 0,
+      "type": 5,
+      "area": 4
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "F-007",
+      "description": "Sala de Aula",
+      "capacity": 48,
+      "type": 2,
+      "area": 5
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "G-001",
+      "description": "Laboratório Hidráulica",
+      "capacity": 0,
+      "type": 5,
+      "area": 6
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "G-002",
+      "description": "Laboratório Informática",
+      "capacity": 0,
+      "type": 5,
+      "area": 6
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "G-003",
+      "description": "Sala de Desenho",
+      "capacity": 0,
+      "type": 1,
+      "area": 6
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "G-004",
+      "description": "Laboratório de Águas",
+      "capacity": 0,
+      "type": 5,
+      "area": 6
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "G-005",
+      "description": "Laboratório Elétrica",
+      "capacity": 0,
+      "type": 5,
+      "area": 6
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "G-006",
+      "description": "Sala 06",
+      "capacity": 0,
+      "type": 1,
+      "area": 6
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "H-001",
+      "description": "Automação Hidráulica",
+      "capacity": 15,
+      "type": 5,
+      "area": 7
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "H-002",
+      "description": "Laboratório Informática",
+      "capacity": 15,
+      "type": 5,
+      "area": 7
+    }
+  },
+   {
+    "model": "manager.Room",
+    "fields": {
+      "code": "H-003",
+      "description": "Laboratório Refrigeração",
+      "capacity": 25,
+      "type": 5,
+      "area": 7
+    }
+  },
+   {
+    "model": "manager.Room",
+    "fields": {
+      "code": "H-004",
+      "description": "Metalografia",
+      "capacity": 25,
+      "type": 5,
+      "area": 7
+    }
+  },
+   {
+    "model": "manager.Room",
+    "fields": {
+      "code": "H-005",
+      "description": "Oficina de Refrigeração",
+      "capacity": 0,
+      "type": 5,
+      "area": 7
+    }
+  },
+   {
+    "model": "manager.Room",
+    "fields": {
+      "code": "H-006",
+      "description": "Oficina de Soldagem",
+      "capacity": 0,
+      "type": 5,
+      "area": 7
+    }
+  },
+   {
+    "model": "manager.Room",
+    "fields": {
+      "code": "H-007",
+      "description": "Órtese/Protése",
+      "capacity": 35,
+      "type": 1,
+      "area": 7
+    }
+  },
+   {
+    "model": "manager.Room",
+    "fields": {
+      "code": "Sala 05",
+      "description": "DATM",
+      "capacity": 20,
+      "type": 5,
+      "area": 7
+    }
+  },
+   {
+    "model": "manager.Room",
+    "fields": {
+      "code": "K-106",
+      "description": "Sala de aula",
+      "capacity": 30,
+      "type": 1,
+      "area": 8
+    }
+  },
+   {
+    "model": "manager.Room",
+    "fields": {
+      "code": "K-107",
+      "description": "Sala de aula",
+      "capacity": 11,
+      "type": 1,
+      "area": 8
+    }
+  },
+   {
+    "model": "manager.Room",
+    "fields": {
+      "code": "K-109",
+      "description": "Sala de aula",
+      "capacity": 20,
+      "type": 1,
+      "area": 8
+    }
+  },
+   {
+    "model": "manager.Room",
+    "fields": {
+      "code": "K-111",
+      "description": "Sala de aula",
+      "capacity": 20,
+      "type": 1,
+      "area": 8
+    }
+  },
+   {
+    "model": "manager.Room",
+    "fields": {
+      "code": "K-112",
+      "description": "Sala de aula",
+      "capacity": 20,
+      "type": 1,
+      "area": 8
+    }
+  },
+   {
+    "model": "manager.Room",
+    "fields": {
+      "code": "K-114",
+      "description": "Sala de aula",
+      "capacity": 10,
+      "type": 1,
+      "area": 8
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "K-116",
+      "description": "Sala de aula",
+      "capacity": 10,
+      "type": 1,
+      "area": 8
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "L-001",
+      "description": "Laboratório de Engenharia Química",
+      "capacity": 10,
+      "type": 5,
+      "area": 9
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "L-002",
+      "description": "Centro de Idiomas",
+      "capacity": 0,
+      "type": 2,
+      "area": 9
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "L-004",
+      "description": "LEUS/GEPEND",
+      "capacity": 10,
+      "type": 5,
+      "area": 9
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "L-010",
+      "description": "Laboratório Engenharia Química",
+      "capacity": 20,
+      "type": 5,
+      "area": 9
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "O-102",
+      "description": "Laboratório Profuncionário",
+      "capacity": 0,
+      "type": 5,
+      "area": 10
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "O-119",
+      "description": "Sala de aula",
+      "capacity": 0,
+      "type": 1,
+      "area": 10
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "O-114",
+      "description": "Sala 02",
+      "capacity": 40,
+      "type": 1,
+      "area": 10
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "O-115",
+      "description": "Sala 03",
+      "capacity": 40,
+      "type": 1,
+      "area": 10
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "O-116",
+      "description": "Sala 04",
+      "capacity": 40,
+      "type": 1,
+      "area": 10
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "O-117",
+      "description": "Sala 05",
+      "capacity": 40,
+      "type": 1,
+      "area": 10
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "O-206",
+      "description": "Sala 09",
+      "capacity": 40,
+      "type": 1,
+      "area": 10
+    }
+  },
+  {
+    "model": "manager.Room",
+    "fields": {
+      "code": "O-208",
+      "description": "Sala 11",
+      "capacity": 40,
+      "type": 1,
+      "area": 10
+    }
+  }
+]

@@ -1,0 +1,36 @@
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.search-table {
+    margin:40px auto 0px auto;
+}
+
+.search-table, td, th {
+    border-collapse:collapse;
+}
+
+.search-table-outter {
+    overflow-x: scroll;
+    overflow-y: scroll;
+    max-height: 500px !important;
+    padding: 0;
+}
+
+th, td {
+    min-width: 200px !important;
+}
+
+td {
+    height: 34px
+}
+
+/*.fixed, tbody tr > :first-child {
+    position: absolute;
+    left: 190px;
+    border-top-width: 1px;
+    /*only relevant for first row
+    margin-top: -1px;
+    compensate for top border
+}*/
