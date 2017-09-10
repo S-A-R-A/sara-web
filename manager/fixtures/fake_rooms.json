@@ -1,0 +1,24 @@
+[
+  {
+      "model": "manager.Room",
+      "fields": {
+          "id": 1,
+          "code": "LAB 01",
+          "description": "Laboratório de Informática I",
+          "capacity": 20,
+          "type": 3,
+          "area": 14
+      }
+  },
+  {
+      "model": "manager.Room",
+      "fields": {
+          "id": 2,
+          "code": "LAB 02",
+          "description": "Laboratório de Informática II",
+          "capacity": 40,
+          "type": 3,
+          "area": 14
+      }
+  }
+]

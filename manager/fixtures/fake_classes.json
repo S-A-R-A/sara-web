@@ -1,0 +1,26 @@
+[
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 1,
+            "course": 1,
+            "code": "T03",
+            "teacher": 1,
+            "size": 20,
+            "year": 2017,
+            "semester": 1
+        }
+    },
+    {
+        "model": "manager.Class",
+        "fields": {
+            "id": 2,
+            "course": 32,
+            "code": "T01",
+            "teacher": 1,
+            "size": 40,
+            "year": 2017,
+            "semester": 1
+        }
+    }
+]

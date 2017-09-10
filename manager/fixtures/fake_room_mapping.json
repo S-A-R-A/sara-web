@@ -1,0 +1,27 @@
+[
+  {
+    "s_class": 1,
+    "slots": [
+      {
+        "day": 1,
+        "time_interval": 16,
+        "room": 1
+      },
+      {
+        "day": 2,
+        "time_interval": 17,
+        "room": 1
+      },
+      {
+        "day": 2,
+        "time_interval": 18,
+        "room": 1
+      },
+      {
+        "day": 2,
+        "time_interval": 19,
+        "room": 1
+      }
+    ]
+  }
+]
