@@ -3,19 +3,19 @@
     "s_class": 1,
     "schedules": [
       {
-        "day": 2,
+        "day": 1,
         "time_interval": 14
       },
       {
-        "day": 2,
+        "day": 1,
         "time_interval": 15
       },
       {
-        "day": 3,
+        "day": 2,
         "time_interval": 18
       },
       {
-        "day": 3,
+        "day": 2,
         "time_interval": 19
       }
     ]

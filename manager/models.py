@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from django.db import models
 from manager import managers
+from itertools import chain
 
 class Institution(models.Model):
     id = models.AutoField(primary_key=True)
@@ -144,11 +145,12 @@ class Course(models.Model):
     semester_number = models.PositiveSmallIntegerField(default=0, verbose_name="semestre")
 
     def __str__(self):
-        return self.name
+        return "{0} - {1}".format(self.code, self.name)
 
     class Meta:
         verbose_name = 'Disciplina'
         verbose_name_plural = 'Disciplinas'
+        ordering = ['code', 'name']
 
 class Period(models.Model):
     id = models.AutoField(primary_key=True)
@@ -175,6 +177,7 @@ class TimeInterval(models.Model):
     class Meta:
         verbose_name = 'Intervalo de Tempo'
         verbose_name_plural = 'Intervalos de Tempo'
+        ordering = ['start_time']
 
 class Day(models.Model):
     id = models.AutoField(primary_key=True)
@@ -190,6 +193,8 @@ class Day(models.Model):
     class Meta:
         verbose_name = 'Dia'
         verbose_name_plural = 'Dias'
+        ordering = ['id']
+
 
 class Schedule(models.Model):
     id = models.AutoField(primary_key=True)
@@ -240,14 +245,13 @@ class Class(models.Model):
     def get_filled_schedules(self):
         filled_schedules = []
         for s_class in self.objects.all():
-            for schedule in s_class.schedules.all():
-                if schedule not in filled_schedules:
-                    filled_schedules.append(schedule)
+            filled_schedules.append(s_class.schedules.all())
         return filled_schedules
 
     class Meta:
         verbose_name = 'Turma'
         verbose_name_plural = 'Turmas'
+        ordering = ['course']
 
 class Slot(models.Model):
     id = models.AutoField(primary_key=True)
@@ -269,8 +273,10 @@ class Slot(models.Model):
         slots = []
         for schedule in Class.get_filled_schedules():
             slots_by_schedule = list(self.objects.filter(day = schedule.day, time_interval = schedule.time_interval))
+            print(slots_by_schedule)
+            break
             for current in slots_by_schedule:
-                if not current not in slots:
+                if not current in slots:
                     slots.append(current)
         return slots
 
@@ -278,3 +284,4 @@ class Slot(models.Model):
         verbose_name = 'Alocação da turma em sala'
         verbose_name_plural = 'Alocações das turmas em salas'
         unique_together = (('day', 'time_interval', 'room'),)
+        ordering = ['day', 'time_interval']
