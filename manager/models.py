@@ -127,6 +127,7 @@ class Program(models.Model):
     id = models.AutoField(primary_key=True)
     acronym = models.CharField(max_length=50, blank=False, null=False, verbose_name="abreviação")
     name = models.CharField(max_length=500, blank=False, null=False, verbose_name="nome")
+    type = models.ForeignKey('ProgramType', on_delete=models.CASCADE)
 
     def __str__(self):
         return self.name
