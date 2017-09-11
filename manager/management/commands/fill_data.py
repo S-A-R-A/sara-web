@@ -22,6 +22,11 @@ class Command(BaseCommand):
             saved_class = Class.objects.get(id = element["s_class"])
             print("{0} slots to {1}: ".format(len(element["slots"]), saved_class))
             for slot in element["slots"]:
+                if not saved_class.schedules.filter(day = slot["day"], time_interval = slot["time_interval"]):
+                    print("The class {0} (id = {1}) does not have the schedule: day = {2} and time_interval = {3}".format(
+                                                                     saved_class, saved_class.id,
+                                                                     slot["day"], slot["time_interval"]))
+                    return
                 saved_slot = Slot.objects.get(day = slot["day"], time_interval = slot["time_interval"], room = slot["room"])
                 if saved_slot and saved_class:
                     saved_slot.s_class = saved_class
