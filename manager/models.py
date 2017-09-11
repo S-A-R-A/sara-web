@@ -262,8 +262,7 @@ class Slot(models.Model):
 
     @classmethod
     def reset_all(self):
-        for slot in Slot.objects.all():
-            slot.s_class = None
+        Slot.objects.all().update(s_class=None)
 
     @classmethod
     def get_slots_to_schedules(self):
