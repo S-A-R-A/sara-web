@@ -5,12 +5,12 @@
       {
         "day": 2,
         "time_interval": 16,
-        "room": 3
+        "room": 2
       },
       {
         "day": 2,
         "time_interval": 17,
-        "room": 3
+        "room": 2
       },
       {
         "day": 3,
@@ -30,12 +30,12 @@
       {
         "day": 2,
         "time_interval": 16,
-        "room": 2
+        "room": 3
       },
       {
         "day": 2,
         "time_interval": 17,
-        "room": 2
+        "room": 3
       },
       {
         "day": 3,
