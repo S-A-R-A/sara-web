@@ -114,7 +114,7 @@ class ProgramLevel(models.Model):
 
 class ProgramType(models.Model):
     id = models.AutoField(primary_key=True)
-    description = models.CharField(max_length=20, blank=False, null=False, verbose_name="descrição")
+    description = models.CharField(max_length=100, blank=False, null=False, verbose_name="descrição")
     level = models.ForeignKey('ProgramLevel', on_delete=models.CASCADE)
 
     def __str__(self):
