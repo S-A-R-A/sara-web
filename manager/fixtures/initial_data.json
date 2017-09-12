@@ -208,6 +208,15 @@
             "campus": 1
         }
     },
+	{
+		"model": "manager.Area",
+		"fields": {
+		  "id": 17,
+		  "code": "Vídeo Conferência",
+		  "description": "",
+		  "campus": 1
+		}
+	},
     {
         "model": "manager.RoomType",
         "fields": {
