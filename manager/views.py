@@ -11,6 +11,9 @@ def show_timetabling(request, dayid=0, periodid=0, areaid=0):
     days = Day.objects.all()
     areas = Area.objects.all()
     periods = Period.objects.all()
+	
+    if not days and not areas and not periods:
+        return render(request, 'manager/empty.html', {})
 
     if int(dayid) == 0:
         day = Day.objects.first()
