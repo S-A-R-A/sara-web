@@ -3586,7 +3586,7 @@
       "model": "manager.Course",
       "fields": {
         "id": 140,
-        "code": "FIS232",
+        "code": "FIS232*",
         "name": "Estágio Supervisionado IV",
         "workload": 60,
         "semester_number": 0
@@ -5566,7 +5566,7 @@
       "model": "manager.Course",
       "fields": {
         "id": 338,
-        "code": "ENG449",
+        "code": "ENG449*",
         "name": "Transmissão de Energia Elétrica",
         "workload": 60,
         "semester_number": 0
