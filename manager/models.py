@@ -89,6 +89,7 @@ class Room(models.Model):
     class Meta:
         verbose_name = 'Sala'
         verbose_name_plural = 'Salas'
+        ordering = ['area', 'code']
 
 class Teacher(models.Model):
     id = models.AutoField(primary_key=True)
@@ -150,6 +151,7 @@ class Course(models.Model):
     class Meta:
         verbose_name = 'Disciplina'
         verbose_name_plural = 'Disciplinas'
+        unique_together = (('code'),)
         ordering = ['code', 'name']
 
 class Period(models.Model):
@@ -251,6 +253,7 @@ class Class(models.Model):
     class Meta:
         verbose_name = 'Turma'
         verbose_name_plural = 'Turmas'
+        unique_together = (('course', 'code'),)
         ordering = ['course']
 
 class Slot(models.Model):
