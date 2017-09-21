@@ -8,10 +8,13 @@ from .models import Period
 from .models import Area
 
 def show_timetabling(request, dayid=0, periodid=0, areaid=0):
-    days = Day.objects.all()
-    areas = Area.objects.all()
-    periods = Period.objects.all()
-	
+    try:
+        days = Day.objects.all()
+        areas = Area.objects.all()
+        periods = Period.objects.all()
+    except:
+        return render(request, 'manager/empty.html', {})
+
     if not days and not areas and not periods:
         return render(request, 'manager/empty.html', {})
 
