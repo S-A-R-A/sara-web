@@ -273,6 +273,14 @@ class Slot(models.Model):
         Slot.objects.all().update(s_class=None)
 
     @classmethod
+    def get_empty_slots(self):
+        return Slot.objects.filter(s_class=None)
+
+    @classmethod
+    def get_filled_slots(self):
+        return Slot.objects.exclude(s_class=None)
+
+    @classmethod
     def get_slots_to_schedules(self):
         slots = []
         for schedule in Class.get_filled_schedules():
