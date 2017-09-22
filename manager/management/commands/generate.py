@@ -34,21 +34,22 @@ class Command(BaseCommand):
                 "id": slot.id,
                 "capacity": slot.room.capacity,
                 "room": slot.room.id,
-                "schedule": Schedule.objects.get(day = slot.day, time_interval = slot.time_interval).id,
-                "requirements": []
+                "schedule": Schedule.objects.get(day = slot.day, time_interval = slot.time_interval).id
             }
             models["slots"].append(slot_model)
 
         for s_class in classes:
             class_model = {
                 "id": s_class.id,
-                "size": s_class.size
+                "size": s_class.size,
+                "requirements": s_class.requirements
             }
             models["classes"].append(class_model)
 
         for room in rooms:
             room_model = {
-                "id": room.id
+                "id": room.id,
+                "specifications": list(room.specifications.through.objects.all())
             }
             models["rooms"].append(room_model)
         self.create_json_data(file_name, json.dumps(models, indent=4, sort_keys=False))
