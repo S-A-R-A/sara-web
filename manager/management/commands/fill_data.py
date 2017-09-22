@@ -29,9 +29,19 @@ class Command(BaseCommand):
                     return
                 saved_slot = Slot.objects.get(day = slot["day"], time_interval = slot["time_interval"], room = slot["room"])
                 if saved_slot and saved_class:
+                    if saved_slot.s_class:
+                        print("    #### The class \"{0}\" (id = {1}) can't be allocated...".format(saved_class, saved_class.id))
+                        print("    #### The slot \"{0}\" (id = {1}) already has a class {2} (id = {3}) allocated.".format(
+                                                                         saved_slot, saved_slot.id,
+                                                                         saved_slot.s_class, saved_slot.s_class.id))
+                        return
                     saved_slot.s_class = saved_class
                     saved_slot.save()
                     print("    {0} <- {1}".format(saved_class, saved_slot))
+                else:
+                    print("    #### Unexpected error! The class {0} (id = {1}) may has an invalid information.".format(
+                                                                     saved_class, saved_class.id))
+                    return
 
     def fill_timetabling(self, data):
         for element in data:
