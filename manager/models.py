@@ -290,15 +290,10 @@ class Slot(models.Model):
         return Slot.objects.exclude(s_class=None)
 
     @classmethod
-    def get_slots_to_schedules(self):
+    def get_slots_by_schedules(self, schedules):
         slots = []
-        for schedule in Class.get_filled_schedules():
-            slots_by_schedule = list(self.objects.filter(day = schedule.day, time_interval = schedule.time_interval))
-            print(slots_by_schedule)
-            break
-            for current in slots_by_schedule:
-                if not current in slots:
-                    slots.append(current)
+        for schedule in schedules:
+            slots.extend(self.objects.filter(day = schedule.day, time_interval = schedule.time_interval))
         return slots
 
     class Meta:
