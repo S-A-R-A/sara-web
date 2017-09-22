@@ -111,3 +111,4 @@ tests/.coverage
 tests/report/
 .directory
 db.sqlite3
+migrations/
