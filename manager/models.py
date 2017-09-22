@@ -207,6 +207,14 @@ class Schedule(models.Model):
     def __str__(self):
         return "{0} - {1}".format(self.day, self.time_interval)
 
+    @classmethod
+    def get_used_slots(self):
+        used_schedules = []
+        for schedule in self.objects.all():
+            if Class.objects.filter(schedules = schedule) :
+                used_schedules.append(schedule)
+        return used_schedules
+
     class Meta:
         verbose_name = 'Cronograma'
         verbose_name_plural = 'Cronogramas'
@@ -245,11 +253,12 @@ class Class(models.Model):
             s_class.schedules.through.objects.all().delete()
 
     @classmethod
-    def get_filled_schedules(self):
-        filled_schedules = []
+    def get_scheduled_classes(self):
+        scheduled_classes = []
         for s_class in self.objects.all():
-            filled_schedules.append(s_class.schedules.all())
-        return filled_schedules
+            if s_class.schedules.all():
+                scheduled_classes.append(s_class)
+        return scheduled_classes
 
     class Meta:
         verbose_name = 'Turma'
