@@ -41,6 +41,13 @@
         }
     },
     {
+        "model": "manager.RequirementType",
+        "fields": {
+            "id": 3,
+            "name": "Preferência"
+        }
+    },
+    {
         "model": "manager.Requirement",
         "fields": {
             "id": "1",
@@ -62,6 +69,14 @@
             "id": "3",
             "description": "Elevador",
             "type": 2
+        }
+    },
+    {
+        "model": "manager.Requirement",
+        "fields": {
+            "id": "3",
+            "description": "Tipo Sala",
+            "type": 3
         }
     },
     {
