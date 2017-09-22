@@ -1311,17 +1311,6 @@
   {
     "model": "manager.Room",
     "fields": {
-      "id": 156,
-      "code": "O-117",
-      "description": "Sala 05",
-      "capacity": 40,
-      "type": 1,
-      "area": 10
-    }
-  },
-  {
-    "model": "manager.Room",
-    "fields": {
       "id": 157,
       "code": "O-206",
       "description": "Sala 09",
