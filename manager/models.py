@@ -40,9 +40,18 @@ class RequirementType(models.Model):
         verbose_name_plural = 'Tipos dos Requisitos'
 
 class Requirement(models.Model):
+    PRIORITY_CHOICES = (
+        ('1', 'Muito Baixo'),
+        ('2', 'Baixo'),
+        ('3', 'Médio'),
+        ('4', 'Alto'),
+        ('5', 'Muito Alto'),
+    )
+
     id = models.AutoField(primary_key=True)
     type = models.ForeignKey('RequirementType', on_delete=models.CASCADE, verbose_name="tipo")
     description = models.CharField(max_length=100, blank=False, null=False, verbose_name="descrição")
+    priority = models.PositiveSmallIntegerField(default=3, choices=PRIORITY_CHOICES, verbose_name="prioridade")
 
     def __str__(self):
         return self.description
@@ -82,6 +91,7 @@ class Room(models.Model):
     capacity = models.PositiveSmallIntegerField(default=0, verbose_name="capacidade")
     type = models.ForeignKey('RoomType', verbose_name=RoomType._meta.verbose_name)
     area = models.ForeignKey('Area', verbose_name=Area._meta.verbose_name)
+    specifications = models.ManyToManyField('Requirement', verbose_name=Requirement._meta.verbose_name_plural)
 
     def __str__(self):
         return self.description
@@ -228,7 +238,8 @@ class Class(models.Model):
     size = models.PositiveSmallIntegerField(default=0, verbose_name="tamanho")
     year = models.PositiveSmallIntegerField(default=0, verbose_name="ano letivo")
     semester = models.PositiveSmallIntegerField(default=0, verbose_name="semestre")
-    schedules = models.ManyToManyField('Schedule', verbose_name=Schedule._meta.verbose_name_plural)
+    schedules = models.ManyToManyField('Schedule',  blank=True, verbose_name=Schedule._meta.verbose_name_plural)
+    requirements = models.ManyToManyField('Requirement', verbose_name=Requirement._meta.verbose_name_plural)
 
     def __str__(self):
         return "{0} - {1}".format(self.course, self.code)
