@@ -296,17 +296,6 @@
           "area": 2
       }
   },
-      {
-      "model": "manager.Room",
-      "fields": {
-          "id": 28,
-          "code": "D-202",
-          "description": "Sala 202",
-          "capacity": 40,
-          "type": 1,
-          "area":  3
-      }
-  },
   {
       "model": "manager.Room",
       "fields": {
