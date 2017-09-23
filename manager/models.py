@@ -218,7 +218,7 @@ class Schedule(models.Model):
         return "{0} - {1}".format(self.day, self.time_interval)
 
     @classmethod
-    def get_used_slots(self):
+    def get_used_schedules(self):
         used_schedules = []
         for schedule in self.objects.all():
             if Class.objects.filter(schedules = schedule) :
