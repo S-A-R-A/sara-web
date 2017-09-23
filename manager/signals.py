@@ -1,5 +1,5 @@
-from .models import Day, Room, TimeInterval, Slot, Schedule
-from django.db.models.signals import post_save, m2m_changed
+from .models import Day, Room, TimeInterval, Slot, Schedule, Class
+from django.db.models.signals import post_save, m2m_changed, pre_delete
 from django.dispatch import receiver
 
 @receiver(m2m_changed, sender=Day.time_intervals.through, dispatch_uid='slot_day_identifier')
@@ -42,3 +42,8 @@ def create_schedule_per_time_interval(sender, instance, created, **kwargs):
             if day.time_intervals.filter(id = instance.id).all():
                 schedule_new = Schedule.objects.create(day = day, time_interval = instance)
                 schedule_new.save()
+
+@receiver(pre_delete, sender=Class, dispatch_uid='class_delete_identifier')
+def clean_slot_before_delete_class(sender, instance, using, **kwargs):
+    slots = Slot.objects.filter(s_class = instance)
+    slots.update(s_class=None)
