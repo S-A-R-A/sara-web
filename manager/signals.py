@@ -2,12 +2,20 @@ from .models import Day, Room, TimeInterval, Slot, Schedule, Class
 from django.db.models.signals import post_save, m2m_changed, pre_delete
 from django.dispatch import receiver
 
+@receiver(m2m_changed, sender=Class.schedules.through, dispatch_uid='class_schedules_identifier')
+def clear_unused_slot(sender, instance, action, model, **kwargs):
+    if action == "pre_remove" :
+        schedules = Schedule.objects.filter(pk__in = kwargs.pop('pk_set', None))
+        for schedule in schedules:
+            unused_slot = Slot.objects.filter(day = schedule.day, s_class = instance, time_interval = schedule.time_interval)
+            unused_slot.update(s_class = None)
+
 @receiver(m2m_changed, sender=Day.time_intervals.through, dispatch_uid='slot_day_identifier')
 def create_slot_per_day(sender, instance, action, model, **kwargs):
     if action == "post_add":
         for room in Room.objects.all():
              for interval in sender.objects.filter(day = instance.id).all():
-                slot_new = Slot.objects.create(day = instance, room = room, time_interval = interval.timeinterval)
+                slot_new = Slot.objects.create(day = instance, room = room, time_interval = timeinterval)
                 slot_new.save()
 
 @receiver(post_save, sender=TimeInterval, dispatch_uid='slot_time_interval_identifier')
