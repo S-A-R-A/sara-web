@@ -17,6 +17,9 @@ def create_slot_per_day(sender, instance, action, model, **kwargs):
              for interval in sender.objects.filter(day = instance.id).all():
                 slot_new = Slot.objects.create(day = instance, room = room, time_interval = timeinterval)
                 slot_new.save()
+    elif action == "pre_remove":
+        time_intervals = TimeInterval.objects.filter(pk__in = kwargs.pop('pk_set', None))
+        Slot.objects.filter(day = instance, time_interval__in = time_intervals).delete()
 
 @receiver(post_save, sender=TimeInterval, dispatch_uid='slot_time_interval_identifier')
 def create_slot_per_time_interval(sender, instance, created, **kwargs):

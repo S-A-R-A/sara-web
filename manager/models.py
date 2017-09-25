@@ -91,7 +91,7 @@ class Room(models.Model):
     capacity = models.PositiveSmallIntegerField(default=0, verbose_name="capacidade")
     type = models.ForeignKey('RoomType', verbose_name=RoomType._meta.verbose_name)
     area = models.ForeignKey('Area', verbose_name=Area._meta.verbose_name)
-    specifications = models.ManyToManyField('Requirement', verbose_name=Requirement._meta.verbose_name_plural)
+    specifications = models.ManyToManyField('Requirement',  blank=True, verbose_name=Requirement._meta.verbose_name_plural)
 
     def __str__(self):
         return self.description
@@ -195,7 +195,7 @@ class TimeInterval(models.Model):
 class Day(models.Model):
     id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=100, blank=False, null=False, verbose_name="nome")
-    time_intervals = models.ManyToManyField('TimeInterval', verbose_name=TimeInterval._meta.verbose_name_plural)
+    time_intervals = models.ManyToManyField('TimeInterval',  blank=True, verbose_name=TimeInterval._meta.verbose_name_plural)
 
     def __str__(self):
         return self.name
@@ -239,7 +239,7 @@ class Class(models.Model):
     year = models.PositiveSmallIntegerField(default=0, verbose_name="ano letivo")
     semester = models.PositiveSmallIntegerField(default=0, verbose_name="semestre")
     schedules = models.ManyToManyField('Schedule',  blank=True, verbose_name=Schedule._meta.verbose_name_plural)
-    requirements = models.ManyToManyField('Requirement', verbose_name=Requirement._meta.verbose_name_plural)
+    requirements = models.ManyToManyField('Requirement', blank=True, verbose_name=Requirement._meta.verbose_name_plural)
 
     def __str__(self):
         return "{0} - {1}".format(self.course, self.code)
