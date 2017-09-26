@@ -1,0 +1,5642 @@
+[
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 38,
+      "course": "ADM500",
+      "code": "T01",
+      "teacher": "JULIA OLIVEIRA NEVES",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 39,
+      "course": "ADM500",
+      "code": "T02",
+      "teacher": "JOSE RUBENS MONTEIRO TEIXEIRA",
+      "size": 48,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 40,
+      "course": "ADM500",
+      "code": "T03",
+      "teacher": "WASHINGTON JOSE LARANJEIRAS BORGES",
+      "size": 48,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 41,
+      "course": "ADM501",
+      "code": "T01",
+      "teacher": "MICHELE NUNES SILVA DE CASTRO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 42,
+      "course": "ADM502",
+      "code": "T01",
+      "teacher": "MICHELE NUNES SILVA DE CASTRO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 43,
+      "course": "ADM503",
+      "code": "T01",
+      "teacher": "MICHELE NUNES SILVA DE CASTRO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 44,
+      "course": "ADM504",
+      "code": "T01",
+      "teacher": "ANDRE LUIS ROCHA DE SOUZA",
+      "size": 42,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 45,
+      "course": "ADM505",
+      "code": "T01",
+      "teacher": "ANDRE LUIS ROCHA DE SOUZA",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 46,
+      "course": "ADM506",
+      "code": "T01",
+      "teacher": "LIVIA DA SILVA MODESTO RODRIGUES",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 47,
+      "course": "ADM507",
+      "code": "T01",
+      "teacher": "LIVIA DA SILVA MODESTO RODRIGUES",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 48,
+      "course": "ADM508",
+      "code": "T01",
+      "teacher": "CARLOS ALBERTO DE OLIVEIRA RIBEIRO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 49,
+      "course": "ADM509",
+      "code": "T01",
+      "teacher": "GILCA BEZERRA ALVES SIEBRA",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 50,
+      "course": "ADM510",
+      "code": "T01",
+      "teacher": "LÍVIA SANTOS SIMÕES",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 51,
+      "course": "ADM511",
+      "code": "T01",
+      "teacher": "JOSE RUBENS MONTEIRO TEIXEIRA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 52,
+      "course": "ADM512",
+      "code": "T01",
+      "teacher": "ANTONIO CLODOALDO DE ALMEIDA NETO",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 53,
+      "course": "ADM512",
+      "code": "T02",
+      "teacher": "ANTONIO CLODOALDO DE ALMEIDA NETO",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 54,
+      "course": "ADM512",
+      "code": "T03",
+      "teacher": "ANTONIO CLODOALDO DE ALMEIDA NETO",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 55,
+      "course": "ADM513",
+      "code": "T01",
+      "teacher": "LUANA DE FARIAS QUEIROZ",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 56,
+      "course": "ADM514",
+      "code": "T01",
+      "teacher": "LUANA DE FARIAS QUEIROZ",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 57,
+      "course": "ADM514",
+      "code": "T02",
+      "teacher": "LUANA DE FARIAS QUEIROZ",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 58,
+      "course": "ADM515",
+      "code": "T01",
+      "teacher": "MANOELA ANDRADE SWIERCZYMAKI",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 59,
+      "course": "ADM516",
+      "code": "T01",
+      "teacher": "MANOELA ANDRADE SWIERCZYMAKI",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 60,
+      "course": "ADM517",
+      "code": "T01",
+      "teacher": "JULIA OLIVEIRA NEVES",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 61,
+      "course": "ADM518",
+      "code": "T01",
+      "teacher": "MARA CLÉCIA DANTAS SOUZA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 62,
+      "course": "ADM530",
+      "code": "T01",
+      "teacher": "RONALDO BRUNO RAMALHO LEAL",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 63,
+      "course": "ADM530",
+      "code": "T02",
+      "teacher": "ALEXANDRE JOSÉ ALVES DA SILVA",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 64,
+      "course": "ADM531",
+      "code": "T01",
+      "teacher": "CLAUDIO PALMA DE MELLO",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 65,
+      "course": "ADM532",
+      "code": "T01",
+      "teacher": "CLAUDIO PALMA DE MELLO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 66,
+      "course": "ADM533",
+      "code": "T01",
+      "teacher": "RONALDO BRUNO RAMALHO LEAL",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 67,
+      "course": "ADM540",
+      "code": "T01",
+      "teacher": "WASHINGTON JOSE LARANJEIRAS BORGES",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 68,
+      "course": "ADM540",
+      "code": "T02",
+      "teacher": "MARIA  PAULA NOGUEIRA",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 69,
+      "course": "ADM540",
+      "code": "T03",
+      "teacher": "MARIA  PAULA NOGUEIRA",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 70,
+      "course": "ADM540",
+      "code": "T04",
+      "teacher": "MARIA  PAULA NOGUEIRA",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 71,
+      "course": "ADM541",
+      "code": "T01",
+      "teacher": "JOSE PEDRO PAULINO SOUTO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 72,
+      "course": "ADM542",
+      "code": "T01",
+      "teacher": "JOSE PEDRO PAULINO SOUTO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 73,
+      "course": "ADM545",
+      "code": "T01",
+      "teacher": "WASHINGTON JOSE LARANJEIRAS BORGES",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 74,
+      "course": "ADM550",
+      "code": "T01",
+      "teacher": "KÁTIA E. DE SOUZA MIRANDA",
+      "size": 65,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 75,
+      "course": "ADM551",
+      "code": "T01",
+      "teacher": "ANDRE LUIS ROCHA DE SOUZA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 76,
+      "course": "ADM552",
+      "code": "T01",
+      "teacher": "GILCA BEZERRA ALVES SIEBRA",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 77,
+      "course": "ADM553",
+      "code": "T01",
+      "teacher": "LÍVIA SANTOS SIMÕES",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 78,
+      "course": "ADM570",
+      "code": "T01",
+      "teacher": "GILCA BEZERRA ALVES SIEBRA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 79,
+      "course": "ADM577",
+      "code": "T01",
+      "teacher": "AURELINA SACRAMENTO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 80,
+      "course": "ADM578",
+      "code": "T01",
+      "teacher": "HANDERSON LEITE",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 81,
+      "course": "ADM579",
+      "code": "T01",
+      "teacher": "AURELINA SACRAMENTO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 82,
+      "course": "ADM580",
+      "code": "T01",
+      "teacher": "ISABELLE PINHEIRO ",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 83,
+      "course": "ADM590",
+      "code": "T01",
+      "teacher": "ALEX CYPRIANO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 84,
+      "course": "ADM591",
+      "code": "T01",
+      "teacher": "ALEX CYPRIANO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 85,
+      "course": "ADM592",
+      "code": "T01",
+      "teacher": "ALEXANDRE JOSÉ ALVES DA SILVA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 86,
+      "course": "DES200",
+      "code": "T01",
+      "teacher": "ELOISA SANTOS PINTO",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 87,
+      "course": "DES200",
+      "code": "T02",
+      "teacher": "FRANCISCO CARLOS REIS",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 88,
+      "course": "DES200",
+      "code": "T03",
+      "teacher": "FRANCISCO CARLOS REIS",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 89,
+      "course": "DES200",
+      "code": "T04",
+      "teacher": "ALFREDO NASCIMENTO",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 90,
+      "course": "DES200",
+      "code": "T05",
+      "teacher": "ELOISA SANTOS PINTO",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 91,
+      "course": "DES200",
+      "code": "T06",
+      "teacher": "FRANCISCO CARLOS REIS",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 92,
+      "course": "DES201",
+      "code": "T01",
+      "teacher": "CATARINA DAMASCENO",
+      "size": 25,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 93,
+      "course": "DES202",
+      "code": "T01",
+      "teacher": "FRANCISCO CARLOS REIS",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 94,
+      "course": "EDU150",
+      "code": "T01",
+      "teacher": "ROBERTO DA CRUZ MELO",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 95,
+      "course": "EDU150",
+      "code": "T02",
+      "teacher": "",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 96,
+      "course": "EDU150",
+      "code": "T03",
+      "teacher": "",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 97,
+      "course": "EDU153",
+      "code": "T01",
+      "teacher": "ALEX CYPRIANO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 98,
+      "course": "EDU153",
+      "code": "T02",
+      "teacher": "ALEX CYPRIANO",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 99,
+      "course": "EDU153",
+      "code": "T03",
+      "teacher": "",
+      "size": 25,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 100,
+      "course": "EDU154",
+      "code": "T01",
+      "teacher": "GRACIONE BATISTA DE OLIVEIRA",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 101,
+      "course": "EDU154",
+      "code": "T02",
+      "teacher": "MARIA LUCILEIDE MOTA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 102,
+      "course": "EDU155",
+      "code": "T01",
+      "teacher": "MIRIÃ ALVES RAMOS DE ALCÂNTARA",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 103,
+      "course": "EDU155",
+      "code": "T02",
+      "teacher": "MOEMA FERREIRA SOARES",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 104,
+      "course": "EDU156",
+      "code": "T01",
+      "teacher": "ROBERTA MELO",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 105,
+      "course": "EDU156",
+      "code": "T02",
+      "teacher": "ROBERTA MELO",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 106,
+      "course": "EDU157",
+      "code": "T01",
+      "teacher": "ROBERTA MELO",
+      "size": 55,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 107,
+      "course": "EDU157",
+      "code": "T02",
+      "teacher": "ROBERTA MELO",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 108,
+      "course": "EDU158",
+      "code": "T01",
+      "teacher": "DANIEL ROMERO",
+      "size": 56,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 109,
+      "course": "EDU159",
+      "code": "T01",
+      "teacher": "TEREZA CRISTINA DE OLIVEIRA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 110,
+      "course": "EDU160",
+      "code": "T01",
+      "teacher": "ROBERTO DA CRUZ MELO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 111,
+      "course": "EDU160",
+      "code": "T02",
+      "teacher": "ROBERTO DA CRUZ MELO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 112,
+      "course": "EDU160",
+      "code": "T03",
+      "teacher": "",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 113,
+      "course": "EDU162",
+      "code": "T01",
+      "teacher": "TEREZA CRISTINA DE OLIVEIRA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 114,
+      "course": "EDU164",
+      "code": "T01",
+      "teacher": "MARCILENE LENA GARCIA DE OLIVEIRA",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 115,
+      "course": "EDU165",
+      "code": "T01",
+      "teacher": "",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 116,
+      "course": "EDU167",
+      "code": "T01",
+      "teacher": "ROBERTO DA CRUZ MELO",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 117,
+      "course": "EDU168",
+      "code": "T01",
+      "teacher": "MOEMA FERREIRA SOARES",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 118,
+      "course": "EDU170",
+      "code": "T01",
+      "teacher": "MIRIÃ ALVES RAMOS DE ALCÂNTARA",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 119,
+      "course": "ENG300",
+      "code": "T01",
+      "teacher": "PAULO CESAR ROCHA CHAVES",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 120,
+      "course": "ENG301",
+      "code": "P01",
+      "teacher": "SONIA REGINA SALES BARBOSA",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 121,
+      "course": "ENG301",
+      "code": "P01",
+      "teacher": "MIRTANIA ANTUNES LEAO",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 122,
+      "course": "ENG301",
+      "code": "T01",
+      "teacher": "MIRTANIA ANTUNES LEAO",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 123,
+      "course": "ENG302",
+      "code": "T01",
+      "teacher": "PEDRO CUNHA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 124,
+      "course": "ENG303",
+      "code": "T01",
+      "teacher": "JOÃO BATISTA MENEZES BARBOSA",
+      "size": 22,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 125,
+      "course": "ENG304",
+      "code": "T01",
+      "teacher": "RODRIGO ESTEVAM COELHO",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 126,
+      "course": "ENG305",
+      "code": "T01",
+      "teacher": "RODRIGO ESTEVAM COELHO",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 127,
+      "course": "ENG306",
+      "code": "T01",
+      "teacher": "ANTONIO CARLOS SOUZA RAMOS",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 128,
+      "course": "ENG307",
+      "code": "T01",
+      "teacher": "JOÃO BATISTA MENEZES BARBOSA",
+      "size": 22,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 129,
+      "course": "PMO302",
+      "code": "T01",
+      "teacher": "PAULO CESAR ROCHA CHAVES",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 130,
+      "course": "ENG308",
+      "code": "T01",
+      "teacher": "ANTONIO CARLOS PEIXOTO BITENCOURT",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 131,
+      "course": "ENG308",
+      "code": "T02",
+      "teacher": "ROBERTO LUIZ KRUGER",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 132,
+      "course": "ENG308",
+      "code": "T03",
+      "teacher": "ANTONIO CARLOS PEIXOTO BITENCOURT",
+      "size": 35,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 133,
+      "course": "ENG309",
+      "code": "T01",
+      "teacher": "MARIO CEZAR",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 134,
+      "course": "ENG309",
+      "code": "T02",
+      "teacher": "MARIO CEZAR",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 135,
+      "course": "ENG310",
+      "code": "T01",
+      "teacher": "ROBERTO LUIZ KRUGER",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 136,
+      "course": "ENG311",
+      "code": "T01",
+      "teacher": "FRANCISCO SOUZA ALMEIDA",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 137,
+      "course": "ENG312",
+      "code": "T01",
+      "teacher": "ROBERTO LUIZ KRUGER",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 138,
+      "course": "ENG313",
+      "code": "T01",
+      "teacher": "PAULO CESAR ROCHA CHAVES",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 139,
+      "course": "ENG314",
+      "code": "T01",
+      "teacher": "ANTONIO CARLOS PEIXOTO BITENCOURT",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 140,
+      "course": "ENG315",
+      "code": "T01",
+      "teacher": "MARIO CEZAR",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 141,
+      "course": "ENG319",
+      "code": "T01",
+      "teacher": "LUIZ CARLOS VARGAS",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 142,
+      "course": "ENG320",
+      "code": "T01",
+      "teacher": "ANTONIO GABRIEL ALMEIDA",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 143,
+      "course": "ENG321",
+      "code": "T01",
+      "teacher": "AMARO SERINHAEM DE ARAUJO ALVES FERREIRA",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 144,
+      "course": "ENG322",
+      "code": "T01",
+      "teacher": "RICARDO BAHIA RIOS",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 145,
+      "course": "ENG323",
+      "code": "T01",
+      "teacher": "IVAN COSTA DA SILVA",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 146,
+      "course": "ENG324",
+      "code": "T01",
+      "teacher": "JUSTINO DE ARAUJO MEDEIROS",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 147,
+      "course": "ENG325",
+      "code": "T01",
+      "teacher": "LUIS GABRIEL GUANABARA",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 148,
+      "course": "ENG326",
+      "code": "T01",
+      "teacher": "GILDO MACHADO RIBEIRO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 149,
+      "course": "ENG327",
+      "code": "T01",
+      "teacher": "PAULO CESAR ROCHA CHAVES",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 150,
+      "course": "ENG400",
+      "code": "T01",
+      "teacher": "JOSÉLIA FRANÇA DE HOLANDA CAVALCANTE",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 151,
+      "course": "ENG403",
+      "code": "T01",
+      "teacher": "ALDO NONATO BORGES",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 152,
+      "course": "ENG404",
+      "code": "T01",
+      "teacher": "MARIA DAS GRACAS OLIVEIRA REGO",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 153,
+      "course": "ENG405",
+      "code": "T01",
+      "teacher": "EDUARDO TELMO FONSECA SANTOS",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 154,
+      "course": "ENG406",
+      "code": "T01",
+      "teacher": "LISSANDRO BRITO VIENA",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 155,
+      "course": "ENG407",
+      "code": "T01",
+      "teacher": "JOSÉLIA FRANÇA DE HOLANDA CAVALCANTE",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 156,
+      "course": "ENG408",
+      "code": "T01",
+      "teacher": "ANTONIO LUIZ AGUIAR",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 157,
+      "course": "ENG409",
+      "code": "T01",
+      "teacher": "ALDO NONATO BORGES",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 158,
+      "course": "ENG410",
+      "code": "T01",
+      "teacher": "RODRIGO GUSMÃO CAVALCANTE",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 159,
+      "course": "ENG411",
+      "code": "T01",
+      "teacher": "JUAN JOSE JORGE PRADO FRANCO",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 160,
+      "course": "ENG412",
+      "code": "T01",
+      "teacher": "MARIA DAS GRACAS OLIVEIRA REGO",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 161,
+      "course": "ENG413",
+      "code": "T01",
+      "teacher": "ANTONIO LUIZ AGUIAR",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 162,
+      "course": "ENG414",
+      "code": "T01",
+      "teacher": "VALTER DA CONCEIÇÃO ROSA",
+      "size": 14,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 163,
+      "course": "ENG415",
+      "code": "T01",
+      "teacher": "JOSE MARIO ARAUJO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 164,
+      "course": "ENG416",
+      "code": "T01",
+      "teacher": "MARIA DAS GRACAS OLIVEIRA REGO",
+      "size": 18,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 165,
+      "course": "ENG417",
+      "code": "T01",
+      "teacher": "JUAREZ CAETANO DA SILVA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 166,
+      "course": "ENG418",
+      "code": "T01",
+      "teacher": "LISSANDRO BRITO VIENA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 167,
+      "course": "ENG419",
+      "code": "T01",
+      "teacher": "VALTER DA CONCEIÇÃO ROSA",
+      "size": 14,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 168,
+      "course": "ENG420",
+      "code": "T01",
+      "teacher": "FABRÍCIO GERÔNIMO SIMÕES SILVA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 169,
+      "course": "ENG421",
+      "code": "T01",
+      "teacher": "VALTER DA CONCEIÇÃO ROSA",
+      "size": 14,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 170,
+      "course": "ENG422",
+      "code": "T01",
+      "teacher": "EMERSON VALCI FREITAS CONCEICAO",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 171,
+      "course": "ENG423",
+      "code": "T01",
+      "teacher": "ANTONIO LUIZ AGUIAR",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 172,
+      "course": "ENG424",
+      "code": "T01",
+      "teacher": "ALDO NONATO BORGES",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 173,
+      "course": "ENG425",
+      "code": "T01",
+      "teacher": "ALDO NONATO BORGES",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 174,
+      "course": "ENG426",
+      "code": "T01",
+      "teacher": "JUAREZ CAETANO DA SILVA",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 175,
+      "course": "ENG428",
+      "code": "T01",
+      "teacher": "EDUARDO TELMO FONSECA SANTOS",
+      "size": 0,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 176,
+      "course": "ENG430",
+      "code": "T01",
+      "teacher": "FABRÍCIO GERÔNIMO SIMÕES SILVA",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 177,
+      "course": "ENG432",
+      "code": "T01",
+      "teacher": "JOSE MARIO ARAUJO",
+      "size": 0,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 178,
+      "course": "ENG433",
+      "code": "T01",
+      "teacher": "IVAN COSTA DA SILVA",
+      "size": 35,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 179,
+      "course": "ENG434",
+      "code": "T01",
+      "teacher": "GRINALDO LOPES DE OLIVEIRA",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 180,
+      "course": "ENG443",
+      "code": "T01",
+      "teacher": "RODRIGO GUSMÃO CAVALCANTE",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 181,
+      "course": "ENG447",
+      "code": "T01",
+      "teacher": "ANTONIO LUIZ SILVA MOISES",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 182,
+      "course": "ENG449",
+      "code": "T01",
+      "teacher": "ANTONIO LUIZ SILVA MOISES",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 183,
+      "course": "ENG452",
+      "code": "T01",
+      "teacher": "CRISTINA DE ABREU SILVEIRA",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 184,
+      "course": "ENG451",
+      "code": "T01",
+      "teacher": "JUAN JOSE JORGE PRADO FRANCO",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 185,
+      "course": "ENG453",
+      "code": "T01",
+      "teacher": "EMERSON VALCI FREITAS CONCEICAO",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 186,
+      "course": "ENG500",
+      "code": "T01",
+      "teacher": "ANA CLAUDIA GONDIM DE MEDEIROS",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 187,
+      "course": "ENG501",
+      "code": "T01",
+      "teacher": "MARIA APARECIDA DA SILVA MODESTO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 188,
+      "course": "ENG502",
+      "code": "T01",
+      "teacher": "LIN KAN",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 189,
+      "course": "ENG503",
+      "code": "T01",
+      "teacher": "ANA CECILIA CORREIA DOS SANTOS",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 190,
+      "course": "ENG504",
+      "code": "T01",
+      "teacher": "IARA TEREZINHA QUEIROZ PEREIRA DOS SANTOS",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 191,
+      "course": "ENG505",
+      "code": "T01",
+      "teacher": "VANESSA MENDES SANTOS CAVALCANTI",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 192,
+      "course": "ENG506",
+      "code": "T01",
+      "teacher": "ANA CLAUDIA GONDIM DE MEDEIROS",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 193,
+      "course": "ENG507",
+      "code": "T01",
+      "teacher": "ANA CLAUDIA GONDIM DE MEDEIROS",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 194,
+      "course": "ENG508",
+      "code": "T01",
+      "teacher": "VANESSA MENDES SANTOS CAVALCANTI",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 195,
+      "course": "ENG509",
+      "code": "T01",
+      "teacher": "DAIANE FARIAS PEREIRA SUFFREDINI",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 196,
+      "course": "ENG510",
+      "code": "T01",
+      "teacher": "CLAUDIA TERESA TELES FARIAS",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 197,
+      "course": "ENG511",
+      "code": "T01",
+      "teacher": "IARA TEREZINHA QUEIROZ PEREIRA DOS SANTOS",
+      "size": 12,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 198,
+      "course": "ENG512",
+      "code": "T01",
+      "teacher": "LIN KAN",
+      "size": 6,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 199,
+      "course": "ENG512",
+      "code": "T02",
+      "teacher": "LIN KAN",
+      "size": 6,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 200,
+      "course": "ENG514",
+      "code": "T01",
+      "teacher": "LUIS FILIPE FREITAS DA SILVA DE JESUS",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 201,
+      "course": "ENG515",
+      "code": "T01",
+      "teacher": "EDGARD BACIC DE CARVALHO",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 202,
+      "course": "ENG516",
+      "code": "T01",
+      "teacher": "ANA CECILIA CORREIA DOS SANTOS",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 203,
+      "course": "ENG518",
+      "code": "T01",
+      "teacher": "LUIS FILIPE FREITAS DA SILVA DE JESUS",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 204,
+      "course": "ENG519",
+      "code": "T01",
+      "teacher": "MARCELO PESTANA VIEIRA",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 205,
+      "course": "ENG520",
+      "code": "T01",
+      "teacher": "EDGARD BACIC DE CARVALHO",
+      "size": 35,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 206,
+      "course": "ENG520",
+      "code": "T02",
+      "teacher": "EDLER LINS DE ALBUQUERQUE",
+      "size": 25,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 207,
+      "course": "ENG521",
+      "code": "T01",
+      "teacher": "MARIA APARECIDA DA SILVA MODESTO",
+      "size": 35,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 208,
+      "course": "ENG521",
+      "code": "T02",
+      "teacher": "LUANDA",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 209,
+      "course": "ENG522",
+      "code": "T01",
+      "teacher": "DAIANE FARIAS PEREIRA SUFFREDINI",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 210,
+      "course": "ENG522",
+      "code": "T02",
+      "teacher": "DAIANE FARIAS PEREIRA SUFFREDINI",
+      "size": 25,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 211,
+      "course": "ENG524",
+      "code": "T01",
+      "teacher": "EDLER LINS DE ALBUQUERQUE",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 212,
+      "course": "ENG528",
+      "code": "T01",
+      "teacher": "LUIS FILIPE FREITAS DA SILVA DE JESUS",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 213,
+      "course": "ENG529",
+      "code": "T01",
+      "teacher": "DAIANE FARIAS PEREIRA SUFFREDINI",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 214,
+      "course": "ENG530",
+      "code": "T01",
+      "teacher": "EMILIA CONCEIÇÃO DE JESUS",
+      "size": 34,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 215,
+      "course": "ENG530",
+      "code": "T02",
+      "teacher": "EMILIA CONCEIÇÃO DE JESUS",
+      "size": 37,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 216,
+      "course": "ENG531",
+      "code": "T01",
+      "teacher": "ARMANDO HIROHUMI TANIMOTO",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 217,
+      "course": "ENG545",
+      "code": "T01",
+      "teacher": "MARCELO PESTANA VIEIRA",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 218,
+      "course": "ENG547",
+      "code": "T01",
+      "teacher": "PAULO DE SOUZA SOARES",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 219,
+      "course": "EST232",
+      "code": "T01",
+      "teacher": "WALTER ACCIOLY COSTA PORTO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 220,
+      "course": "EVE101",
+      "code": "T01",
+      "teacher": "CHELLY COSTA DOS REIS",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 221,
+      "course": "EVE102",
+      "code": "T01",
+      "teacher": "PAULA MARA COSTA",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 222,
+      "course": "EVE103",
+      "code": "T01",
+      "teacher": "GLAURIA JANAÍNA DOS SANTOS",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 223,
+      "course": "EVE104",
+      "code": "T01",
+      "teacher": "BIAGIO AVENA",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 223,
+      "course": "EVE106",
+      "code": "T01",
+      "teacher": "REGINA LOVATTI",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 224,
+      "course": "EVE107",
+      "code": "T01",
+      "teacher": "GLAURIA JANAÍNA DOS SANTOS",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 225,
+      "course": "EVE111",
+      "code": "T01",
+      "teacher": "LIZ RODRIGUES CERQUEIRA",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 226,
+      "course": "EVE112",
+      "code": "T01",
+      "teacher": "GLAURIA JANAINA DOS SANTOS",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 227,
+      "course": "EVE113",
+      "code": "T01",
+      "teacher": "PAULA MARA COSTA",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 228,
+      "course": "EVE117",
+      "code": "T01",
+      "teacher": "REGINA LOVATTI",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 229,
+      "course": "EVE119",
+      "code": "T01",
+      "teacher": "CHELLY COSTA DOS REIS",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 230,
+      "course": "EVE120",
+      "code": "P01",
+      "teacher": "GLAURIA JANAÍNA DOS SANTOS",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 231,
+      "course": "EVE121",
+      "code": "T01",
+      "teacher": "BIAGIO AVENA",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 232,
+      "course": "FIS210",
+      "code": "P01",
+      "teacher": "Eliana Alcântara Lisboa",
+      "size": 25,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 233,
+      "course": "FIS210",
+      "code": "P02",
+      "teacher": "Ronaldo Nascimento Naziazeno",
+      "size": 25,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 234,
+      "course": "FIS210",
+      "code": "P03",
+      "teacher": "Eliana Alcântara Lisboa",
+      "size": 25,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 235,
+      "course": "FIS210",
+      "code": "P04",
+      "teacher": "Ebenézer Silva Cavalcanti",
+      "size": 25,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 236,
+      "course": "FIS210",
+      "code": "T01",
+      "teacher": "Dielson Pereira Hohenfeld",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 237,
+      "course": "FIS210",
+      "code": "T02",
+      "teacher": "Dielson Pereira Hohenfeld",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 238,
+      "course": "FIS211",
+      "code": "P01",
+      "teacher": "Ebenézer Silva Cavalcanti",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 239,
+      "course": "FIS211",
+      "code": "P02",
+      "teacher": "",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 240,
+      "course": "FIS211",
+      "code": "P03",
+      "teacher": "Ebenézer Silva Cavalcanti",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 241,
+      "course": "FIS211",
+      "code": "P04",
+      "teacher": "Niels Fontes Lima",
+      "size": 21,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 242,
+      "course": "FIS211",
+      "code": "T01",
+      "teacher": "Ebenézer Silva Cavalcanti",
+      "size": 41,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 243,
+      "course": "FIS211",
+      "code": "T02",
+      "teacher": "Ebenézer Silva Cavalcanti",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 244,
+      "course": "FIS212",
+      "code": "P01",
+      "teacher": "Ronaldo Nascimento Naziazeno",
+      "size": 18,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 245,
+      "course": "FIS212",
+      "code": "P02",
+      "teacher": "Ronaldo Nascimento Naziazeno",
+      "size": 18,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 246,
+      "course": "FIS212",
+      "code": "P03",
+      "teacher": "Ronaldo Nascimento Naziazeno",
+      "size": 18,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 247,
+      "course": "FIS212",
+      "code": "T01",
+      "teacher": "Ronaldo Nascimento Naziazeno",
+      "size": 54,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 248,
+      "course": "FIS213",
+      "code": "P01",
+      "teacher": "Ronaldo Nascimento Naziazeno",
+      "size": 24,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 249,
+      "course": "FIS213",
+      "code": "P02",
+      "teacher": "Niels Fontes Lima",
+      "size": 24,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 250,
+      "course": "FIS213",
+      "code": "T01",
+      "teacher": "Erick Santana dos Santos",
+      "size": 48,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 251,
+      "course": "FIS214",
+      "code": "P01",
+      "teacher": "Raimundo Nonato",
+      "size": 22,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 251,
+      "course": "FIS214",
+      "code": "T01",
+      "teacher": "Roberto dos Santos Menezes Jr.",
+      "size": 22,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 252,
+      "course": "FIS215",
+      "code": "P01",
+      "teacher": "Raimundo Nonato",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 253,
+      "course": "FIS215",
+      "code": "P02",
+      "teacher": "Niels Fontes Lima",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 254,
+      "course": "FIS215",
+      "code": "T01",
+      "teacher": "Raimundo Nonato",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 255,
+      "course": "FIS216",
+      "code": "P01",
+      "teacher": "Eliana Alcântara Lisboa",
+      "size": 25,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 256,
+      "course": "FIS216",
+      "code": "T01",
+      "teacher": "Eliana Alcântara Lisboa",
+      "size": 25,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 257,
+      "course": "FIS217",
+      "code": "P01",
+      "teacher": "Luzia Matos Mota",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 258,
+      "course": "FIS217",
+      "code": "T01",
+      "teacher": "Erick Santana dos Santos",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 259,
+      "course": "FIS218",
+      "code": "P01",
+      "teacher": "Niels Fontes Lima",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 260,
+      "course": "FIS218",
+      "code": "T01",
+      "teacher": "Niels Fontes Lima",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 261,
+      "course": "FIS219",
+      "code": "P01",
+      "teacher": "Roberto dos Santos Menezes Jr.",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 262,
+      "course": "FIS219",
+      "code": "T01",
+      "teacher": "Roberto dos Santos Menezes Jr.",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 263,
+      "course": "FIS220",
+      "code": "T01",
+      "teacher": "Roberto dos Santos Menezes Jr.",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 264,
+      "course": "FIS223",
+      "code": "T01",
+      "teacher": "Erick Santana dos Santos",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 265,
+      "course": "FIS224",
+      "code": "T01",
+      "teacher": "Niels Fontes Lima",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 266,
+      "course": "FIS225",
+      "code": "T01",
+      "teacher": "Victor Mancir Santana",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 267,
+      "course": "FIS226",
+      "code": "P01",
+      "teacher": "Jancarlos Menezes Lapa",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 268,
+      "course": "FIS226",
+      "code": "T01",
+      "teacher": "Jancarlos Menezes Lapa",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 269,
+      "course": "FIS227",
+      "code": "P01",
+      "teacher": "Dielson Pereira Hohenfeld",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 270,
+      "course": "FIS227",
+      "code": "T01",
+      "teacher": "Dielson Pereira Hohenfeld",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 271,
+      "course": "FIS228",
+      "code": "T01",
+      "teacher": "Luzia Matos Mota",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 272,
+      "course": "FIS229",
+      "code": "T01",
+      "teacher": "Luzia Matos Mota",
+      "size": 5,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 273,
+      "course": "FIS230",
+      "code": "T01",
+      "teacher": "Dielson Pereira Hohenfeld",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 274,
+      "course": "FIS231",
+      "code": "T01",
+      "teacher": "ELIAS RAMOS DE SOUZA",
+      "size": 48,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 275,
+      "course": "FIS231",
+      "code": "P01",
+      "teacher": "",
+      "size": 24,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 276,
+      "course": "FIS231",
+      "code": "P02",
+      "teacher": "",
+      "size": 24,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 277,
+      "course": "FIS232",
+      "code": "P01",
+      "teacher": "Jancarlos Menezes Lapa",
+      "size": 5,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 278,
+      "course": "FIS232",
+      "code": "P02",
+      "teacher": "Luzia Matos Mota",
+      "size": 5,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 279,
+      "course": "FIS232",
+      "code": "T01",
+      "teacher": "Jancarlos Menezes Lapa",
+      "size": 10,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 280,
+      "course": "FIS233",
+      "code": "P01",
+      "teacher": "Dielson Pereira Hohenfeld",
+      "size": 5,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 281,
+      "course": "FIS233",
+      "code": "P02",
+      "teacher": "Luzia Matos Mota",
+      "size": 5,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 282,
+      "course": "FIS233",
+      "code": "T01",
+      "teacher": "Dielson Pereira Hohenfeld",
+      "size": 10,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 283,
+      "course": "FIS234",
+      "code": "P01",
+      "teacher": "Ricardo Silva de Macedo",
+      "size": 5,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 284,
+      "course": "FIS234",
+      "code": "T01",
+      "teacher": "Ricardo Silva de Macedo",
+      "size": 5,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 285,
+      "course": "FIS235",
+      "code": "P01",
+      "teacher": "Ricardo Silva de Macedo",
+      "size": 5,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 286,
+      "course": "FIS235",
+      "code": "T01",
+      "teacher": "Ricardo Silva de Macedo",
+      "size": 5,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 287,
+      "course": "FIS236",
+      "code": "T01",
+      "teacher": "Ricardo Silva de Macedo",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 288,
+      "course": "GEO100",
+      "code": "T01",
+      "teacher": "ANDRE NUNES DE SOUSA",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 289,
+      "course": "GEO101",
+      "code": "T01",
+      "teacher": "CAROLINA CORREA",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 290,
+      "course": "GEO103",
+      "code": "T01",
+      "teacher": "PLINIO MARTINS FALÇÃO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 291,
+      "course": "GEO104",
+      "code": "T01",
+      "teacher": "",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 291,
+      "course": "GEO104",
+      "code": "T01",
+      "teacher": "",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 292,
+      "course": "GEO105",
+      "code": "T01",
+      "teacher": "NILTON SOUSA SANTANA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 293,
+      "course": "GEO106",
+      "code": "T01",
+      "teacher": "",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 294,
+      "course": "GEO107",
+      "code": "T01",
+      "teacher": "ANDRE NUNES DE SOUSA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 295,
+      "course": "GEO108",
+      "code": "T01",
+      "teacher": "Ivan de Matos e Silva Júnior",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 296,
+      "course": "GEO109",
+      "code": "T01",
+      "teacher": "RICARDO BAHIA RIOS",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 297,
+      "course": "GEO111",
+      "code": "T01",
+      "teacher": "ANDRE NUNES DE SOUSA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 298,
+      "course": "GEO112",
+      "code": "T01",
+      "teacher": "ANIZIA CONCEIÇÃO CABRAL",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 299,
+      "course": "GEO113",
+      "code": "T01",
+      "teacher": "",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 300,
+      "course": "GEO114",
+      "code": "T01",
+      "teacher": "ISABELA ALBUQUERQUE",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 301,
+      "course": "GEO115",
+      "code": "T01",
+      "teacher": "ISABELA ALBUQUERQUE",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 302,
+      "course": "GEO116",
+      "code": "T01",
+      "teacher": "ANIZIA CONCEIÇÃO CABRAL",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 303,
+      "course": "GEO117",
+      "code": "T01",
+      "teacher": "SORAIA AFONSO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 304,
+      "course": "GEO118",
+      "code": "T01",
+      "teacher": "NILTON SOUSA SANTANA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 305,
+      "course": "GEO119",
+      "code": "T01",
+      "teacher": "PLINIO MARTINS FALÇÃO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 306,
+      "course": "GEO120",
+      "code": "T01",
+      "teacher": "JOILSON DA CRUZ",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 307,
+      "course": "GEO121",
+      "code": "T01",
+      "teacher": "SEVERIANO JOSEPH",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 308,
+      "course": "GEO122",
+      "code": "T01",
+      "teacher": "TEREZA CRISTINA DE OLIVEIRA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 309,
+      "course": "GEO123",
+      "code": "T01",
+      "teacher": "",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 310,
+      "course": "GEO124",
+      "code": "T01",
+      "teacher": "",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 311,
+      "course": "GEO125",
+      "code": "T01",
+      "teacher": "CAROLINA CORREA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 312,
+      "course": "GEO126",
+      "code": "T01",
+      "teacher": "IVAN DE MATOS E SILVA JUNIOR",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 313,
+      "course": "GEO127",
+      "code": "T01",
+      "teacher": "ANIZIA CONCEIÇÃO CABRAL",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 314,
+      "course": "GEO128",
+      "code": "T01",
+      "teacher": "ISABELA ALBUQUERQUE",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 315,
+      "course": "GEO129",
+      "code": "T01",
+      "teacher": "JOILSON DA CRUZ",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 316,
+      "course": "GEO130",
+      "code": "T01",
+      "teacher": "RICARDO BAHIA RIOS",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 317,
+      "course": "GEO131",
+      "code": "T01",
+      "teacher": "SEVERIANO JOSEPH",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 318,
+      "course": "GEO140",
+      "code": "T01",
+      "teacher": "RICARDO BAHIA RIOS",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 319,
+      "course": "HUM100",
+      "code": "T01",
+      "teacher": "RICARDO ALMEIDA",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 320,
+      "course": "HUM100",
+      "code": "T02",
+      "teacher": "RONALDO PIMENTEL",
+      "size": 53,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 321,
+      "course": "HUM101",
+      "code": "T01",
+      "teacher": "DANIEL ROMERO",
+      "size": 63,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 322,
+      "course": "HUM102",
+      "code": "T01",
+      "teacher": "SAMIR PEREZ MORTADA",
+      "size": 60,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 323,
+      "course": "HUM102",
+      "code": "T02",
+      "teacher": "SAMIR PEREZ MORTADA",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 324,
+      "course": "HUM103",
+      "code": "T01",
+      "teacher": "LUIZ CARLOS VARGAS",
+      "size": 27,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 325,
+      "course": "HUM103",
+      "code": "T02",
+      "teacher": "BIAGIO AVENA",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 326,
+      "course": "HUM103",
+      "code": "T03",
+      "teacher": "CRISTINA DE ABREU SILVEIRA",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 327,
+      "course": "HUM103",
+      "code": "T04",
+      "teacher": "TEREZA CRISTINA DE OLIVEIRA",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 328,
+      "course": "HUM115",
+      "code": "T01",
+      "teacher": "MIRIÃ ALCANTARA",
+      "size": 48,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 329,
+      "course": "HUM150",
+      "code": "T01",
+      "teacher": "TEREZA CRISTINA DE OLIVEIRA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 330,
+      "course": "HUM151",
+      "code": "T01",
+      "teacher": "DANIEL ROMERO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 331,
+      "course": "HUM152",
+      "code": "T01",
+      "teacher": "MARIA LUCILEIDE MOTA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 332,
+      "course": "HUM153",
+      "code": "T01",
+      "teacher": "MARCELO CHAVES",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 333,
+      "course": "INF006",
+      "code": "T01",
+      "teacher": "ALLAN EDGARD SILVA FREITAS",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 334,
+      "course": "INF007",
+      "code": "T01",
+      "teacher": "GRINALDO LOPES DE OLIVEIRA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 335,
+      "course": "INF008",
+      "code": "T01",
+      "teacher": "FREDERICO JORGE RIBEIRO BARBOSA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 336,
+      "course": "INF009",
+      "code": "T01",
+      "teacher": "JOWANER DE OLIVEIRA ARAUJO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 337,
+      "course": "INF010",
+      "code": "T01",
+      "teacher": "PABLO VIEIRA FLORENTINO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 338,
+      "course": "INF011",
+      "code": "T01",
+      "teacher": "SANDRO SANTOS ANDRADE",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 339,
+      "course": "INF012",
+      "code": "T01",
+      "teacher": "MANOEL CARVALHO MARQUES NETO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 340,
+      "course": "INF014",
+      "code": "T01",
+      "teacher": "SIMONE DA SILVA AMORIM",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 341,
+      "course": "INF015",
+      "code": "T01",
+      "teacher": "GRINALDO LOPES DE OLIVEIRA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 342,
+      "course": "INF016",
+      "code": "T01",
+      "teacher": "SANDRO SANTOS ANDRADE",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 343,
+      "course": "INF017",
+      "code": "T01",
+      "teacher": "ANTONIO CARLOS DOS SANTOS SOUZA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 344,
+      "course": "INF018",
+      "code": "T01",
+      "teacher": "ANTONIO MAURÍCIO PITANGUEIRA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 345,
+      "course": "INF019",
+      "code": "T01",
+      "teacher": "JOWANER DE OLIVEIRA ARAUJO",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 346,
+      "course": "INF020",
+      "code": "T01",
+      "teacher": "ALLAN EDGARD SILVA FREITAS",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 347,
+      "course": "INF021",
+      "code": "T01",
+      "teacher": "RONALDO PEDREIRA SILVA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 348,
+      "course": "INF022",
+      "code": "T01",
+      "teacher": "RENATO LIMA NOVAIS",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 349,
+      "course": "INF023",
+      "code": "T01",
+      "teacher": "MANOEL CARVALHO MARQUES NETO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 350,
+      "course": "INF023",
+      "code": "T02",
+      "teacher": "MANOEL CARVALHO MARQUES NETO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 351,
+      "course": "INF024",
+      "code": "T01",
+      "teacher": "RONALDO PEDREIRA SILVA",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 352,
+      "course": "INF024",
+      "code": "T02",
+      "teacher": "ROMILSON LOPES SAMPAIO",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 353,
+      "course": "INF024",
+      "code": "T03",
+      "teacher": "RONALDO PEDREIRA SILVA",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 354,
+      "course": "INF025",
+      "code": "T01",
+      "teacher": "ANTONIO MAURÍCIO PITANGUEIRA",
+      "size": 35,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 355,
+      "course": "INF026",
+      "code": "T01",
+      "teacher": "ANTONIO CARLOS DOS SANTOS SOUZA",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 356,
+      "course": "INF027",
+      "code": "T01",
+      "teacher": "FREDERICO JORGE RIBEIRO BARBOSA",
+      "size": 25,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 357,
+      "course": "INF027",
+      "code": "T02",
+      "teacher": "ROMILSON LOPES SAMPAIO",
+      "size": 25,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 358,
+      "course": "INF027",
+      "code": "T03",
+      "teacher": "LUIZ MACHADO",
+      "size": 25,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 359,
+      "course": "INF028",
+      "code": "T01",
+      "teacher": "ANTONIO CARLOS DOS SANTOS SOUZA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 360,
+      "course": "INF029",
+      "code": "T01",
+      "teacher": "RENATO LIMA NOVAIS",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 361,
+      "course": "INF030",
+      "code": "T01",
+      "teacher": "RENATO LIMA NOVAIS",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 362,
+      "course": "INF031",
+      "code": "T01",
+      "teacher": "ROMILSON LOPES SAMPAIO",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 363,
+      "course": "INF400",
+      "code": "T01",
+      "teacher": "LUIZ CLAUDIO MACHADO DOS SANTOS",
+      "size": 44,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 364,
+      "course": "INF400",
+      "code": "T01",
+      "teacher": "LUIZ CLAUDIO MACHADO DOS SANTOS",
+      "size": 44,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 365,
+      "course": "INF400",
+      "code": "T02",
+      "teacher": "RONALDO PEDREIRA SILVA",
+      "size": 44,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 366,
+      "course": "INF400",
+      "code": "T03",
+      "teacher": "MARCELO VERA CRUZ DINIZ",
+      "size": 44,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 367,
+      "course": "INF402",
+      "code": "T01",
+      "teacher": "LUIZ CLAUDIO MACHADO DOS SANTOS",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 368,
+      "course": "INF403",
+      "code": "T01",
+      "teacher": "PABLO VIEIRA FLORENTINO",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 369,
+      "course": "INF404",
+      "code": "T01",
+      "teacher": "ANTONIO MAURÍCIO PITANGUEIRA",
+      "size": 42,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 370,
+      "course": "INF405",
+      "code": "T01",
+      "teacher": "JOWANER DE OLIVEIRA ARAUJO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 371,
+      "course": "LET100",
+      "code": "T01",
+      "teacher": "WALLACE MATOS",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 372,
+      "course": "LET100",
+      "code": "T02",
+      "teacher": "LUCIANA MAZZUTI",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 373,
+      "course": "LET100",
+      "code": "T03",
+      "teacher": "WALLACE MATOS",
+      "size": 35,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 374,
+      "course": "LET100",
+      "code": "T04",
+      "teacher": "DAYSE SACRAMENTO",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 375,
+      "course": "LET101",
+      "code": "T01",
+      "teacher": "",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 376,
+      "course": "LET102",
+      "code": "T01",
+      "teacher": "ANTONIA DO SOCORRO FREITAS CHAVES",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 377,
+      "course": "LET102",
+      "code": "T02",
+      "teacher": "MARCOS FERNANDO CARVALHO",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 378,
+      "course": "LET106",
+      "code": "T01",
+      "teacher": "DEISE VIANA",
+      "size": 25,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 379,
+      "course": "LET111",
+      "code": "T01",
+      "teacher": "EDITE LUZIA VASCONCELOS DOS SANTOS",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 380,
+      "course": "LET111",
+      "code": "T02",
+      "teacher": "MARIA DA CONCEICAO PINHEIRO ARAUJO",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 381,
+      "course": "LET111",
+      "code": "T03",
+      "teacher": "MARIA DA CONCEICAO PINHEIRO ARAUJO",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 382,
+      "course": "LET112",
+      "code": "T01",
+      "teacher": "ERIVALDO DE JESUS MARINHO",
+      "size": 25,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 383,
+      "course": "LET112",
+      "code": "T02",
+      "teacher": "ERIVALDO DE JESUS MARINHO",
+      "size": 25,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 384,
+      "course": "LET112",
+      "code": "T03",
+      "teacher": "ERIVALDO DE JESUS MARINHO",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 385,
+      "course": "LET112",
+      "code": "T04",
+      "teacher": "ERIVALDO DE JESUS MARINHO",
+      "size": 25,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 386,
+      "course": "LET113",
+      "code": "T01",
+      "teacher": "LUZIA HELENA SANTIAGO FERNANDES",
+      "size": 48,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 387,
+      "course": "LET115",
+      "code": "T01",
+      "teacher": "ANTONIA DO SOCORRO FREITAS CHAVES",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 388,
+      "course": "LET116",
+      "code": "T01",
+      "teacher": "",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 389,
+      "course": "LET121",
+      "code": "T01",
+      "teacher": "MARCOS FERNANDO COSTA DE CARVALHO",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 390,
+      "course": "LET123",
+      "code": "T01",
+      "teacher": "",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 391,
+      "course": "LET125",
+      "code": "T01",
+      "teacher": "",
+      "size": 47,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 392,
+      "course": "MAT203",
+      "code": "T01",
+      "teacher": "DANIELA SANTA INÊS CUNHA",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 393,
+      "course": "MAT204",
+      "code": "T01",
+      "teacher": "WALTER ACCIOLY COSTA PORTO",
+      "size": 60,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 394,
+      "course": "MAT204",
+      "code": "T02",
+      "teacher": "LUIS VASQUEZ",
+      "size": 57,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 395,
+      "course": "MAT205",
+      "code": "T01",
+      "teacher": "WALTER ACCIOLY COSTA PORTO",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 396,
+      "course": "MAT211",
+      "code": "T01",
+      "teacher": "HENRIQUE JOSE CARIBE RIBEIRO",
+      "size": 55,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 397,
+      "course": "MAT211",
+      "code": "T02",
+      "teacher": "REINALDO DE OLIVEIRA LIMA",
+      "size": 55,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 398,
+      "course": "MAT211",
+      "code": "T03",
+      "teacher": "HENRIQUE JOSE CARIBE RIBEIRO",
+      "size": 55,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 399,
+      "course": "MAT212",
+      "code": "T01",
+      "teacher": "EDMARY SILVEIRA BARRETO",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 400,
+      "course": "MAT212",
+      "code": "T02",
+      "teacher": "EDMARY SILVEIRA BARRETO",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 401,
+      "course": "MAT213",
+      "code": "T01",
+      "teacher": "LUIZ VASQUEZ",
+      "size": 60,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 402,
+      "course": "MAT214",
+      "code": "T01",
+      "teacher": "IVES LIMA DE JESUS",
+      "size": 57,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 403,
+      "course": "MAT215",
+      "code": "T01",
+      "teacher": "LURIMAR SMERA BATISTA",
+      "size": 41,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 404,
+      "course": "MAT215",
+      "code": "T02",
+      "teacher": "DIRCEU MELO",
+      "size": 38,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 405,
+      "course": "MAT216",
+      "code": "T01",
+      "teacher": "EDMARY SILVEIRA BARRETO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 406,
+      "course": "MAT217",
+      "code": "T02",
+      "teacher": "DIANA CRUZ SOUZA",
+      "size": 56,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 407,
+      "course": "MAT217",
+      "code": "T03",
+      "teacher": "DIANA CRUZ SOUZA",
+      "size": 56,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 408,
+      "course": "MAT217",
+      "code": "T01",
+      "teacher": "PAULO ESPINHEIRA",
+      "size": 56,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 409,
+      "course": "MAT218",
+      "code": "T01",
+      "teacher": "PAULO ESPINHEIRA",
+      "size": 42,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 410,
+      "course": "MAT218",
+      "code": "T02",
+      "teacher": "PAULO ESPINHEIRA",
+      "size": 42,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 411,
+      "course": "MAT219",
+      "code": "T01",
+      "teacher": "ISABEL LEITE",
+      "size": 61,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 412,
+      "course": "MAT219",
+      "code": "T02",
+      "teacher": "WALTER ACCIOLY COSTA PORTO",
+      "size": 61,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 413,
+      "course": "MAT220",
+      "code": "T01",
+      "teacher": "DIRCEU DE FREITAS PIEDADE MELO",
+      "size": 55,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 414,
+      "course": "MAT220",
+      "code": "T02",
+      "teacher": "DIRCEU DE FREITAS PIEDADE MELO",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 415,
+      "course": "MAT222",
+      "code": "T01",
+      "teacher": "DIANA CRUZ SOUZA",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 416,
+      "course": "MAT223",
+      "code": "T01",
+      "teacher": "ISABEL LEITE",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 417,
+      "course": "MAT223",
+      "code": "T02",
+      "teacher": "ERONILDO DE JESUS SOUZA",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 418,
+      "course": "MAT224",
+      "code": "T01",
+      "teacher": "REINALDO DE OLIVEIRA LIMA",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 419,
+      "course": "MAT225",
+      "code": "T01",
+      "teacher": "LUIS VASQUEZ",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 420,
+      "course": "MAT226",
+      "code": "T01",
+      "teacher": "LURIMAR SMERA BATISTA",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 421,
+      "course": "MAT227",
+      "code": "T01",
+      "teacher": "ERON SOUZA DE JESUS",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 422,
+      "course": "MAT227",
+      "code": "T02",
+      "teacher": "REINALDO DE OLIVEIRA LIMA",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 423,
+      "course": "MAT228",
+      "code": "T01",
+      "teacher": "PAULO ESPINHEIRA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 424,
+      "course": "MAT229",
+      "code": "T01",
+      "teacher": "FERNANDO OSVALDO REAL CARNEIRO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 425,
+      "course": "MAT230",
+      "code": "T01",
+      "teacher": "EDMARY SILVEIRA BARRETO",
+      "size": 10,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 426,
+      "course": "MAT231",
+      "code": "T01",
+      "teacher": "NORMA SOUZA DE OLIVEIRA",
+      "size": 48,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 427,
+      "course": "MAT232",
+      "code": "T01",
+      "teacher": "ACELIO RODRIGUES SOUZA",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 428,
+      "course": "MAT233",
+      "code": "T01",
+      "teacher": "FELLIPE ANTONIO DOS SANTOS CARDOSO LEITE",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 429,
+      "course": "MAT234",
+      "code": "T01",
+      "teacher": "DANIELA SANTA INÊS CUNHA",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 430,
+      "course": "MAT235",
+      "code": "T01",
+      "teacher": "FERNANDO OSVALDO REAL CARNEIRO",
+      "size": 50,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 431,
+      "course": "MAT236",
+      "code": "T01",
+      "teacher": "ANETE OTILIA CARDOSO CRUZ",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 432,
+      "course": "MAT237",
+      "code": "T01",
+      "teacher": "FELLIPE ANTONIO DOS SANTOS CARDOSO LEITE",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 433,
+      "course": "MAT238",
+      "code": "T01",
+      "teacher": "IVES LIMA DE JESUS",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 434,
+      "course": "MAT239",
+      "code": "T01",
+      "teacher": "ANETE OTILIA CARDOSO CRUZ",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 435,
+      "course": "MAT240",
+      "code": "T01",
+      "teacher": "ERONILDO DE JESUS SOUZA",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 436,
+      "course": "MAT241",
+      "code": "T01",
+      "teacher": "FERNANDO OSVALDO REAL CARNEIRO",
+      "size": 10,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 437,
+      "course": "MAT242",
+      "code": "T01",
+      "teacher": "ANETE OTILIA CARDOSO CRUZ",
+      "size": 10,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 438,
+      "course": "MAT243",
+      "code": "T01",
+      "teacher": "DANIELA SANTA INÊS CUNHA",
+      "size": 10,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 439,
+      "course": "MAT244",
+      "code": "T01",
+      "teacher": "TANIA JUSSARA SANTANA",
+      "size": 10,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 440,
+      "course": "MAT245",
+      "code": "T01",
+      "teacher": "FELLIPE ANTONIO DOS SANTOS CARDOSO LEITE",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 441,
+      "course": "MAT246",
+      "code": "T01",
+      "teacher": "ANETE CRUZ",
+      "size": 10,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 442,
+      "course": "MAT254",
+      "code": "T01",
+      "teacher": "FELLIPE ANTONIO DOS SANTOS CARDOSO LEITE",
+      "size": 35,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 443,
+      "course": "MAT267",
+      "code": "T01",
+      "teacher": "LURIMAR SMERA BATISTA",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 444,
+      "course": "MCO301",
+      "code": "T01",
+      "teacher": "RODRIGO ESTEVAM COELHO",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 445,
+      "course": "MCO302",
+      "code": "T01",
+      "teacher": "PEDRO CUNHA",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 446,
+      "course": "MCO303",
+      "code": "T01",
+      "teacher": "GILDO MACHADO RIBEIRO",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 447,
+      "course": "MCO304",
+      "code": "T01",
+      "teacher": "CLAUDIA TERESA TELES FARIAS",
+      "size": 10,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 448,
+      "course": "MCO305",
+      "code": "T01",
+      "teacher": "MIRTANIA ANTUNES LEAO",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 449,
+      "course": "MEO301",
+      "code": "T01",
+      "teacher": "AMARO SERINHAEM DE ARAUJO ALVES FERREIRA",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 450,
+      "course": "MEO302",
+      "code": "T01",
+      "teacher": "LUIZ CARLOS VARGAS",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 451,
+      "course": "PMO301",
+      "code": "T01",
+      "teacher": "ANTONIO CARLOS SOUZA RAMOS",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 452,
+      "course": "PMO303",
+      "code": "T01",
+      "teacher": "GILDO MACHADO RIBEIRO",
+      "size": 35,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 453,
+      "course": "QUI500",
+      "code": "P01",
+      "teacher": "JOSANAIDE SANTANA RIBEIRO TEIXEIRA",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 454,
+      "course": "QUI500",
+      "code": "P02",
+      "teacher": "MARCIA SOUSA BISPO SCHUBACH",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 455,
+      "course": "QUI500",
+      "code": "P03",
+      "teacher": "ALDEMIRO PALMA",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 456,
+      "course": "QUI500",
+      "code": "P04",
+      "teacher": "ALDEMIRO PALMA",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 457,
+      "course": "QUI500",
+      "code": "T01",
+      "teacher": "DILTON SODRE",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 458,
+      "course": "QUI500",
+      "code": "T02",
+      "teacher": "DILTON SODRE",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 459,
+      "course": "QUI511",
+      "code": "P01",
+      "teacher": "ALDEMIRO PALMA",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 460,
+      "course": "QUI511",
+      "code": "P02",
+      "teacher": "MARCIA SOUSA BISPO SCHUBACH",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 461,
+      "course": "QUI511",
+      "code": "P03",
+      "teacher": "MARCIA SOUSA BISPO SCHUBACH",
+      "size": 15,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 462,
+      "course": "QUI511",
+      "code": "T01",
+      "teacher": "CARLOS DANIEL SILVA DA SILVA",
+      "size": 45,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 463,
+      "course": "QUI512",
+      "code": "P01",
+      "teacher": "ALDEMIRO PALMA",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 464,
+      "course": "QUI512",
+      "code": "P02",
+      "teacher": "WALTER ALVES GOMES JÚNIOR",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 465,
+      "course": "QUI512",
+      "code": "T01",
+      "teacher": "DENISE SANTOS DE SÁ",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 466,
+      "course": "QUI513",
+      "code": "T01",
+      "teacher": "ROBERT NEWTON DA SILVA HENRIQUE MAGALHAES",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 467,
+      "course": "QUI514",
+      "code": "T01",
+      "teacher": "JOSANAIDE SANTANA RIBEIRO TEIXEIRA",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 468,
+      "course": "QUI515",
+      "code": "T01",
+      "teacher": "JOSANAIDE SANTANA RIBEIRO TEIXEIRA",
+      "size": 30,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 469,
+      "course": "QUI516",
+      "code": "T01",
+      "teacher": "JOSANAIDE SANTANA RIBEIRO TEIXEIRA",
+      "size": 14,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 470,
+      "course": "QUI517",
+      "code": "P01",
+      "teacher": "MARCIA SOUSA BISPO SCHUBACH",
+      "size": 24,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 471,
+      "course": "QUI517",
+      "code": "T01",
+      "teacher": "MARCIA SOUSA BISPO SCHUBACH",
+      "size": 24,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 472,
+      "course": "QUI520",
+      "code": "T01",
+      "teacher": "DILTON SODRÉ",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 473,
+      "course": "RAD216",
+      "code": "T01",
+      "teacher": "ISABELLE MATOS PINHEIRO COSTA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 474,
+      "course": "RAD239",
+      "code": "P01",
+      "teacher": "MARCUS VINICIUS TEIXEIRA NAVARRO",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 475,
+      "course": "RAD239",
+      "code": "T01",
+      "teacher": "JULIANA DOS SANTOS MULLER",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 476,
+      "course": "RAD240",
+      "code": "P01",
+      "teacher": "GUILLERMO ALBERTO LÓPEZ",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 477,
+      "course": "RAD240",
+      "code": "P02",
+      "teacher": "MAURICIO MITSUO MONÇÃO",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 478,
+      "course": "RAD240",
+      "code": "T01",
+      "teacher": "GUILLERMO ALBERTO LÓPEZ",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 479,
+      "course": "RAD242",
+      "code": "P01",
+      "teacher": "JULIANA DOS SANTOS MULLER",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 480,
+      "course": "RAD242",
+      "code": "T01",
+      "teacher": "JULIANA DOS SANTOS MULLER",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 481,
+      "course": "RAD244",
+      "code": "T01",
+      "teacher": "ISABELLE MATOS PINHEIRO COSTA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 482,
+      "course": "RAD248",
+      "code": "T01",
+      "teacher": "WILSON OTTO GOMES BASTISTA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 483,
+      "course": "RAD247",
+      "code": "T01",
+      "teacher": "WILSON OTTO GOMES BASTISTA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 484,
+      "course": "RAD249",
+      "code": "P01",
+      "teacher": "GUILLERMO ALBERTO LÓPEZ",
+      "size": 10,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 485,
+      "course": "RAD249",
+      "code": "P02",
+      "teacher": "JULIANA DOS SANTOS MULLER",
+      "size": 10,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 486,
+      "course": "RAD249",
+      "code": "P03",
+      "teacher": "MAURICIO MITSUO MONÇÃO",
+      "size": 10,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 487,
+      "course": "RAD249",
+      "code": "P04",
+      "teacher": "MARCUS VINICIUS LINHARES DE OLIVEIRA",
+      "size": 10,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 488,
+      "course": "RAD251",
+      "code": "P01",
+      "teacher": "JACQUELINE GURJÃO RIOS",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 489,
+      "course": "RAD251",
+      "code": "P02",
+      "teacher": "LUCIANA ANDRADE FREITAS DE OLIVEIRA",
+      "size": 20,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 490,
+      "course": "RAD251",
+      "code": "T01",
+      "teacher": "JACQUELINE GURJÃO RIOS",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 491,
+      "course": "RAD257",
+      "code": "T01",
+      "teacher": "MARCUS VINICIUS TEIXEIRA NAVARRO",
+      "size": 48,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 492,
+      "course": "RAD258",
+      "code": "P01",
+      "teacher": "LUCIANA ANDRADE FREITAS DE OLIVEIRA",
+      "size": 24,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 493,
+      "course": "RAD258",
+      "code": "P02",
+      "teacher": "JULITA MARIA COELHO",
+      "size": 24,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 494,
+      "course": "RAD258",
+      "code": "T01",
+      "teacher": "LUCIANA ANDRADE FREITAS DE OLIVEIRA",
+      "size": 48,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 495,
+      "course": "RAD258",
+      "code": "T02",
+      "teacher": "JULITA MARIA COELHO",
+      "size": 48,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 496,
+      "course": "RAD260",
+      "code": "P01",
+      "teacher": "JACQUELINE GURJÃO RIOS",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 497,
+      "course": "RAD260",
+      "code": "T01",
+      "teacher": "JACQUELINE GURJÃO RIOS",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 498,
+      "course": "RAD260",
+      "code": "T01",
+      "teacher": "JACQUELINE GURJÃO RIOS",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 499,
+      "course": "RAD252",
+      "code": "T01",
+      "teacher": "MARCUS VINICIUS LINHARES DE OLIVEIRA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 500,
+      "course": "RAD252",
+      "code": "P01",
+      "teacher": "MARCUS VINICIUS LINHARES DE OLIVEIRA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 501,
+      "course": "RAD253",
+      "code": "T01",
+      "teacher": "WILSON OTTO GOMES BASTISTA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 502,
+      "course": "RAD262",
+      "code": "T01",
+      "teacher": "LUCIANA ANDRADE FREITAS DE OLIVEIRA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 503,
+      "course": "RAD262",
+      "code": "P01",
+      "teacher": "ELIAS RAMOS DE SOUZA",
+      "size": 40,
+      "year": 2017,
+      "semester": 1
+    }
+  },
+  {
+    "model": "manager.Class",
+    "fields": {
+      "id": 504,
+      "course": "RED103",
+      "code": "T01",
+      "teacher": "WALLACE MATOS DA COSTA",
+      "size": 48,
+      "year": 2017,
+      "semester": 1
+    }
+  }
+]
