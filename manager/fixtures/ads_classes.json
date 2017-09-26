@@ -6,7 +6,7 @@
             "course": 1,
             "code": "T03",
             "teacher": 1,
-            "size": 20,
+            "size": 48,
             "year": 2017,
             "semester": 1
         }
@@ -426,7 +426,7 @@
             "course": 1,
             "code": "T02",
             "teacher": 24,
-            "size": 4,
+            "size": 48,
             "year": 2017,
             "semester": 1
         }
