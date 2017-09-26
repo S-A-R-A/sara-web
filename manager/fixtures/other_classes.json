@@ -5,7 +5,7 @@
       "id": 38,
       "course": "ADM500",
       "code": "T01",
-      "teacher": "JULIA OLIVEIRA NEVES",
+      "teacher": 121,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -17,7 +17,7 @@
       "id": 39,
       "course": "ADM500",
       "code": "T02",
-      "teacher": "JOSE RUBENS MONTEIRO TEIXEIRA",
+      "teacher": 116,
       "size": 48,
       "year": 2017,
       "semester": 1
@@ -29,7 +29,7 @@
       "id": 40,
       "course": "ADM500",
       "code": "T03",
-      "teacher": "WASHINGTON JOSE LARANJEIRAS BORGES",
+      "teacher": 1,
       "size": 48,
       "year": 2017,
       "semester": 1
@@ -41,7 +41,7 @@
       "id": 41,
       "course": "ADM501",
       "code": "T01",
-      "teacher": "MICHELE NUNES SILVA DE CASTRO",
+      "teacher": 162,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -53,7 +53,7 @@
       "id": 42,
       "course": "ADM502",
       "code": "T01",
-      "teacher": "MICHELE NUNES SILVA DE CASTRO",
+      "teacher": 162,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -65,7 +65,7 @@
       "id": 43,
       "course": "ADM503",
       "code": "T01",
-      "teacher": "MICHELE NUNES SILVA DE CASTRO",
+      "teacher": 162,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -77,7 +77,7 @@
       "id": 44,
       "course": "ADM504",
       "code": "T01",
-      "teacher": "ANDRE LUIS ROCHA DE SOUZA",
+      "teacher": 35,
       "size": 42,
       "year": 2017,
       "semester": 1
@@ -89,7 +89,7 @@
       "id": 45,
       "course": "ADM505",
       "code": "T01",
-      "teacher": "ANDRE LUIS ROCHA DE SOUZA",
+      "teacher": 35,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -101,7 +101,7 @@
       "id": 46,
       "course": "ADM506",
       "code": "T01",
-      "teacher": "LIVIA DA SILVA MODESTO RODRIGUES",
+      "teacher": 128,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -113,7 +113,7 @@
       "id": 47,
       "course": "ADM507",
       "code": "T01",
-      "teacher": "LIVIA DA SILVA MODESTO RODRIGUES",
+      "teacher": 128,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -125,7 +125,7 @@
       "id": 48,
       "course": "ADM508",
       "code": "T01",
-      "teacher": "CARLOS ALBERTO DE OLIVEIRA RIBEIRO",
+      "teacher": 52,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -137,7 +137,7 @@
       "id": 49,
       "course": "ADM509",
       "code": "T01",
-      "teacher": "GILCA BEZERRA ALVES SIEBRA",
+      "teacher": 92,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -149,7 +149,7 @@
       "id": 50,
       "course": "ADM510",
       "code": "T01",
-      "teacher": "LÍVIA SANTOS SIMÕES",
+      "teacher": 129,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -161,7 +161,7 @@
       "id": 51,
       "course": "ADM511",
       "code": "T01",
-      "teacher": "JOSE RUBENS MONTEIRO TEIXEIRA",
+      "teacher": 116,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -173,7 +173,7 @@
       "id": 52,
       "course": "ADM512",
       "code": "T01",
-      "teacher": "ANTONIO CLODOALDO DE ALMEIDA NETO",
+      "teacher": 44,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -185,7 +185,7 @@
       "id": 53,
       "course": "ADM512",
       "code": "T02",
-      "teacher": "ANTONIO CLODOALDO DE ALMEIDA NETO",
+      "teacher": 44,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -197,7 +197,7 @@
       "id": 54,
       "course": "ADM512",
       "code": "T03",
-      "teacher": "ANTONIO CLODOALDO DE ALMEIDA NETO",
+      "teacher": 44,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -209,7 +209,7 @@
       "id": 55,
       "course": "ADM513",
       "code": "T01",
-      "teacher": "LUANA DE FARIAS QUEIROZ",
+      "teacher": 131,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -221,7 +221,7 @@
       "id": 56,
       "course": "ADM514",
       "code": "T01",
-      "teacher": "LUANA DE FARIAS QUEIROZ",
+      "teacher": 131,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -233,7 +233,7 @@
       "id": 57,
       "course": "ADM514",
       "code": "T02",
-      "teacher": "LUANA DE FARIAS QUEIROZ",
+      "teacher": 131,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -245,7 +245,7 @@
       "id": 58,
       "course": "ADM515",
       "code": "T01",
-      "teacher": "MANOELA ANDRADE SWIERCZYMAKI",
+      "teacher": 145,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -257,7 +257,7 @@
       "id": 59,
       "course": "ADM516",
       "code": "T01",
-      "teacher": "MANOELA ANDRADE SWIERCZYMAKI",
+      "teacher": 145,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -269,7 +269,7 @@
       "id": 60,
       "course": "ADM517",
       "code": "T01",
-      "teacher": "JULIA OLIVEIRA NEVES",
+      "teacher": 121,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -281,7 +281,7 @@
       "id": 61,
       "course": "ADM518",
       "code": "T01",
-      "teacher": "MARA CLÉCIA DANTAS SOUZA",
+      "teacher": 146,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -293,7 +293,7 @@
       "id": 62,
       "course": "ADM530",
       "code": "T01",
-      "teacher": "RONALDO BRUNO RAMALHO LEAL",
+      "teacher": 192,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -305,7 +305,7 @@
       "id": 63,
       "course": "ADM530",
       "code": "T02",
-      "teacher": "ALEXANDRE JOSÉ ALVES DA SILVA",
+      "teacher": 29,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -317,7 +317,7 @@
       "id": 64,
       "course": "ADM531",
       "code": "T01",
-      "teacher": "CLAUDIO PALMA DE MELLO",
+      "teacher": 58,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -329,7 +329,7 @@
       "id": 65,
       "course": "ADM532",
       "code": "T01",
-      "teacher": "CLAUDIO PALMA DE MELLO",
+      "teacher": 58,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -341,7 +341,7 @@
       "id": 66,
       "course": "ADM533",
       "code": "T01",
-      "teacher": "RONALDO BRUNO RAMALHO LEAL",
+      "teacher": 192,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -353,7 +353,7 @@
       "id": 67,
       "course": "ADM540",
       "code": "T01",
-      "teacher": "WASHINGTON JOSE LARANJEIRAS BORGES",
+      "teacher": 1,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -365,7 +365,7 @@
       "id": 68,
       "course": "ADM540",
       "code": "T02",
-      "teacher": "MARIA  PAULA NOGUEIRA",
+      "teacher": 159,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -377,7 +377,7 @@
       "id": 69,
       "course": "ADM540",
       "code": "T03",
-      "teacher": "MARIA  PAULA NOGUEIRA",
+      "teacher": 159,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -389,7 +389,7 @@
       "id": 70,
       "course": "ADM540",
       "code": "T04",
-      "teacher": "MARIA  PAULA NOGUEIRA",
+      "teacher": 159,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -401,7 +401,7 @@
       "id": 71,
       "course": "ADM541",
       "code": "T01",
-      "teacher": "JOSE PEDRO PAULINO SOUTO",
+      "teacher": 115,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -413,7 +413,7 @@
       "id": 72,
       "course": "ADM542",
       "code": "T01",
-      "teacher": "JOSE PEDRO PAULINO SOUTO",
+      "teacher": 115,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -425,7 +425,7 @@
       "id": 73,
       "course": "ADM545",
       "code": "T01",
-      "teacher": "WASHINGTON JOSE LARANJEIRAS BORGES",
+      "teacher": 1,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -437,7 +437,7 @@
       "id": 74,
       "course": "ADM550",
       "code": "T01",
-      "teacher": "KÁTIA E. DE SOUZA MIRANDA",
+      "teacher": 125,
       "size": 65,
       "year": 2017,
       "semester": 1
@@ -449,7 +449,7 @@
       "id": 75,
       "course": "ADM551",
       "code": "T01",
-      "teacher": "ANDRE LUIS ROCHA DE SOUZA",
+      "teacher": 35,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -461,7 +461,7 @@
       "id": 76,
       "course": "ADM552",
       "code": "T01",
-      "teacher": "GILCA BEZERRA ALVES SIEBRA",
+      "teacher": 92,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -473,7 +473,7 @@
       "id": 77,
       "course": "ADM553",
       "code": "T01",
-      "teacher": "LÍVIA SANTOS SIMÕES",
+      "teacher": 129,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -485,7 +485,7 @@
       "id": 78,
       "course": "ADM570",
       "code": "T01",
-      "teacher": "GILCA BEZERRA ALVES SIEBRA",
+      "teacher": 92,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -497,7 +497,7 @@
       "id": 79,
       "course": "ADM577",
       "code": "T01",
-      "teacher": "AURELINA SACRAMENTO",
+      "teacher": 50,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -509,7 +509,7 @@
       "id": 80,
       "course": "ADM578",
       "code": "T01",
-      "teacher": "HANDERSON LEITE",
+      "teacher": 99,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -521,7 +521,7 @@
       "id": 81,
       "course": "ADM579",
       "code": "T01",
-      "teacher": "AURELINA SACRAMENTO",
+      "teacher": 50,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -533,7 +533,7 @@
       "id": 82,
       "course": "ADM580",
       "code": "T01",
-      "teacher": "ISABELLE PINHEIRO ",
+      "teacher": 105,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -545,7 +545,7 @@
       "id": 83,
       "course": "ADM590",
       "code": "T01",
-      "teacher": "ALEX CYPRIANO",
+      "teacher": 28,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -557,7 +557,7 @@
       "id": 84,
       "course": "ADM591",
       "code": "T01",
-      "teacher": "ALEX CYPRIANO",
+      "teacher": 28,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -569,7 +569,7 @@
       "id": 85,
       "course": "ADM592",
       "code": "T01",
-      "teacher": "ALEXANDRE JOSÉ ALVES DA SILVA",
+      "teacher": 29,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -581,7 +581,7 @@
       "id": 86,
       "course": "DES200",
       "code": "T01",
-      "teacher": "ELOISA SANTOS PINTO",
+      "teacher": 79,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -593,7 +593,7 @@
       "id": 87,
       "course": "DES200",
       "code": "T02",
-      "teacher": "FRANCISCO CARLOS REIS",
+      "teacher": 89,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -605,7 +605,7 @@
       "id": 88,
       "course": "DES200",
       "code": "T03",
-      "teacher": "FRANCISCO CARLOS REIS",
+      "teacher": 89,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -617,7 +617,7 @@
       "id": 89,
       "course": "DES200",
       "code": "T04",
-      "teacher": "ALFREDO NASCIMENTO",
+      "teacher": 30,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -629,7 +629,7 @@
       "id": 90,
       "course": "DES200",
       "code": "T05",
-      "teacher": "ELOISA SANTOS PINTO",
+      "teacher": 79,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -641,7 +641,7 @@
       "id": 91,
       "course": "DES200",
       "code": "T06",
-      "teacher": "FRANCISCO CARLOS REIS",
+      "teacher": 89,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -653,7 +653,7 @@
       "id": 92,
       "course": "DES201",
       "code": "T01",
-      "teacher": "CATARINA DAMASCENO",
+      "teacher": 55,
       "size": 25,
       "year": 2017,
       "semester": 1
@@ -665,7 +665,7 @@
       "id": 93,
       "course": "DES202",
       "code": "T01",
-      "teacher": "FRANCISCO CARLOS REIS",
+      "teacher": 89,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -677,7 +677,7 @@
       "id": 94,
       "course": "EDU150",
       "code": "T01",
-      "teacher": "ROBERTO DA CRUZ MELO",
+      "teacher": 186,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -689,7 +689,7 @@
       "id": 95,
       "course": "EDU150",
       "code": "T02",
-      "teacher": "",
+      "teacher": 213,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -701,7 +701,7 @@
       "id": 96,
       "course": "EDU150",
       "code": "T03",
-      "teacher": "",
+      "teacher": 213,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -713,7 +713,7 @@
       "id": 97,
       "course": "EDU153",
       "code": "T01",
-      "teacher": "ALEX CYPRIANO",
+      "teacher": 28,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -725,7 +725,7 @@
       "id": 98,
       "course": "EDU153",
       "code": "T02",
-      "teacher": "ALEX CYPRIANO",
+      "teacher": 28,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -737,7 +737,7 @@
       "id": 99,
       "course": "EDU153",
       "code": "T03",
-      "teacher": "",
+      "teacher": 213,
       "size": 25,
       "year": 2017,
       "semester": 1
@@ -749,7 +749,7 @@
       "id": 100,
       "course": "EDU154",
       "code": "T01",
-      "teacher": "GRACIONE BATISTA DE OLIVEIRA",
+      "teacher": 95,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -761,7 +761,7 @@
       "id": 101,
       "course": "EDU154",
       "code": "T02",
-      "teacher": "MARIA LUCILEIDE MOTA",
+      "teacher": 158,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -773,7 +773,7 @@
       "id": 102,
       "course": "EDU155",
       "code": "T01",
-      "teacher": "MIRIÃ ALVES RAMOS DE ALCÂNTARA",
+      "teacher": 163,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -785,7 +785,7 @@
       "id": 103,
       "course": "EDU155",
       "code": "T02",
-      "teacher": "MOEMA FERREIRA SOARES",
+      "teacher": 166,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -797,7 +797,7 @@
       "id": 104,
       "course": "EDU156",
       "code": "T01",
-      "teacher": "ROBERTA MELO",
+      "teacher": 185,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -809,7 +809,7 @@
       "id": 105,
       "course": "EDU156",
       "code": "T02",
-      "teacher": "ROBERTA MELO",
+      "teacher": 185,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -821,7 +821,7 @@
       "id": 106,
       "course": "EDU157",
       "code": "T01",
-      "teacher": "ROBERTA MELO",
+      "teacher": 185,
       "size": 55,
       "year": 2017,
       "semester": 1
@@ -833,7 +833,7 @@
       "id": 107,
       "course": "EDU157",
       "code": "T02",
-      "teacher": "ROBERTA MELO",
+      "teacher": 185,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -845,7 +845,7 @@
       "id": 108,
       "course": "EDU158",
       "code": "T01",
-      "teacher": "DANIEL ROMERO",
+      "teacher": 61,
       "size": 56,
       "year": 2017,
       "semester": 1
@@ -857,7 +857,7 @@
       "id": 109,
       "course": "EDU159",
       "code": "T01",
-      "teacher": "TEREZA CRISTINA DE OLIVEIRA",
+      "teacher": 203,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -869,7 +869,7 @@
       "id": 110,
       "course": "EDU160",
       "code": "T01",
-      "teacher": "ROBERTO DA CRUZ MELO",
+      "teacher": 186,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -881,7 +881,7 @@
       "id": 111,
       "course": "EDU160",
       "code": "T02",
-      "teacher": "ROBERTO DA CRUZ MELO",
+      "teacher": 186,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -893,7 +893,7 @@
       "id": 112,
       "course": "EDU160",
       "code": "T03",
-      "teacher": "",
+      "teacher": 213,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -905,7 +905,7 @@
       "id": 113,
       "course": "EDU162",
       "code": "T01",
-      "teacher": "TEREZA CRISTINA DE OLIVEIRA",
+      "teacher": 203,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -917,7 +917,7 @@
       "id": 114,
       "course": "EDU164",
       "code": "T01",
-      "teacher": "MARCILENE LENA GARCIA DE OLIVEIRA",
+      "teacher": 151,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -929,7 +929,7 @@
       "id": 115,
       "course": "EDU165",
       "code": "T01",
-      "teacher": "",
+      "teacher": 151,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -941,7 +941,7 @@
       "id": 116,
       "course": "EDU167",
       "code": "T01",
-      "teacher": "ROBERTO DA CRUZ MELO",
+      "teacher": 186,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -953,7 +953,7 @@
       "id": 117,
       "course": "EDU168",
       "code": "T01",
-      "teacher": "MOEMA FERREIRA SOARES",
+      "teacher": 166,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -965,7 +965,7 @@
       "id": 118,
       "course": "EDU170",
       "code": "T01",
-      "teacher": "MIRIÃ ALVES RAMOS DE ALCÂNTARA",
+      "teacher": 163,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -977,7 +977,7 @@
       "id": 119,
       "course": "ENG300",
       "code": "T01",
-      "teacher": "PAULO CESAR ROCHA CHAVES",
+      "teacher": 172,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -989,7 +989,7 @@
       "id": 120,
       "course": "ENG301",
       "code": "P01",
-      "teacher": "SONIA REGINA SALES BARBOSA",
+      "teacher": 200,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -1001,7 +1001,7 @@
       "id": 121,
       "course": "ENG301",
       "code": "P01",
-      "teacher": "MIRTANIA ANTUNES LEAO",
+      "teacher": 165,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -1013,7 +1013,7 @@
       "id": 122,
       "course": "ENG301",
       "code": "T01",
-      "teacher": "MIRTANIA ANTUNES LEAO",
+      "teacher": 165,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -1025,7 +1025,7 @@
       "id": 123,
       "course": "ENG302",
       "code": "T01",
-      "teacher": "PEDRO CUNHA",
+      "teacher": 175,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -1037,7 +1037,7 @@
       "id": 124,
       "course": "ENG303",
       "code": "T01",
-      "teacher": "JOÃO BATISTA MENEZES BARBOSA",
+      "teacher": 111,
       "size": 22,
       "year": 2017,
       "semester": 1
@@ -1049,7 +1049,7 @@
       "id": 125,
       "course": "ENG304",
       "code": "T01",
-      "teacher": "RODRIGO ESTEVAM COELHO",
+      "teacher": 189,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -1061,7 +1061,7 @@
       "id": 126,
       "course": "ENG305",
       "code": "T01",
-      "teacher": "RODRIGO ESTEVAM COELHO",
+      "teacher": 189,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -1073,7 +1073,7 @@
       "id": 127,
       "course": "ENG306",
       "code": "T01",
-      "teacher": "ANTONIO CARLOS SOUZA RAMOS",
+      "teacher": 43,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -1085,7 +1085,7 @@
       "id": 128,
       "course": "ENG307",
       "code": "T01",
-      "teacher": "JOÃO BATISTA MENEZES BARBOSA",
+      "teacher": 111,
       "size": 22,
       "year": 2017,
       "semester": 1
@@ -1097,7 +1097,7 @@
       "id": 129,
       "course": "PMO302",
       "code": "T01",
-      "teacher": "PAULO CESAR ROCHA CHAVES",
+      "teacher": 172,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -1109,7 +1109,7 @@
       "id": 130,
       "course": "ENG308",
       "code": "T01",
-      "teacher": "ANTONIO CARLOS PEIXOTO BITENCOURT",
+      "teacher": 42,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -1121,7 +1121,7 @@
       "id": 131,
       "course": "ENG308",
       "code": "T02",
-      "teacher": "ROBERTO LUIZ KRUGER",
+      "teacher": 188,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -1133,7 +1133,7 @@
       "id": 132,
       "course": "ENG308",
       "code": "T03",
-      "teacher": "ANTONIO CARLOS PEIXOTO BITENCOURT",
+      "teacher": 42,
       "size": 35,
       "year": 2017,
       "semester": 1
@@ -1145,7 +1145,7 @@
       "id": 133,
       "course": "ENG309",
       "code": "T01",
-      "teacher": "MARIO CEZAR",
+      "teacher": 160,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -1157,7 +1157,7 @@
       "id": 134,
       "course": "ENG309",
       "code": "T02",
-      "teacher": "MARIO CEZAR",
+      "teacher": 160,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -1169,7 +1169,7 @@
       "id": 135,
       "course": "ENG310",
       "code": "T01",
-      "teacher": "ROBERTO LUIZ KRUGER",
+      "teacher": 188,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -1181,7 +1181,7 @@
       "id": 136,
       "course": "ENG311",
       "code": "T01",
-      "teacher": "FRANCISCO SOUZA ALMEIDA",
+      "teacher": 90,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -1193,7 +1193,7 @@
       "id": 137,
       "course": "ENG312",
       "code": "T01",
-      "teacher": "ROBERTO LUIZ KRUGER",
+      "teacher": 188,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -1205,7 +1205,7 @@
       "id": 138,
       "course": "ENG313",
       "code": "T01",
-      "teacher": "PAULO CESAR ROCHA CHAVES",
+      "teacher": 172,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -1217,7 +1217,7 @@
       "id": 139,
       "course": "ENG314",
       "code": "T01",
-      "teacher": "ANTONIO CARLOS PEIXOTO BITENCOURT",
+      "teacher": 42,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -1229,7 +1229,7 @@
       "id": 140,
       "course": "ENG315",
       "code": "T01",
-      "teacher": "MARIO CEZAR",
+      "teacher": 160,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -1241,7 +1241,7 @@
       "id": 141,
       "course": "ENG319",
       "code": "T01",
-      "teacher": "LUIZ CARLOS VARGAS",
+      "teacher": 138,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -1253,7 +1253,7 @@
       "id": 142,
       "course": "ENG320",
       "code": "T01",
-      "teacher": "ANTONIO GABRIEL ALMEIDA",
+      "teacher": 45,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -1265,7 +1265,7 @@
       "id": 143,
       "course": "ENG321",
       "code": "T01",
-      "teacher": "AMARO SERINHAEM DE ARAUJO ALVES FERREIRA",
+      "teacher": 32,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -1277,7 +1277,7 @@
       "id": 144,
       "course": "ENG322",
       "code": "T01",
-      "teacher": "RICARDO BAHIA RIOS",
+      "teacher": 182,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -1289,7 +1289,7 @@
       "id": 145,
       "course": "ENG323",
       "code": "T01",
-      "teacher": "IVAN COSTA DA SILVA",
+      "teacher": 106,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -1301,7 +1301,7 @@
       "id": 146,
       "course": "ENG324",
       "code": "T01",
-      "teacher": "JUSTINO DE ARAUJO MEDEIROS",
+      "teacher": 124,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -1313,7 +1313,7 @@
       "id": 147,
       "course": "ENG325",
       "code": "T01",
-      "teacher": "LUIS GABRIEL GUANABARA",
+      "teacher": 136,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -1325,7 +1325,7 @@
       "id": 148,
       "course": "ENG326",
       "code": "T01",
-      "teacher": "GILDO MACHADO RIBEIRO",
+      "teacher": 93,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -1337,7 +1337,7 @@
       "id": 149,
       "course": "ENG327",
       "code": "T01",
-      "teacher": "PAULO CESAR ROCHA CHAVES",
+      "teacher": 172,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -1349,7 +1349,7 @@
       "id": 150,
       "course": "ENG400",
       "code": "T01",
-      "teacher": "JOSÉLIA FRANÇA DE HOLANDA CAVALCANTE",
+      "teacher": 117,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -1361,7 +1361,7 @@
       "id": 151,
       "course": "ENG403",
       "code": "T01",
-      "teacher": "ALDO NONATO BORGES",
+      "teacher": 27,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -1373,7 +1373,7 @@
       "id": 152,
       "course": "ENG404",
       "code": "T01",
-      "teacher": "MARIA DAS GRACAS OLIVEIRA REGO",
+      "teacher": 157,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -1385,7 +1385,7 @@
       "id": 153,
       "course": "ENG405",
       "code": "T01",
-      "teacher": "EDUARDO TELMO FONSECA SANTOS",
+      "teacher": 76,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -1397,7 +1397,7 @@
       "id": 154,
       "course": "ENG406",
       "code": "T01",
-      "teacher": "LISSANDRO BRITO VIENA",
+      "teacher": 127,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -1409,7 +1409,7 @@
       "id": 155,
       "course": "ENG407",
       "code": "T01",
-      "teacher": "JOSÉLIA FRANÇA DE HOLANDA CAVALCANTE",
+      "teacher": 117,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -1421,7 +1421,7 @@
       "id": 156,
       "course": "ENG408",
       "code": "T01",
-      "teacher": "ANTONIO LUIZ AGUIAR",
+      "teacher": 46,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -1433,7 +1433,7 @@
       "id": 157,
       "course": "ENG409",
       "code": "T01",
-      "teacher": "ALDO NONATO BORGES",
+      "teacher": 27,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -1445,7 +1445,7 @@
       "id": 158,
       "course": "ENG410",
       "code": "T01",
-      "teacher": "RODRIGO GUSMÃO CAVALCANTE",
+      "teacher": 190,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -1457,7 +1457,7 @@
       "id": 159,
       "course": "ENG411",
       "code": "T01",
-      "teacher": "JUAN JOSE JORGE PRADO FRANCO",
+      "teacher": 119,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -1469,7 +1469,7 @@
       "id": 160,
       "course": "ENG412",
       "code": "T01",
-      "teacher": "MARIA DAS GRACAS OLIVEIRA REGO",
+      "teacher": 157,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -1481,7 +1481,7 @@
       "id": 161,
       "course": "ENG413",
       "code": "T01",
-      "teacher": "ANTONIO LUIZ AGUIAR",
+      "teacher": 46,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -1493,7 +1493,7 @@
       "id": 162,
       "course": "ENG414",
       "code": "T01",
-      "teacher": "VALTER DA CONCEIÇÃO ROSA",
+      "teacher": 204,
       "size": 14,
       "year": 2017,
       "semester": 1
@@ -1505,7 +1505,7 @@
       "id": 163,
       "course": "ENG415",
       "code": "T01",
-      "teacher": "JOSE MARIO ARAUJO",
+      "teacher": 114,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -1517,7 +1517,7 @@
       "id": 164,
       "course": "ENG416",
       "code": "T01",
-      "teacher": "MARIA DAS GRACAS OLIVEIRA REGO",
+      "teacher": 157,
       "size": 18,
       "year": 2017,
       "semester": 1
@@ -1529,7 +1529,7 @@
       "id": 165,
       "course": "ENG417",
       "code": "T01",
-      "teacher": "JUAREZ CAETANO DA SILVA",
+      "teacher": 120,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -1541,7 +1541,7 @@
       "id": 166,
       "course": "ENG418",
       "code": "T01",
-      "teacher": "LISSANDRO BRITO VIENA",
+      "teacher": 127,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -1553,7 +1553,7 @@
       "id": 167,
       "course": "ENG419",
       "code": "T01",
-      "teacher": "VALTER DA CONCEIÇÃO ROSA",
+      "teacher": 204,
       "size": 14,
       "year": 2017,
       "semester": 1
@@ -1565,7 +1565,7 @@
       "id": 168,
       "course": "ENG420",
       "code": "T01",
-      "teacher": "FABRÍCIO GERÔNIMO SIMÕES SILVA",
+      "teacher": 86,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -1577,7 +1577,7 @@
       "id": 169,
       "course": "ENG421",
       "code": "T01",
-      "teacher": "VALTER DA CONCEIÇÃO ROSA",
+      "teacher": 204,
       "size": 14,
       "year": 2017,
       "semester": 1
@@ -1589,7 +1589,7 @@
       "id": 170,
       "course": "ENG422",
       "code": "T01",
-      "teacher": "EMERSON VALCI FREITAS CONCEICAO",
+      "teacher": 80,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -1601,7 +1601,7 @@
       "id": 171,
       "course": "ENG423",
       "code": "T01",
-      "teacher": "ANTONIO LUIZ AGUIAR",
+      "teacher": 46,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -1613,7 +1613,7 @@
       "id": 172,
       "course": "ENG424",
       "code": "T01",
-      "teacher": "ALDO NONATO BORGES",
+      "teacher": 27,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -1625,7 +1625,7 @@
       "id": 173,
       "course": "ENG425",
       "code": "T01",
-      "teacher": "ALDO NONATO BORGES",
+      "teacher": 27,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -1637,7 +1637,7 @@
       "id": 174,
       "course": "ENG426",
       "code": "T01",
-      "teacher": "JUAREZ CAETANO DA SILVA",
+      "teacher": 120,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -1649,7 +1649,7 @@
       "id": 175,
       "course": "ENG428",
       "code": "T01",
-      "teacher": "EDUARDO TELMO FONSECA SANTOS",
+      "teacher": 76,
       "size": 0,
       "year": 2017,
       "semester": 1
@@ -1661,7 +1661,7 @@
       "id": 176,
       "course": "ENG430",
       "code": "T01",
-      "teacher": "FABRÍCIO GERÔNIMO SIMÕES SILVA",
+      "teacher": 86,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -1673,7 +1673,7 @@
       "id": 177,
       "course": "ENG432",
       "code": "T01",
-      "teacher": "JOSE MARIO ARAUJO",
+      "teacher": 114,
       "size": 0,
       "year": 2017,
       "semester": 1
@@ -1685,7 +1685,7 @@
       "id": 178,
       "course": "ENG433",
       "code": "T01",
-      "teacher": "IVAN COSTA DA SILVA",
+      "teacher": 106,
       "size": 35,
       "year": 2017,
       "semester": 1
@@ -1697,7 +1697,7 @@
       "id": 179,
       "course": "ENG434",
       "code": "T01",
-      "teacher": "GRINALDO LOPES DE OLIVEIRA",
+      "teacher": 21,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -1709,7 +1709,7 @@
       "id": 180,
       "course": "ENG443",
       "code": "T01",
-      "teacher": "RODRIGO GUSMÃO CAVALCANTE",
+      "teacher": 190,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -1721,7 +1721,7 @@
       "id": 181,
       "course": "ENG447",
       "code": "T01",
-      "teacher": "ANTONIO LUIZ SILVA MOISES",
+      "teacher": 47,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -1733,7 +1733,7 @@
       "id": 182,
       "course": "ENG449",
       "code": "T01",
-      "teacher": "ANTONIO LUIZ SILVA MOISES",
+      "teacher": 47,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -1745,7 +1745,7 @@
       "id": 183,
       "course": "ENG452",
       "code": "T01",
-      "teacher": "CRISTINA DE ABREU SILVEIRA",
+      "teacher": 59,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -1757,7 +1757,7 @@
       "id": 184,
       "course": "ENG451",
       "code": "T01",
-      "teacher": "JUAN JOSE JORGE PRADO FRANCO",
+      "teacher": 119,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -1769,7 +1769,7 @@
       "id": 185,
       "course": "ENG453",
       "code": "T01",
-      "teacher": "EMERSON VALCI FREITAS CONCEICAO",
+      "teacher": 80,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -1781,7 +1781,7 @@
       "id": 186,
       "course": "ENG500",
       "code": "T01",
-      "teacher": "ANA CLAUDIA GONDIM DE MEDEIROS",
+      "teacher": 34,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -1793,7 +1793,7 @@
       "id": 187,
       "course": "ENG501",
       "code": "T01",
-      "teacher": "MARIA APARECIDA DA SILVA MODESTO",
+      "teacher": 155,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -1805,7 +1805,7 @@
       "id": 188,
       "course": "ENG502",
       "code": "T01",
-      "teacher": "LIN KAN",
+      "teacher": 126,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -1817,7 +1817,7 @@
       "id": 189,
       "course": "ENG503",
       "code": "T01",
-      "teacher": "ANA CECILIA CORREIA DOS SANTOS",
+      "teacher": 33,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -1829,7 +1829,7 @@
       "id": 190,
       "course": "ENG504",
       "code": "T01",
-      "teacher": "IARA TEREZINHA QUEIROZ PEREIRA DOS SANTOS",
+      "teacher": 101,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -1841,7 +1841,7 @@
       "id": 191,
       "course": "ENG505",
       "code": "T01",
-      "teacher": "VANESSA MENDES SANTOS CAVALCANTI",
+      "teacher": 205,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -1853,7 +1853,7 @@
       "id": 192,
       "course": "ENG506",
       "code": "T01",
-      "teacher": "ANA CLAUDIA GONDIM DE MEDEIROS",
+      "teacher": 34,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -1865,7 +1865,7 @@
       "id": 193,
       "course": "ENG507",
       "code": "T01",
-      "teacher": "ANA CLAUDIA GONDIM DE MEDEIROS",
+      "teacher": 34,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -1877,7 +1877,7 @@
       "id": 194,
       "course": "ENG508",
       "code": "T01",
-      "teacher": "VANESSA MENDES SANTOS CAVALCANTI",
+      "teacher": 205,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -1889,7 +1889,7 @@
       "id": 195,
       "course": "ENG509",
       "code": "T01",
-      "teacher": "DAIANE FARIAS PEREIRA SUFFREDINI",
+      "teacher": 60,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -1901,7 +1901,7 @@
       "id": 196,
       "course": "ENG510",
       "code": "T01",
-      "teacher": "CLAUDIA TERESA TELES FARIAS",
+      "teacher": 57,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -1913,7 +1913,7 @@
       "id": 197,
       "course": "ENG511",
       "code": "T01",
-      "teacher": "IARA TEREZINHA QUEIROZ PEREIRA DOS SANTOS",
+      "teacher": 101,
       "size": 12,
       "year": 2017,
       "semester": 1
@@ -1925,7 +1925,7 @@
       "id": 198,
       "course": "ENG512",
       "code": "T01",
-      "teacher": "LIN KAN",
+      "teacher": 126,
       "size": 6,
       "year": 2017,
       "semester": 1
@@ -1937,7 +1937,7 @@
       "id": 199,
       "course": "ENG512",
       "code": "T02",
-      "teacher": "LIN KAN",
+      "teacher": 126,
       "size": 6,
       "year": 2017,
       "semester": 1
@@ -1949,7 +1949,7 @@
       "id": 200,
       "course": "ENG514",
       "code": "T01",
-      "teacher": "LUIS FILIPE FREITAS DA SILVA DE JESUS",
+      "teacher": 135,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -1961,7 +1961,7 @@
       "id": 201,
       "course": "ENG515",
       "code": "T01",
-      "teacher": "EDGARD BACIC DE CARVALHO",
+      "teacher": 72,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -1973,7 +1973,7 @@
       "id": 202,
       "course": "ENG516",
       "code": "T01",
-      "teacher": "ANA CECILIA CORREIA DOS SANTOS",
+      "teacher": 33,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -1985,7 +1985,7 @@
       "id": 203,
       "course": "ENG518",
       "code": "T01",
-      "teacher": "LUIS FILIPE FREITAS DA SILVA DE JESUS",
+      "teacher": 135,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -1997,7 +1997,7 @@
       "id": 204,
       "course": "ENG519",
       "code": "T01",
-      "teacher": "MARCELO PESTANA VIEIRA",
+      "teacher": 148,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -2009,7 +2009,7 @@
       "id": 205,
       "course": "ENG520",
       "code": "T01",
-      "teacher": "EDGARD BACIC DE CARVALHO",
+      "teacher": 72,
       "size": 35,
       "year": 2017,
       "semester": 1
@@ -2021,7 +2021,7 @@
       "id": 206,
       "course": "ENG520",
       "code": "T02",
-      "teacher": "EDLER LINS DE ALBUQUERQUE",
+      "teacher": 74,
       "size": 25,
       "year": 2017,
       "semester": 1
@@ -2033,7 +2033,7 @@
       "id": 207,
       "course": "ENG521",
       "code": "T01",
-      "teacher": "MARIA APARECIDA DA SILVA MODESTO",
+      "teacher": 155,
       "size": 35,
       "year": 2017,
       "semester": 1
@@ -2045,7 +2045,7 @@
       "id": 208,
       "course": "ENG521",
       "code": "T02",
-      "teacher": "LUANDA",
+      "teacher": 132,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -2057,7 +2057,7 @@
       "id": 209,
       "course": "ENG522",
       "code": "T01",
-      "teacher": "DAIANE FARIAS PEREIRA SUFFREDINI",
+      "teacher": 60,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -2069,7 +2069,7 @@
       "id": 210,
       "course": "ENG522",
       "code": "T02",
-      "teacher": "DAIANE FARIAS PEREIRA SUFFREDINI",
+      "teacher": 60,
       "size": 25,
       "year": 2017,
       "semester": 1
@@ -2081,7 +2081,7 @@
       "id": 211,
       "course": "ENG524",
       "code": "T01",
-      "teacher": "EDLER LINS DE ALBUQUERQUE",
+      "teacher": 74,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -2093,7 +2093,7 @@
       "id": 212,
       "course": "ENG528",
       "code": "T01",
-      "teacher": "LUIS FILIPE FREITAS DA SILVA DE JESUS",
+      "teacher": 135,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -2105,7 +2105,7 @@
       "id": 213,
       "course": "ENG529",
       "code": "T01",
-      "teacher": "DAIANE FARIAS PEREIRA SUFFREDINI",
+      "teacher": 60,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -2117,7 +2117,7 @@
       "id": 214,
       "course": "ENG530",
       "code": "T01",
-      "teacher": "EMILIA CONCEIÇÃO DE JESUS",
+      "teacher": 81,
       "size": 34,
       "year": 2017,
       "semester": 1
@@ -2129,7 +2129,7 @@
       "id": 215,
       "course": "ENG530",
       "code": "T02",
-      "teacher": "EMILIA CONCEIÇÃO DE JESUS",
+      "teacher": 81,
       "size": 37,
       "year": 2017,
       "semester": 1
@@ -2141,7 +2141,7 @@
       "id": 216,
       "course": "ENG531",
       "code": "T01",
-      "teacher": "ARMANDO HIROHUMI TANIMOTO",
+      "teacher": 49,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -2153,7 +2153,7 @@
       "id": 217,
       "course": "ENG545",
       "code": "T01",
-      "teacher": "MARCELO PESTANA VIEIRA",
+      "teacher": 148,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -2165,7 +2165,7 @@
       "id": 218,
       "course": "ENG547",
       "code": "T01",
-      "teacher": "PAULO DE SOUZA SOARES",
+      "teacher": 173,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -2177,7 +2177,7 @@
       "id": 219,
       "course": "EST232",
       "code": "T01",
-      "teacher": "WALTER ACCIOLY COSTA PORTO",
+      "teacher": 209,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -2189,7 +2189,7 @@
       "id": 220,
       "course": "EVE101",
       "code": "T01",
-      "teacher": "CHELLY COSTA DOS REIS",
+      "teacher": 56,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -2201,7 +2201,7 @@
       "id": 221,
       "course": "EVE102",
       "code": "T01",
-      "teacher": "PAULA MARA COSTA",
+      "teacher": 171,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -2213,7 +2213,7 @@
       "id": 222,
       "course": "EVE103",
       "code": "T01",
-      "teacher": "GLAURIA JANAÍNA DOS SANTOS",
+      "teacher": 94,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -2225,7 +2225,7 @@
       "id": 223,
       "course": "EVE104",
       "code": "T01",
-      "teacher": "BIAGIO AVENA",
+      "teacher": 51,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -2237,7 +2237,7 @@
       "id": 223,
       "course": "EVE106",
       "code": "T01",
-      "teacher": "REGINA LOVATTI",
+      "teacher": 178,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -2249,7 +2249,7 @@
       "id": 224,
       "course": "EVE107",
       "code": "T01",
-      "teacher": "GLAURIA JANAÍNA DOS SANTOS",
+      "teacher": 94,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -2261,7 +2261,7 @@
       "id": 225,
       "course": "EVE111",
       "code": "T01",
-      "teacher": "LIZ RODRIGUES CERQUEIRA",
+      "teacher": 130,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -2273,7 +2273,7 @@
       "id": 226,
       "course": "EVE112",
       "code": "T01",
-      "teacher": "GLAURIA JANAINA DOS SANTOS",
+      "teacher": 94,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -2285,7 +2285,7 @@
       "id": 227,
       "course": "EVE113",
       "code": "T01",
-      "teacher": "PAULA MARA COSTA",
+      "teacher": 171,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -2297,7 +2297,7 @@
       "id": 228,
       "course": "EVE117",
       "code": "T01",
-      "teacher": "REGINA LOVATTI",
+      "teacher": 178,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -2309,7 +2309,7 @@
       "id": 229,
       "course": "EVE119",
       "code": "T01",
-      "teacher": "CHELLY COSTA DOS REIS",
+      "teacher": 56,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -2321,7 +2321,7 @@
       "id": 230,
       "course": "EVE120",
       "code": "P01",
-      "teacher": "GLAURIA JANAÍNA DOS SANTOS",
+      "teacher": 94,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -2333,7 +2333,7 @@
       "id": 231,
       "course": "EVE121",
       "code": "T01",
-      "teacher": "BIAGIO AVENA",
+      "teacher": 51,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -2345,7 +2345,7 @@
       "id": 232,
       "course": "FIS210",
       "code": "P01",
-      "teacher": "Eliana Alcântara Lisboa",
+      "teacher": 77,
       "size": 25,
       "year": 2017,
       "semester": 1
@@ -2357,7 +2357,7 @@
       "id": 233,
       "course": "FIS210",
       "code": "P02",
-      "teacher": "Ronaldo Nascimento Naziazeno",
+      "teacher": 193,
       "size": 25,
       "year": 2017,
       "semester": 1
@@ -2369,7 +2369,7 @@
       "id": 234,
       "course": "FIS210",
       "code": "P03",
-      "teacher": "Eliana Alcântara Lisboa",
+      "teacher": 77,
       "size": 25,
       "year": 2017,
       "semester": 1
@@ -2381,7 +2381,7 @@
       "id": 235,
       "course": "FIS210",
       "code": "P04",
-      "teacher": "Ebenézer Silva Cavalcanti",
+      "teacher": 71,
       "size": 25,
       "year": 2017,
       "semester": 1
@@ -2393,7 +2393,7 @@
       "id": 236,
       "course": "FIS210",
       "code": "T01",
-      "teacher": "Dielson Pereira Hohenfeld",
+      "teacher": 67,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -2405,7 +2405,7 @@
       "id": 237,
       "course": "FIS210",
       "code": "T02",
-      "teacher": "Dielson Pereira Hohenfeld",
+      "teacher": 67,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -2417,7 +2417,7 @@
       "id": 238,
       "course": "FIS211",
       "code": "P01",
-      "teacher": "Ebenézer Silva Cavalcanti",
+      "teacher": 71,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -2429,7 +2429,7 @@
       "id": 239,
       "course": "FIS211",
       "code": "P02",
-      "teacher": "",
+      "teacher": 213,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -2441,7 +2441,7 @@
       "id": 240,
       "course": "FIS211",
       "code": "P03",
-      "teacher": "Ebenézer Silva Cavalcanti",
+      "teacher": 71,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -2453,7 +2453,7 @@
       "id": 241,
       "course": "FIS211",
       "code": "P04",
-      "teacher": "Niels Fontes Lima",
+      "teacher": 167,
       "size": 21,
       "year": 2017,
       "semester": 1
@@ -2465,7 +2465,7 @@
       "id": 242,
       "course": "FIS211",
       "code": "T01",
-      "teacher": "Ebenézer Silva Cavalcanti",
+      "teacher": 71,
       "size": 41,
       "year": 2017,
       "semester": 1
@@ -2477,7 +2477,7 @@
       "id": 243,
       "course": "FIS211",
       "code": "T02",
-      "teacher": "Ebenézer Silva Cavalcanti",
+      "teacher": 71,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -2489,7 +2489,7 @@
       "id": 244,
       "course": "FIS212",
       "code": "P01",
-      "teacher": "Ronaldo Nascimento Naziazeno",
+      "teacher": 193,
       "size": 18,
       "year": 2017,
       "semester": 1
@@ -2501,7 +2501,7 @@
       "id": 245,
       "course": "FIS212",
       "code": "P02",
-      "teacher": "Ronaldo Nascimento Naziazeno",
+      "teacher": 193,
       "size": 18,
       "year": 2017,
       "semester": 1
@@ -2513,7 +2513,7 @@
       "id": 246,
       "course": "FIS212",
       "code": "P03",
-      "teacher": "Ronaldo Nascimento Naziazeno",
+      "teacher": 193,
       "size": 18,
       "year": 2017,
       "semester": 1
@@ -2525,7 +2525,7 @@
       "id": 247,
       "course": "FIS212",
       "code": "T01",
-      "teacher": "Ronaldo Nascimento Naziazeno",
+      "teacher": 193,
       "size": 54,
       "year": 2017,
       "semester": 1
@@ -2537,7 +2537,7 @@
       "id": 248,
       "course": "FIS213",
       "code": "P01",
-      "teacher": "Ronaldo Nascimento Naziazeno",
+      "teacher": 193,
       "size": 24,
       "year": 2017,
       "semester": 1
@@ -2549,7 +2549,7 @@
       "id": 249,
       "course": "FIS213",
       "code": "P02",
-      "teacher": "Niels Fontes Lima",
+      "teacher": 167,
       "size": 24,
       "year": 2017,
       "semester": 1
@@ -2561,7 +2561,7 @@
       "id": 250,
       "course": "FIS213",
       "code": "T01",
-      "teacher": "Erick Santana dos Santos",
+      "teacher": 82,
       "size": 48,
       "year": 2017,
       "semester": 1
@@ -2573,7 +2573,7 @@
       "id": 251,
       "course": "FIS214",
       "code": "P01",
-      "teacher": "Raimundo Nonato",
+      "teacher": 177,
       "size": 22,
       "year": 2017,
       "semester": 1
@@ -2585,7 +2585,7 @@
       "id": 251,
       "course": "FIS214",
       "code": "T01",
-      "teacher": "Roberto dos Santos Menezes Jr.",
+      "teacher": 187,
       "size": 22,
       "year": 2017,
       "semester": 1
@@ -2597,7 +2597,7 @@
       "id": 252,
       "course": "FIS215",
       "code": "P01",
-      "teacher": "Raimundo Nonato",
+      "teacher": 177,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -2609,7 +2609,7 @@
       "id": 253,
       "course": "FIS215",
       "code": "P02",
-      "teacher": "Niels Fontes Lima",
+      "teacher": 167,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -2621,7 +2621,7 @@
       "id": 254,
       "course": "FIS215",
       "code": "T01",
-      "teacher": "Raimundo Nonato",
+      "teacher": 177,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -2633,7 +2633,7 @@
       "id": 255,
       "course": "FIS216",
       "code": "P01",
-      "teacher": "Eliana Alcântara Lisboa",
+      "teacher": 77,
       "size": 25,
       "year": 2017,
       "semester": 1
@@ -2645,7 +2645,7 @@
       "id": 256,
       "course": "FIS216",
       "code": "T01",
-      "teacher": "Eliana Alcântara Lisboa",
+      "teacher": 77,
       "size": 25,
       "year": 2017,
       "semester": 1
@@ -2657,7 +2657,7 @@
       "id": 257,
       "course": "FIS217",
       "code": "P01",
-      "teacher": "Luzia Matos Mota",
+      "teacher": 143,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -2669,7 +2669,7 @@
       "id": 258,
       "course": "FIS217",
       "code": "T01",
-      "teacher": "Erick Santana dos Santos",
+      "teacher": 82,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -2681,7 +2681,7 @@
       "id": 259,
       "course": "FIS218",
       "code": "P01",
-      "teacher": "Niels Fontes Lima",
+      "teacher": 167,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -2693,7 +2693,7 @@
       "id": 260,
       "course": "FIS218",
       "code": "T01",
-      "teacher": "Niels Fontes Lima",
+      "teacher": 167,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -2705,7 +2705,7 @@
       "id": 261,
       "course": "FIS219",
       "code": "P01",
-      "teacher": "Roberto dos Santos Menezes Jr.",
+      "teacher": 187,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -2717,7 +2717,7 @@
       "id": 262,
       "course": "FIS219",
       "code": "T01",
-      "teacher": "Roberto dos Santos Menezes Jr.",
+      "teacher": 187,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -2729,7 +2729,7 @@
       "id": 263,
       "course": "FIS220",
       "code": "T01",
-      "teacher": "Roberto dos Santos Menezes Jr.",
+      "teacher": 187,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -2741,7 +2741,7 @@
       "id": 264,
       "course": "FIS223",
       "code": "T01",
-      "teacher": "Erick Santana dos Santos",
+      "teacher": 82,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -2753,7 +2753,7 @@
       "id": 265,
       "course": "FIS224",
       "code": "T01",
-      "teacher": "Niels Fontes Lima",
+      "teacher": 167,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -2765,7 +2765,7 @@
       "id": 266,
       "course": "FIS225",
       "code": "T01",
-      "teacher": "Victor Mancir Santana",
+      "teacher": 206,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -2777,7 +2777,7 @@
       "id": 267,
       "course": "FIS226",
       "code": "P01",
-      "teacher": "Jancarlos Menezes Lapa",
+      "teacher": 110,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -2789,7 +2789,7 @@
       "id": 268,
       "course": "FIS226",
       "code": "T01",
-      "teacher": "Jancarlos Menezes Lapa",
+      "teacher": 110,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -2801,7 +2801,7 @@
       "id": 269,
       "course": "FIS227",
       "code": "P01",
-      "teacher": "Dielson Pereira Hohenfeld",
+      "teacher": 67,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -2813,7 +2813,7 @@
       "id": 270,
       "course": "FIS227",
       "code": "T01",
-      "teacher": "Dielson Pereira Hohenfeld",
+      "teacher": 67,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -2825,7 +2825,7 @@
       "id": 271,
       "course": "FIS228",
       "code": "T01",
-      "teacher": "Luzia Matos Mota",
+      "teacher": 143,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -2837,7 +2837,7 @@
       "id": 272,
       "course": "FIS229",
       "code": "T01",
-      "teacher": "Luzia Matos Mota",
+      "teacher": 143,
       "size": 5,
       "year": 2017,
       "semester": 1
@@ -2849,7 +2849,7 @@
       "id": 273,
       "course": "FIS230",
       "code": "T01",
-      "teacher": "Dielson Pereira Hohenfeld",
+      "teacher": 67,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -2861,7 +2861,7 @@
       "id": 274,
       "course": "FIS231",
       "code": "T01",
-      "teacher": "ELIAS RAMOS DE SOUZA",
+      "teacher": 78,
       "size": 48,
       "year": 2017,
       "semester": 1
@@ -2873,7 +2873,7 @@
       "id": 275,
       "course": "FIS231",
       "code": "P01",
-      "teacher": "",
+      "teacher": 213,
       "size": 24,
       "year": 2017,
       "semester": 1
@@ -2885,7 +2885,7 @@
       "id": 276,
       "course": "FIS231",
       "code": "P02",
-      "teacher": "",
+      "teacher": 213,
       "size": 24,
       "year": 2017,
       "semester": 1
@@ -2897,7 +2897,7 @@
       "id": 277,
       "course": "FIS232",
       "code": "P01",
-      "teacher": "Jancarlos Menezes Lapa",
+      "teacher": 110,
       "size": 5,
       "year": 2017,
       "semester": 1
@@ -2909,7 +2909,7 @@
       "id": 278,
       "course": "FIS232",
       "code": "P02",
-      "teacher": "Luzia Matos Mota",
+      "teacher": 143,
       "size": 5,
       "year": 2017,
       "semester": 1
@@ -2921,7 +2921,7 @@
       "id": 279,
       "course": "FIS232",
       "code": "T01",
-      "teacher": "Jancarlos Menezes Lapa",
+      "teacher": 110,
       "size": 10,
       "year": 2017,
       "semester": 1
@@ -2933,7 +2933,7 @@
       "id": 280,
       "course": "FIS233",
       "code": "P01",
-      "teacher": "Dielson Pereira Hohenfeld",
+      "teacher": 67,
       "size": 5,
       "year": 2017,
       "semester": 1
@@ -2945,7 +2945,7 @@
       "id": 281,
       "course": "FIS233",
       "code": "P02",
-      "teacher": "Luzia Matos Mota",
+      "teacher": 143,
       "size": 5,
       "year": 2017,
       "semester": 1
@@ -2957,7 +2957,7 @@
       "id": 282,
       "course": "FIS233",
       "code": "T01",
-      "teacher": "Dielson Pereira Hohenfeld",
+      "teacher": 67,
       "size": 10,
       "year": 2017,
       "semester": 1
@@ -2969,7 +2969,7 @@
       "id": 283,
       "course": "FIS234",
       "code": "P01",
-      "teacher": "Ricardo Silva de Macedo",
+      "teacher": 183,
       "size": 5,
       "year": 2017,
       "semester": 1
@@ -2981,7 +2981,7 @@
       "id": 284,
       "course": "FIS234",
       "code": "T01",
-      "teacher": "Ricardo Silva de Macedo",
+      "teacher": 183,
       "size": 5,
       "year": 2017,
       "semester": 1
@@ -2993,7 +2993,7 @@
       "id": 285,
       "course": "FIS235",
       "code": "P01",
-      "teacher": "Ricardo Silva de Macedo",
+      "teacher": 183,
       "size": 5,
       "year": 2017,
       "semester": 1
@@ -3005,7 +3005,7 @@
       "id": 286,
       "course": "FIS235",
       "code": "T01",
-      "teacher": "Ricardo Silva de Macedo",
+      "teacher": 183,
       "size": 5,
       "year": 2017,
       "semester": 1
@@ -3017,7 +3017,7 @@
       "id": 287,
       "course": "FIS236",
       "code": "T01",
-      "teacher": "Ricardo Silva de Macedo",
+      "teacher": 183,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -3029,7 +3029,7 @@
       "id": 288,
       "course": "GEO100",
       "code": "T01",
-      "teacher": "ANDRE NUNES DE SOUSA",
+      "teacher": 36,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -3041,7 +3041,7 @@
       "id": 289,
       "course": "GEO101",
       "code": "T01",
-      "teacher": "CAROLINA CORREA",
+      "teacher": 54,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -3053,7 +3053,7 @@
       "id": 290,
       "course": "GEO103",
       "code": "T01",
-      "teacher": "PLINIO MARTINS FALÇÃO",
+      "teacher": 176,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3065,7 +3065,7 @@
       "id": 291,
       "course": "GEO104",
       "code": "T01",
-      "teacher": "",
+      "teacher": 213,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3077,7 +3077,7 @@
       "id": 291,
       "course": "GEO104",
       "code": "T01",
-      "teacher": "",
+      "teacher": 213,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3089,7 +3089,7 @@
       "id": 292,
       "course": "GEO105",
       "code": "T01",
-      "teacher": "NILTON SOUSA SANTANA",
+      "teacher": 168,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3101,7 +3101,7 @@
       "id": 293,
       "course": "GEO106",
       "code": "T01",
-      "teacher": "",
+      "teacher": 213,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3113,7 +3113,7 @@
       "id": 294,
       "course": "GEO107",
       "code": "T01",
-      "teacher": "ANDRE NUNES DE SOUSA",
+      "teacher": 36,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3125,7 +3125,7 @@
       "id": 295,
       "course": "GEO108",
       "code": "T01",
-      "teacher": "Ivan de Matos e Silva Júnior",
+      "teacher": 107,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3137,7 +3137,7 @@
       "id": 296,
       "course": "GEO109",
       "code": "T01",
-      "teacher": "RICARDO BAHIA RIOS",
+      "teacher": 182,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3149,7 +3149,7 @@
       "id": 297,
       "course": "GEO111",
       "code": "T01",
-      "teacher": "ANDRE NUNES DE SOUSA",
+      "teacher": 36,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3161,7 +3161,7 @@
       "id": 298,
       "course": "GEO112",
       "code": "T01",
-      "teacher": "ANIZIA CONCEIÇÃO CABRAL",
+      "teacher": 39,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3173,7 +3173,7 @@
       "id": 299,
       "course": "GEO113",
       "code": "T01",
-      "teacher": "",
+      "teacher": 213,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3185,7 +3185,7 @@
       "id": 300,
       "course": "GEO114",
       "code": "T01",
-      "teacher": "ISABELA ALBUQUERQUE",
+      "teacher": 103,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3197,7 +3197,7 @@
       "id": 301,
       "course": "GEO115",
       "code": "T01",
-      "teacher": "ISABELA ALBUQUERQUE",
+      "teacher": 103,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3209,7 +3209,7 @@
       "id": 302,
       "course": "GEO116",
       "code": "T01",
-      "teacher": "ANIZIA CONCEIÇÃO CABRAL",
+      "teacher": 39,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3221,7 +3221,7 @@
       "id": 303,
       "course": "GEO117",
       "code": "T01",
-      "teacher": "SORAIA AFONSO",
+      "teacher": 201,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3233,7 +3233,7 @@
       "id": 304,
       "course": "GEO118",
       "code": "T01",
-      "teacher": "NILTON SOUSA SANTANA",
+      "teacher": 168,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3245,7 +3245,7 @@
       "id": 305,
       "course": "GEO119",
       "code": "T01",
-      "teacher": "PLINIO MARTINS FALÇÃO",
+      "teacher": 176,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3257,7 +3257,7 @@
       "id": 306,
       "course": "GEO120",
       "code": "T01",
-      "teacher": "JOILSON DA CRUZ",
+      "teacher": 112,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3269,7 +3269,7 @@
       "id": 307,
       "course": "GEO121",
       "code": "T01",
-      "teacher": "SEVERIANO JOSEPH",
+      "teacher": 198,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3281,7 +3281,7 @@
       "id": 308,
       "course": "GEO122",
       "code": "T01",
-      "teacher": "TEREZA CRISTINA DE OLIVEIRA",
+      "teacher": 203,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3293,7 +3293,7 @@
       "id": 309,
       "course": "GEO123",
       "code": "T01",
-      "teacher": "",
+      "teacher": 213,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3305,7 +3305,7 @@
       "id": 310,
       "course": "GEO124",
       "code": "T01",
-      "teacher": "",
+      "teacher": 213,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3317,7 +3317,7 @@
       "id": 311,
       "course": "GEO125",
       "code": "T01",
-      "teacher": "CAROLINA CORREA",
+      "teacher": 54,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3329,7 +3329,7 @@
       "id": 312,
       "course": "GEO126",
       "code": "T01",
-      "teacher": "IVAN DE MATOS E SILVA JUNIOR",
+      "teacher": 107,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3341,7 +3341,7 @@
       "id": 313,
       "course": "GEO127",
       "code": "T01",
-      "teacher": "ANIZIA CONCEIÇÃO CABRAL",
+      "teacher": 39,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3353,7 +3353,7 @@
       "id": 314,
       "course": "GEO128",
       "code": "T01",
-      "teacher": "ISABELA ALBUQUERQUE",
+      "teacher": 103,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3365,7 +3365,7 @@
       "id": 315,
       "course": "GEO129",
       "code": "T01",
-      "teacher": "JOILSON DA CRUZ",
+      "teacher": 112,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3377,7 +3377,7 @@
       "id": 316,
       "course": "GEO130",
       "code": "T01",
-      "teacher": "RICARDO BAHIA RIOS",
+      "teacher": 182,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3389,7 +3389,7 @@
       "id": 317,
       "course": "GEO131",
       "code": "T01",
-      "teacher": "SEVERIANO JOSEPH",
+      "teacher": 198,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3401,7 +3401,7 @@
       "id": 318,
       "course": "GEO140",
       "code": "T01",
-      "teacher": "RICARDO BAHIA RIOS",
+      "teacher": 182,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3413,7 +3413,7 @@
       "id": 319,
       "course": "HUM100",
       "code": "T01",
-      "teacher": "RICARDO ALMEIDA",
+      "teacher": 3,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -3425,7 +3425,7 @@
       "id": 320,
       "course": "HUM100",
       "code": "T02",
-      "teacher": "RONALDO PIMENTEL",
+      "teacher": 213,
       "size": 53,
       "year": 2017,
       "semester": 1
@@ -3437,7 +3437,7 @@
       "id": 321,
       "course": "HUM101",
       "code": "T01",
-      "teacher": "DANIEL ROMERO",
+      "teacher": 61,
       "size": 63,
       "year": 2017,
       "semester": 1
@@ -3449,7 +3449,7 @@
       "id": 322,
       "course": "HUM102",
       "code": "T01",
-      "teacher": "SAMIR PEREZ MORTADA",
+      "teacher": 4,
       "size": 60,
       "year": 2017,
       "semester": 1
@@ -3461,7 +3461,7 @@
       "id": 323,
       "course": "HUM102",
       "code": "T02",
-      "teacher": "SAMIR PEREZ MORTADA",
+      "teacher": 4,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -3473,7 +3473,7 @@
       "id": 324,
       "course": "HUM103",
       "code": "T01",
-      "teacher": "LUIZ CARLOS VARGAS",
+      "teacher": 138,
       "size": 27,
       "year": 2017,
       "semester": 1
@@ -3485,7 +3485,7 @@
       "id": 325,
       "course": "HUM103",
       "code": "T02",
-      "teacher": "BIAGIO AVENA",
+      "teacher": 51,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -3497,7 +3497,7 @@
       "id": 326,
       "course": "HUM103",
       "code": "T03",
-      "teacher": "CRISTINA DE ABREU SILVEIRA",
+      "teacher": 59,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -3509,7 +3509,7 @@
       "id": 327,
       "course": "HUM103",
       "code": "T04",
-      "teacher": "TEREZA CRISTINA DE OLIVEIRA",
+      "teacher": 203,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -3521,7 +3521,7 @@
       "id": 328,
       "course": "HUM115",
       "code": "T01",
-      "teacher": "MIRIÃ ALCANTARA",
+      "teacher": 163,
       "size": 48,
       "year": 2017,
       "semester": 1
@@ -3533,7 +3533,7 @@
       "id": 329,
       "course": "HUM150",
       "code": "T01",
-      "teacher": "TEREZA CRISTINA DE OLIVEIRA",
+      "teacher": 203,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3545,7 +3545,7 @@
       "id": 330,
       "course": "HUM151",
       "code": "T01",
-      "teacher": "DANIEL ROMERO",
+      "teacher": 61,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3557,7 +3557,7 @@
       "id": 331,
       "course": "HUM152",
       "code": "T01",
-      "teacher": "MARIA LUCILEIDE MOTA",
+      "teacher": 158,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3569,104 +3569,8 @@
       "id": 332,
       "course": "HUM153",
       "code": "T01",
-      "teacher": "MARCELO CHAVES",
+      "teacher": 147,
       "size": 45,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 333,
-      "course": "INF006",
-      "code": "T01",
-      "teacher": "ALLAN EDGARD SILVA FREITAS",
-      "size": 40,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 334,
-      "course": "INF007",
-      "code": "T01",
-      "teacher": "GRINALDO LOPES DE OLIVEIRA",
-      "size": 40,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 335,
-      "course": "INF008",
-      "code": "T01",
-      "teacher": "FREDERICO JORGE RIBEIRO BARBOSA",
-      "size": 40,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 336,
-      "course": "INF009",
-      "code": "T01",
-      "teacher": "JOWANER DE OLIVEIRA ARAUJO",
-      "size": 40,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 337,
-      "course": "INF010",
-      "code": "T01",
-      "teacher": "PABLO VIEIRA FLORENTINO",
-      "size": 40,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 338,
-      "course": "INF011",
-      "code": "T01",
-      "teacher": "SANDRO SANTOS ANDRADE",
-      "size": 40,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 339,
-      "course": "INF012",
-      "code": "T01",
-      "teacher": "MANOEL CARVALHO MARQUES NETO",
-      "size": 40,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 340,
-      "course": "INF014",
-      "code": "T01",
-      "teacher": "SIMONE DA SILVA AMORIM",
-      "size": 40,
       "year": 2017,
       "semester": 1
     }
@@ -3677,56 +3581,8 @@
       "id": 341,
       "course": "INF015",
       "code": "T01",
-      "teacher": "GRINALDO LOPES DE OLIVEIRA",
+      "teacher": 21,
       "size": 40,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 342,
-      "course": "INF016",
-      "code": "T01",
-      "teacher": "SANDRO SANTOS ANDRADE",
-      "size": 40,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 343,
-      "course": "INF017",
-      "code": "T01",
-      "teacher": "ANTONIO CARLOS DOS SANTOS SOUZA",
-      "size": 40,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 344,
-      "course": "INF018",
-      "code": "T01",
-      "teacher": "ANTONIO MAURÍCIO PITANGUEIRA",
-      "size": 40,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 345,
-      "course": "INF019",
-      "code": "T01",
-      "teacher": "JOWANER DE OLIVEIRA ARAUJO",
-      "size": 20,
       "year": 2017,
       "semester": 1
     }
@@ -3737,7 +3593,7 @@
       "id": 346,
       "course": "INF020",
       "code": "T01",
-      "teacher": "ALLAN EDGARD SILVA FREITAS",
+      "teacher": 5,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3749,43 +3605,7 @@
       "id": 347,
       "course": "INF021",
       "code": "T01",
-      "teacher": "RONALDO PEDREIRA SILVA",
-      "size": 40,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 348,
-      "course": "INF022",
-      "code": "T01",
-      "teacher": "RENATO LIMA NOVAIS",
-      "size": 40,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 349,
-      "course": "INF023",
-      "code": "T01",
-      "teacher": "MANOEL CARVALHO MARQUES NETO",
-      "size": 40,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 350,
-      "course": "INF023",
-      "code": "T02",
-      "teacher": "MANOEL CARVALHO MARQUES NETO",
+      "teacher": 13,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3797,7 +3617,7 @@
       "id": 351,
       "course": "INF024",
       "code": "T01",
-      "teacher": "RONALDO PEDREIRA SILVA",
+      "teacher": 13,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -3809,7 +3629,7 @@
       "id": 352,
       "course": "INF024",
       "code": "T02",
-      "teacher": "ROMILSON LOPES SAMPAIO",
+      "teacher": 16,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -3821,7 +3641,7 @@
       "id": 353,
       "course": "INF024",
       "code": "T03",
-      "teacher": "RONALDO PEDREIRA SILVA",
+      "teacher": 13,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -3833,7 +3653,7 @@
       "id": 354,
       "course": "INF025",
       "code": "T01",
-      "teacher": "ANTONIO MAURÍCIO PITANGUEIRA",
+      "teacher": 12,
       "size": 35,
       "year": 2017,
       "semester": 1
@@ -3845,7 +3665,7 @@
       "id": 355,
       "course": "INF026",
       "code": "T01",
-      "teacher": "ANTONIO CARLOS DOS SANTOS SOUZA",
+      "teacher": 11,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -3857,7 +3677,7 @@
       "id": 356,
       "course": "INF027",
       "code": "T01",
-      "teacher": "FREDERICO JORGE RIBEIRO BARBOSA",
+      "teacher": 22,
       "size": 25,
       "year": 2017,
       "semester": 1
@@ -3869,7 +3689,7 @@
       "id": 357,
       "course": "INF027",
       "code": "T02",
-      "teacher": "ROMILSON LOPES SAMPAIO",
+      "teacher": 16,
       "size": 25,
       "year": 2017,
       "semester": 1
@@ -3881,7 +3701,7 @@
       "id": 358,
       "course": "INF027",
       "code": "T03",
-      "teacher": "LUIZ MACHADO",
+      "teacher": 15,
       "size": 25,
       "year": 2017,
       "semester": 1
@@ -3893,7 +3713,7 @@
       "id": 359,
       "course": "INF028",
       "code": "T01",
-      "teacher": "ANTONIO CARLOS DOS SANTOS SOUZA",
+      "teacher": 11,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3905,7 +3725,7 @@
       "id": 360,
       "course": "INF029",
       "code": "T01",
-      "teacher": "RENATO LIMA NOVAIS",
+      "teacher": 14,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -3917,7 +3737,7 @@
       "id": 361,
       "course": "INF030",
       "code": "T01",
-      "teacher": "RENATO LIMA NOVAIS",
+      "teacher": 14,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -3929,7 +3749,7 @@
       "id": 362,
       "course": "INF031",
       "code": "T01",
-      "teacher": "ROMILSON LOPES SAMPAIO",
+      "teacher": 16,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -3941,7 +3761,7 @@
       "id": 363,
       "course": "INF400",
       "code": "T01",
-      "teacher": "LUIZ CLAUDIO MACHADO DOS SANTOS",
+      "teacher": 139,
       "size": 44,
       "year": 2017,
       "semester": 1
@@ -3953,7 +3773,7 @@
       "id": 364,
       "course": "INF400",
       "code": "T01",
-      "teacher": "LUIZ CLAUDIO MACHADO DOS SANTOS",
+      "teacher": 139,
       "size": 44,
       "year": 2017,
       "semester": 1
@@ -3965,7 +3785,7 @@
       "id": 365,
       "course": "INF400",
       "code": "T02",
-      "teacher": "RONALDO PEDREIRA SILVA",
+      "teacher": 13,
       "size": 44,
       "year": 2017,
       "semester": 1
@@ -3977,7 +3797,7 @@
       "id": 366,
       "course": "INF400",
       "code": "T03",
-      "teacher": "MARCELO VERA CRUZ DINIZ",
+      "teacher": 149,
       "size": 44,
       "year": 2017,
       "semester": 1
@@ -3989,7 +3809,7 @@
       "id": 367,
       "course": "INF402",
       "code": "T01",
-      "teacher": "LUIZ CLAUDIO MACHADO DOS SANTOS",
+      "teacher": 139,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -4001,7 +3821,7 @@
       "id": 368,
       "course": "INF403",
       "code": "T01",
-      "teacher": "PABLO VIEIRA FLORENTINO",
+      "teacher": 7,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -4013,7 +3833,7 @@
       "id": 369,
       "course": "INF404",
       "code": "T01",
-      "teacher": "ANTONIO MAURÍCIO PITANGUEIRA",
+      "teacher": 12,
       "size": 42,
       "year": 2017,
       "semester": 1
@@ -4025,7 +3845,7 @@
       "id": 370,
       "course": "INF405",
       "code": "T01",
-      "teacher": "JOWANER DE OLIVEIRA ARAUJO",
+      "teacher": 118,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -4037,7 +3857,7 @@
       "id": 371,
       "course": "LET100",
       "code": "T01",
-      "teacher": "WALLACE MATOS",
+      "teacher": 207,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -4049,7 +3869,7 @@
       "id": 372,
       "course": "LET100",
       "code": "T02",
-      "teacher": "LUCIANA MAZZUTI",
+      "teacher": 134,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -4061,7 +3881,7 @@
       "id": 373,
       "course": "LET100",
       "code": "T03",
-      "teacher": "WALLACE MATOS",
+      "teacher": 207,
       "size": 35,
       "year": 2017,
       "semester": 1
@@ -4073,7 +3893,7 @@
       "id": 374,
       "course": "LET100",
       "code": "T04",
-      "teacher": "DAYSE SACRAMENTO",
+      "teacher": 17,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -4085,7 +3905,7 @@
       "id": 375,
       "course": "LET101",
       "code": "T01",
-      "teacher": "",
+      "teacher": 213,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -4097,7 +3917,7 @@
       "id": 376,
       "course": "LET102",
       "code": "T01",
-      "teacher": "ANTONIA DO SOCORRO FREITAS CHAVES",
+      "teacher": 18,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -4109,7 +3929,7 @@
       "id": 377,
       "course": "LET102",
       "code": "T02",
-      "teacher": "MARCOS FERNANDO CARVALHO",
+      "teacher": 152,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -4121,7 +3941,7 @@
       "id": 378,
       "course": "LET106",
       "code": "T01",
-      "teacher": "DEISE VIANA",
+      "teacher": 64,
       "size": 25,
       "year": 2017,
       "semester": 1
@@ -4133,7 +3953,7 @@
       "id": 379,
       "course": "LET111",
       "code": "T01",
-      "teacher": "EDITE LUZIA VASCONCELOS DOS SANTOS",
+      "teacher": 73,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -4145,7 +3965,7 @@
       "id": 380,
       "course": "LET111",
       "code": "T02",
-      "teacher": "MARIA DA CONCEICAO PINHEIRO ARAUJO",
+      "teacher": 156,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -4157,7 +3977,7 @@
       "id": 381,
       "course": "LET111",
       "code": "T03",
-      "teacher": "MARIA DA CONCEICAO PINHEIRO ARAUJO",
+      "teacher": 156,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -4169,7 +3989,7 @@
       "id": 382,
       "course": "LET112",
       "code": "T01",
-      "teacher": "ERIVALDO DE JESUS MARINHO",
+      "teacher": 83,
       "size": 25,
       "year": 2017,
       "semester": 1
@@ -4181,7 +4001,7 @@
       "id": 383,
       "course": "LET112",
       "code": "T02",
-      "teacher": "ERIVALDO DE JESUS MARINHO",
+      "teacher": 83,
       "size": 25,
       "year": 2017,
       "semester": 1
@@ -4193,7 +4013,7 @@
       "id": 384,
       "course": "LET112",
       "code": "T03",
-      "teacher": "ERIVALDO DE JESUS MARINHO",
+      "teacher": 83,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -4205,7 +4025,7 @@
       "id": 385,
       "course": "LET112",
       "code": "T04",
-      "teacher": "ERIVALDO DE JESUS MARINHO",
+      "teacher": 83,
       "size": 25,
       "year": 2017,
       "semester": 1
@@ -4217,7 +4037,7 @@
       "id": 386,
       "course": "LET113",
       "code": "T01",
-      "teacher": "LUZIA HELENA SANTIAGO FERNANDES",
+      "teacher": 142,
       "size": 48,
       "year": 2017,
       "semester": 1
@@ -4229,7 +4049,7 @@
       "id": 387,
       "course": "LET115",
       "code": "T01",
-      "teacher": "ANTONIA DO SOCORRO FREITAS CHAVES",
+      "teacher": 18,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -4241,7 +4061,7 @@
       "id": 388,
       "course": "LET116",
       "code": "T01",
-      "teacher": "",
+      "teacher": 213,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -4253,7 +4073,7 @@
       "id": 389,
       "course": "LET121",
       "code": "T01",
-      "teacher": "MARCOS FERNANDO COSTA DE CARVALHO",
+      "teacher": 153,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -4265,7 +4085,7 @@
       "id": 390,
       "course": "LET123",
       "code": "T01",
-      "teacher": "",
+      "teacher": 213,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -4277,7 +4097,7 @@
       "id": 391,
       "course": "LET125",
       "code": "T01",
-      "teacher": "",
+      "teacher": 213,
       "size": 47,
       "year": 2017,
       "semester": 1
@@ -4289,7 +4109,7 @@
       "id": 392,
       "course": "MAT203",
       "code": "T01",
-      "teacher": "DANIELA SANTA INÊS CUNHA",
+      "teacher": 62,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -4301,7 +4121,7 @@
       "id": 393,
       "course": "MAT204",
       "code": "T01",
-      "teacher": "WALTER ACCIOLY COSTA PORTO",
+      "teacher": 209,
       "size": 60,
       "year": 2017,
       "semester": 1
@@ -4313,7 +4133,7 @@
       "id": 394,
       "course": "MAT204",
       "code": "T02",
-      "teacher": "LUIS VASQUEZ",
+      "teacher": 137,
       "size": 57,
       "year": 2017,
       "semester": 1
@@ -4325,7 +4145,7 @@
       "id": 395,
       "course": "MAT205",
       "code": "T01",
-      "teacher": "WALTER ACCIOLY COSTA PORTO",
+      "teacher": 209,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -4337,7 +4157,7 @@
       "id": 396,
       "course": "MAT211",
       "code": "T01",
-      "teacher": "HENRIQUE JOSE CARIBE RIBEIRO",
+      "teacher": 100,
       "size": 55,
       "year": 2017,
       "semester": 1
@@ -4349,7 +4169,7 @@
       "id": 397,
       "course": "MAT211",
       "code": "T02",
-      "teacher": "REINALDO DE OLIVEIRA LIMA",
+      "teacher": 179,
       "size": 55,
       "year": 2017,
       "semester": 1
@@ -4361,7 +4181,7 @@
       "id": 398,
       "course": "MAT211",
       "code": "T03",
-      "teacher": "HENRIQUE JOSE CARIBE RIBEIRO",
+      "teacher": 100,
       "size": 55,
       "year": 2017,
       "semester": 1
@@ -4373,7 +4193,7 @@
       "id": 399,
       "course": "MAT212",
       "code": "T01",
-      "teacher": "EDMARY SILVEIRA BARRETO",
+      "teacher": 75,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -4385,7 +4205,7 @@
       "id": 400,
       "course": "MAT212",
       "code": "T02",
-      "teacher": "EDMARY SILVEIRA BARRETO",
+      "teacher": 75,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -4397,7 +4217,7 @@
       "id": 401,
       "course": "MAT213",
       "code": "T01",
-      "teacher": "LUIZ VASQUEZ",
+      "teacher": 213,
       "size": 60,
       "year": 2017,
       "semester": 1
@@ -4409,7 +4229,7 @@
       "id": 402,
       "course": "MAT214",
       "code": "T01",
-      "teacher": "IVES LIMA DE JESUS",
+      "teacher": 108,
       "size": 57,
       "year": 2017,
       "semester": 1
@@ -4421,7 +4241,7 @@
       "id": 403,
       "course": "MAT215",
       "code": "T01",
-      "teacher": "LURIMAR SMERA BATISTA",
+      "teacher": 141,
       "size": 41,
       "year": 2017,
       "semester": 1
@@ -4433,7 +4253,7 @@
       "id": 404,
       "course": "MAT215",
       "code": "T02",
-      "teacher": "DIRCEU MELO",
+      "teacher": 69,
       "size": 38,
       "year": 2017,
       "semester": 1
@@ -4445,7 +4265,7 @@
       "id": 405,
       "course": "MAT216",
       "code": "T01",
-      "teacher": "EDMARY SILVEIRA BARRETO",
+      "teacher": 75,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -4457,7 +4277,7 @@
       "id": 406,
       "course": "MAT217",
       "code": "T02",
-      "teacher": "DIANA CRUZ SOUZA",
+      "teacher": 20,
       "size": 56,
       "year": 2017,
       "semester": 1
@@ -4469,7 +4289,7 @@
       "id": 407,
       "course": "MAT217",
       "code": "T03",
-      "teacher": "DIANA CRUZ SOUZA",
+      "teacher": 20,
       "size": 56,
       "year": 2017,
       "semester": 1
@@ -4481,7 +4301,7 @@
       "id": 408,
       "course": "MAT217",
       "code": "T01",
-      "teacher": "PAULO ESPINHEIRA",
+      "teacher": 174,
       "size": 56,
       "year": 2017,
       "semester": 1
@@ -4493,7 +4313,7 @@
       "id": 409,
       "course": "MAT218",
       "code": "T01",
-      "teacher": "PAULO ESPINHEIRA",
+      "teacher": 174,
       "size": 42,
       "year": 2017,
       "semester": 1
@@ -4505,7 +4325,7 @@
       "id": 410,
       "course": "MAT218",
       "code": "T02",
-      "teacher": "PAULO ESPINHEIRA",
+      "teacher": 174,
       "size": 42,
       "year": 2017,
       "semester": 1
@@ -4517,7 +4337,7 @@
       "id": 411,
       "course": "MAT219",
       "code": "T01",
-      "teacher": "ISABEL LEITE",
+      "teacher": 102,
       "size": 61,
       "year": 2017,
       "semester": 1
@@ -4529,7 +4349,7 @@
       "id": 412,
       "course": "MAT219",
       "code": "T02",
-      "teacher": "WALTER ACCIOLY COSTA PORTO",
+      "teacher": 209,
       "size": 61,
       "year": 2017,
       "semester": 1
@@ -4541,7 +4361,7 @@
       "id": 413,
       "course": "MAT220",
       "code": "T01",
-      "teacher": "DIRCEU DE FREITAS PIEDADE MELO",
+      "teacher": 69,
       "size": 55,
       "year": 2017,
       "semester": 1
@@ -4553,7 +4373,7 @@
       "id": 414,
       "course": "MAT220",
       "code": "T02",
-      "teacher": "DIRCEU DE FREITAS PIEDADE MELO",
+      "teacher": 69,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -4565,7 +4385,7 @@
       "id": 415,
       "course": "MAT222",
       "code": "T01",
-      "teacher": "DIANA CRUZ SOUZA",
+      "teacher": 20,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -4577,7 +4397,7 @@
       "id": 416,
       "course": "MAT223",
       "code": "T01",
-      "teacher": "ISABEL LEITE",
+      "teacher": 102,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -4589,7 +4409,7 @@
       "id": 417,
       "course": "MAT223",
       "code": "T02",
-      "teacher": "ERONILDO DE JESUS SOUZA",
+      "teacher": 85,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -4601,7 +4421,7 @@
       "id": 418,
       "course": "MAT224",
       "code": "T01",
-      "teacher": "REINALDO DE OLIVEIRA LIMA",
+      "teacher": 179,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -4613,7 +4433,7 @@
       "id": 419,
       "course": "MAT225",
       "code": "T01",
-      "teacher": "LUIS VASQUEZ",
+      "teacher": 137,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -4625,7 +4445,7 @@
       "id": 420,
       "course": "MAT226",
       "code": "T01",
-      "teacher": "LURIMAR SMERA BATISTA",
+      "teacher": 141,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -4637,7 +4457,7 @@
       "id": 421,
       "course": "MAT227",
       "code": "T01",
-      "teacher": "ERON SOUZA DE JESUS",
+      "teacher": 85,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -4649,7 +4469,7 @@
       "id": 422,
       "course": "MAT227",
       "code": "T02",
-      "teacher": "REINALDO DE OLIVEIRA LIMA",
+      "teacher": 179,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -4661,7 +4481,7 @@
       "id": 423,
       "course": "MAT228",
       "code": "T01",
-      "teacher": "PAULO ESPINHEIRA",
+      "teacher": 174,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -4673,7 +4493,7 @@
       "id": 424,
       "course": "MAT229",
       "code": "T01",
-      "teacher": "FERNANDO OSVALDO REAL CARNEIRO",
+      "teacher": 88,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -4685,7 +4505,7 @@
       "id": 425,
       "course": "MAT230",
       "code": "T01",
-      "teacher": "EDMARY SILVEIRA BARRETO",
+      "teacher": 75,
       "size": 10,
       "year": 2017,
       "semester": 1
@@ -4697,7 +4517,7 @@
       "id": 426,
       "course": "MAT231",
       "code": "T01",
-      "teacher": "NORMA SOUZA DE OLIVEIRA",
+      "teacher": 169,
       "size": 48,
       "year": 2017,
       "semester": 1
@@ -4709,7 +4529,7 @@
       "id": 427,
       "course": "MAT232",
       "code": "T01",
-      "teacher": "ACELIO RODRIGUES SOUZA",
+      "teacher": 25,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -4721,7 +4541,7 @@
       "id": 428,
       "course": "MAT233",
       "code": "T01",
-      "teacher": "FELLIPE ANTONIO DOS SANTOS CARDOSO LEITE",
+      "teacher": 87,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -4733,7 +4553,7 @@
       "id": 429,
       "course": "MAT234",
       "code": "T01",
-      "teacher": "DANIELA SANTA INÊS CUNHA",
+      "teacher": 62,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -4745,7 +4565,7 @@
       "id": 430,
       "course": "MAT235",
       "code": "T01",
-      "teacher": "FERNANDO OSVALDO REAL CARNEIRO",
+      "teacher": 88,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -4757,7 +4577,7 @@
       "id": 431,
       "course": "MAT236",
       "code": "T01",
-      "teacher": "ANETE OTILIA CARDOSO CRUZ",
+      "teacher": 38,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -4769,7 +4589,7 @@
       "id": 432,
       "course": "MAT237",
       "code": "T01",
-      "teacher": "FELLIPE ANTONIO DOS SANTOS CARDOSO LEITE",
+      "teacher": 87,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -4781,7 +4601,7 @@
       "id": 433,
       "course": "MAT238",
       "code": "T01",
-      "teacher": "IVES LIMA DE JESUS",
+      "teacher": 108,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -4793,7 +4613,7 @@
       "id": 434,
       "course": "MAT239",
       "code": "T01",
-      "teacher": "ANETE OTILIA CARDOSO CRUZ",
+      "teacher": 38,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -4805,7 +4625,7 @@
       "id": 435,
       "course": "MAT240",
       "code": "T01",
-      "teacher": "ERONILDO DE JESUS SOUZA",
+      "teacher": 85,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -4817,7 +4637,7 @@
       "id": 436,
       "course": "MAT241",
       "code": "T01",
-      "teacher": "FERNANDO OSVALDO REAL CARNEIRO",
+      "teacher": 88,
       "size": 10,
       "year": 2017,
       "semester": 1
@@ -4829,7 +4649,7 @@
       "id": 437,
       "course": "MAT242",
       "code": "T01",
-      "teacher": "ANETE OTILIA CARDOSO CRUZ",
+      "teacher": 38,
       "size": 10,
       "year": 2017,
       "semester": 1
@@ -4841,7 +4661,7 @@
       "id": 438,
       "course": "MAT243",
       "code": "T01",
-      "teacher": "DANIELA SANTA INÊS CUNHA",
+      "teacher": 62,
       "size": 10,
       "year": 2017,
       "semester": 1
@@ -4853,7 +4673,7 @@
       "id": 439,
       "course": "MAT244",
       "code": "T01",
-      "teacher": "TANIA JUSSARA SANTANA",
+      "teacher": 202,
       "size": 10,
       "year": 2017,
       "semester": 1
@@ -4865,7 +4685,7 @@
       "id": 440,
       "course": "MAT245",
       "code": "T01",
-      "teacher": "FELLIPE ANTONIO DOS SANTOS CARDOSO LEITE",
+      "teacher": 87,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -4877,7 +4697,7 @@
       "id": 441,
       "course": "MAT246",
       "code": "T01",
-      "teacher": "ANETE CRUZ",
+      "teacher": 37,
       "size": 10,
       "year": 2017,
       "semester": 1
@@ -4889,7 +4709,7 @@
       "id": 442,
       "course": "MAT254",
       "code": "T01",
-      "teacher": "FELLIPE ANTONIO DOS SANTOS CARDOSO LEITE",
+      "teacher": 87,
       "size": 35,
       "year": 2017,
       "semester": 1
@@ -4901,7 +4721,7 @@
       "id": 443,
       "course": "MAT267",
       "code": "T01",
-      "teacher": "LURIMAR SMERA BATISTA",
+      "teacher": 141,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -4913,7 +4733,7 @@
       "id": 444,
       "course": "MCO301",
       "code": "T01",
-      "teacher": "RODRIGO ESTEVAM COELHO",
+      "teacher": 189,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -4925,7 +4745,7 @@
       "id": 445,
       "course": "MCO302",
       "code": "T01",
-      "teacher": "PEDRO CUNHA",
+      "teacher": 175,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -4937,7 +4757,7 @@
       "id": 446,
       "course": "MCO303",
       "code": "T01",
-      "teacher": "GILDO MACHADO RIBEIRO",
+      "teacher": 93,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -4949,7 +4769,7 @@
       "id": 447,
       "course": "MCO304",
       "code": "T01",
-      "teacher": "CLAUDIA TERESA TELES FARIAS",
+      "teacher": 57,
       "size": 10,
       "year": 2017,
       "semester": 1
@@ -4961,7 +4781,7 @@
       "id": 448,
       "course": "MCO305",
       "code": "T01",
-      "teacher": "MIRTANIA ANTUNES LEAO",
+      "teacher": 165,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -4973,7 +4793,7 @@
       "id": 449,
       "course": "MEO301",
       "code": "T01",
-      "teacher": "AMARO SERINHAEM DE ARAUJO ALVES FERREIRA",
+      "teacher": 32,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -4985,7 +4805,7 @@
       "id": 450,
       "course": "MEO302",
       "code": "T01",
-      "teacher": "LUIZ CARLOS VARGAS",
+      "teacher": 138,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -4997,7 +4817,7 @@
       "id": 451,
       "course": "PMO301",
       "code": "T01",
-      "teacher": "ANTONIO CARLOS SOUZA RAMOS",
+      "teacher": 43,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -5009,7 +4829,7 @@
       "id": 452,
       "course": "PMO303",
       "code": "T01",
-      "teacher": "GILDO MACHADO RIBEIRO",
+      "teacher": 93,
       "size": 35,
       "year": 2017,
       "semester": 1
@@ -5021,7 +4841,7 @@
       "id": 453,
       "course": "QUI500",
       "code": "P01",
-      "teacher": "JOSANAIDE SANTANA RIBEIRO TEIXEIRA",
+      "teacher": 113,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -5033,7 +4853,7 @@
       "id": 454,
       "course": "QUI500",
       "code": "P02",
-      "teacher": "MARCIA SOUSA BISPO SCHUBACH",
+      "teacher": 150,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -5045,7 +4865,7 @@
       "id": 455,
       "course": "QUI500",
       "code": "P03",
-      "teacher": "ALDEMIRO PALMA",
+      "teacher": 26,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -5057,7 +4877,7 @@
       "id": 456,
       "course": "QUI500",
       "code": "P04",
-      "teacher": "ALDEMIRO PALMA",
+      "teacher": 26,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -5069,7 +4889,7 @@
       "id": 457,
       "course": "QUI500",
       "code": "T01",
-      "teacher": "DILTON SODRE",
+      "teacher": 68,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -5081,7 +4901,7 @@
       "id": 458,
       "course": "QUI500",
       "code": "T02",
-      "teacher": "DILTON SODRE",
+      "teacher": 68,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -5093,7 +4913,7 @@
       "id": 459,
       "course": "QUI511",
       "code": "P01",
-      "teacher": "ALDEMIRO PALMA",
+      "teacher": 26,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -5105,7 +4925,7 @@
       "id": 460,
       "course": "QUI511",
       "code": "P02",
-      "teacher": "MARCIA SOUSA BISPO SCHUBACH",
+      "teacher": 150,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -5117,7 +4937,7 @@
       "id": 461,
       "course": "QUI511",
       "code": "P03",
-      "teacher": "MARCIA SOUSA BISPO SCHUBACH",
+      "teacher": 150,
       "size": 15,
       "year": 2017,
       "semester": 1
@@ -5129,7 +4949,7 @@
       "id": 462,
       "course": "QUI511",
       "code": "T01",
-      "teacher": "CARLOS DANIEL SILVA DA SILVA",
+      "teacher": 53,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -5141,7 +4961,7 @@
       "id": 463,
       "course": "QUI512",
       "code": "P01",
-      "teacher": "ALDEMIRO PALMA",
+      "teacher": 26,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -5153,7 +4973,7 @@
       "id": 464,
       "course": "QUI512",
       "code": "P02",
-      "teacher": "WALTER ALVES GOMES JÚNIOR",
+      "teacher": 210,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -5165,7 +4985,7 @@
       "id": 465,
       "course": "QUI512",
       "code": "T01",
-      "teacher": "DENISE SANTOS DE SÁ",
+      "teacher": 65,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -5177,7 +4997,7 @@
       "id": 466,
       "course": "QUI513",
       "code": "T01",
-      "teacher": "ROBERT NEWTON DA SILVA HENRIQUE MAGALHAES",
+      "teacher": 184,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -5189,7 +5009,7 @@
       "id": 467,
       "course": "QUI514",
       "code": "T01",
-      "teacher": "JOSANAIDE SANTANA RIBEIRO TEIXEIRA",
+      "teacher": 113,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -5201,7 +5021,7 @@
       "id": 468,
       "course": "QUI515",
       "code": "T01",
-      "teacher": "JOSANAIDE SANTANA RIBEIRO TEIXEIRA",
+      "teacher": 113,
       "size": 30,
       "year": 2017,
       "semester": 1
@@ -5213,7 +5033,7 @@
       "id": 469,
       "course": "QUI516",
       "code": "T01",
-      "teacher": "JOSANAIDE SANTANA RIBEIRO TEIXEIRA",
+      "teacher": 113,
       "size": 14,
       "year": 2017,
       "semester": 1
@@ -5225,7 +5045,7 @@
       "id": 470,
       "course": "QUI517",
       "code": "P01",
-      "teacher": "MARCIA SOUSA BISPO SCHUBACH",
+      "teacher": 150,
       "size": 24,
       "year": 2017,
       "semester": 1
@@ -5237,7 +5057,7 @@
       "id": 471,
       "course": "QUI517",
       "code": "T01",
-      "teacher": "MARCIA SOUSA BISPO SCHUBACH",
+      "teacher": 150,
       "size": 24,
       "year": 2017,
       "semester": 1
@@ -5249,7 +5069,7 @@
       "id": 472,
       "course": "QUI520",
       "code": "T01",
-      "teacher": "DILTON SODRÉ",
+      "teacher": 68,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -5261,7 +5081,7 @@
       "id": 473,
       "course": "RAD216",
       "code": "T01",
-      "teacher": "ISABELLE MATOS PINHEIRO COSTA",
+      "teacher": 104,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -5273,7 +5093,7 @@
       "id": 474,
       "course": "RAD239",
       "code": "P01",
-      "teacher": "MARCUS VINICIUS TEIXEIRA NAVARRO",
+      "teacher": 98,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -5285,7 +5105,7 @@
       "id": 475,
       "course": "RAD239",
       "code": "T01",
-      "teacher": "JULIANA DOS SANTOS MULLER",
+      "teacher": 122,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -5297,7 +5117,7 @@
       "id": 476,
       "course": "RAD240",
       "code": "P01",
-      "teacher": "GUILLERMO ALBERTO LÓPEZ",
+      "teacher": 97,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -5309,7 +5129,7 @@
       "id": 477,
       "course": "RAD240",
       "code": "P02",
-      "teacher": "MAURICIO MITSUO MONÇÃO",
+      "teacher": 161,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -5321,7 +5141,7 @@
       "id": 478,
       "course": "RAD240",
       "code": "T01",
-      "teacher": "GUILLERMO ALBERTO LÓPEZ",
+      "teacher": 97,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -5333,7 +5153,7 @@
       "id": 479,
       "course": "RAD242",
       "code": "P01",
-      "teacher": "JULIANA DOS SANTOS MULLER",
+      "teacher": 122,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -5345,7 +5165,7 @@
       "id": 480,
       "course": "RAD242",
       "code": "T01",
-      "teacher": "JULIANA DOS SANTOS MULLER",
+      "teacher": 122,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -5357,7 +5177,7 @@
       "id": 481,
       "course": "RAD244",
       "code": "T01",
-      "teacher": "ISABELLE MATOS PINHEIRO COSTA",
+      "teacher": 104,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -5369,7 +5189,7 @@
       "id": 482,
       "course": "RAD248",
       "code": "T01",
-      "teacher": "WILSON OTTO GOMES BASTISTA",
+      "teacher": 212,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -5381,7 +5201,7 @@
       "id": 483,
       "course": "RAD247",
       "code": "T01",
-      "teacher": "WILSON OTTO GOMES BASTISTA",
+      "teacher": 212,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -5393,7 +5213,7 @@
       "id": 484,
       "course": "RAD249",
       "code": "P01",
-      "teacher": "GUILLERMO ALBERTO LÓPEZ",
+      "teacher": 97,
       "size": 10,
       "year": 2017,
       "semester": 1
@@ -5405,7 +5225,7 @@
       "id": 485,
       "course": "RAD249",
       "code": "P02",
-      "teacher": "JULIANA DOS SANTOS MULLER",
+      "teacher": 122,
       "size": 10,
       "year": 2017,
       "semester": 1
@@ -5417,7 +5237,7 @@
       "id": 486,
       "course": "RAD249",
       "code": "P03",
-      "teacher": "MAURICIO MITSUO MONÇÃO",
+      "teacher": 161,
       "size": 10,
       "year": 2017,
       "semester": 1
@@ -5429,7 +5249,7 @@
       "id": 487,
       "course": "RAD249",
       "code": "P04",
-      "teacher": "MARCUS VINICIUS LINHARES DE OLIVEIRA",
+      "teacher": 154,
       "size": 10,
       "year": 2017,
       "semester": 1
@@ -5441,7 +5261,7 @@
       "id": 488,
       "course": "RAD251",
       "code": "P01",
-      "teacher": "JACQUELINE GURJÃO RIOS",
+      "teacher": 109,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -5453,7 +5273,7 @@
       "id": 489,
       "course": "RAD251",
       "code": "P02",
-      "teacher": "LUCIANA ANDRADE FREITAS DE OLIVEIRA",
+      "teacher": 133,
       "size": 20,
       "year": 2017,
       "semester": 1
@@ -5465,7 +5285,7 @@
       "id": 490,
       "course": "RAD251",
       "code": "T01",
-      "teacher": "JACQUELINE GURJÃO RIOS",
+      "teacher": 109,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -5477,7 +5297,7 @@
       "id": 491,
       "course": "RAD257",
       "code": "T01",
-      "teacher": "MARCUS VINICIUS TEIXEIRA NAVARRO",
+      "teacher": 98,
       "size": 48,
       "year": 2017,
       "semester": 1
@@ -5489,7 +5309,7 @@
       "id": 492,
       "course": "RAD258",
       "code": "P01",
-      "teacher": "LUCIANA ANDRADE FREITAS DE OLIVEIRA",
+      "teacher": 133,
       "size": 24,
       "year": 2017,
       "semester": 1
@@ -5501,7 +5321,7 @@
       "id": 493,
       "course": "RAD258",
       "code": "P02",
-      "teacher": "JULITA MARIA COELHO",
+      "teacher": 123,
       "size": 24,
       "year": 2017,
       "semester": 1
@@ -5513,7 +5333,7 @@
       "id": 494,
       "course": "RAD258",
       "code": "T01",
-      "teacher": "LUCIANA ANDRADE FREITAS DE OLIVEIRA",
+      "teacher": 133,
       "size": 48,
       "year": 2017,
       "semester": 1
@@ -5525,7 +5345,7 @@
       "id": 495,
       "course": "RAD258",
       "code": "T02",
-      "teacher": "JULITA MARIA COELHO",
+      "teacher": 123,
       "size": 48,
       "year": 2017,
       "semester": 1
@@ -5537,7 +5357,7 @@
       "id": 496,
       "course": "RAD260",
       "code": "P01",
-      "teacher": "JACQUELINE GURJÃO RIOS",
+      "teacher": 109,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -5549,7 +5369,7 @@
       "id": 497,
       "course": "RAD260",
       "code": "T01",
-      "teacher": "JACQUELINE GURJÃO RIOS",
+      "teacher": 109,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -5561,7 +5381,7 @@
       "id": 498,
       "course": "RAD260",
       "code": "T01",
-      "teacher": "JACQUELINE GURJÃO RIOS",
+      "teacher": 109,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -5573,7 +5393,7 @@
       "id": 499,
       "course": "RAD252",
       "code": "T01",
-      "teacher": "MARCUS VINICIUS LINHARES DE OLIVEIRA",
+      "teacher": 154,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -5585,7 +5405,7 @@
       "id": 500,
       "course": "RAD252",
       "code": "P01",
-      "teacher": "MARCUS VINICIUS LINHARES DE OLIVEIRA",
+      "teacher": 154,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -5597,7 +5417,7 @@
       "id": 501,
       "course": "RAD253",
       "code": "T01",
-      "teacher": "WILSON OTTO GOMES BASTISTA",
+      "teacher": 212,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -5609,7 +5429,7 @@
       "id": 502,
       "course": "RAD262",
       "code": "T01",
-      "teacher": "LUCIANA ANDRADE FREITAS DE OLIVEIRA",
+      "teacher": 133,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -5621,7 +5441,7 @@
       "id": 503,
       "course": "RAD262",
       "code": "P01",
-      "teacher": "ELIAS RAMOS DE SOUZA",
+      "teacher": 78,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -5633,7 +5453,7 @@
       "id": 504,
       "course": "RED103",
       "code": "T01",
-      "teacher": "WALLACE MATOS DA COSTA",
+      "teacher": 208,
       "size": 48,
       "year": 2017,
       "semester": 1
