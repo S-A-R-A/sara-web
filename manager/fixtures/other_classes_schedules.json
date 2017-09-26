@@ -1,0 +1,2745 @@
+[
+  {
+      "id": 38,
+      "course": "ADM500",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 39,
+      "course": "ADM500",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 40,
+      "course": "ADM500",
+      "code": "T03",
+      "schedules": []
+  },
+  {
+      "id": 41,
+      "course": "ADM501",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 42,
+      "course": "ADM502",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 43,
+      "course": "ADM503",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 44,
+      "course": "ADM504",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 45,
+      "course": "ADM505",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 46,
+      "course": "ADM506",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 47,
+      "course": "ADM507",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 48,
+      "course": "ADM508",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 49,
+      "course": "ADM509",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 50,
+      "course": "ADM510",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 51,
+      "course": "ADM511",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 52,
+      "course": "ADM512",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 53,
+      "course": "ADM512",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 54,
+      "course": "ADM512",
+      "code": "T03",
+      "schedules": []
+  },
+  {
+      "id": 55,
+      "course": "ADM513",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 56,
+      "course": "ADM514",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 57,
+      "course": "ADM514",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 58,
+      "course": "ADM515",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 59,
+      "course": "ADM516",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 60,
+      "course": "ADM517",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 61,
+      "course": "ADM518",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 62,
+      "course": "ADM530",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 63,
+      "course": "ADM530",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 64,
+      "course": "ADM531",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 65,
+      "course": "ADM532",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 66,
+      "course": "ADM533",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 67,
+      "course": "ADM540",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 68,
+      "course": "ADM540",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 69,
+      "course": "ADM540",
+      "code": "T03",
+      "schedules": []
+  },
+  {
+      "id": 70,
+      "course": "ADM540",
+      "code": "T04",
+      "schedules": []
+  },
+  {
+      "id": 71,
+      "course": "ADM541",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 72,
+      "course": "ADM542",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 73,
+      "course": "ADM545",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 74,
+      "course": "ADM550",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 75,
+      "course": "ADM551",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 76,
+      "course": "ADM552",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 77,
+      "course": "ADM553",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 78,
+      "course": "ADM570",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 79,
+      "course": "ADM577",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 80,
+      "course": "ADM578",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 81,
+      "course": "ADM579",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 82,
+      "course": "ADM580",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 83,
+      "course": "ADM590",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 84,
+      "course": "ADM591",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 85,
+      "course": "ADM592",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 86,
+      "course": "DES200",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 87,
+      "course": "DES200",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 88,
+      "course": "DES200",
+      "code": "T03",
+      "schedules": []
+  },
+  {
+      "id": 89,
+      "course": "DES200",
+      "code": "T04",
+      "schedules": []
+  },
+  {
+      "id": 90,
+      "course": "DES200",
+      "code": "T05",
+      "schedules": []
+  },
+  {
+      "id": 91,
+      "course": "DES200",
+      "code": "T06",
+      "schedules": []
+  },
+  {
+      "id": 92,
+      "course": "DES201",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 93,
+      "course": "DES202",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 94,
+      "course": "EDU150",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 95,
+      "course": "EDU150",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 96,
+      "course": "EDU150",
+      "code": "T03",
+      "schedules": []
+  },
+  {
+      "id": 97,
+      "course": "EDU153",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 98,
+      "course": "EDU153",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 99,
+      "course": "EDU153",
+      "code": "T03",
+      "schedules": []
+  },
+  {
+      "id": 100,
+      "course": "EDU154",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 101,
+      "course": "EDU154",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 102,
+      "course": "EDU155",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 103,
+      "course": "EDU155",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 104,
+      "course": "EDU156",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 105,
+      "course": "EDU156",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 106,
+      "course": "EDU157",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 107,
+      "course": "EDU157",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 108,
+      "course": "EDU158",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 109,
+      "course": "EDU159",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 110,
+      "course": "EDU160",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 111,
+      "course": "EDU160",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 112,
+      "course": "EDU160",
+      "code": "T03",
+      "schedules": []
+  },
+  {
+      "id": 113,
+      "course": "EDU162",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 114,
+      "course": "EDU164",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 115,
+      "course": "EDU165",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 116,
+      "course": "EDU167",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 117,
+      "course": "EDU168",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 118,
+      "course": "EDU170",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 119,
+      "course": "ENG300",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 120,
+      "course": "ENG301",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 121,
+      "course": "ENG301",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 122,
+      "course": "ENG301",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 123,
+      "course": "ENG302",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 124,
+      "course": "ENG303",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 125,
+      "course": "ENG304",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 126,
+      "course": "ENG305",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 127,
+      "course": "ENG306",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 128,
+      "course": "ENG307",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 129,
+      "course": "PMO302",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 130,
+      "course": "ENG308",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 131,
+      "course": "ENG308",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 132,
+      "course": "ENG308",
+      "code": "T03",
+      "schedules": []
+  },
+  {
+      "id": 133,
+      "course": "ENG309",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 134,
+      "course": "ENG309",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 135,
+      "course": "ENG310",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 136,
+      "course": "ENG311",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 137,
+      "course": "ENG312",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 138,
+      "course": "ENG313",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 139,
+      "course": "ENG314",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 140,
+      "course": "ENG315",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 141,
+      "course": "ENG319",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 142,
+      "course": "ENG320",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 143,
+      "course": "ENG321",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 144,
+      "course": "ENG322",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 145,
+      "course": "ENG323",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 146,
+      "course": "ENG324",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 147,
+      "course": "ENG325",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 148,
+      "course": "ENG326",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 149,
+      "course": "ENG327",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 150,
+      "course": "ENG400",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 151,
+      "course": "ENG403",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 152,
+      "course": "ENG404",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 153,
+      "course": "ENG405",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 154,
+      "course": "ENG406",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 155,
+      "course": "ENG407",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 156,
+      "course": "ENG408",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 157,
+      "course": "ENG409",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 158,
+      "course": "ENG410",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 159,
+      "course": "ENG411",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 160,
+      "course": "ENG412",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 161,
+      "course": "ENG413",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 162,
+      "course": "ENG414",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 163,
+      "course": "ENG415",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 164,
+      "course": "ENG416",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 165,
+      "course": "ENG417",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 166,
+      "course": "ENG418",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 167,
+      "course": "ENG419",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 168,
+      "course": "ENG420",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 169,
+      "course": "ENG421",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 170,
+      "course": "ENG422",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 171,
+      "course": "ENG423",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 172,
+      "course": "ENG424",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 173,
+      "course": "ENG425",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 174,
+      "course": "ENG426",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 175,
+      "course": "ENG428",
+      "code": "T01",
+      "size": 0,
+      "schedules": []
+  },
+  {
+      "id": 176,
+      "course": "ENG430",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 177,
+      "course": "ENG432",
+      "code": "T01",
+      "size": 0,
+      "schedules": []
+  },
+  {
+      "id": 178,
+      "course": "ENG433",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 179,
+      "course": "ENG434",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 180,
+      "course": "ENG443",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 181,
+      "course": "ENG447",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 182,
+      "course": "ENG449",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 183,
+      "course": "ENG452",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 184,
+      "course": "ENG451",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 185,
+      "course": "ENG453",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 186,
+      "course": "ENG500",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 187,
+      "course": "ENG501",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 188,
+      "course": "ENG502",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 189,
+      "course": "ENG503",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 190,
+      "course": "ENG504",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 191,
+      "course": "ENG505",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 192,
+      "course": "ENG506",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 193,
+      "course": "ENG507",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 194,
+      "course": "ENG508",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 195,
+      "course": "ENG509",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 196,
+      "course": "ENG510",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 197,
+      "course": "ENG511",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 198,
+      "course": "ENG512",
+      "code": "T01",
+      "size": 6,
+      "schedules": []
+  },
+  {
+      "id": 199,
+      "course": "ENG512",
+      "code": "T02",
+      "size": 6,
+      "schedules": []
+  },
+  {
+      "id": 200,
+      "course": "ENG514",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 201,
+      "course": "ENG515",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 202,
+      "course": "ENG516",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 203,
+      "course": "ENG518",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 204,
+      "course": "ENG519",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 205,
+      "course": "ENG520",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 206,
+      "course": "ENG520",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 207,
+      "course": "ENG521",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 208,
+      "course": "ENG521",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 209,
+      "course": "ENG522",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 210,
+      "course": "ENG522",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 211,
+      "course": "ENG524",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 212,
+      "course": "ENG528",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 213,
+      "course": "ENG529",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 214,
+      "course": "ENG530",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 215,
+      "course": "ENG530",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 216,
+      "course": "ENG531",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 217,
+      "course": "ENG545",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 218,
+      "course": "ENG547",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 219,
+      "course": "EST232",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 220,
+      "course": "EVE101",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 221,
+      "course": "EVE102",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 222,
+      "course": "EVE103",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 223,
+      "course": "EVE104",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 223,
+      "course": "EVE106",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 224,
+      "course": "EVE107",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 225,
+      "course": "EVE111",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 226,
+      "course": "EVE112",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 227,
+      "course": "EVE113",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 228,
+      "course": "EVE117",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 229,
+      "course": "EVE119",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 230,
+      "course": "EVE120",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 231,
+      "course": "EVE121",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 232,
+      "course": "FIS210",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 233,
+      "course": "FIS210",
+      "code": "P02",
+      "schedules": []
+  },
+  {
+      "id": 234,
+      "course": "FIS210",
+      "code": "P03",
+      "schedules": []
+  },
+  {
+      "id": 235,
+      "course": "FIS210",
+      "code": "P04",
+      "schedules": []
+  },
+  {
+      "id": 236,
+      "course": "FIS210",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 237,
+      "course": "FIS210",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 238,
+      "course": "FIS211",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 239,
+      "course": "FIS211",
+      "code": "P02",
+      "schedules": []
+  },
+  {
+      "id": 240,
+      "course": "FIS211",
+      "code": "P03",
+      "schedules": []
+  },
+  {
+      "id": 241,
+      "course": "FIS211",
+      "code": "P04",
+      "schedules": []
+  },
+  {
+      "id": 242,
+      "course": "FIS211",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 243,
+      "course": "FIS211",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 244,
+      "course": "FIS212",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 245,
+      "course": "FIS212",
+      "code": "P02",
+      "schedules": []
+  },
+  {
+      "id": 246,
+      "course": "FIS212",
+      "code": "P03",
+      "schedules": []
+  },
+  {
+      "id": 247,
+      "course": "FIS212",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 248,
+      "course": "FIS213",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 249,
+      "course": "FIS213",
+      "code": "P02",
+      "schedules": []
+  },
+  {
+      "id": 250,
+      "course": "FIS213",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 251,
+      "course": "FIS214",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 251,
+      "course": "FIS214",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 252,
+      "course": "FIS215",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 253,
+      "course": "FIS215",
+      "code": "P02",
+      "schedules": []
+  },
+  {
+      "id": 254,
+      "course": "FIS215",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 255,
+      "course": "FIS216",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 256,
+      "course": "FIS216",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 257,
+      "course": "FIS217",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 258,
+      "course": "FIS217",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 259,
+      "course": "FIS218",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 260,
+      "course": "FIS218",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 261,
+      "course": "FIS219",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 262,
+      "course": "FIS219",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 263,
+      "course": "FIS220",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 264,
+      "course": "FIS223",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 265,
+      "course": "FIS224",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 266,
+      "course": "FIS225",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 267,
+      "course": "FIS226",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 268,
+      "course": "FIS226",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 269,
+      "course": "FIS227",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 270,
+      "course": "FIS227",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 271,
+      "course": "FIS228",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 272,
+      "course": "FIS229",
+      "code": "T01",
+      "size": 5,
+      "schedules": []
+  },
+  {
+      "id": 273,
+      "course": "FIS230",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 274,
+      "course": "FIS231",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 275,
+      "course": "FIS231",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 276,
+      "course": "FIS231",
+      "code": "P02",
+      "schedules": []
+  },
+  {
+      "id": 277,
+      "course": "FIS232",
+      "code": "P01",
+      "size": 5,
+      "schedules": []
+  },
+  {
+      "id": 278,
+      "course": "FIS232",
+      "code": "P02",
+      "size": 5,
+      "schedules": []
+  },
+  {
+      "id": 279,
+      "course": "FIS232",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 280,
+      "course": "FIS233",
+      "code": "P01",
+      "size": 5,
+      "schedules": []
+  },
+  {
+      "id": 281,
+      "course": "FIS233",
+      "code": "P02",
+      "size": 5,
+      "schedules": []
+  },
+  {
+      "id": 282,
+      "course": "FIS233",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 283,
+      "course": "FIS234",
+      "code": "P01",
+      "size": 5,
+      "schedules": []
+  },
+  {
+      "id": 284,
+      "course": "FIS234",
+      "code": "T01",
+      "size": 5,
+      "schedules": []
+  },
+  {
+      "id": 285,
+      "course": "FIS235",
+      "code": "P01",
+      "size": 5,
+      "schedules": []
+  },
+  {
+      "id": 286,
+      "course": "FIS235",
+      "code": "T01",
+      "size": 5,
+      "schedules": []
+  },
+  {
+      "id": 287,
+      "course": "FIS236",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 288,
+      "course": "GEO100",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 289,
+      "course": "GEO101",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 290,
+      "course": "GEO103",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 291,
+      "course": "GEO104",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 291,
+      "course": "GEO104",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 292,
+      "course": "GEO105",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 293,
+      "course": "GEO106",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 294,
+      "course": "GEO107",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 295,
+      "course": "GEO108",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 296,
+      "course": "GEO109",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 297,
+      "course": "GEO111",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 298,
+      "course": "GEO112",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 299,
+      "course": "GEO113",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 300,
+      "course": "GEO114",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 301,
+      "course": "GEO115",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 302,
+      "course": "GEO116",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 303,
+      "course": "GEO117",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 304,
+      "course": "GEO118",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 305,
+      "course": "GEO119",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 306,
+      "course": "GEO120",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 307,
+      "course": "GEO121",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 308,
+      "course": "GEO122",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 309,
+      "course": "GEO123",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 310,
+      "course": "GEO124",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 311,
+      "course": "GEO125",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 312,
+      "course": "GEO126",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 313,
+      "course": "GEO127",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 314,
+      "course": "GEO128",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 315,
+      "course": "GEO129",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 316,
+      "course": "GEO130",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 317,
+      "course": "GEO131",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 318,
+      "course": "GEO140",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 319,
+      "course": "HUM100",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 320,
+      "course": "HUM100",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 321,
+      "course": "HUM101",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 322,
+      "course": "HUM102",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 323,
+      "course": "HUM102",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 324,
+      "course": "HUM103",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 325,
+      "course": "HUM103",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 326,
+      "course": "HUM103",
+      "code": "T03",
+      "schedules": []
+  },
+  {
+      "id": 327,
+      "course": "HUM103",
+      "code": "T04",
+      "schedules": []
+  },
+  {
+      "id": 328,
+      "course": "HUM115",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 329,
+      "course": "HUM150",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 330,
+      "course": "HUM151",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 331,
+      "course": "HUM152",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 332,
+      "course": "HUM153",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 341,
+      "course": "INF015",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 346,
+      "course": "INF020",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 347,
+      "course": "INF021",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 351,
+      "course": "INF024",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 352,
+      "course": "INF024",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 353,
+      "course": "INF024",
+      "code": "T03",
+      "schedules": []
+  },
+  {
+      "id": 354,
+      "course": "INF025",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 355,
+      "course": "INF026",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 356,
+      "course": "INF027",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 357,
+      "course": "INF027",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 358,
+      "course": "INF027",
+      "code": "T03",
+      "schedules": []
+  },
+  {
+      "id": 359,
+      "course": "INF028",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 360,
+      "course": "INF029",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 361,
+      "course": "INF030",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 362,
+      "course": "INF031",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 363,
+      "course": "INF400",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 364,
+      "course": "INF400",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 365,
+      "course": "INF400",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 366,
+      "course": "INF400",
+      "code": "T03",
+      "schedules": []
+  },
+  {
+      "id": 367,
+      "course": "INF402",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 368,
+      "course": "INF403",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 369,
+      "course": "INF404",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 370,
+      "course": "INF405",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 371,
+      "course": "LET100",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 372,
+      "course": "LET100",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 373,
+      "course": "LET100",
+      "code": "T03",
+      "schedules": []
+  },
+  {
+      "id": 374,
+      "course": "LET100",
+      "code": "T04",
+      "schedules": []
+  },
+  {
+      "id": 375,
+      "course": "LET101",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 376,
+      "course": "LET102",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 377,
+      "course": "LET102",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 378,
+      "course": "LET106",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 379,
+      "course": "LET111",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 380,
+      "course": "LET111",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 381,
+      "course": "LET111",
+      "code": "T03",
+      "schedules": []
+  },
+  {
+      "id": 382,
+      "course": "LET112",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 383,
+      "course": "LET112",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 384,
+      "course": "LET112",
+      "code": "T03",
+      "schedules": []
+  },
+  {
+      "id": 385,
+      "course": "LET112",
+      "code": "T04",
+      "schedules": []
+  },
+  {
+      "id": 386,
+      "course": "LET113",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 387,
+      "course": "LET115",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 388,
+      "course": "LET116",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 389,
+      "course": "LET121",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 390,
+      "course": "LET123",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 391,
+      "course": "LET125",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 392,
+      "course": "MAT203",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 393,
+      "course": "MAT204",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 394,
+      "course": "MAT204",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 395,
+      "course": "MAT205",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 396,
+      "course": "MAT211",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 397,
+      "course": "MAT211",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 398,
+      "course": "MAT211",
+      "code": "T03",
+      "schedules": []
+  },
+  {
+      "id": 399,
+      "course": "MAT212",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 400,
+      "course": "MAT212",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 401,
+      "course": "MAT213",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 402,
+      "course": "MAT214",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 403,
+      "course": "MAT215",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 404,
+      "course": "MAT215",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 405,
+      "course": "MAT216",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 406,
+      "course": "MAT217",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 407,
+      "course": "MAT217",
+      "code": "T03",
+      "schedules": []
+  },
+  {
+      "id": 408,
+      "course": "MAT217",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 409,
+      "course": "MAT218",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 410,
+      "course": "MAT218",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 411,
+      "course": "MAT219",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 412,
+      "course": "MAT219",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 413,
+      "course": "MAT220",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 414,
+      "course": "MAT220",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 415,
+      "course": "MAT222",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 416,
+      "course": "MAT223",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 417,
+      "course": "MAT223",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 418,
+      "course": "MAT224",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 419,
+      "course": "MAT225",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 420,
+      "course": "MAT226",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 421,
+      "course": "MAT227",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 422,
+      "course": "MAT227",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 423,
+      "course": "MAT228",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 424,
+      "course": "MAT229",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 425,
+      "course": "MAT230",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 426,
+      "course": "MAT231",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 427,
+      "course": "MAT232",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 428,
+      "course": "MAT233",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 429,
+      "course": "MAT234",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 430,
+      "course": "MAT235",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 431,
+      "course": "MAT236",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 432,
+      "course": "MAT237",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 433,
+      "course": "MAT238",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 434,
+      "course": "MAT239",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 435,
+      "course": "MAT240",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 436,
+      "course": "MAT241",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 437,
+      "course": "MAT242",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 438,
+      "course": "MAT243",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 439,
+      "course": "MAT244",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 440,
+      "course": "MAT245",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 441,
+      "course": "MAT246",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 442,
+      "course": "MAT254",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 443,
+      "course": "MAT267",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 444,
+      "course": "MCO301",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 445,
+      "course": "MCO302",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 446,
+      "course": "MCO303",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 447,
+      "course": "MCO304",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 448,
+      "course": "MCO305",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 449,
+      "course": "MEO301",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 450,
+      "course": "MEO302",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 451,
+      "course": "PMO301",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 452,
+      "course": "PMO303",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 453,
+      "course": "QUI500",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 454,
+      "course": "QUI500",
+      "code": "P02",
+      "schedules": []
+  },
+  {
+      "id": 455,
+      "course": "QUI500",
+      "code": "P03",
+      "schedules": []
+  },
+  {
+      "id": 456,
+      "course": "QUI500",
+      "code": "P04",
+      "schedules": []
+  },
+  {
+      "id": 457,
+      "course": "QUI500",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 458,
+      "course": "QUI500",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 459,
+      "course": "QUI511",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 460,
+      "course": "QUI511",
+      "code": "P02",
+      "schedules": []
+  },
+  {
+      "id": 461,
+      "course": "QUI511",
+      "code": "P03",
+      "schedules": []
+  },
+  {
+      "id": 462,
+      "course": "QUI511",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 463,
+      "course": "QUI512",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 464,
+      "course": "QUI512",
+      "code": "P02",
+      "schedules": []
+  },
+  {
+      "id": 465,
+      "course": "QUI512",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 466,
+      "course": "QUI513",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 467,
+      "course": "QUI514",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 468,
+      "course": "QUI515",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 469,
+      "course": "QUI516",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 470,
+      "course": "QUI517",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 471,
+      "course": "QUI517",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 472,
+      "course": "QUI520",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 473,
+      "course": "RAD216",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 474,
+      "course": "RAD239",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 475,
+      "course": "RAD239",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 476,
+      "course": "RAD240",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 477,
+      "course": "RAD240",
+      "code": "P02",
+      "schedules": []
+  },
+  {
+      "id": 478,
+      "course": "RAD240",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 479,
+      "course": "RAD242",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 480,
+      "course": "RAD242",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 481,
+      "course": "RAD244",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 482,
+      "course": "RAD248",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 483,
+      "course": "RAD247",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 484,
+      "course": "RAD249",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 485,
+      "course": "RAD249",
+      "code": "P02",
+      "schedules": []
+  },
+  {
+      "id": 486,
+      "course": "RAD249",
+      "code": "P03",
+      "schedules": []
+  },
+  {
+      "id": 487,
+      "course": "RAD249",
+      "code": "P04",
+      "schedules": []
+  },
+  {
+      "id": 488,
+      "course": "RAD251",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 489,
+      "course": "RAD251",
+      "code": "P02",
+      "schedules": []
+  },
+  {
+      "id": 490,
+      "course": "RAD251",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 491,
+      "course": "RAD257",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 492,
+      "course": "RAD258",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 493,
+      "course": "RAD258",
+      "code": "P02",
+      "schedules": []
+  },
+  {
+      "id": 494,
+      "course": "RAD258",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 495,
+      "course": "RAD258",
+      "code": "T02",
+      "schedules": []
+  },
+  {
+      "id": 496,
+      "course": "RAD260",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 497,
+      "course": "RAD260",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 498,
+      "course": "RAD260",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 499,
+      "course": "RAD252",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 500,
+      "course": "RAD252",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 501,
+      "course": "RAD253",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 502,
+      "course": "RAD262",
+      "code": "T01",
+      "schedules": []
+  },
+  {
+      "id": 503,
+      "course": "RAD262",
+      "code": "P01",
+      "schedules": []
+  },
+  {
+      "id": 504,
+      "course": "RED103",
+      "code": "T01",
+      "schedules": []
+  }
+]
