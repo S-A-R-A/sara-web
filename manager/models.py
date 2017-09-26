@@ -14,6 +14,7 @@ class Institution(models.Model):
     class Meta:
         verbose_name = 'Instituição'
         verbose_name_plural = 'Instituições'
+        ordering = ['acronym', 'name']
 
 class Campus(models.Model):
     id = models.AutoField(primary_key=True)
@@ -27,6 +28,7 @@ class Campus(models.Model):
     class Meta:
         verbose_name = 'Campus'
         verbose_name_plural = 'Campi'
+        ordering = ['name']
 
 class RequirementType(models.Model):
     id = models.AutoField(primary_key=True)
@@ -38,6 +40,7 @@ class RequirementType(models.Model):
     class Meta:
         verbose_name = 'Tipo do Requisito'
         verbose_name_plural = 'Tipos dos Requisitos'
+        ordering = ['name']
 
 class Requirement(models.Model):
     PRIORITY_CHOICES = (
@@ -59,6 +62,7 @@ class Requirement(models.Model):
     class Meta:
         verbose_name = 'Requisito'
         verbose_name_plural = 'Requisitos'
+        ordering = ['description', 'priority']
 
 class Area(models.Model):
     id = models.AutoField(primary_key=True)
@@ -72,6 +76,7 @@ class Area(models.Model):
     class Meta:
         verbose_name = 'Área'
         verbose_name_plural = 'Áreas'
+        ordering = ['code']
 
 class RoomType(models.Model):
     id = models.AutoField(primary_key=True)
@@ -83,6 +88,7 @@ class RoomType(models.Model):
     class Meta:
         verbose_name = 'Tipo da Sala'
         verbose_name_plural = 'Tipos das Salas'
+        ordering = ['name']
 
 class Room(models.Model):
     id = models.AutoField(primary_key=True)
@@ -112,6 +118,7 @@ class Teacher(models.Model):
     class Meta:
         verbose_name = 'Professor'
         verbose_name_plural = 'Professores'
+        ordering = ['name']
 
 class ProgramLevel(models.Model):
     id = models.AutoField(primary_key=True)
@@ -276,7 +283,7 @@ class Class(models.Model):
         verbose_name = 'Turma'
         verbose_name_plural = 'Turmas'
         unique_together = (('course', 'code'),)
-        ordering = ['course']
+        ordering = ['course', 'code']
 
 class Slot(models.Model):
     id = models.AutoField(primary_key=True)
