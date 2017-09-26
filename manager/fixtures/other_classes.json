@@ -14,30 +14,6 @@
   {
     "model": "manager.Class",
     "fields": {
-      "id": 39,
-      "course": "ADM500",
-      "code": "T02",
-      "teacher": 116,
-      "size": 48,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 40,
-      "course": "ADM500",
-      "code": "T03",
-      "teacher": 1,
-      "size": 48,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
       "id": 41,
       "course": "ADM501",
       "code": "T01",
