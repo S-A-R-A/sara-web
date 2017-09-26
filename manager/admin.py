@@ -31,3 +31,10 @@ admin.site.register(TimeInterval)
 admin.site.register(Day)
 admin.site.register(Slot)
 
+class SlotAdmin(admin.ModelAdmin):
+
+    def get_actions(self, request):
+        # Disable delete
+        actions = super(SlotAdmin, self).get_actions(request)
+        del actions['delete_selected']
+        return actions
