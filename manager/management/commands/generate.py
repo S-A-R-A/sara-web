@@ -23,6 +23,7 @@ class Command(BaseCommand):
     def models_to_file(self, file_name):
         models = {
             "schedules": [],
+            "requirements": [],
             "slots": [],
             "classes": [],
             "rooms": []
@@ -32,6 +33,14 @@ class Command(BaseCommand):
         slots = Slot.get_slots_by_schedules(schedules)
         classes = Class.get_scheduled_classes()
         rooms = Room.objects.all()
+
+        for requirement in Requirement.objects.all():
+            requirement_model = {
+                "id" : requirement.id,
+                "type": requirement.type.id,
+                "priority": requirement.priority
+            }
+            models["requirements"].append(requirement_model)
 
         for schedule in schedules:
             schedules_model = {
@@ -54,32 +63,16 @@ class Command(BaseCommand):
             class_model = {
                 "id": s_class.id,
                 "size": s_class.size,
-                "requirements": []
+                "requirements": list(s_class.requirements.through.objects.all().values_list('id', flat=True))
             }
-
-            for requirement in s_class.requirements.through.objects.all():
-                requirement_model = {
-                    "id" : requirement.id,
-                    "type": requirement.type.id,
-                    "priority": requirement.priority
-                }
-                class_model["requirements"].append(requirement_model)
 
             models["classes"].append(class_model)
 
         for room in rooms:
             room_model = {
                 "id": room.id,
-                "specifications": []
+                "specifications": list(room.specifications.through.objects.all().values_list('id', flat=True))
             }
-
-            for specification in room.specifications.through.objects.all():
-                specification_model = {
-                    "id" : specification.id,
-                    "type": specification.type.id,
-                    "priority": specification.priority
-                }
-                room_model["specifications"].append(specification_model)
 
             models["rooms"].append(room_model)
         self.create_json_data(file_name, json.dumps(models, indent=4, sort_keys=False))

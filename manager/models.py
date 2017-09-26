@@ -49,7 +49,7 @@ class Requirement(models.Model):
     )
 
     id = models.AutoField(primary_key=True)
-    type = models.ForeignKey('RequirementType', on_delete=models.CASCADE, verbose_name="tipo")
+    type = models.ForeignKey('RequirementType', on_delete=models.CASCADE,  blank=False, verbose_name="tipo")
     description = models.CharField(max_length=100, blank=False, null=False, verbose_name="descrição")
     priority = models.PositiveSmallIntegerField(default=3, choices=PRIORITY_CHOICES, verbose_name="prioridade")
 
@@ -180,7 +180,7 @@ class Period(models.Model):
 
 class TimeInterval(models.Model):
     id = models.AutoField(primary_key=True)
-    period = models.ForeignKey('Period', on_delete=models.CASCADE)
+    period = models.ForeignKey('Period', blank=False, on_delete=models.CASCADE)
     start_time = models.TimeField(blank=False, null=False, verbose_name="hora inicial")
     end_time = models.TimeField(blank=False, null=False, verbose_name="hora final")
 
@@ -211,8 +211,8 @@ class Day(models.Model):
 
 class Schedule(models.Model):
     id = models.AutoField(primary_key=True)
-    day = models.ForeignKey('Day', on_delete=models.CASCADE,  verbose_name=Day._meta.verbose_name)
-    time_interval = models.ForeignKey('TimeInterval', on_delete=models.CASCADE, verbose_name=TimeInterval._meta.verbose_name_plural)
+    day = models.ForeignKey('Day', blank=False, on_delete=models.CASCADE,  verbose_name=Day._meta.verbose_name)
+    time_interval = models.ForeignKey('TimeInterval', blank=False, on_delete=models.CASCADE, verbose_name=TimeInterval._meta.verbose_name_plural)
 
     def __str__(self):
         return "{0} - {1}".format(self.day, self.time_interval)
@@ -240,6 +240,7 @@ class Class(models.Model):
     semester = models.PositiveSmallIntegerField(default=0, verbose_name="semestre")
     schedules = models.ManyToManyField('Schedule',  blank=True, verbose_name=Schedule._meta.verbose_name_plural)
     requirements = models.ManyToManyField('Requirement', blank=True, verbose_name=Requirement._meta.verbose_name_plural)
+    type_rooms_wanted = models.ManyToManyField('RoomType',  blank=False,  verbose_name="Tipo de Salas Requisitadas")
 
     def __str__(self):
         return "{0} - {1}".format(self.course, self.code)
@@ -279,14 +280,17 @@ class Class(models.Model):
 
 class Slot(models.Model):
     id = models.AutoField(primary_key=True)
-    day = models.ForeignKey('Day', on_delete=models.CASCADE, verbose_name="dia")
-    time_interval = models.ForeignKey('TimeInterval', on_delete=models.CASCADE, verbose_name=TimeInterval._meta.verbose_name)
-    room = models.ForeignKey('Room', on_delete=models.CASCADE, verbose_name=Room._meta.verbose_name)
+    day = models.ForeignKey('Day', blank=False, on_delete=models.CASCADE, verbose_name="dia")
+    time_interval = models.ForeignKey('TimeInterval', blank=False, on_delete=models.CASCADE, verbose_name=TimeInterval._meta.verbose_name)
+    room = models.ForeignKey('Room', blank=False, on_delete=models.CASCADE, verbose_name=Room._meta.verbose_name)
     s_class = models.ForeignKey('Class', blank=True, null=True, verbose_name=Class._meta.verbose_name)
     objects = managers.SlotManager()
 
     def __str__(self):
         return "{0} - {1} : {2} em {3}".format(self.day, self.time_interval, "Espaço vago" if self.s_class is None else self.s_class, self.room)
+
+    def delete(self):
+        return
 
     @classmethod
     def reset_all(self):

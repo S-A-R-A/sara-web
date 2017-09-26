@@ -1,4 +1,4 @@
-from .models import Day, Room, TimeInterval, Slot, Schedule, Class
+from .models import Day, Room, RoomType, TimeInterval, Slot, Schedule, Class
 from django.db.models.signals import post_save, m2m_changed, pre_delete
 from django.dispatch import receiver
 
@@ -58,3 +58,10 @@ def create_schedule_per_time_interval(sender, instance, created, **kwargs):
 def clean_slot_before_delete_class(sender, instance, using, **kwargs):
     slots = Slot.objects.filter(s_class = instance)
     slots.update(s_class=None)
+
+@receiver(post_save, sender=Class, dispatch_uid='default_room_type_identifier')
+def add_default_room_type_to_class(sender, instance, created, **kwargs):
+    if created:
+        if not instance.type_rooms_wanted.all():
+            room_type_default = RoomType.objects.first()
+            instance.type_rooms_wanted.add(room_type_default)
