@@ -6994,229 +6994,925 @@
     "s_class": 386,
     "course": "LET113",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 387,
     "course": "LET115",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+     {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      },
+      {
+        "day": 5,
+        "time_interval": 14
+      },
+      {
+        "day": 5,
+        "time_interval": 15
+      }
+    ]
   },
   {
     "s_class": 388,
     "course": "LET116",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+     {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 389,
     "course": "LET121",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 11
+      },
+      {
+        "day": 4,
+        "time_interval": 13
+      }
+    ]
   },
   {
     "s_class": 390,
     "course": "LET123",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 11
+      },
+      {
+        "day": 3,
+        "time_interval": 13
+      }
+    ]
   },
   {
     "s_class": 391,
     "course": "LET125",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+     {
+        "day": 2,
+        "time_interval": 11
+      },
+      {
+        "day": 2,
+        "time_interval": 13
+      },
+      {
+        "day": 4,
+        "time_interval": 14
+      },
+      {
+        "day": 4,
+        "time_interval": 15
+      }
+    ]
   },
   {
     "s_class": 392,
     "course": "MAT203",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 393,
     "course": "MAT204",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+     {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 394,
     "course": "MAT204",
     "code": "T02",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 14
+      },
+      {
+        "day": 3,
+        "time_interval": 15
+      },
+      {
+        "day": 5,
+        "time_interval": 14
+      },
+      {
+        "day": 5,
+        "time_interval": 15
+      }
+    ]
   },
   {
     "s_class": 395,
     "course": "MAT205",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+        {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 14
+      }
+    ]
   },
   {
     "s_class": 396,
     "course": "MAT211",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 397,
     "course": "MAT211",
     "code": "T02",
-    "schedules": []
+    "schedules": [
+        {
+        "day": 1,
+        "time_interval": 14
+      },
+      {
+        "day": 1,
+        "time_interval": 15
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 398,
     "course": "MAT211",
     "code": "T03",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 399,
     "course": "MAT212",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+    {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 400,
     "course": "MAT212",
     "code": "T02",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 2,
+        "time_interval": 14
+      },
+      {
+        "day": 2,
+        "time_interval": 15
+      }
+    ]
   },
   {
     "s_class": 401,
     "course": "MAT213",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+        {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 402,
     "course": "MAT214",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+    {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 403,
     "course": "MAT215",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+    {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 404,
     "course": "MAT215",
     "code": "T02",
-    "schedules": []
+    "schedules": [
+    {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 14
+      },
+      {
+        "day": 5,
+        "time_interval": 15
+      }
+    ]
   },
   {
     "s_class": 405,
     "course": "MAT216",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+    {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 406,
     "course": "MAT217",
     "code": "T02",
-    "schedules": []
+    "schedules": [
+    {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 407,
     "course": "MAT217",
     "code": "T03",
-    "schedules": []
+    "schedules": [
+    {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 14
+      },
+      {
+        "day": 4,
+        "time_interval": 15
+      }
+    ]
   },
   {
     "s_class": 408,
     "course": "MAT217",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+    {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 409,
     "course": "MAT218",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+    {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      },
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 410,
     "course": "MAT218",
     "code": "T02",
-    "schedules": []
+    "schedules": [
+    {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    
+    ]
   },
   {
     "s_class": 411,
     "course": "MAT219",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+    {
+        "day": 2,
+        "time_interval": 14
+      },
+      {
+        "day": 2,
+        "time_interval": 15
+      },
+      {
+        "day": 5,
+        "time_interval": 14
+      },
+      {
+        "day": 5,
+        "time_interval": 15
+      }
+    ]
   },
   {
     "s_class": 412,
     "course": "MAT219",
     "code": "T02",
-    "schedules": []
+    "schedules": [
+    {
+        "day": 1,
+        "time_interval": 14
+      },
+      {
+        "day": 1,
+        "time_interval": 15
+      },
+      {
+        "day": 3,
+        "time_interval": 14
+      },
+      {
+        "day": 3,
+        "time_interval": 15
+      }
+    ]
   },
   {
     "s_class": 413,
     "course": "MAT220",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+    {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 414,
     "course": "MAT220",
     "code": "T02",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 415,
     "course": "MAT222",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+     {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 416,
     "course": "MAT223",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+        {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 417,
     "course": "MAT223",
     "code": "T02",
-    "schedules": []
+    "schedules": [
+    {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 418,
     "course": "MAT224",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+        {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 419,
     "course": "MAT225",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+        {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    
+    ]
   },
   {
     "s_class": 420,
     "course": "MAT226",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+        {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 421,
     "course": "MAT227",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+        {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      },
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 422,
     "course": "MAT227",
     "code": "T02",
-    "schedules": []
+    "schedules": [
+        {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      },
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 423,
     "course": "MAT228",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+    {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 424,
