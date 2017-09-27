@@ -2210,18 +2210,6 @@
   {
     "model": "manager.Class",
     "fields": {
-      "id": 223,
-      "course": "EVE106",
-      "code": "T01",
-      "teacher": 178,
-      "size": 15,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
       "id": 224,
       "course": "EVE107",
       "code": "T01",
