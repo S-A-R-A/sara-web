@@ -2546,7 +2546,7 @@
   {
     "model": "manager.Class",
     "fields": {
-      "id": 251,
+      "id": 500,
       "course": "FIS214",
       "code": "T01",
       "teacher": 187,
@@ -3018,18 +3018,6 @@
       "course": "GEO103",
       "code": "T01",
       "teacher": 176,
-      "size": 40,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 291,
-      "course": "GEO104",
-      "code": "T01",
-      "teacher": 213,
       "size": 40,
       "year": 2017,
       "semester": 1
