@@ -353,391 +353,1398 @@
       "id": 57,
       "course": "ADM514",
       "code": "T02",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 1,
+            "time_interval": 12
+        },
+        {
+            "day": 1,
+            "time_interval": 13
+        },
+        {
+            "day": 4,
+            "time_interval": 14
+        },
+        {
+            "day": 4,
+            "time_interval": 15
+        }
+      ]
   },
   {
       "id": 58,
       "course": "ADM515",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 4,
+            "time_interval": 16
+        },
+        {
+            "day": 4,
+            "time_interval": 17
+        },
+        {
+            "day": 8,
+            "time_interval": 18
+        },
+        {
+            "day": 9,
+            "time_interval": 19
+        }
+      ]
   },
   {
       "id": 59,
       "course": "ADM516",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 3,
+            "time_interval": 16
+        },
+        {
+            "day": 3,
+            "time_interval": 17
+        },
+        {
+            "day": 5,
+            "time_interval": 16
+        },
+        {
+            "day": 5,
+            "time_interval": 17
+        }
+      ]
   },
   {
       "id": 60,
       "course": "ADM517",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 3,
+            "time_interval": 18
+        },
+        {
+            "day": 3,
+            "time_interval": 19
+        },
+        {
+            "day": 6,
+            "time_interval": 5
+        },
+        {
+            "day": 6,
+            "time_interval": 6
+        }
+      ]
   },
   {
       "id": 61,
       "course": "ADM518",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 1,
+            "time_interval": 18
+        },
+        {
+            "day": 1,
+            "time_interval": 19
+        },
+        {
+            "day": 2,
+            "time_interval": 18
+        },
+        {
+            "day": 2,
+            "time_interval": 19
+        }
+      ]
   },
   {
       "id": 62,
       "course": "ADM530",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 1,
+            "time_interval": 16
+        },
+        {
+            "day": 1,
+            "time_interval": 17
+        },
+        {
+            "day": 5,
+            "time_interval": 18
+        },
+        {
+            "day": 5,
+            "time_interval": 19
+        }
+      ]
   },
   {
       "id": 63,
       "course": "ADM530",
       "code": "T02",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 2,
+            "time_interval": 16
+        },
+        {
+            "day": 2,
+            "time_interval": 17
+        },
+        {
+            "day": 4,
+            "time_interval": 16
+        },
+        {
+            "day": 4,
+            "time_interval": 17
+        }
+      ]
   },
   {
       "id": 64,
       "course": "ADM531",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 5,
+            "time_interval": 18
+        },
+        {
+            "day": 5,
+            "time_interval": 19
+        },
+        {
+            "day": 6,
+            "time_interval": 5
+        },
+        {
+            "day": 6,
+            "time_interval": 6
+        }
+      ]
   },
   {
       "id": 65,
       "course": "ADM532",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 5,
+            "time_interval": 16
+        },
+        {
+            "day": 5,
+            "time_interval": 17
+        },
+        {
+            "day": 6,
+            "time_interval": 3
+        },
+        {
+            "day": 6,
+            "time_interval": 4
+        }
+      ]
   },
   {
       "id": 66,
       "course": "ADM533",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 1,
+            "time_interval": 18
+        },
+        {
+            "day": 1,
+            "time_interval": 19
+        },
+        {
+            "day": 5,
+            "time_interval": 16
+        },
+        {
+            "day": 5,
+            "time_interval": 17
+        }
+      ]
   },
   {
       "id": 67,
       "course": "ADM540",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 1,
+            "time_interval": 14
+        },
+        {
+            "day": 1,
+            "time_interval": 15
+        },
+        {
+            "day": 5,
+            "time_interval": 16
+        },
+        {
+            "day": 5,
+            "time_interval": 17
+        }
+      ]
   },
   {
       "id": 68,
       "course": "ADM540",
       "code": "T02",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 1,
+            "time_interval": 16
+        },
+        {
+            "day": 1,
+            "time_interval": 17
+        },
+        {
+            "day": 2,
+            "time_interval": 16
+        },
+        {
+            "day": 2,
+            "time_interval": 17
+        }
+      ]
   },
   {
       "id": 69,
       "course": "ADM540",
       "code": "T03",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 2,
+            "time_interval": 18
+        },
+        {
+            "day": 2,
+            "time_interval": 19
+        },
+        {
+            "day": 3,
+            "time_interval": 16
+        },
+        {
+            "day": 3,
+            "time_interval": 17
+        }
+      ]
   },
   {
       "id": 70,
       "course": "ADM540",
       "code": "T04",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 2,
+            "time_interval": 14
+        },
+        {
+            "day": 2,
+            "time_interval": 15
+        },
+        {
+            "day": 3,
+            "time_interval": 14
+        },
+        {
+            "day": 3,
+            "time_interval": 15
+        }
+      ]
   },
   {
       "id": 71,
       "course": "ADM541",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 2,
+            "time_interval": 16
+        },
+        {
+            "day": 2,
+            "time_interval": 17
+        },
+        {
+            "day": 6,
+            "time_interval": 5
+        },
+        {
+            "day": 6,
+            "time_interval": 6
+        }
+      ]
   },
   {
       "id": 72,
       "course": "ADM542",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+       { 
+            "day": 2,
+            "time_interval": 18
+        },
+        {
+            "day": 2,
+            "time_interval": 19
+        },
+        {
+            "day": 6,
+            "time_interval": 3
+        },
+        {
+            "day": 6,
+            "time_interval": 4
+        }
+      ]
   },
   {
       "id": 73,
       "course": "ADM545",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 1,
+            "time_interval": 16
+        },
+        {
+            "day": 1,
+            "time_interval": 17
+        },
+        {
+            "day": 2,
+            "time_interval": 16
+        },
+        {
+            "day": 2,
+            "time_interval": 17
+        }
+      ]
   },
   {
       "id": 74,
       "course": "ADM550",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 1,
+            "time_interval": 16
+        },
+        {
+            "day": 1,
+            "time_interval": 17
+        },
+        {
+            "day": 2,
+            "time_interval": 16
+        },
+        {
+            "day": 2,
+            "time_interval": 17
+        }]
   },
   {
       "id": 75,
       "course": "ADM551",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+       { 
+            "day": 3,
+            "time_interval": 18
+        },
+        {
+            "day": 3,
+            "time_interval": 19
+        },
+        {
+            "day": 5,
+            "time_interval": 16
+        },
+        {
+            "day": 5,
+            "time_interval": 17
+        }
+      ]
   },
   {
       "id": 76,
       "course": "ADM552",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 4,
+            "time_interval": 16
+        },
+        {
+            "day": 4,
+            "time_interval": 17
+        },
+        {
+            "day": 6,
+            "time_interval": 3
+        },
+        {
+            "day": 6,
+            "time_interval": 4
+        }
+      ]
   },
   {
       "id": 77,
       "course": "ADM553",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 3,
+            "time_interval": 16
+        },
+        {
+            "day": 3,
+            "time_interval": 17
+        },
+        {
+            "day": 5,
+            "time_interval": 18
+        },
+        {
+            "day": 5,
+            "time_interval": 19
+        }
+      ]
   },
   {
       "id": 78,
       "course": "ADM570",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 1,
+            "time_interval": 14
+        },
+        {
+            "day": 1,
+            "time_interval": 15
+        },
+        {
+            "day": 6,
+            "time_interval": 1
+        },
+        {
+            "day": 6,
+            "time_interval": 2
+        }
+      ]
   },
   {
       "id": 79,
       "course": "ADM577",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 1,
+            "time_interval": 14
+        },
+        {
+            "day": 1,
+            "time_interval": 15
+        },
+        {
+            "day": 5,
+            "time_interval": 14
+        },
+        {
+            "day": 5,
+            "time_interval": 15
+        }
+      ]
   },
   {
       "id": 80,
       "course": "ADM578",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 3,
+            "time_interval": 16
+        },
+        {
+            "day": 3,
+            "time_interval": 17
+        },
+        {
+            "day": 4,
+            "time_interval": 16
+        },
+        {
+            "day": 4,
+            "time_interval": 17
+        }
+      ]
   },
   {
       "id": 81,
       "course": "ADM579",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 1,
+            "time_interval": 16
+        },
+        {
+            "day": 1,
+            "time_interval": 17
+        },
+        {
+            "day": 2,
+            "time_interval": 18
+        },
+        {
+            "day": 2,
+            "time_interval": 29
+        }
+      ]
   },
   {
       "id": 82,
       "course": "ADM580",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 3,
+            "time_interval": 18
+        },
+        {
+            "day": 3,
+            "time_interval": 19
+        },
+        {
+            "day": 5,
+            "time_interval": 18
+        },
+        {
+            "day": 5,
+            "time_interval": 19
+        }
+      ]
   },
   {
       "id": 83,
       "course": "ADM590",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 1,
+            "time_interval": 16
+        },
+        {
+            "day": 1,
+            "time_interval": 17
+        },
+        {
+            "day": 4,
+            "time_interval": 18
+        },
+        {
+            "day": 4,
+            "time_interval": 19
+        }
+      ]
   },
   {
       "id": 84,
       "course": "ADM591",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 1,
+            "time_interval": 18
+        },
+        {
+            "day": 1,
+            "time_interval": 19
+        },
+        {
+            "day": 3,
+            "time_interval": 16
+        },
+        {
+            "day": 3,
+            "time_interval": 17
+        }
+      ]
   },
   {
       "id": 85,
       "course": "ADM592",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 2,
+            "time_interval": 14
+        },
+        {
+            "day": 2,
+            "time_interval": 15
+        },
+        {
+            "day": 4,
+            "time_interval": 14
+        },
+        {
+            "day": 4,
+            "time_interval": 15
+        }
+      ]
   },
   {
       "id": 86,
       "course": "DES200",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 2,
+            "time_interval": 16
+        },
+        {
+            "day": 2,
+            "time_interval": 17
+        },
+        {
+            "day": 2,
+            "time_interval": 18
+        },
+        {
+            "day": 2,
+            "time_interval": 19
+        }
+      ]
   },
   {
       "id": 87,
       "course": "DES200",
       "code": "T02",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 2,
+            "time_interval": 16
+        },
+        {
+            "day": 2,
+            "time_interval": 17
+        },
+        {
+            "day": 2,
+            "time_interval": 18
+        },
+        {
+            "day": 2,
+            "time_interval": 19
+        }
+      ]
   },
   {
       "id": 88,
       "course": "DES200",
       "code": "T03",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 3,
+            "time_interval": 16
+        },
+        {
+            "day": 3,
+            "time_interval": 17
+        },
+        {
+            "day": 3,
+            "time_interval": 18
+        },
+        {
+            "day": 3,
+            "time_interval": 19
+        }
+        ]
   },
   {
       "id": 89,
       "course": "DES200",
       "code": "T04",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 3,
+            "time_interval": 16
+        },
+        {
+            "day": 3,
+            "time_interval": 17
+        },
+        {
+            "day": 3,
+            "time_interval": 18
+        },
+        {
+            "day": 3,
+            "time_interval": 19
+        }
+      ]
   },
   {
       "id": 90,
       "course": "DES200",
       "code": "T05",
-      "schedules": []
+      "schedules": [
+      { 
+            "day": 1,
+            "time_interval": 16
+        },
+        {
+            "day": 1,
+            "time_interval": 17
+        },
+        {
+            "day": 1,
+            "time_interval": 18
+        },
+        {
+            "day": 1,
+            "time_interval": 19
+        }]
   },
   {
       "id": 91,
       "course": "DES200",
       "code": "T06",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 1,
+            "time_interval": 16
+        },
+        {
+            "day": 1,
+            "time_interval": 17
+        },
+        {
+            "day": 1,
+            "time_interval": 18
+        },
+        {
+            "day": 1,
+            "time_interval": 19
+        }
+      ]
   },
   {
       "id": 92,
       "course": "DES201",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 2,
+            "time_interval": 16
+        },
+        {
+            "day": 2,
+            "time_interval": 17
+        },
+        {
+            "day": 2,
+            "time_interval": 18
+        },
+        {
+            "day": 2,
+            "time_interval": 19
+        }
+      ]
   },
   {
       "id": 93,
       "course": "DES202",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 4,
+            "time_interval": 16
+        },
+        {
+            "day": 4,
+            "time_interval": 17
+        },
+        {
+            "day": 4,
+            "time_interval": 18
+        },
+        {
+            "day": 4,
+            "time_interval": 19
+        }
+      ]
   },
   {
       "id": 94,
       "course": "EDU150",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 2,
+            "time_interval": 18
+        },
+        {
+            "day": 2,
+            "time_interval": 19
+        },
+        {
+            "day": 4,
+            "time_interval": 16
+        },
+        {
+            "day": 4,
+            "time_interval": 17
+        }
+      ]
   },
   {
       "id": 95,
       "course": "EDU150",
       "code": "T02",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 2,
+            "time_interval": 16
+        },
+        {
+            "day": 2,
+            "time_interval": 17
+        },
+        {
+            "day": 2,
+            "time_interval": 18
+        },
+        {
+            "day": 2,
+            "time_interval": 19
+        }
+      ]
   },
   {
       "id": 96,
       "course": "EDU150",
       "code": "T03",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 1,
+            "time_interval": 18
+        },
+        {
+            "day": 1,
+            "time_interval": 19
+        },
+        {
+            "day": 3,
+            "time_interval": 16
+        },
+        {
+            "day": 3,
+            "time_interval": 17
+        }
+      ]
   },
   {
       "id": 97,
       "course": "EDU153",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 4,
+            "time_interval": 16
+        },
+        {
+            "day": 4,
+            "time_interval": 17
+        }
+      ]
   },
   {
       "id": 98,
       "course": "EDU153",
       "code": "T02",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 3,
+            "time_interval": 18
+        },
+        {
+            "day": 3,
+            "time_interval": 19
+        }
+      ]
   },
   {
       "id": 99,
       "course": "EDU153",
       "code": "T03",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 4,
+            "time_interval": 18
+        },
+        {
+            "day": 4,
+            "time_interval": 19
+        }
+      ]
   },
   {
       "id": 100,
       "course": "EDU154",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 2,
+            "time_interval": 16
+        },
+        {
+            "day": 2,
+            "time_interval": 17
+        },
+        {
+            "day": 5,
+            "time_interval": 18
+        },
+        {
+            "day": 5,
+            "time_interval": 19
+        }
+      ]
   },
   {
       "id": 101,
       "course": "EDU154",
       "code": "T02",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 3,
+            "time_interval": 18
+        },
+        {
+            "day": 3,
+            "time_interval": 19
+        },
+        {
+            "day": 5,
+            "time_interval": 18
+        },
+        {
+            "day": 5,
+            "time_interval": 19
+        }
+      ]
   },
   {
       "id": 102,
       "course": "EDU155",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 2,
+            "time_interval": 16
+        },
+        {
+            "day": 2,
+            "time_interval": 17
+        },
+        {
+            "day": 4,
+            "time_interval": 18
+        },
+        {
+            "day": 4,
+            "time_interval": 19
+        }
+      ]
   },
   {
       "id": 103,
       "course": "EDU155",
       "code": "T02",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 2,
+            "time_interval": 16
+        },
+        {
+            "day": 2,
+            "time_interval": 17
+        },
+        {
+            "day": 2,
+            "time_interval": 18
+        },
+        {
+            "day": 2,
+            "time_interval": 19
+        }
+      ]
   },
   {
       "id": 104,
       "course": "EDU156",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 2,
+            "time_interval": 18
+        },
+        {
+            "day": 2,
+            "time_interval": 19
+        },
+        {
+            "day": 4,
+            "time_interval": 16
+        },
+        {
+            "day": 4,
+            "time_interval": 17
+        }
+      ]
   },
   {
       "id": 105,
       "course": "EDU156",
       "code": "T02",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 1,
+            "time_interval": 18
+        },
+        {
+            "day": 1,
+            "time_interval": 19
+        },
+        {
+            "day": 4,
+            "time_interval": 18
+        },
+        {
+            "day": 4,
+            "time_interval": 19
+        }
+      ]
   },
   {
       "id": 106,
       "course": "EDU157",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 2,
+            "time_interval": 16
+        },
+        {
+            "day": 2,
+            "time_interval": 17
+        }
+      ]
   },
   {
       "id": 107,
       "course": "EDU157",
       "code": "T02",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 1,
+            "time_interval": 16
+        },
+        {
+            "day": 1,
+            "time_interval": 17
+        }
+      ]
   },
   {
       "id": 108,
       "course": "EDU158",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 2,
+            "time_interval": 18
+        },
+        {
+            "day": 2,
+            "time_interval": 19
+        },
+        { 
+            "day": 4,
+            "time_interval": 16
+        },
+        {
+            "day": 4,
+            "time_interval": 17
+        }
+      ]
   },
   {
       "id": 109,
       "course": "EDU159",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 2,
+            "time_interval": 18
+        },
+        {
+            "day": 2,
+            "time_interval": 19
+        }
+      ]
   },
   {
       "id": 110,
       "course": "EDU160",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 1,
+            "time_interval": 16
+        },
+        {
+            "day": 1,
+            "time_interval": 17
+        }
+      ]
   },
   {
       "id": 111,
       "course": "EDU160",
       "code": "T02",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 1,
+            "time_interval": 18
+        },
+        {
+            "day": 1,
+            "time_interval": 19
+        }
+     ]
   },
   {
       "id": 112,
       "course": "EDU160",
       "code": "T03",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 3,
+            "time_interval": 18
+        },
+        {
+            "day": 3,
+            "time_interval": 19
+        }
+      ]
   },
   {
       "id": 113,
       "course": "EDU162",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 4,
+            "time_interval": 18
+        },
+        {
+            "day": 4,
+            "time_interval": 19
+        }
+      ]
   },
   {
       "id": 114,
       "course": "EDU164",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 1,
+            "time_interval": 14
+        },
+        {
+            "day": 1,
+            "time_interval": 15
+        },
+        { 
+            "day": 2,
+            "time_interval": 14
+        },
+        {
+            "day": 2,
+            "time_interval": 15
+        }
+      ]
   },
   {
       "id": 115,
       "course": "EDU165",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 2,
+            "time_interval": 16
+        },
+        {
+            "day": 2,
+            "time_interval": 17
+        },
+        { 
+            "day": 4,
+            "time_interval": 18
+        },
+        {
+            "day": 4,
+            "time_interval": 19
+        }
+      ]
   },
   {
       "id": 116,
       "course": "EDU167",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 2,
+            "time_interval": 16
+        },
+        {
+            "day": 2,
+            "time_interval": 17
+        }
+        { 
+            "day": 4,
+            "time_interval": 18
+        },
+        {
+            "day": 4,
+            "time_interval": 19
+        }
+      ]
   },
   {
       "id": 117,
       "course": "EDU168",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 2,
+            "time_interval": 18
+        },
+        {
+            "day": 2,
+            "time_interval": 19
+        },
+        { 
+            "day": 4,
+            "time_interval": 16
+        },
+        {
+            "day": 5,
+            "time_interval": 17
+        }
+      ]
   },
   {
       "id": 118,
       "course": "EDU170",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 1,
+            "time_interval": 18
+        },
+        {
+            "day": 1,
+            "time_interval": 19
+        },
+        { 
+            "day": 3,
+            "time_interval": 16
+        },
+        {
+            "day": 3,
+            "time_interval": 17
+        }
+      ]
   },
   {
       "id": 119,
       "course": "ENG300",
       "code": "T01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 3,
+            "time_interval": 14
+        },
+        {
+            "day": 3,
+            "time_interval": 15
+        },
+        { 
+            "day": 5,
+            "time_interval": 14
+        },
+        {
+            "day": 5,
+            "time_interval": 15
+        }
+      ]
   },
   {
       "id": 120,
       "course": "ENG301",
       "code": "P01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 1,
+            "time_interval": 14
+        },
+        {
+            "day": 1,
+            "time_interval": 15
+        }
+      ]
   },
   {
       "id": 121,
       "course": "ENG301",
       "code": "P01",
-      "schedules": []
+      "schedules": [
+        { 
+            "day": 1,
+            "time_interval": 14
+        },
+        {
+            "day": 1,
+            "time_interval": 15
+        }
+      ]
   },
   {
       "id": 122,
