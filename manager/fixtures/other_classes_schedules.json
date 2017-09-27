@@ -6548,136 +6548,447 @@
     ]
   },
   {
-    "s_class": 364,
-    "course": "INF400",
-    "code": "T01",
-    "schedules": []
-  },
-  {
     "s_class": 365,
     "course": "INF400",
     "code": "T02",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      },
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 366,
     "course": "INF400",
     "code": "T03",
-    "schedules": []
+    "schedules": [
+    {
+        "day": 6,
+        "time_interval": 1
+      },
+      {
+        "day": 6,
+        "time_interval": 2
+      }
+    ]
   },
   {
     "s_class": 367,
     "course": "INF402",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+     {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      },
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 368,
     "course": "INF403",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      },
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 369,
     "course": "INF404",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+     {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 370,
     "course": "INF405",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+     {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 371,
     "course": "LET100",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+    {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      },
+      {
+        "day": 5,
+        "time_interval": 14
+      },
+      {
+        "day": 5,
+        "time_interval": 15
+      }
+    ]
   },
   {
     "s_class": 372,
     "course": "LET100",
     "code": "T02",
-    "schedules": []
+    "schedules": [
+     {
+        "day": 2,
+        "time_interval": 14
+      },
+      {
+        "day": 2,
+        "time_interval": 15
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 373,
     "course": "LET100",
     "code": "T03",
-    "schedules": []
+    "schedules": [
+     {
+        "day": 4,
+        "time_interval": 14
+      },
+      {
+        "day": 4,
+        "time_interval": 15
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 374,
     "course": "LET100",
     "code": "T04",
-    "schedules": []
+    "schedules": [
+     {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 14
+      },
+      {
+        "day": 4,
+        "time_interval": 15
+      }
+    ]
   },
   {
     "s_class": 375,
     "course": "LET101",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+     {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 376,
     "course": "LET102",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+     {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 377,
     "course": "LET102",
     "code": "T02",
-    "schedules": []
+    "schedules": [
+     {
+        "day": 3,
+        "time_interval": 14
+      },
+      {
+        "day": 3,
+        "time_interval": 15
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 378,
     "course": "LET106",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+    {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 379,
     "course": "LET111",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+     {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      },
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 380,
     "course": "LET111",
     "code": "T02",
-    "schedules": []
+    "schedules": [
+    {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      },
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 381,
     "course": "LET111",
     "code": "T03",
-    "schedules": []
+    "schedules": [
+     {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 382,
     "course": "LET112",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+     {
+        "day": 4,
+        "time_interval": 14
+      },
+      {
+        "day": 4,
+        "time_interval": 15
+      }
+    ]
   },
   {
     "s_class": 383,
     "course": "LET112",
     "code": "T02",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 384,
     "course": "LET112",
     "code": "T03",
-    "schedules": []
+    "schedules": [
+     {
+        "day": 5,
+        "time_interval": 14
+      },
+      {
+        "day": 5,
+        "time_interval": 15
+      }
+    ]
   },
   {
     "s_class": 385,
     "course": "LET112",
     "code": "T04",
-    "schedules": []
+    "schedules": [
+     {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 386,

@@ -3722,18 +3722,6 @@
   {
     "model": "manager.Class",
     "fields": {
-      "id": 364,
-      "course": "INF400",
-      "code": "T01",
-      "teacher": 139,
-      "size": 44,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
       "id": 365,
       "course": "INF400",
       "code": "T02",
