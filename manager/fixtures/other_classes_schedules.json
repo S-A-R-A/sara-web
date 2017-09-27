@@ -4051,754 +4051,2501 @@
     "s_class": 227,
     "course": "EVE113",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 14
+      },
+      {
+        "day": 1,
+        "time_interval": 15
+      },
+      {
+        "day": 2,
+        "time_interval": 9
+      },
+      {
+        "day": 2,
+        "time_interval": 10
+      }
+    ]
   },
   {
     "s_class": 228,
     "course": "EVE117",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 14
+      },
+      {
+        "day": 5,
+        "time_interval": 15
+      }
+    ]
   },
   {
     "s_class": 229,
     "course": "EVE119",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 14
+      },
+      {
+        "day": 1,
+        "time_interval": 15
+      },
+      {
+        "day": 5,
+        "time_interval": 12
+      },
+      {
+        "day": 5,
+        "time_interval": 13
+      }
+    ]
   },
   {
     "s_class": 230,
     "course": "EVE120",
     "code": "P01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 231,
     "course": "EVE121",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 9
+      },
+      {
+        "day": 1,
+        "time_interval": 10
+      },
+      {
+        "day": 1,
+        "time_interval": 11
+      },
+      {
+        "day": 1,
+        "time_interval": 13
+      },
+      {
+        "day": 2,
+        "time_interval": 11
+      },
+      {
+        "day": 2,
+        "time_interval": 13
+      }
+    ]
   },
   {
     "s_class": 232,
     "course": "FIS210",
     "code": "P01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 233,
     "course": "FIS210",
     "code": "P02",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 234,
     "course": "FIS210",
     "code": "P03",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 235,
     "course": "FIS210",
     "code": "P04",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 236,
     "course": "FIS210",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 237,
     "course": "FIS210",
     "code": "T02",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 238,
     "course": "FIS211",
     "code": "P01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 239,
     "course": "FIS211",
     "code": "P02",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 240,
     "course": "FIS211",
     "code": "P03",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 241,
     "course": "FIS211",
     "code": "P04",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 242,
     "course": "FIS211",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      },
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 243,
     "course": "FIS211",
     "code": "T02",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      },
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 244,
     "course": "FIS212",
     "code": "P01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 245,
     "course": "FIS212",
     "code": "P02",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 246,
     "course": "FIS212",
     "code": "P03",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 247,
     "course": "FIS212",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 14
+      },
+      {
+        "day": 3,
+        "time_interval": 15
+      },
+      {
+        "day": 5,
+        "time_interval": 14
+      },
+      {
+        "day": 5,
+        "time_interval": 15
+      }
+    ]
   },
   {
     "s_class": 248,
     "course": "FIS213",
     "code": "P01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 249,
     "course": "FIS213",
     "code": "P02",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 250,
     "course": "FIS213",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 251,
     "course": "FIS214",
     "code": "P01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
   },
   {
-    "s_class": 251,
+    "s_class": 500,
     "course": "FIS214",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 252,
     "course": "FIS215",
     "code": "P01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 253,
     "course": "FIS215",
     "code": "P02",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 254,
     "course": "FIS215",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 255,
     "course": "FIS216",
     "code": "P01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 256,
     "course": "FIS216",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 257,
     "course": "FIS217",
     "code": "P01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 258,
     "course": "FIS217",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 259,
     "course": "FIS218",
     "code": "P01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 260,
     "course": "FIS218",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 261,
     "course": "FIS219",
     "code": "P01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 262,
     "course": "FIS219",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 263,
     "course": "FIS220",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 264,
     "course": "FIS223",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 265,
     "course": "FIS224",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 266,
     "course": "FIS225",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 267,
     "course": "FIS226",
     "code": "P01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 268,
     "course": "FIS226",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 269,
     "course": "FIS227",
     "code": "P01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 270,
     "course": "FIS227",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 271,
     "course": "FIS228",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 272,
     "course": "FIS229",
     "code": "T01",
     "size": 5,
-    "schedules": []
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 273,
     "course": "FIS230",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 14
+      },
+      {
+        "day": 3,
+        "time_interval": 15
+      }
+    ]
   },
   {
     "s_class": 274,
     "course": "FIS231",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 14
+      },
+      {
+        "day": 2,
+        "time_interval": 15
+      }
+    ]
   },
   {
     "s_class": 275,
     "course": "FIS231",
     "code": "P01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 14
+      },
+      {
+        "day": 4,
+        "time_interval": 15
+      }
+    ]
   },
   {
     "s_class": 276,
     "course": "FIS231",
     "code": "P02",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 14
+      },
+      {
+        "day": 4,
+        "time_interval": 15
+      }
+    ]
   },
   {
     "s_class": 277,
     "course": "FIS232",
     "code": "P01",
     "size": 5,
-    "schedules": []
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 11
+      },
+      {
+        "day": 4,
+        "time_interval": 13
+      },
+      {
+        "day": 5,
+        "time_interval": 11
+      },
+      {
+        "day": 5,
+        "time_interval": 13
+      }
+    ]
   },
   {
     "s_class": 278,
     "course": "FIS232",
     "code": "P02",
     "size": 5,
-    "schedules": []
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 11
+      },
+      {
+        "day": 4,
+        "time_interval": 13
+      },
+      {
+        "day": 5,
+        "time_interval": 11
+      },
+      {
+        "day": 5,
+        "time_interval": 13
+      }
+    ]
   },
   {
     "s_class": 279,
     "course": "FIS232",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 280,
     "course": "FIS233",
     "code": "P01",
     "size": 5,
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 11
+      },
+      {
+        "day": 1,
+        "time_interval": 13
+      },
+      {
+        "day": 2,
+        "time_interval": 11
+      },
+      {
+        "day": 2,
+        "time_interval": 13
+      }
+    ]
   },
   {
     "s_class": 281,
     "course": "FIS233",
     "code": "P02",
     "size": 5,
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 11
+      },
+      {
+        "day": 1,
+        "time_interval": 13
+      },
+      {
+        "day": 2,
+        "time_interval": 11
+      },
+      {
+        "day": 2,
+        "time_interval": 13
+      }
+    ]
   },
   {
     "s_class": 282,
     "course": "FIS233",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 283,
     "course": "FIS234",
     "code": "P01",
     "size": 5,
-    "schedules": []
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 11
+      },
+      {
+        "day": 4,
+        "time_interval": 13
+      },
+      {
+        "day": 5,
+        "time_interval": 11
+      },
+      {
+        "day": 5,
+        "time_interval": 13
+      }
+    ]
   },
   {
     "s_class": 284,
     "course": "FIS234",
     "code": "T01",
     "size": 5,
-    "schedules": []
+    "schedules": [
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 285,
     "course": "FIS235",
     "code": "P01",
     "size": 5,
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 11
+      },
+      {
+        "day": 1,
+        "time_interval": 13
+      },
+      {
+        "day": 2,
+        "time_interval": 11
+      },
+      {
+        "day": 2,
+        "time_interval": 13
+      }
+    ]
   },
   {
     "s_class": 286,
     "course": "FIS235",
     "code": "T01",
     "size": 5,
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 287,
     "course": "FIS236",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      },
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 288,
     "course": "GEO100",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      },
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 289,
     "course": "GEO101",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 290,
     "course": "GEO103",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 291,
     "course": "GEO104",
     "code": "T01",
-    "schedules": []
-  },
-  {
-    "s_class": 291,
-    "course": "GEO104",
-    "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      },
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 292,
     "course": "GEO105",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 293,
     "course": "GEO106",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 294,
     "course": "GEO107",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 295,
     "course": "GEO108",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      },
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 296,
     "course": "GEO109",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 297,
     "course": "GEO111",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 298,
     "course": "GEO112",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 299,
     "course": "GEO113",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 300,
     "course": "GEO114",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 11
+      },
+      {
+        "day": 5,
+        "time_interval": 13
+      }
+    ]
   },
   {
     "s_class": 301,
     "course": "GEO115",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      },
+      {
+        "day": 3,
+        "time_interval": 11
+      },
+      {
+        "day": 3,
+        "time_interval": 13
+      },
+      {
+        "day": 4,
+        "time_interval": 11
+      },
+      {
+        "day": 4,
+        "time_interval": 13
+      }
+    ]
   },
   {
     "s_class": 302,
     "course": "GEO116",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 2,
+        "time_interval": 11
+      },
+      {
+        "day": 2,
+        "time_interval": 13
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 11
+      },
+      {
+        "day": 5,
+        "time_interval": 13
+      }
+    ]
   },
   {
     "s_class": 303,
     "course": "GEO117",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 3,
+        "time_interval": 11
+      },
+      {
+        "day": 3,
+        "time_interval": 13
+      }
+    ]
   },
   {
     "s_class": 304,
     "course": "GEO118",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 305,
     "course": "GEO119",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 306,
     "course": "GEO120",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 307,
     "course": "GEO121",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 308,
     "course": "GEO122",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 309,
     "course": "GEO123",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      },
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 310,
     "course": "GEO124",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 311,
     "course": "GEO125",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      },
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 312,
     "course": "GEO126",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 313,
     "course": "GEO127",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 314,
     "course": "GEO128",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 315,
     "course": "GEO129",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 18
+      },
+      {
+        "day": 1,
+        "time_interval": 19
+      },
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 316,
     "course": "GEO130",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      },
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 317,
     "course": "GEO131",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 318,
     "course": "GEO140",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 319,
     "course": "HUM100",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      },
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 320,
     "course": "HUM100",
     "code": "T02",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      },
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 321,
     "course": "HUM101",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 322,
     "course": "HUM102",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 323,
     "course": "HUM102",
     "code": "T02",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      },
+      {
+        "day": 4,
+        "time_interval": 14
+      },
+      {
+        "day": 4,
+        "time_interval": 15
+      }
+    ]
   },
   {
     "s_class": 324,
     "course": "HUM103",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 14
+      },
+      {
+        "day": 1,
+        "time_interval": 15
+      },
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 325,
     "course": "HUM103",
     "code": "T02",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      },
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 326,
     "course": "HUM103",
     "code": "T03",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 14
+      },
+      {
+        "day": 4,
+        "time_interval": 15
+      },
+      {
+        "day": 6,
+        "time_interval": 3
+      },
+      {
+        "day": 6,
+        "time_interval": 4
+      }
+    ]
   },
   {
     "s_class": 327,
     "course": "HUM103",
     "code": "T04",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 328,
     "course": "HUM115",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 329,
     "course": "HUM150",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 330,
     "course": "HUM151",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 331,
     "course": "HUM152",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 332,
     "course": "HUM153",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 14
+      },
+      {
+        "day": 4,
+        "time_interval": 15
+      },
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 341,
     "course": "INF015",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      },
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 346,
     "course": "INF020",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 347,
     "course": "INF021",
     "code": "T01",
-    "schedules": []
+    "schedules": [  ]
   },
   {
     "s_class": 351,
     "course": "INF024",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+      "day": 3,
+      "time_interval": 14
+    },
+    {
+      "day": 3,
+      "time_interval": 15
+    },
+    {
+      "day": 3,
+      "time_interval": 16
+    },
+    {
+      "day": 3,
+      "time_interval": 17
+    }]
   },
   {
     "s_class": 352,
     "course": "INF024",
     "code": "T02",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      },
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 353,
     "course": "INF024",
     "code": "T03",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 354,
     "course": "INF025",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 5,
+        "time_interval": 14
+      },
+      {
+        "day": 5,
+        "time_interval": 15
+      },
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 355,
     "course": "INF026",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 18
+      },
+      {
+        "day": 2,
+        "time_interval": 19
+      },
+      {
+        "day": 4,
+        "time_interval": 18
+      },
+      {
+        "day": 4,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 356,
     "course": "INF027",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      },
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 357,
     "course": "INF027",
     "code": "T02",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      },
+      {
+        "day": 3,
+        "time_interval": 14
+      },
+      {
+        "day": 3,
+        "time_interval": 15
+      }
+    ]
   },
   {
     "s_class": 358,
     "course": "INF027",
     "code": "T03",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 14
+      },
+      {
+        "day": 1,
+        "time_interval": 15
+      },
+      {
+        "day": 3,
+        "time_interval": 18
+      },
+      {
+        "day": 3,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 359,
     "course": "INF028",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 1,
+        "time_interval": 16
+      },
+      {
+        "day": 1,
+        "time_interval": 17
+      },
+      {
+        "day": 2,
+        "time_interval": 16
+      },
+      {
+        "day": 2,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 360,
     "course": "INF029",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 3,
+        "time_interval": 16
+      },
+      {
+        "day": 3,
+        "time_interval": 17
+      },
+      {
+        "day": 5,
+        "time_interval": 16
+      },
+      {
+        "day": 5,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 361,
     "course": "INF030",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 14
+      },
+      {
+        "day": 4,
+        "time_interval": 15
+      }
+    ]
   },
   {
     "s_class": 362,
     "course": "INF031",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 2,
+        "time_interval": 14
+      },
+      {
+        "day": 2,
+        "time_interval": 15
+      },
+      {
+        "day": 5,
+        "time_interval": 18
+      },
+      {
+        "day": 5,
+        "time_interval": 19
+      }
+    ]
   },
   {
     "s_class": 363,
     "course": "INF400",
     "code": "T01",
-    "schedules": []
+    "schedules": [
+      {
+        "day": 4,
+        "time_interval": 14
+      },
+      {
+        "day": 4,
+        "time_interval": 15
+      },
+      {
+        "day": 4,
+        "time_interval": 16
+      },
+      {
+        "day": 4,
+        "time_interval": 17
+      }
+    ]
   },
   {
     "s_class": 364,
