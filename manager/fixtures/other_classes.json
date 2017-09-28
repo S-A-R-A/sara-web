@@ -3,7 +3,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 38,
-      "course": "ADM500",
+      "course": 1,
       "code": "T01",
       "teacher": 121,
       "size": 50,
@@ -15,7 +15,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 41,
-      "course": "ADM501",
+      "course": 144,
       "code": "T01",
       "teacher": 162,
       "size": 40,
@@ -27,7 +27,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 42,
-      "course": "ADM502",
+      "course": 145,
       "code": "T01",
       "teacher": 162,
       "size": 40,
@@ -39,7 +39,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 43,
-      "course": "ADM503",
+      "course": 146,
       "code": "T01",
       "teacher": 162,
       "size": 40,
@@ -51,7 +51,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 44,
-      "course": "ADM504",
+      "course": 30,
       "code": "T01",
       "teacher": 35,
       "size": 42,
@@ -75,7 +75,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 46,
-      "course": "ADM506",
+      "course": 35,
       "code": "T01",
       "teacher": 128,
       "size": 40,
@@ -87,7 +87,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 47,
-      "course": "ADM507",
+      "course": 36,
       "code": "T01",
       "teacher": 128,
       "size": 40,
@@ -99,7 +99,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 48,
-      "course": "ADM508",
+      "course": 311,
       "code": "T01",
       "teacher": 52,
       "size": 40,
@@ -111,7 +111,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 49,
-      "course": "ADM509",
+      "course": 83,
       "code": "T01",
       "teacher": 92,
       "size": 45,
@@ -123,7 +123,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 50,
-      "course": "ADM510",
+      "course": 34,
       "code": "T01",
       "teacher": 129,
       "size": 40,
@@ -135,7 +135,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 51,
-      "course": "ADM511",
+      "course": 33,
       "code": "T01",
       "teacher": 116,
       "size": 40,
@@ -147,7 +147,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 52,
-      "course": "ADM512",
+      "course": 184,
       "code": "T01",
       "teacher": 44,
       "size": 50,
@@ -159,7 +159,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 53,
-      "course": "ADM512",
+      "course": 184,
       "code": "T02",
       "teacher": 44,
       "size": 50,
@@ -171,7 +171,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 54,
-      "course": "ADM512",
+      "course": 184,
       "code": "T03",
       "teacher": 44,
       "size": 30,
@@ -183,7 +183,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 55,
-      "course": "ADM513",
+      "course": 185,
       "code": "T01",
       "teacher": 131,
       "size": 40,
@@ -195,7 +195,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 56,
-      "course": "ADM514",
+      "course": 186,
       "code": "T01",
       "teacher": 131,
       "size": 45,
@@ -207,7 +207,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 57,
-      "course": "ADM514",
+      "course": 186,
       "code": "T02",
       "teacher": 131,
       "size": 30,
@@ -219,7 +219,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 58,
-      "course": "ADM515",
+      "course": 37,
       "code": "T01",
       "teacher": 145,
       "size": 45,
@@ -231,7 +231,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 59,
-      "course": "ADM516",
+      "course": 38,
       "code": "T01",
       "teacher": 145,
       "size": 40,
@@ -243,7 +243,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 60,
-      "course": "ADM517",
+      "course": 271,
       "code": "T01",
       "teacher": 121,
       "size": 40,
@@ -255,7 +255,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 61,
-      "course": "ADM518",
+      "course": 329,
       "code": "T01",
       "teacher": 146,
       "size": 40,
@@ -267,7 +267,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 62,
-      "course": "ADM530",
+      "course": 101,
       "code": "T01",
       "teacher": 192,
       "size": 50,
@@ -279,7 +279,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 63,
-      "course": "ADM530",
+      "course": 101,
       "code": "T02",
       "teacher": 29,
       "size": 50,
@@ -291,7 +291,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 64,
-      "course": "ADM531",
+      "course": 103,
       "code": "T01",
       "teacher": 58,
       "size": 45,
@@ -303,7 +303,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 65,
-      "course": "ADM532",
+      "course": 103,
       "code": "T01",
       "teacher": 58,
       "size": 40,
@@ -315,7 +315,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 66,
-      "course": "ADM533",
+      "course": 102,
       "code": "T01",
       "teacher": 192,
       "size": 40,
@@ -327,7 +327,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 67,
-      "course": "ADM540",
+      "course": 97,
       "code": "T01",
       "teacher": 1,
       "size": 50,
@@ -339,7 +339,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 68,
-      "course": "ADM540",
+      "course": 97,
       "code": "T02",
       "teacher": 159,
       "size": 50,
@@ -351,7 +351,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 69,
-      "course": "ADM540",
+      "course": 97,
       "code": "T03",
       "teacher": 159,
       "size": 45,
@@ -363,7 +363,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 70,
-      "course": "ADM540",
+      "course": 97,
       "code": "T04",
       "teacher": 159,
       "size": 30,
@@ -375,7 +375,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 71,
-      "course": "ADM541",
+      "course": 98,
       "code": "T01",
       "teacher": 115,
       "size": 40,
@@ -387,7 +387,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 72,
-      "course": "ADM542",
+      "course": 99,
       "code": "T01",
       "teacher": 115,
       "size": 40,
@@ -399,7 +399,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 73,
-      "course": "ADM545",
+      "course": 32,
       "code": "T01",
       "teacher": 1,
       "size": 40,
@@ -411,7 +411,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 74,
-      "course": "ADM550",
+      "course": 23,
       "code": "T01",
       "teacher": 125,
       "size": 65,
@@ -423,7 +423,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 75,
-      "course": "ADM551",
+      "course": 155,
       "code": "T01",
       "teacher": 35,
       "size": 40,
@@ -435,7 +435,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 76,
-      "course": "ADM552",
+      "course": 305,
       "code": "T01",
       "teacher": 92,
       "size": 45,
@@ -447,7 +447,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 77,
-      "course": "ADM553",
+      "course": 321,
       "code": "T01",
       "teacher": 129,
       "size": 40,
@@ -459,7 +459,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 78,
-      "course": "ADM570",
+      "course": 148,
       "code": "T01",
       "teacher": 92,
       "size": 40,
@@ -471,7 +471,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 79,
-      "course": "ADM577",
+      "course": 273,
       "code": "T01",
       "teacher": 50,
       "size": 40,
@@ -483,7 +483,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 80,
-      "course": "ADM578",
+      "course": 323,
       "code": "T01",
       "teacher": 99,
       "size": 40,
@@ -495,7 +495,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 81,
-      "course": "ADM579",
+      "course": 190,
       "code": "T01",
       "teacher": 50,
       "size": 40,
@@ -507,7 +507,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 82,
-      "course": "ADM580",
+      "course": 189,
       "code": "T01",
       "teacher": 105,
       "size": 40,
@@ -519,7 +519,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 83,
-      "course": "ADM590",
+      "course": 109,
       "code": "T01",
       "teacher": 28,
       "size": 40,
@@ -531,7 +531,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 84,
-      "course": "ADM591",
+      "course": 330,
       "code": "T01",
       "teacher": 28,
       "size": 40,
@@ -543,7 +543,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 85,
-      "course": "ADM592",
+      "course": 123,
       "code": "T01",
       "teacher": 29,
       "size": 40,
@@ -555,7 +555,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 86,
-      "course": "DES200",
+      "course": 95,
       "code": "T01",
       "teacher": 79,
       "size": 20,
@@ -567,7 +567,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 87,
-      "course": "DES200",
+      "course": 95,
       "code": "T02",
       "teacher": 89,
       "size": 20,
@@ -579,7 +579,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 88,
-      "course": "DES200",
+      "course": 95,
       "code": "T03",
       "teacher": 89,
       "size": 20,
@@ -591,7 +591,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 89,
-      "course": "DES200",
+      "course": 95,
       "code": "T04",
       "teacher": 30,
       "size": 20,
@@ -603,7 +603,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 90,
-      "course": "DES200",
+      "course": 95,
       "code": "T05",
       "teacher": 79,
       "size": 20,
@@ -615,7 +615,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 91,
-      "course": "DES200",
+      "course": 95,
       "code": "T06",
       "teacher": 89,
       "size": 20,
@@ -627,7 +627,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 92,
-      "course": "DES201",
+      "course": 94,
       "code": "T01",
       "teacher": 55,
       "size": 25,
@@ -639,7 +639,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 93,
-      "course": "DES202",
+      "course": 93,
       "code": "T01",
       "teacher": 89,
       "size": 20,
@@ -651,7 +651,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 94,
-      "course": "EDU150",
+      "course": 193,
       "code": "T01",
       "teacher": 186,
       "size": 50,
@@ -663,7 +663,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 95,
-      "course": "EDU150",
+      "course": 193,
       "code": "T02",
       "teacher": 213,
       "size": 45,
@@ -675,7 +675,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 96,
-      "course": "EDU150",
+      "course": 193,
       "code": "T03",
       "teacher": 213,
       "size": 50,
@@ -687,7 +687,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 97,
-      "course": "EDU153",
+      "course": 72,
       "code": "T01",
       "teacher": 28,
       "size": 40,
@@ -699,7 +699,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 98,
-      "course": "EDU153",
+      "course": 72,
       "code": "T02",
       "teacher": 28,
       "size": 45,
@@ -711,7 +711,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 99,
-      "course": "EDU153",
+      "course": 72,
       "code": "T03",
       "teacher": 213,
       "size": 25,
@@ -723,7 +723,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 100,
-      "course": "EDU154",
+      "course": 154,
       "code": "T01",
       "teacher": 95,
       "size": 50,
@@ -735,7 +735,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 101,
-      "course": "EDU154",
+      "course": 154,
       "code": "T02",
       "teacher": 158,
       "size": 40,
@@ -747,7 +747,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 102,
-      "course": "EDU155",
+      "course": 289,
       "code": "T01",
       "teacher": 163,
       "size": 50,
@@ -759,7 +759,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 103,
-      "course": "EDU155",
+      "course": 289,
       "code": "T02",
       "teacher": 166,
       "size": 50,
@@ -771,7 +771,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 104,
-      "course": "EDU156",
+      "course": 96,
       "code": "T01",
       "teacher": 185,
       "size": 50,
@@ -783,7 +783,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 105,
-      "course": "EDU156",
+      "course": 96,
       "code": "T02",
       "teacher": 185,
       "size": 50,
@@ -795,7 +795,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 106,
-      "course": "EDU157",
+      "course": 56,
       "code": "T01",
       "teacher": 185,
       "size": 55,
@@ -807,7 +807,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 107,
-      "course": "EDU157",
+      "course": 56,
       "code": "T02",
       "teacher": 185,
       "size": 50,
@@ -819,7 +819,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 108,
-      "course": "EDU158",
+      "course": 316,
       "code": "T01",
       "teacher": 61,
       "size": 56,
@@ -831,7 +831,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 109,
-      "course": "EDU159",
+      "course": 248,
       "code": "T01",
       "teacher": 203,
       "size": 40,
@@ -843,7 +843,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 110,
-      "course": "EDU160",
+      "course": 268,
       "code": "T01",
       "teacher": 186,
       "size": 40,
@@ -855,7 +855,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 111,
-      "course": "EDU160",
+      "course": 268,
       "code": "T02",
       "teacher": 186,
       "size": 40,
@@ -867,7 +867,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 112,
-      "course": "EDU160",
+      "course": 268,
       "code": "T03",
       "teacher": 213,
       "size": 40,
@@ -879,7 +879,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 113,
-      "course": "EDU162",
+      "course": 249,
       "code": "T01",
       "teacher": 203,
       "size": 40,
@@ -891,7 +891,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 114,
-      "course": "EDU164",
+      "course": 106,
       "code": "T01",
       "teacher": 151,
       "size": 45,
@@ -903,7 +903,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 115,
-      "course": "EDU165",
+      "course": 107,
       "code": "T01",
       "teacher": 151,
       "size": 45,
@@ -915,7 +915,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 116,
-      "course": "EDU167",
+      "course": 188,
       "code": "T01",
       "teacher": 186,
       "size": 45,
@@ -927,7 +927,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 117,
-      "course": "EDU168",
+      "course": 105,
       "code": "T01",
       "teacher": 166,
       "size": 45,
@@ -939,7 +939,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 118,
-      "course": "EDU170",
+      "course": 290,
       "code": "T01",
       "teacher": 163,
       "size": 45,
@@ -951,7 +951,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 119,
-      "course": "ENG300",
+      "course": 207,
       "code": "T01",
       "teacher": 172,
       "size": 40,
@@ -963,7 +963,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 120,
-      "course": "ENG301",
+      "course": 233,
       "code": "P01",
       "teacher": 200,
       "size": 15,
@@ -975,7 +975,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 121,
-      "course": "ENG301",
+      "course": 233,
       "code": "P01",
       "teacher": 165,
       "size": 15,
@@ -987,7 +987,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 122,
-      "course": "ENG301",
+      "course": 233,
       "code": "T01",
       "teacher": 165,
       "size": 30,
@@ -999,7 +999,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 123,
-      "course": "ENG302",
+      "course": 234,
       "code": "T01",
       "teacher": 175,
       "size": 40,
@@ -1011,7 +1011,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 124,
-      "course": "ENG303",
+      "course": 262,
       "code": "T01",
       "teacher": 111,
       "size": 22,
@@ -1023,7 +1023,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 125,
-      "course": "ENG304",
+      "course": 280,
       "code": "T01",
       "teacher": 189,
       "size": 30,
@@ -1035,7 +1035,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 126,
-      "course": "ENG305",
+      "course": 281,
       "code": "T01",
       "teacher": 189,
       "size": 30,
@@ -1047,7 +1047,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 127,
-      "course": "ENG306",
+      "course": 120,
       "code": "T01",
       "teacher": 43,
       "size": 45,
@@ -1059,7 +1059,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 128,
-      "course": "ENG307",
+      "course": 282,
       "code": "T01",
       "teacher": 111,
       "size": 22,
@@ -1071,7 +1071,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 129,
-      "course": "PMO302",
+      "course": 284,
       "code": "T01",
       "teacher": 172,
       "size": 30,
@@ -1083,7 +1083,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 130,
-      "course": "ENG308",
+      "course": 242,
       "code": "T01",
       "teacher": 42,
       "size": 40,
@@ -1095,7 +1095,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 131,
-      "course": "ENG308",
+      "course": 242,
       "code": "T02",
       "teacher": 188,
       "size": 40,
@@ -1107,7 +1107,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 132,
-      "course": "ENG308",
+      "course": 242,
       "code": "T03",
       "teacher": 42,
       "size": 35,
@@ -1119,7 +1119,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 133,
-      "course": "ENG309",
+      "course": 306,
       "code": "T01",
       "teacher": 160,
       "size": 45,
@@ -1131,7 +1131,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 134,
-      "course": "ENG309",
+      "course": 306,
       "code": "T02",
       "teacher": 160,
       "size": 45,
@@ -1143,7 +1143,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 135,
-      "course": "ENG310",
+      "course": 143,
       "code": "T01",
       "teacher": 188,
       "size": 30,
@@ -1155,7 +1155,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 136,
-      "course": "ENG311",
+      "course": 110,
       "code": "T01",
       "teacher": 90,
       "size": 30,
@@ -1167,7 +1167,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 137,
-      "course": "ENG312",
+      "course": 244,
       "code": "T01",
       "teacher": 188,
       "size": 30,
@@ -1179,7 +1179,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 138,
-      "course": "ENG313",
+      "course": 125,
       "code": "T01",
       "teacher": 172,
       "size": 40,
@@ -1191,7 +1191,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 139,
-      "course": "ENG314",
+      "course": 342,
       "code": "T01",
       "teacher": 42,
       "size": 30,
@@ -1203,7 +1203,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 140,
-      "course": "ENG315",
+      "course": 226,
       "code": "T01",
       "teacher": 160,
       "size": 30,
@@ -1215,7 +1215,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 141,
-      "course": "ENG319",
+      "course": 313,
       "code": "T01",
       "teacher": 138,
       "size": 30,
@@ -1227,7 +1227,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 142,
-      "course": "ENG320",
+      "course": 314,
       "code": "T01",
       "teacher": 45,
       "size": 30,
@@ -1239,7 +1239,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 143,
-      "course": "ENG321",
+      "course": 227,
       "code": "T01",
       "teacher": 32,
       "size": 30,
@@ -1251,7 +1251,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 144,
-      "course": "ENG322",
+      "course": 78,
       "code": "T01",
       "teacher": 182,
       "size": 40,
@@ -1263,7 +1263,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 145,
-      "course": "ENG323",
+      "course": 90,
       "code": "T01",
       "teacher": 106,
       "size": 30,
@@ -1275,7 +1275,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 146,
-      "course": "ENG324",
+      "course": 55,
       "code": "T01",
       "teacher": 124,
       "size": 30,
@@ -1287,7 +1287,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 147,
-      "course": "ENG325",
+      "course": 81,
       "code": "T01",
       "teacher": 136,
       "size": 20,
@@ -1299,7 +1299,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 148,
-      "course": "ENG326",
+      "course": 274,
       "code": "T01",
       "teacher": 93,
       "size": 40,
@@ -1311,7 +1311,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 149,
-      "course": "ENG327",
+      "course": 335,
       "code": "T01",
       "teacher": 172,
       "size": 40,
@@ -1323,7 +1323,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 150,
-      "course": "ENG400",
+      "course": 205,
       "code": "T01",
       "teacher": 117,
       "size": 40,
@@ -1335,7 +1335,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 151,
-      "course": "ENG403",
+      "course": 119,
       "code": "T01",
       "teacher": 27,
       "size": 40,
@@ -1359,7 +1359,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 153,
-      "course": "ENG405",
+      "course": 261,
       "code": "T01",
       "teacher": 76,
       "size": 30,
@@ -1371,7 +1371,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 154,
-      "course": "ENG406",
+      "course": 235,
       "code": "T01",
       "teacher": 127,
       "size": 30,
@@ -1383,7 +1383,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 155,
-      "course": "ENG407",
+      "course": 75,
       "code": "T01",
       "teacher": 117,
       "size": 40,
@@ -1395,7 +1395,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 156,
-      "course": "ENG408",
+      "course": 112,
       "code": "T01",
       "teacher": 46,
       "size": 40,
@@ -1407,7 +1407,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 157,
-      "course": "ENG409",
+      "course": 245,
       "code": "T01",
       "teacher": 27,
       "size": 40,
@@ -1419,7 +1419,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 158,
-      "course": "ENG410",
+      "course": 48,
       "code": "T01",
       "teacher": 190,
       "size": 40,
@@ -1431,7 +1431,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 159,
-      "course": "ENG411",
+      "course": 76,
       "code": "T01",
       "teacher": 119,
       "size": 30,
@@ -1443,7 +1443,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 160,
-      "course": "ENG412",
+      "course": 117,
       "code": "T01",
       "teacher": 157,
       "size": 30,
@@ -1455,7 +1455,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 161,
-      "course": "ENG413",
+      "course": 100,
       "code": "T01",
       "teacher": 46,
       "size": 40,
@@ -1467,7 +1467,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 162,
-      "course": "ENG414",
+      "course": 216,
       "code": "T01",
       "teacher": 204,
       "size": 14,
@@ -1479,7 +1479,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 163,
-      "course": "ENG415",
+      "course": 87,
       "code": "T01",
       "teacher": 114,
       "size": 40,
@@ -1491,7 +1491,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 164,
-      "course": "ENG416",
+      "course": 116,
       "code": "T01",
       "teacher": 157,
       "size": 18,
@@ -1503,7 +1503,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 165,
-      "course": "ENG417",
+      "course": 118,
       "code": "T01",
       "teacher": 120,
       "size": 40,
@@ -1515,7 +1515,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 166,
-      "course": "ENG418",
+      "course": 228,
       "code": "T01",
       "teacher": 127,
       "size": 40,
@@ -1527,7 +1527,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 167,
-      "course": "ENG419",
+      "course": 217,
       "code": "T01",
       "teacher": 204,
       "size": 14,
@@ -1539,7 +1539,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 168,
-      "course": "ENG420",
+      "course": 279,
       "code": "T01",
       "teacher": 86,
       "size": 40,
@@ -1551,7 +1551,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 169,
-      "course": "ENG421",
+      "course": 263,
       "code": "T01",
       "teacher": 204,
       "size": 14,
@@ -1563,7 +1563,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 170,
-      "course": "ENG422",
+      "course": 203,
       "code": "T01",
       "teacher": 80,
       "size": 30,
@@ -1575,7 +1575,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 171,
-      "course": "ENG423",
+      "course": 115,
       "code": "T01",
       "teacher": 46,
       "size": 30,
@@ -1587,7 +1587,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 172,
-      "course": "ENG424",
+      "course": 285,
       "code": "T01",
       "teacher": 27,
       "size": 30,
@@ -1599,7 +1599,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 173,
-      "course": "ENG425",
+      "course": 126,
       "code": "T01",
       "teacher": 27,
       "size": 30,
@@ -1611,7 +1611,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 174,
-      "course": "ENG426",
+      "course": 84,
       "code": "T01",
       "teacher": 120,
       "size": 15,
@@ -1623,7 +1623,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 175,
-      "course": "ENG428",
+      "course": 54,
       "code": "T01",
       "teacher": 76,
       "size": 0,
@@ -1635,7 +1635,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 176,
-      "course": "ENG430",
+      "course": 211,
       "code": "T01",
       "teacher": 86,
       "size": 15,
@@ -1647,7 +1647,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 177,
-      "course": "ENG432",
+      "course": 88,
       "code": "T01",
       "teacher": 114,
       "size": 0,
@@ -1659,7 +1659,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 178,
-      "course": "ENG433",
+      "course": 204,
       "code": "T01",
       "teacher": 106,
       "size": 35,
@@ -1671,7 +1671,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 179,
-      "course": "ENG434",
+      "course": 304,
       "code": "T01",
       "teacher": 21,
       "size": 15,
@@ -1695,7 +1695,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 181,
-      "course": "ENG447",
+      "course": 182,
       "code": "T01",
       "teacher": 47,
       "size": 20,
@@ -1707,7 +1707,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 182,
-      "course": "ENG449",
+      "course": 312,
       "code": "T01",
       "teacher": 47,
       "size": 20,
@@ -1719,7 +1719,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 183,
-      "course": "ENG452",
+      "course": 50,
       "code": "T01",
       "teacher": 59,
       "size": 20,
@@ -1731,7 +1731,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 184,
-      "course": "ENG451",
+      "course": 292,
       "code": "T01",
       "teacher": 119,
       "size": 20,
@@ -1743,7 +1743,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 185,
-      "course": "ENG453",
+      "course": 317,
       "code": "T01",
       "teacher": 80,
       "size": 20,
