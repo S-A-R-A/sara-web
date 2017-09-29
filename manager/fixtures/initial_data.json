@@ -508,13 +508,6 @@
     {
       "model": "manager.Teacher",
       "fields": {
-        "id": 35,
-        "name": "Andre Luis Rocha"
-      }
-    },
-    {
-      "model": "manager.Teacher",
-      "fields": {
         "id": 36,
         "name": "Andre Nunes"
       }
@@ -3056,6 +3049,16 @@
     {
       "model": "manager.Course",
       "fields": {
+        "id": 86,
+        "code": "ADM505",
+        "name": "Contabilidade de Custos",
+        "workload": 60,
+        "semester_number": 0
+      }
+    },
+    {
+      "model": "manager.Course",
+      "fields": {
         "id": 87,
         "code": "ENG415",
         "name": "Controle Automático I",
@@ -3587,7 +3590,7 @@
       "model": "manager.Course",
       "fields": {
         "id": 140,
-        "code": "FIS232*",
+        "code": "FIS235",
         "name": "Estágio Supervisionado IV",
         "workload": 60,
         "semester_number": 0
@@ -3747,8 +3750,8 @@
       "model": "manager.Course",
       "fields": {
         "id": 156,
-        "code": "Fis231",
-        "name": "FÍsica Aolicada",
+        "code": "FIS231",
+        "name": "Física Aolicada",
         "workload": 30,
         "semester_number": 0
       }
@@ -5307,7 +5310,7 @@
       "model": "manager.Course",
       "fields": {
         "id": 312,
-        "code": "ENG449",
+        "code": "ENG443",
         "name": "Sistemas telefônicos",
         "workload": 60,
         "semester_number": 0
@@ -5497,7 +5500,7 @@
       "model": "manager.Course",
       "fields": {
         "id": 331,
-        "code": "ADM528",
+        "code": "ENG528",
         "name": "Trabalho de Conclusão de Curso",
         "workload": 0,
         "semester_number": 0
