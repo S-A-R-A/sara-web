@@ -45,14 +45,22 @@ class Command(BaseCommand):
 
     def fill_timetabling(self, data):
         for element in data:
-            saved_class = Class.objects.get(id = element["s_class"])
+            try:
+                saved_class = Class.objects.get(id = element["s_class"])
+            except:
+                print("Error: Class (id = {0}) not found".format(element["s_class"]))
+                return
             print("{0} schedules to {1}: ".format(len(element["schedules"]), saved_class))
             for schedule in element["schedules"]:
                 if saved_class:
-                    saved_schedule = Schedule.objects.get(day = schedule["day"], time_interval = schedule["time_interval"])
-                    if saved_schedule:
-                        saved_class.schedules.add(saved_schedule)
-                        print("    {0} <- {1}".format(saved_class, saved_schedule))
+                    try:
+                        saved_schedule = Schedule.objects.get(day = schedule["day"], time_interval = schedule["time_interval"])
+                        if saved_schedule:
+                            saved_class.schedules.add(saved_schedule)
+                            print("    {0} <- {1}".format(saved_class, saved_schedule))
+                    except:
+                        print("Error: Schedule (day = {0} and time_interval = {1}) not found".format(schedule["day"], schedule["time_interval"]))
+                        return
 
     def add_arguments(self, parser):
         parser.add_argument('type_request', type=str)

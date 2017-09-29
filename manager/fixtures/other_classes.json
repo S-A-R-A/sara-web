@@ -53,7 +53,7 @@
       "id": 45,
       "course": 86,
       "code": "T01",
-      "teacher": 35,
+      "teacher": 135,
       "size": 45,
       "year": 2017,
       "semester": 1
@@ -291,7 +291,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 65,
-      "course": 103,
+      "course": 104,
       "code": "T01",
       "teacher": 58,
       "size": 40,
@@ -386,18 +386,6 @@
   {
     "model": "manager.Class",
     "fields": {
-      "id": 73,
-      "course": 32,
-      "code": "T01",
-      "teacher": 1,
-      "size": 40,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
       "id": 74,
       "course": 23,
       "code": "T01",
@@ -413,7 +401,7 @@
       "id": 75,
       "course": 155,
       "code": "T01",
-      "teacher": 35,
+      "teacher": 135,
       "size": 40,
       "year": 2017,
       "semester": 1
@@ -964,7 +952,7 @@
     "fields": {
       "id": 121,
       "course": 233,
-      "code": "P01",
+      "code": "P02",
       "teacher": 165,
       "size": 15,
       "year": 2017,
@@ -1695,7 +1683,7 @@
     "model": "manager.Class",
     "fields": {
       "id": 182,
-      "course": 312,
+      "course": 338,
       "code": "T01",
       "teacher": 47,
       "size": 20,
@@ -3350,18 +3338,6 @@
   {
     "model": "manager.Class",
     "fields": {
-      "id": 319,
-      "course": 24,
-      "code": "T01",
-      "teacher": 3,
-      "size": 50,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
       "id": 320,
       "course": 24,
       "code": "T02",
@@ -3379,18 +3355,6 @@
       "code": "T01",
       "teacher": 61,
       "size": 63,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 322,
-      "course": 31,
-      "code": "T01",
-      "teacher": 4,
-      "size": 60,
       "year": 2017,
       "semester": 1
     }
@@ -3518,42 +3482,6 @@
   {
     "model": "manager.Class",
     "fields": {
-      "id": 341,
-      "course": 18,
-      "code": "T01",
-      "teacher": 21,
-      "size": 40,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 346,
-      "course": 28,
-      "code": "T01",
-      "teacher": 5,
-      "size": 40,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 347,
-      "course": 13,
-      "code": "T01",
-      "teacher": 13,
-      "size": 40,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
       "id": 351,
       "course": 197,
       "code": "T01",
@@ -3595,102 +3523,6 @@
       "code": "T01",
       "teacher": 12,
       "size": 35,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 355,
-      "course": 2,
-      "code": "T01",
-      "teacher": 11,
-      "size": 50,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 356,
-      "course": 3,
-      "code": "T01",
-      "teacher": 22,
-      "size": 25,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 357,
-      "course": 3,
-      "code": "T02",
-      "teacher": 16,
-      "size": 25,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 358,
-      "course": 3,
-      "code": "T03",
-      "teacher": 15,
-      "size": 25,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 359,
-      "course": 8,
-      "code": "T01",
-      "teacher": 11,
-      "size": 40,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 360,
-      "course": 9,
-      "code": "T01",
-      "teacher": 14,
-      "size": 40,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 361,
-      "course": 19,
-      "code": "T01",
-      "teacher": 14,
-      "size": 30,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 362,
-      "course": 6,
-      "code": "T01",
-      "teacher": 16,
-      "size": 30,
       "year": 2017,
       "semester": 1
     }
@@ -3818,47 +3650,11 @@
   {
     "model": "manager.Class",
     "fields": {
-      "id": 374,
-      "course": 4,
-      "code": "T04",
-      "teacher": 17,
-      "size": 50,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
       "id": 375,
       "course": 223,
       "code": "T01",
       "teacher": 213,
       "size": 45,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 376,
-      "course": 10,
-      "code": "T01",
-      "teacher": 18,
-      "size": 30,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 377,
-      "course": 10,
-      "code": "T02",
-      "teacher": 152,
-      "size": 30,
       "year": 2017,
       "semester": 1
     }
@@ -4302,18 +4098,6 @@
       "course": 209,
       "code": "T02",
       "teacher": 69,
-      "size": 50,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 415,
-      "course": 5,
-      "code": "T01",
-      "teacher": 20,
       "size": 50,
       "year": 2017,
       "semester": 1
@@ -5295,18 +5079,6 @@
     "model": "manager.Class",
     "fields": {
       "id": 497,
-      "course": 269,
-      "code": "T01",
-      "teacher": 109,
-      "size": 40,
-      "year": 2017,
-      "semester": 1
-    }
-  },
-  {
-    "model": "manager.Class",
-    "fields": {
-      "id": 498,
       "course": 269,
       "code": "T01",
       "teacher": 109,
