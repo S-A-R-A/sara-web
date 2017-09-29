@@ -6,6 +6,7 @@ initial_data = $(data_path)/initial_data.json
 fake_classes = $(data_path)/fake_classes.json
 fake_rooms = $(data_path)/fake_rooms.json
 ads_classes = $(data_path)/ads_classes.json
+other_classes = $(data_path)/other_classes.json
 ads_rooms = $(data_path)/ads_rooms.json
 other_rooms = $(data_path)/other_rooms.json
 manage = manage.py
@@ -37,7 +38,7 @@ ads-data:
 
 all-data:
 	$(environment)/bin/$(language) $(manage) loaddata $(other_rooms)
-	#$(environment)/bin/$(language) $(manage) loaddata $(other_classes)
+	$(environment)/bin/$(language) $(manage) loaddata $(other_classes)
 
 run:
 	$(activate)
