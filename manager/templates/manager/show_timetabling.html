@@ -1,141 +1,150 @@
 {% extends "manager/base.html" %}
 
-{% block title %}S.A.R.A - Web{% endblock %}
-
-{% block header %}
-  <nav class="navbar navbar-fixed-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        <!-- <a class="navbar-brand" href="index.html">Lancar - Bootstrap One-Page Portfolio Template</a> -->
-      </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-    {% if days %}
-    <div class="collapse navbar-collapse" id="top-navbar-1">
-      <ul class="nav navbar-nav navbar-right">
-      {% for day in days %}
-        <li><a onclick="location.pathname='/timetabling/{{ day.id }}'">{{ day }}</a></li>
-      {% endfor %}
-      </ul>
-    </div>
-    {% endif %}
-  </nav>
-{% endblock %}
+{% block title %}Home{% endblock %}
 
 {% block first-content %}
-<div class="container">
-{% if periods %}
-    <div class="col-sm-6">
-      <input name="period" type="radio" id="p0" checked="{% if periodid == 0 %} true {% else %} false {% endif %}" onclick="location.pathname= 'timetabling/{{ table.day.id }}'" />
-      <label for="p0">Todos</label>
+  <section class="options">
+    <div class="options-left">
+
+      <!-- PERIODS -->
+      {% if periods %}
+        <!-- All Option-->
+        <label for="turno-todos" class="option">
+          <input type="radio"
+            checked="{% if periodid == 0 %} true {% else %} false {% endif %}"
+            onclick="location.pathname= 'timetabling/{{ table.day.id }}'"
+            id="turno-todos"
+            name="turno"
+            value="Todos">
+          Todos
+        </label>
+
+        <!-- Other periods options -->
         {% for period in periods %}
-          <input name="period" type="radio" id="p{{ period.id }}" {% if period.id == periodid %} checked="true" {% endif %} onclick="location.pathname= 'timetabling/{{ table.day.id }}/{{ period.id }}'" />
-          <label for="p{{ period.id }}">{{ period }}</label>
+          <label for="turno-{{ period.id }}" class="option">
+            <input type="radio"
+              id="turno-{{ period.id }}"
+              name="turno-{{ period.id }}"
+              {% if period.id == periodid %} checked="true" {% endif %}
+              onclick="location.pathname= 'timetabling/{{ table.day.id }}/{{ period.id }}'"
+              value="{{ period }}">
+            {{ period }}
+          </label>
         {% endfor %}
-    </div>
-{% endif %}
-{% if areas %}
-    <div class="btn-group bootstrap-select show-tick col-sm-6">
-      <select id="dropdown-areas" class="selectpicker" data-live-search="true">
-        <option value="0"  data-tokens="">Todas</option>
-        {% for area in areas %}
-          <option value="{{area.id}}" data-tokens="{{ area }}">{{ area }}</option>
-      {% endfor %}
-      </select>
+      {% endif %}
+
     </div>
 
-{% endif %}
-
-  {% if table %}
-  <div id="#{{ table.day.id }}" >
-    <h2>{{ table.day }}</h2>
-
-    <div class="search-table-outter wrapper">
-    <table id="timetabling" class="table table-striped search-table inner">
-      <thead>
-        <tr>
-          <th colspan="{{rooms_count}}"></th>
-        </tr>
-        <tr>
-          <th>Horário</th>
-          {% for room in table.rooms %}
-            {% if areaid == 0 or room.area.id == areaid %}
-              <th>{{ room.code }} - {{ room.description }}</th>
-            {% endif %}
+    <div class="options-right">
+      <!-- AREAS -->
+      {% if areas %}
+        <select id="dropdown-areas" class="select" data-live-search="true">
+          <option value="" selected disabled>Bloco</option>
+          <option value="0"  data-tokens="">Todas</option>
+          {% for area in areas %}
+            <option value="{{area.id}}" data-tokens="{{ area }}">
+              {{ area }}
+            </option>
           {% endfor %}
-        </tr>
-      </thead>
-      <tbody>
-        {% for time_interval in table.time_intervals %}
-          {% if periodid == 0 or time_interval.period.id == periodid %}
-          <tr>
-            <td scope="row">{{ time_interval }}</td>
-            {% for slot in table.slots %}
-              {% if slot.time_interval == time_interval %}
-                {% if slot.room.area.id == areaid or areaid == 0 %}
-                  <td scope="row">
-                    {% if slot.s_class %}
-                      {{ slot.s_class }}
+        </select>
+      {% endif %}
+    </div>
+  </section>
+
+
+  {% if days %}
+    <section class="tab-wrapper">
+      {% if table %}
+        <div id="#{{ table.day.id }}" >
+          <h2>{{ table.day }}</h2>
+        </div>
+
+        <div class="tab-header">
+          {% for day in days %}
+            <div class="tab {% if day.id == table.day.id %} active {% endif %}" onclick="location.pathname='/timetabling/{{ day.id }}'">{{ day }}</div>
+          {% endfor %}
+        </div>
+        <div class="tab-body">
+          <table id="timetabling" class="table table-striped search-table inner">
+              <thead>
+                <tr>
+                  <th colspan="{{rooms_count}}"></th>
+                </tr>
+                <tr>
+                  <th>Horário</th>
+                  {% for room in table.rooms %}
+                    {% if areaid == 0 or room.area.id == areaid %}
+                      <th>{{ room.code }} - {{ room.description }}</th>
                     {% endif %}
-                  </td>
-                {% endif %}
-              {% endif %}
-            {% endfor %}
-          </tr>
-          {% endif %}
-        {% endfor %}
-      </tbody>
-      <tfooter>
-        <tr>
-          <th colspan="{{rooms_count}}"></th>
-        </tr>
-      </tfooter>
-    </table>
-  </div>
-  </div>
+                  {% endfor %}
+                </tr>
+              </thead>
+              <tbody>
+                {% for time_interval in table.time_intervals %}
+                  {% if periodid == 0 or time_interval.period.id == periodid %}
+                  <tr>
+                    <td scope="row">{{ time_interval }}</td>
+                    {% for slot in table.slots %}
+                      {% if slot.time_interval == time_interval %}
+                        {% if slot.room.area.id == areaid or areaid == 0 %}
+                          <td scope="row">
+                            {% if slot.s_class %}
+                              {{ slot.s_class }}
+                            {% endif %}
+                          </td>
+                        {% endif %}
+                      {% endif %}
+                    {% endfor %}
+                  </tr>
+                  {% endif %}
+                {% endfor %}
+              </tbody>
+              <tfooter>
+                <tr>
+                  <th colspan="{{rooms_count}}"></th>
+                </tr>
+              </tfooter>
+            </table>
+        </div>
+      {% endif %}
+    </section>
   {% endif %}
-</div>
 {% endblock %}
 
 {% block third-content %}
-<script>
-  $('#myTab li a').click(function(e) {
-    var tab = $(this);
-    if (tab.parent('li').hasClass('active')) {
-      window.setTimeout(function() {
-        $(".tab-pane").removeClass('active');
-        tab.parent('li').removeClass('active');
-      }, 1);
-    } else {
-      tab.tab('show');
+  <script>
+    $('#myTab li a').click(function(e) {
+      var tab = $(this);
+      if (tab.parent('li').hasClass('active')) {
+        window.setTimeout(function() {
+          $(".tab-pane").removeClass('active');
+          tab.parent('li').removeClass('active');
+        }, 1);
+      } else {
+        tab.tab('show');
+      }
+    });
+    $(document).ready(function() {
+      $('#dropdown-areas').val({{areaid}}).change();
+      joinClasses();
+    });
+    $('#dropdown-areas').on("change", function() {
+      var selectedArea = document.getElementById("dropdown-areas").value;
+      if (selectedArea != {{areaid}})
+        window.location.pathname = "/timetabling/{{ table.day.id }}/{{ periodid }}/" + selectedArea;
+    });
+    function joinClasses() {
+      var table = document.getElementById("timetabling")
+      var rows_count = table.tBodies[0].rows.length - 1;
+      var cells_count = table.tBodies[0].rows[0].cells.length;
+      for (var i = 0; i < rows_count; ++i)
+        for (var j = 1; j < cells_count; ++j)
+          if (table.tBodies[0].rows[i].cells[j].innerText != "")
+            if (table.tBodies[0].rows[i + 1])
+              if (table.tBodies[0].rows[i].cells[j].innerText == table.tBodies[0].rows[i + 1].cells[j].innerText) {
+                table.tBodies[0].rows[i + 1].cells[j].style.display = "none";
+                table.tBodies[0].rows[i].cells[j].rowSpan = 2;
+              }
     }
-  });
-  $(document).ready(function() {
-    $('#dropdown-areas').val({{areaid}}).change();
-    joinClasses();
-  });
-  $('#dropdown-areas').on("change", function() {
-    var selectedArea = document.getElementById("dropdown-areas").value;
-    if (selectedArea != {{areaid}})
-      window.location.pathname = "/timetabling/{{ table.day.id }}/{{ periodid }}/" + selectedArea;
-  });
-  function joinClasses() {
-    var table = document.getElementById("timetabling")
-    var rows_count = table.tBodies[0].rows.length - 1;
-    var cells_count = table.tBodies[0].rows[0].cells.length;
-    for (var i = 0; i < rows_count; ++i)
-      for (var j = 1; j < cells_count; ++j)
-        if (table.tBodies[0].rows[i].cells[j].innerText != "")
-          if (table.tBodies[0].rows[i + 1])
-            if (table.tBodies[0].rows[i].cells[j].innerText == table.tBodies[0].rows[i + 1].cells[j].innerText) {
-              table.tBodies[0].rows[i + 1].cells[j].style.display = "none";
-              table.tBodies[0].rows[i].cells[j].rowSpan = 2;
-            }
-  }
-</script>
+  </script>
 {% endblock %}
