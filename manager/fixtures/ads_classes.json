@@ -42,7 +42,7 @@
             "course": 24,
             "code": "T01",
             "teacher": 3,
-            "size": 50,
+            "size": 20,
             "year": 2017,
             "semester": 1
         }
@@ -54,7 +54,7 @@
             "course": 31,
             "code": "T01",
             "teacher": 4,
-            "size": 60,
+            "size": 20,
             "year": 2017,
             "semester": 1
         }
@@ -390,7 +390,7 @@
             "course": 10,
             "code": "T01",
             "teacher": 18,
-            "size": 30,
+            "size": 10,
             "year": 2017,
             "semester": 1
         }
@@ -402,7 +402,7 @@
             "course": 10,
             "code": "T02",
             "teacher": 19,
-            "size": 30,
+            "size": 20,
             "year": 2017,
             "semester": 1
         }
