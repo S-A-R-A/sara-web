@@ -24,9 +24,9 @@ class Command(BaseCommand):
         models = {
             "schedules": [],
             "requirements": [],
+            "rooms": [],
             "slots": [],
-            "classes": [],
-            "rooms": []
+            "classes": []
         }
 
         schedules = Schedule.get_used_schedules()
@@ -63,20 +63,20 @@ class Command(BaseCommand):
             class_model = {
                 "id": s_class.id,
                 "size": s_class.size,
+                "schedules": list(s_class.schedules.all().values_list('id', flat=True)),
                 "requirements": list(s_class.requirements.through.objects.all().values_list('id', flat=True))
             }
-
             models["classes"].append(class_model)
 
         for room in rooms:
             room_model = {
                 "id": room.id,
-                "specifications": list(room.specifications.through.objects.all().values_list('id', flat=True))
+                "specifications": list(room.specifications.through.objects.all().values_list('id', flat=True)),
+                "capacity": room.capacity
             }
-
             models["rooms"].append(room_model)
-        self.create_json_data(file_name, json.dumps(models, indent=4, sort_keys=False))
 
+        self.create_json_data(file_name, json.dumps(models, indent=4, sort_keys=False))
 
     def add_arguments(self, parser):
         parser.add_argument('type_request', type=str)
@@ -88,10 +88,9 @@ class Command(BaseCommand):
         print("processing request...")
 
         if type_request == "request":
-            file_name = "teste.json"
             print("creating {0} file...".format(file_name))
             self.models_to_file(file_name)
-            print("the file was created...")
+            print("the file {0} was created...".format(file_name))
             print("request \"{0}\" completed successfully...".format(type_request))
 
         else:
