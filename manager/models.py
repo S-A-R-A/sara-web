@@ -323,3 +323,35 @@ class Slot(models.Model):
         verbose_name_plural = 'Alocações das turmas em salas'
         unique_together = (('day', 'time_interval', 'room'),)
         ordering = ['day', 'time_interval', 'room']
+
+class GAConfig(models.Model):
+    id = models.AutoField(primary_key=True)
+    population_number = models.PositiveSmallIntegerField(default=0, verbose_name="Tamanho da População")
+    max_generation = models.PositiveSmallIntegerField(default=0, verbose_name="Máximo de Gerações")
+    mutation_probability = models.FloatField(default=0, verbose_name="Probabilidade de Mutação")
+    crossover_probability = models.FloatField(default=0, verbose_name="Probabilidade de Cruzamento")
+    select_probability = models.FloatField(default=0, verbose_name="Probabilidade de Seleção")
+    elitism_probability = models.FloatField(default=0, verbose_name="Probabilidade de Elitismo")
+    is_default = models.BooleanField(default=0, verbose_name="Configuração Default")
+
+    def __str__(self):
+        return "Configuração {0} (Default)".format(self.id) if self.is_default else "Configuração {0}".format(self.id)
+
+    def save(self, *args, **kwargs):
+        if getattr(self, 'is_default', True):
+            GAConfig.objects.all().update(is_default=False)
+        super(GAConfig, self).save(*args, **kwargs)
+
+    @classmethod
+    def get_default(self):
+        return GAConfig.objects.get(is_default=True)
+
+    class Meta:
+        verbose_name = 'Configuração do Algoritmo Genético'
+        verbose_name_plural = 'Configurações do Algoritmo Genético'
+        unique_together = (('population_number',
+                            'max_generation',
+                            'mutation_probability',
+                            'crossover_probability',
+                            'select_probability',
+                            'elitism_probability'),)

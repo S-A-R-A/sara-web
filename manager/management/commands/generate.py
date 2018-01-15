@@ -4,6 +4,7 @@ from manager.models import Schedule
 from manager.models import Slot
 from manager.models import Room
 from manager.models import Requirement
+from manager.models import GAConfig
 
 import json
 
@@ -22,17 +23,28 @@ class Command(BaseCommand):
 
     def models_to_file(self, file_name):
         models = {
+            "ga_config": {},
             "schedules": [],
             "requirements": [],
             "rooms": [],
             "slots": [],
             "classes": []
         }
-
+        ga_config = GAConfig.get_default()
         schedules = Schedule.get_used_schedules()
         slots = Slot.get_slots_by_schedules(schedules)
         classes = Class.get_scheduled_classes()
         rooms = Room.objects.all()
+
+        ga_config_model = {
+            "population_number": ga_config.population_number,
+            "max_generation": ga_config.max_generation,
+            "mutation_probability": ga_config.mutation_probability,
+            "crossover_probability": ga_config.crossover_probability,
+            "select_probability": ga_config.select_probability,
+            "elitism_probability": ga_config.elitism_probability
+        }
+        models["ga_config"] = ga_config_model
 
         for requirement in Requirement.objects.all():
             requirement_model = {
