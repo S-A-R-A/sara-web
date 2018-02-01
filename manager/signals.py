@@ -1,5 +1,5 @@
-from .models import Day, Room, RoomType, TimeInterval, Slot, Schedule, Class
-from django.db.models.signals import post_save, m2m_changed, pre_delete
+from .models import Day, Room, RoomType, TimeInterval, Slot, Schedule, Class, GAConfig
+from django.db.models.signals import post_save, m2m_changed, pre_delete, pre_save
 from django.dispatch import receiver
 
 @receiver(m2m_changed, sender=Class.schedules.through, dispatch_uid='class_schedules_identifier')
@@ -65,3 +65,7 @@ def add_default_room_type_to_class(sender, instance, created, **kwargs):
         if not instance.type_rooms_wanted.all():
             room_type_default = RoomType.objects.first()
             instance.type_rooms_wanted.add(room_type_default)
+
+@receiver(pre_save, sender=GAConfig, dispatch_uid='create_ga_config_identifier')
+def create_ga_config(sender, instance, raw, **kwargs):
+    GAConfig.objects.all().update(is_default=False)

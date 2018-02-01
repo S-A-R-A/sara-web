@@ -344,7 +344,7 @@ class GAConfig(models.Model):
 
     @classmethod
     def get_default(self):
-        return GAConfig.objects.get(is_default=True)
+        return GAConfig.objects.filter(is_default=True).first()
 
     class Meta:
         verbose_name = 'Configuração do Algoritmo Genético'

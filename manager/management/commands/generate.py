@@ -30,22 +30,27 @@ class Command(BaseCommand):
             "slots": [],
             "classes": []
         }
+
+        print ("Just a second: [#.........]", end="\r")
         ga_config = GAConfig.get_default()
         schedules = Schedule.get_used_schedules()
         slots = Slot.get_slots_by_schedules(schedules)
         classes = Class.get_scheduled_classes()
         rooms = Room.objects.all()
+        print ("Just a second: [##........]", end="\r")
 
-        ga_config_model = {
-            "population_number": ga_config.population_number,
-            "max_generation": ga_config.max_generation,
-            "mutation_probability": ga_config.mutation_probability,
-            "crossover_probability": ga_config.crossover_probability,
-            "select_probability": ga_config.select_probability,
-            "elitism_probability": ga_config.elitism_probability
-        }
-        models["ga_config"] = ga_config_model
+        if(ga_config):
+            ga_config_model = {
+                "population_number": ga_config.population_number,
+                "max_generation": ga_config.max_generation,
+                "mutation_probability": ga_config.mutation_probability,
+                "crossover_probability": ga_config.crossover_probability,
+                "select_probability": ga_config.select_probability,
+                "elitism_probability": ga_config.elitism_probability
+            }
+            models["ga_config"] = ga_config_model
 
+        print ("Just a second: [###.......]", end="\r")
         for requirement in Requirement.objects.all():
             requirement_model = {
                 "id" : requirement.id,
@@ -54,6 +59,7 @@ class Command(BaseCommand):
             }
             models["requirements"].append(requirement_model)
 
+        print ("Just a second: [####......]", end="\r")
         for schedule in schedules:
             schedules_model = {
                 "id": schedule.id,
@@ -62,6 +68,7 @@ class Command(BaseCommand):
             }
             models["schedules"].append(schedules_model)
 
+        print ("Just a second: [#####.....]", end="\r")
         for slot in slots:
             slot_model = {
                 "id": slot.id,
@@ -71,6 +78,7 @@ class Command(BaseCommand):
             }
             models["slots"].append(slot_model)
 
+        print ("Just a second: [######....]", end="\r")
         for s_class in classes:
             class_model = {
                 "id": s_class.id,
@@ -80,6 +88,7 @@ class Command(BaseCommand):
             }
             models["classes"].append(class_model)
 
+        print ("Just a second: [#######...]", end="\r")
         for room in rooms:
             room_model = {
                 "id": room.id,
@@ -88,7 +97,9 @@ class Command(BaseCommand):
             }
             models["rooms"].append(room_model)
 
+        print ("Just a second: [#######..]", end="\r")
         self.create_json_data(file_name, json.dumps(models, indent=4, sort_keys=False))
+        print ("Just a second: [#########]", end="\r")
 
     def add_arguments(self, parser):
         parser.add_argument('type_request', type=str)
@@ -101,6 +112,7 @@ class Command(BaseCommand):
 
         if type_request == "request":
             print("creating {0} file...".format(file_name))
+            print ("Just a second: [..........]", end="\r")
             self.models_to_file(file_name)
             print("the file {0} was created...".format(file_name))
             print("request \"{0}\" completed successfully...".format(type_request))
