@@ -311,6 +311,9 @@ class Slot(models.Model):
     def get_filled_slots(self):
         return Slot.objects.exclude(s_class=None)
 
+    def get_location(self):
+        return "{0} - {1} - {2}".format(self.day, self.time_interval, self.room)
+
     @classmethod
     def get_slots_by_schedules(self, schedules):
         slots = []

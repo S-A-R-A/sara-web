@@ -18,6 +18,40 @@ class Command(BaseCommand):
         return f_json
 
     def fill_class_assignment(self, data):
+        print("initializing allocation (slot <- class)...")
+        for element in data:
+            for slot in element["slots"]:
+                saved_slot = Slot.objects.get(day = slot["day"], time_interval = slot["time_interval"], room = slot["room"])
+                saved_class = Class.objects.get(id = slot["s_class"])
+
+                #check if exist slot and class in database
+                if saved_slot and saved_class:
+                    #check if there is a class schedule in the class
+                    if not saved_class.schedules.filter(day = slot["day"], time_interval = slot["time_interval"]):
+                        print("The class {0} (id = {1}) does not have the schedule: day = {2} and time_interval = {3}".format(
+                                                                         saved_class, saved_class.id,
+                                                                         slot["day"], slot["time_interval"]))
+                        return
+
+                    #check if the slot is already filled
+                    if saved_slot.s_class:
+                        print("    #### The class \"{0}\" (id = {1}) can't be allocated...".format(saved_class, saved_class.id))
+                        print("    #### The slot \"{0}\" (id = {1}) already has a class {2} (id = {3}) allocated.".format(
+                                                                         saved_slot, saved_slot.id,
+                                                                         saved_slot.s_class, saved_slot.s_class.id))
+                        return
+
+                    #put the Class in the slot
+                    saved_slot.s_class = saved_class
+                    saved_slot.save()
+                    print("    {0} <- {1}".format(saved_slot.get_location(), saved_class))
+                else:
+                    print("    #### Unexpected error! The class id: {0} and slot with day: {1}, time interval: {2} and room: {3} does not exist in database."
+                                                                    .format(element["s_class"], saved_class.id))
+                    return
+
+    #old method. This should be deleted
+    def fill_class_assignment_old(self, data):
         for element in data:
             saved_class = Class.objects.get(id = element["s_class"])
             print("{0} slots to {1}: ".format(len(element["slots"]), saved_class))
