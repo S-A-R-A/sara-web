@@ -21,15 +21,19 @@ class Command(BaseCommand):
         with open(file_name, 'w') as file:
             file.write(str(data))
 
-    def models_to_file(self, file_name):
-        models = {
-            "ga_config": {},
-            "schedules": [],
-            "requirements": [],
-            "rooms": [],
-            "slots": [],
-            "classes": []
-        }
+    def models_to_file(self, file_name, is_new_mapping):
+        models = {}
+
+        models["request_type"] = "class_assignment" if is_new_mapping else "eval_solution"
+
+        if is_new_mapping:
+            models["ga_config"] = {}
+
+        models["schedules"] = []
+        models["requirements"] = []
+        models["rooms"] = []
+        models["slots"] = []
+        models["classes"] = []
 
         print ("Just a second: [#.........]", end="\r")
         ga_config = GAConfig.get_default()
@@ -39,7 +43,7 @@ class Command(BaseCommand):
         rooms = Room.objects.all()
         print ("Just a second: [##........]", end="\r")
 
-        if(ga_config):
+        if(is_new_mapping and ga_config):
             ga_config_model = {
                 "population_number": ga_config.population_number,
                 "max_generation": ga_config.max_generation,
@@ -76,6 +80,9 @@ class Command(BaseCommand):
                 "room": slot.room.id,
                 "schedule": Schedule.objects.get(day = slot.day, time_interval = slot.time_interval).id
             }
+            if not is_new_mapping:
+                if slot.s_class:
+                    slot_model["s_class"] = slot.s_class.id
             models["slots"].append(slot_model)
 
         print ("Just a second: [######....]", end="\r")
@@ -102,20 +109,21 @@ class Command(BaseCommand):
         print ("Just a second: [#########]", end="\r")
 
     def add_arguments(self, parser):
-        parser.add_argument('type_request', type=str)
+        parser.add_argument('request_type', type=str)
         parser.add_argument('file_name', type=str)
 
     def handle(self, *args, **options):
-        type_request = options['type_request']
+        request_type = options['request_type']
         file_name = options['file_name']
         print("processing request...")
 
-        if type_request == "request":
+        if any(request_type in t for t in ('room_mapping', 'rmp', 'evaluate_current_room_mapping', 'ecrm')):
             print("creating {0} file...".format(file_name))
             print ("Just a second: [..........]", end="\r")
-            self.models_to_file(file_name)
+            self.models_to_file(file_name, any(request_type in t for t in ('room_mapping', 'rmp')))
             print("the file {0} was created...".format(file_name))
-            print("request \"{0}\" completed successfully...".format(type_request))
+            print("request \"{0}\" completed successfully...".format(request_type))
 
         else:
             print("type request invalid!")
+            print("please, type \"{}\" or \"{}\" to generate a new room mapping")
