@@ -100,6 +100,7 @@ class Command(BaseCommand):
             room_model = {
                 "id": room.id,
                 "specifications": list(room.specifications.through.objects.all().values_list('id', flat=True)),
+                "area": room.area.id,
                 "capacity": room.capacity
             }
             models["rooms"].append(room_model)
