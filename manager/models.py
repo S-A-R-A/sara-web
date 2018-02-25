@@ -100,7 +100,7 @@ class Room(models.Model):
     specifications = models.ManyToManyField('Requirement',  blank=True, verbose_name=Requirement._meta.verbose_name_plural)
 
     def __str__(self):
-        return self.description
+        return "{0} - {1} ({2})".format(self.area, self.description, self.code)
 
     class Meta:
         verbose_name = 'Sala'
