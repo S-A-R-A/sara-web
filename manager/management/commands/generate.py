@@ -21,7 +21,7 @@ class Command(BaseCommand):
         with open(file_name, 'w') as file:
             file.write(str(data))
 
-    def models_to_file(self, file_name, is_new_mapping):
+    def models_to_file(self, file_name, is_new_mapping, compact_file):
         models = {}
 
         models["request_type"] = "class_assignment" if is_new_mapping else "eval_solution"
@@ -29,8 +29,8 @@ class Command(BaseCommand):
         if is_new_mapping:
             models["ga_config"] = {}
 
-        models["schedules"] = []
         models["requirements"] = []
+        models["schedules"] = []
         models["rooms"] = []
         models["slots"] = []
         models["classes"] = []
@@ -76,7 +76,7 @@ class Command(BaseCommand):
         for slot in slots:
             slot_model = {
                 "id": slot.id,
-                "capacity": slot.room.capacity,
+                ##"capacity": slot.room.capacity,
                 "room": slot.room.id,
                 "schedule": Schedule.objects.get(day = slot.day, time_interval = slot.time_interval).id
             }
@@ -91,7 +91,7 @@ class Command(BaseCommand):
                 "id": s_class.id,
                 "size": s_class.size,
                 "schedules": list(s_class.schedules.all().values_list('id', flat=True)),
-                "requirements": list(s_class.requirements.through.objects.all().values_list('id', flat=True))
+                "requirements": list(s_class.requirements.all().values_list('id', flat=True))
             }
             models["classes"].append(class_model)
 
@@ -99,29 +99,35 @@ class Command(BaseCommand):
         for room in rooms:
             room_model = {
                 "id": room.id,
-                "specifications": list(room.specifications.through.objects.all().values_list('id', flat=True)),
+                "specifications": list(room.specifications.all().values_list('id', flat=True)),
                 "area": room.area.id,
                 "capacity": room.capacity
             }
             models["rooms"].append(room_model)
 
         print ("Just a second: [#######..]", end="\r")
-        self.create_json_data(file_name, json.dumps(models, indent=4, sort_keys=False))
+
+        if compact_file == 'true':
+            self.create_json_data(file_name, json.dumps(models, sort_keys=False, separators=(',', ':')))
+        else:
+            self.create_json_data(file_name, json.dumps(models, indent=4, sort_keys=False, separators=(',', ':')))
         print ("Just a second: [#########]", end="\r")
 
     def add_arguments(self, parser):
         parser.add_argument('request_type', type=str)
         parser.add_argument('file_name', type=str)
+        parser.add_argument('compact_file', type=str,  choices=['true', 'false'], default='true')
 
     def handle(self, *args, **options):
         request_type = options['request_type']
         file_name = options['file_name']
+        compact_file = options['compact_file']
         print("processing request...")
 
         if any(request_type in t for t in ('room_mapping', 'rmp', 'evaluate_current_room_mapping', 'ecrm')):
             print("creating {0} file...".format(file_name))
             print ("Just a second: [..........]", end="\r")
-            self.models_to_file(file_name, any(request_type in t for t in ('room_mapping', 'rmp')))
+            self.models_to_file(file_name, any(request_type in t for t in ('room_mapping', 'rmp')), compact_file)
             print("the file {0} was created...".format(file_name))
             print("request \"{0}\" completed successfully...".format(request_type))
 

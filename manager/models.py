@@ -247,7 +247,7 @@ class Class(models.Model):
     semester = models.PositiveSmallIntegerField(default=0, verbose_name="semestre")
     schedules = models.ManyToManyField('Schedule',  blank=True, verbose_name=Schedule._meta.verbose_name_plural)
     requirements = models.ManyToManyField('Requirement', blank=True, verbose_name=Requirement._meta.verbose_name_plural)
-    type_rooms_wanted = models.ManyToManyField('RoomType',  blank=False,  verbose_name="Tipo de Salas Requisitadas")
+    type_rooms_wanted = models.ManyToManyField('RoomType',  blank=False, default=1, verbose_name="Tipo de Salas Requisitadas")
 
     def __str__(self):
         return "{0} - {1}".format(self.course, self.code)

@@ -116,7 +116,8 @@
             "teacher": 7,
             "size": 40,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [2, 3]
         }
     },
     {
@@ -164,7 +165,8 @@
             "teacher": 21,
             "size": 40,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [2, 3]
         }
     },
     {
@@ -356,7 +358,8 @@
             "teacher": 14,
             "size": 30,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [2, 3]
         }
     },
     {
@@ -416,7 +419,8 @@
           "teacher": 20,
           "size": 50,
           "year": 2017,
-          "semester": 1
+          "semester": 1,
+          "requirements": [2, 3]
         }
     },
     {

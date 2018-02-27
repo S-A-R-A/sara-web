@@ -99,7 +99,8 @@
         "fields": {
             "id": "2",
             "description": "Rampa de Acesso",
-            "type": 2
+            "type": 2,
+            "priority": 5
         }
     },
     {
@@ -107,7 +108,8 @@
         "fields": {
             "id": "3",
             "description": "Elevador",
-            "type": 2
+            "type": 2,
+            "priority": 5
         }
     },
     {
@@ -115,7 +117,8 @@
         "fields": {
             "id": "4",
             "description": "Tipo Sala",
-            "type": 3
+            "type": 3,
+            "priority": 4
         }
     },
     {
