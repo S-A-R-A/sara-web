@@ -51,8 +51,13 @@ run:
 	$(environment)/bin/$(language) $(manage) createsuperuser
 	$(environment)/bin/$(language) $(manage) runserver
 
+install-saracore:
+	git clone https://github.com/sara-project/sara-core.git
+	cd sara-core/sara-engine/ && make all
+
+
 install-default: venv migrate default-data
 install-ads: install-default ads-data
 install-fake: install-default fake-data
 install: install-ads all-data
-all: install run
+all: install install-saracore run
