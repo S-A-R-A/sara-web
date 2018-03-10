@@ -10,7 +10,7 @@ other_classes = $(data_path)/other_classes.json
 ads_rooms = $(data_path)/ads_rooms.json
 other_rooms = $(data_path)/other_rooms.json
 ads_timetabling = $(data_path)/ads_class_schedules.json
-others_timetabling = $(data_path)/other_classes_schedules.json
+all_timetabling = $(data_path)/all_classes_schedules.json
 ads_class_assignment = $(data_path)/ads_room_mapping_20171.json
 manage = manage.py
 activate = . $(environment)/bin/activate
@@ -44,7 +44,7 @@ ads-data:
 all-data:
 	$(environment)/bin/$(language) $(manage) loaddata $(other_rooms)
 	$(environment)/bin/$(language) $(manage) loaddata $(other_classes)
-	$(environment)/bin/$(language) $(manage) $(fill_timetabling) $(others_timetabling)
+	$(environment)/bin/$(language) $(manage) $(fill_timetabling) $(all_timetabling)
 
 run:
 	$(activate)
