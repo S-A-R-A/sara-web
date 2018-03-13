@@ -3227,27 +3227,6 @@
     ]
   },
   {
-    "s_class": 65,
-    "schedules": [
-      {
-        "day": 5,
-        "time_interval": 16
-      },
-      {
-        "day": 5,
-        "time_interval": 17
-      },
-      {
-        "day": 6,
-        "time_interval": 3
-      },
-      {
-        "day": 6,
-        "time_interval": 4
-      }
-    ]
-  },
-  {
     "s_class": 66,
     "schedules": [
       {
