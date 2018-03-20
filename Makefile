@@ -40,12 +40,13 @@ ads-data:
 	$(environment)/bin/$(language) $(manage) loaddata $(ads_rooms)
 	$(environment)/bin/$(language) $(manage) $(fill_timetabling) $(ads_timetabling)
 	$(environment)/bin/$(language) $(manage) $(fill_class_assignment) $(ads_class_assignment)
-	
+
 
 other-data:
 	$(environment)/bin/$(language) $(manage) loaddata $(other_rooms)
 	$(environment)/bin/$(language) $(manage) loaddata $(other_classes)
-	
+	$(environment)/bin/$(language) $(manage) $(fill_timetabling) $(all_timetabling)
+	$(environment)/bin/$(language) $(manage) $(fill_class_assignment) $(ads_class_assignment)
 
 run:
 	$(activate)
@@ -58,7 +59,7 @@ install-saracore:
 
 
 install-default: venv migrate default-data
-install-ads: install-default ads-data 
+install-ads: install-default ads-data
 install-fake: install-default fake-data
-install: install-default  ads-data  other-data $(environment)/bin/$(language) $(manage) $(fill_timetabling) $(all_timetabling)
+install: install-default ads-data other-data
 all: install install-saracore run
