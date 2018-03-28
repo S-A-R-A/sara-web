@@ -8,7 +8,9 @@
             "teacher": 1,
             "size": 48,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1]
         }
     },
     {
@@ -20,7 +22,9 @@
             "teacher": 1,
             "size": 40,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1]
         }
     },
     {
@@ -32,7 +36,9 @@
             "teacher": 23,
             "size": 42,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1]
         }
     },
     {
@@ -44,7 +50,9 @@
             "teacher": 3,
             "size": 50,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1]
         }
     },
     {
@@ -56,7 +64,9 @@
             "teacher": 4,
             "size": 60,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1]
         }
     },
     {
@@ -68,7 +78,9 @@
             "teacher": 5,
             "size": 40,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1, 3]
         }
     },
     {
@@ -80,7 +92,9 @@
             "teacher": 21,
             "size": 40,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1, 3]
         }
     },
     {
@@ -92,7 +106,9 @@
             "teacher": 22,
             "size": 40,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1, 3]
         }
     },
     {
@@ -104,7 +120,9 @@
             "teacher": 6,
             "size": 40,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1, 3]
         }
     },
     {
@@ -117,7 +135,8 @@
             "size": 40,
             "year": 2017,
             "semester": 1,
-            "requirements": [2, 3]
+            "requirements": [2, 3, 4],
+            "type_rooms_wanted": [1, 3]
         }
     },
     {
@@ -129,7 +148,9 @@
             "teacher": 8,
             "size": 40,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1, 3]
         }
     },
     {
@@ -141,7 +162,9 @@
             "teacher": 9,
             "size": 40,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1, 3]
         }
     },
     {
@@ -153,7 +176,9 @@
             "teacher": 10,
             "size": 40,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1, 3]
         }
     },
     {
@@ -166,7 +191,8 @@
             "size": 40,
             "year": 2017,
             "semester": 1,
-            "requirements": [2, 3]
+            "requirements": [2, 3, 4],
+            "type_rooms_wanted": [1, 3]
         }
     },
     {
@@ -178,7 +204,9 @@
             "teacher": 8,
             "size": 40,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1, 3]
         }
     },
     {
@@ -190,7 +218,9 @@
             "teacher": 11,
             "size": 40,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1]
         }
     },
     {
@@ -202,7 +232,9 @@
             "teacher": 12,
             "size": 40,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1]
         }
     },
     {
@@ -214,7 +246,9 @@
             "teacher": 6,
             "size": 20,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1]
         }
     },
     {
@@ -226,7 +260,9 @@
             "teacher": 5,
             "size": 40,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1, 3]
         }
     },
     {
@@ -238,7 +274,9 @@
             "teacher": 13,
             "size": 40,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1]
         }
     },
     {
@@ -250,7 +288,9 @@
             "teacher": 14,
             "size": 40,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1]
         }
     },
     {
@@ -262,7 +302,9 @@
             "teacher": 9,
             "size": 40,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1]
         }
     },
     {
@@ -274,7 +316,9 @@
             "teacher": 9,
             "size": 40,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1]
         }
     },
     {
@@ -286,7 +330,9 @@
             "teacher": 11,
             "size": 50,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1, 3]
         }
     },
     {
@@ -298,7 +344,9 @@
             "teacher": 22,
             "size": 25,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1, 3]
         }
     },
     {
@@ -310,7 +358,9 @@
             "teacher": 15,
             "size": 25,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1, 3]
         }
     },
     {
@@ -322,7 +372,9 @@
             "teacher": 16,
             "size": 25,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1, 3]
         }
     },
     {
@@ -334,7 +386,9 @@
             "teacher": 11,
             "size": 40,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1]
         }
     },
     {
@@ -346,7 +400,9 @@
             "teacher": 14,
             "size": 40,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1, 3]
         }
     },
     {
@@ -359,7 +415,8 @@
             "size": 30,
             "year": 2017,
             "semester": 1,
-            "requirements": [2, 3]
+            "requirements": [2, 3, 4],
+            "type_rooms_wanted": [1]
         }
     },
     {
@@ -371,7 +428,9 @@
             "teacher": 16,
             "size": 30,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1]
         }
     },
     {
@@ -383,7 +442,9 @@
             "teacher": 17,
             "size": 50,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1]
         }
     },
     {
@@ -395,7 +456,9 @@
             "teacher": 18,
             "size": 30,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1]
         }
     },
     {
@@ -407,7 +470,9 @@
             "teacher": 19,
             "size": 30,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1]
         }
     },
     {
@@ -420,7 +485,7 @@
           "size": 50,
           "year": 2017,
           "semester": 1,
-          "requirements": [2, 3]
+          "requirements": [2, 3, 4]
         }
     },
     {
@@ -432,7 +497,9 @@
             "teacher": 24,
             "size": 48,
             "year": 2017,
-            "semester": 1
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1]
         }
     },
     {
@@ -444,7 +511,9 @@
             "teacher": 2,
             "size": 40,
             "year": 2017,
-            "semester": 5
+            "semester": 1,
+            "requirements": [4],
+            "type_rooms_wanted": [1]
         }
     }
 ]

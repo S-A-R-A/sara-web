@@ -48,7 +48,6 @@ class Command(BaseCommand):
                 "population_number": ga_config.population_number,
                 "max_generation": ga_config.max_generation,
                 "mutation_probability": ga_config.mutation_probability,
-                "crossover_probability": ga_config.crossover_probability,
                 "select_probability": ga_config.select_probability,
                 "elitism_probability": ga_config.elitism_probability
             }
@@ -76,7 +75,6 @@ class Command(BaseCommand):
         for slot in slots:
             slot_model = {
                 "id": slot.id,
-                ##"capacity": slot.room.capacity,
                 "room": slot.room.id,
                 "schedule": Schedule.objects.get(day = slot.day, time_interval = slot.time_interval).id
             }
@@ -91,7 +89,8 @@ class Command(BaseCommand):
                 "id": s_class.id,
                 "size": s_class.size,
                 "schedules": list(s_class.schedules.all().values_list('id', flat=True)),
-                "requirements": list(s_class.requirements.all().values_list('id', flat=True))
+                "requirements": list(s_class.requirements.all().values_list('id', flat=True)),
+                "type_rooms_wanted": list(s_class.type_rooms_wanted.all().values_list('id', flat=True))
             }
             models["classes"].append(class_model)
 
@@ -101,6 +100,7 @@ class Command(BaseCommand):
                 "id": room.id,
                 "specifications": list(room.specifications.all().values_list('id', flat=True)),
                 "area": room.area.id,
+                "type": room.type.id,
                 "capacity": room.capacity
             }
             models["rooms"].append(room_model)

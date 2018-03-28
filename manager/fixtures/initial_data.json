@@ -13,37 +13,10 @@
         "model": "manager.GAConfig",
         "fields": {
             "id": 1,
-            "population_number": 5000,
-            "max_generation": 4000,
-            "mutation_probability": 0.1,
-            "crossover_probability": 0.1,
-            "select_probability" : 0.1,
-            "elitism_probability" : 0.1,
-            "is_default" : false
-        }
-    },
-    {
-        "model": "manager.GAConfig",
-        "fields": {
-            "id": 2,
-            "population_number": 5000,
-            "max_generation": 1000,
-            "mutation_probability": 0.1,
-            "crossover_probability": 0.5,
-            "select_probability" : 0.1,
-            "elitism_probability" : 0.1,
-            "is_default" : false
-        }
-    },
-    {
-        "model": "manager.GAConfig",
-        "fields": {
-            "id": 3,
             "population_number": 1000,
-            "max_generation": 5000,
+            "max_generation": 1000,
             "mutation_probability": 0.05,
-            "crossover_probability": 0.2,
-            "select_probability" : 0.1,
+            "select_probability" : 0.5,
             "elitism_probability" : 0.1,
             "is_default" : true
         }
