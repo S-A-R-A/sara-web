@@ -353,6 +353,5 @@ class GAConfig(models.Model):
         unique_together = (('population_number',
                             'max_generation',
                             'mutation_probability',
-                            'crossover_probability',
                             'select_probability',
                             'elitism_probability'),)
