@@ -44,7 +44,8 @@ class Command(BaseCommand):
                     #put the Class in the slot
                     saved_slot.s_class = saved_class
                     saved_slot.save()
-                    print("    {0} <- {1}".format(saved_slot.get_location(), saved_class))
+                    print("    {0} | ({1}) <- ({2}) |{3}{4}".format(saved_slot.get_location(), saved_slot.room.capacity,
+                                                                        saved_class.size, saved_class, (" | [ OVERLOAD  ]!" if saved_slot.room.capacity < saved_class.size else "")))
                 else:
                     print("    #### Unexpected error! The class id: {0} and slot with day: {1}, time interval: {2} and room: {3} does not exist in database."
                                                                     .format(element["s_class"], saved_class.id))
